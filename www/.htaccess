@@ -32,34 +32,38 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # </IfModule>
 
 # ------------------------------------------- anciennes URL → nouvelles
-# Les catégories de l'ancienne base deviennent des thèmes.
+# Les catégories de l'ancienne base deviennent des pages de thème. On vise la
+# page elle-même plutôt que la recherche filtrée : pas un seul caractère encodé,
+# donc aucun risque que « %20 » soit lu comme une référence arrière, et un
+# signal plus net pour les moteurs qu'un paramètre d'URL.
+
 RewriteCond %{QUERY_STRING} (^|&)cat=1(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Sensibilisation%20et%20formation [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/sensibilisation-et-formation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=2(&|$)
-RewriteRule ^(index\.php)?$ /?theme=%C3%89co-conception%20(Web) [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/eco-conception-web.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=3(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Marketing%20et%20Communication [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/marketing-et-communication.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=4(&|$)
-RewriteRule ^(index\.php)?$ /?theme=%C3%89co-conception%20(Web) [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/eco-conception-web.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=5(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Gestion%20de%20l%27%C3%A9nergie%20et%20des%20ressources [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/gestion-de-l-energie-et-des-ressources.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=6(&|$)
-RewriteRule ^(index\.php)?$ /?theme=DEEEE%20et%20Equipements [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/deeee-et-equipements.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=7(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Juridique%20et%20r%C3%A9glementation [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/juridique-et-reglementation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=8(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Sensibilisation%20et%20formation [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/sensibilisation-et-formation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=9(&|$)
-RewriteRule ^(index\.php)?$ /?theme=R%C3%A9f%C3%A9rences%20et%20guides [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/references-et-guides.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=10(&|$)
-RewriteRule ^(index\.php)?$ /?theme=D%C3%A9marche%20pour%20les%20organisations%20%2F%20entreprises [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/demarche-pour-les-organisations-entreprises.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=11(&|$)
-RewriteRule ^(index\.php)?$ /?theme=%C3%89valuation%20et%20mesure [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/evaluation-et-mesure.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=12(&|$)
-RewriteRule ^(index\.php)?$ /?theme=Conception%20web [L,R=301]
+RewriteRule ^(index\.php)?$ /themes/conception-web.html? [L,R=301]
 
 # Les fiches juridiques sont désormais des fiches ouvertes côté client.
-RewriteRule ^fiche-outils\.php$ /?theme=Juridique%20et%20r%C3%A9glementation [L,R=301]
+RewriteRule ^fiche-outils\.php$ /themes/juridique-et-reglementation.html? [L,R=301]
 
 # Pages éditoriales et vestiges de l'application PHP.
 RewriteRule ^a-propos-numerique-responsable\.php$ /a-propos.html [L,R=301]
