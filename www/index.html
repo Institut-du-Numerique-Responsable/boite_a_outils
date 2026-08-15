@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr" data-donnees="data/">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boîte à outils du Numérique Responsable — INR</title>
+<meta name="description" content="Plus de 340 outils, guides et référentiels du numérique responsable, sélectionnés par l'Institut du Numérique Responsable. Tous les liens sont vérifiés.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sustainableit-tools.isit-europe.org/">
+<link rel="alternate" hreflang="en" href="en/">
+<link rel="alternate" hreflang="fr" href="./">
+<link rel="icon" href="favicon.ico">
+<link rel="preload" href="data/tools-fr.json" as="fetch" crossorigin>
+<link rel="preconnect" href="https://analytic.institutnr.org:8443" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=73786cda">
+<meta property="og:title" content="Boîte à outils du Numérique Responsable — INR">
+<meta property="og:description" content="Plus de 340 outils du numérique responsable, filtrables par thème, public et type. Liens vérifiés.">
+<meta property="og:type" content="website">
+<!-- donnees-structurees -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Boîte à outils du Numérique Responsable","url":"https://sustainableit-tools.isit-europe.org/","inLanguage":"fr","description":"355 outils, guides et référentiels du numérique responsable, sélectionnés et vérifiés par l'INR.","publisher":{"@type":"Organization","name":"Institut du Numérique Responsable","url":"https://institutnr.org","logo":"https://sustainableit-tools.isit-europe.org/assets/logo-inr.svg"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://sustainableit-tools.isit-europe.org/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+<!-- /donnees-structurees -->
+</head>
+<body>
+
+<a class="lien-evitement" href="#resultats">Aller aux résultats</a>
+
+<header class="entete">
+  <div class="entete__inner">
+    <a class="entete__marque" href="./">
+      <img class="entete__logo" src="assets/logo-inr.svg" alt="" width="118" height="36" decoding="async">
+      <span class="entete__titre">
+        <span class="entete__sur-titre">Institut du Numérique Responsable</span>
+        Boîte à outils NR
+      </span>
+    </a>
+    <nav class="entete__nav" aria-label="Navigation principale">
+      <a href="./" aria-current="true">Outils</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="https://institutnr.org" target="_blank" rel="noopener">Site de l'INR</a>
+      <a href="en/" lang="en" hreflang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__titre">Trouvez l'outil qui fait avancer votre numérique responsable</h1>
+      <p class="hero__intro">
+        Une sélection de l'INR : outils de mesure, référentiels, guides, MOOC et textes de loi.
+        Chaque lien est testé — ceux qui ne répondaient plus ont été retirés.
+      </p>
+
+      <ul class="fraicheur">
+        <li><b id="total-outils">355</b> ressources référencées</li>
+        <li><b>15</b> thèmes</li>
+      </ul>
+
+      <div class="recherche">
+        <div class="recherche__champ">
+          <label class="contenu-cache" for="champ-recherche">Rechercher un outil</label>
+          <input id="champ-recherche" type="search" autocomplete="off"
+                 placeholder="Rechercher : empreinte carbone, accessibilité, écoconception…">
+          <span class="recherche__raccourci" id="raccourci" aria-hidden="true">/</span>
+          <button class="recherche__effacer" id="effacer-recherche" type="button" hidden>
+            <span aria-hidden="true">×</span>
+            <span class="contenu-cache">Effacer la recherche</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="suggestions" id="suggestions">Sujets fréquents :</p>
+    </div>
+  </section>
+
+  <div class="corps">
+
+    <aside class="filtres" aria-label="Filtres">
+      <button class="filtres__bascule" id="filtres-bascule" type="button"
+              aria-expanded="false" aria-controls="filtres-panneau">
+        Filtres <span aria-hidden="true">▾</span>
+      </button>
+      <div id="filtres-panneau" class="filtres__panneau">
+        <div class="filtres__entete">
+          <h2 class="filtres__titre">Affiner</h2>
+          <button class="bouton-lien" id="reinitialiser" type="button" disabled>Tout effacer</button>
+        </div>
+      </div>
+    </aside>
+
+    <section id="resultats" aria-labelledby="titre-resultats">
+      <h2 class="contenu-cache" id="titre-resultats">Résultats</h2>
+
+      <div class="resultats__barre">
+        <p class="resultats__compte" id="compte"></p>
+        <p class="tri">
+          <label for="tri">Trier par</label>
+          <select id="tri">
+            <option value="pertinence">Pertinence</option>
+            <option value="nom">Nom (A → Z)</option>
+            <option value="theme">Thème</option>
+          </select>
+        </p>
+      </div>
+
+      <div class="jetons" id="jetons"></div>
+      <p class="contenu-cache" id="annonce" role="status" aria-live="polite"></p>
+
+      <ul class="grille" id="grille"></ul>
+
+      <div class="vide" id="vide" hidden>
+        <h2>Aucun outil ne correspond</h2>
+        <p>Élargissez la recherche : retirez un filtre, ou essayez un mot-clé plus court.</p>
+      </div>
+
+      <button class="plus" id="voir-plus" type="button" hidden>Voir plus d'outils</button>
+    </section>
+
+  </div>
+</main>
+
+<dialog class="fiche" id="fiche" aria-labelledby="fiche-titre">
+  <div class="fiche__entete">
+    <h2 id="fiche-titre"></h2>
+    <button class="fiche__fermer" type="button">
+      <span aria-hidden="true">×</span>
+      <span class="contenu-cache">Fermer la fiche</span>
+    </button>
+  </div>
+  <div class="fiche__corps"></div>
+</dialog>
+
+<footer class="pied">
+  <div class="pied__inner">
+    <div>
+      <p>
+        Boîte à outils du Numérique Responsable, maintenue par l'
+        <a href="https://institutnr.org" target="_blank" rel="noopener">Institut du Numérique Responsable</a>.
+      </p>
+      <p>Une ressource manque, un lien est cassé&nbsp;? Écrivez à
+        <a href="mailto:contact@institutnr.org">contact@institutnr.org</a>.
+      </p>
+    </div>
+    <div>
+      <p><a href="themes/">Tous les thèmes</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="a-propos.html">À propos</a></p>
+      <p>Site statique. <a href="mentions-legales.html">Mesure d'audience sans cookie</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js?v=3b3f28ec" defer></script>
+<script src="assets/matomo.js?v=9620fab1" defer></script>
+</body>
+</html>

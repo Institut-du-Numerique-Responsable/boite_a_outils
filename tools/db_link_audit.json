@@ -1,0 +1,4619 @@
+[
+ {
+  "lang": "fr",
+  "id": "1",
+  "nom": "Les rapports du giec",
+  "cat": "Urgence Climatique",
+  "url": "https://www.ipcc.ch/report/ar6/wg3/",
+  "status": 200,
+  "final": "https://www.ipcc.ch/report/ar6/wg3/"
+ },
+ {
+  "lang": "fr",
+  "id": "2",
+  "nom": "The shift : décarboner l'industrie",
+  "cat": "Urgence Climatique",
+  "url": "https://theshiftproject.org/wp-content/uploads/2022/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf",
+  "status": 200,
+  "final": "https://theshiftproject.org/app/uploads/2025/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "3",
+  "nom": "Qu'est-ce qu'on fait ?!",
+  "cat": "Urgence Climatique",
+  "url": "https://www.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter",
+  "status": 200,
+  "final": "https://archives.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter"
+ },
+ {
+  "lang": "fr",
+  "id": "4",
+  "nom": "Thinkerview",
+  "cat": "Urgence Climatique",
+  "url": "https://www.thinkerview.com/",
+  "status": 200,
+  "final": "https://www.thinkerview.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "5",
+  "nom": "Bon pote",
+  "cat": "Urgence Climatique",
+  "url": "https://bonpote.com/",
+  "status": 200,
+  "final": "https://bonpote.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "6",
+  "nom": "Manifeste pour un réveil écologique",
+  "cat": "Urgence Climatique",
+  "url": "https://manifeste.pour-un-reveil-ecologique.org/fr",
+  "status": 200,
+  "final": "https://manifeste.pour-un-reveil-ecologique.org/fr"
+ },
+ {
+  "lang": "fr",
+  "id": "7",
+  "nom": "Futur.eco",
+  "cat": "Urgence Climatique",
+  "url": "https://futur.eco//",
+  "status": 200,
+  "final": "https://futur.eco//"
+ },
+ {
+  "lang": "fr",
+  "id": "8",
+  "nom": "Cabone 4 : faire sa part",
+  "cat": "Urgence Climatique",
+  "url": "https://www.carbone4.com/wp-content/uploads/2019/06/Publication-Carbone-4-Faire-sa-part-pouvoir-responsabilite-climat.pdf",
+  "status": 500,
+  "final": "https://www.carbone4.com/wp-content/uploads/2019/06/Publication-Carbone-4-Faire-sa-part-pouvoir-responsabilite-climat.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "9",
+  "nom": "The shift project : décarboner l'économie française",
+  "cat": "Urgence Climatique",
+  "url": "https://ilnousfautunplan.fr/",
+  "status": 200,
+  "final": "https://ilnousfautunplan.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "10",
+  "nom": "Tableau périodique des éléments",
+  "cat": "Urgence Climatique",
+  "url": "https://www.euchems.eu/euchems-periodic-table/",
+  "status": 200,
+  "final": "https://www.euchems.eu/euchems-periodic-table/"
+ },
+ {
+  "lang": "fr",
+  "id": "11",
+  "nom": "Pisser sous la douche ne suffira pas",
+  "cat": "Urgence Climatique",
+  "url": "https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC",
+  "status": 200,
+  "final": "https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1"
+ },
+ {
+  "lang": "fr",
+  "id": "12",
+  "nom": "L'homme a mangé la terre (arte)",
+  "cat": "Urgence Climatique",
+  "url": "https://www.arte.tv/fr/videos/073938-000-A/l-homme-a-mange-la-terre/",
+  "status": 404,
+  "final": "https://www.arte.tv/fr/videos/073938-000-A/l-homme-a-mange-la-terre/"
+ },
+ {
+  "lang": "fr",
+  "id": "13",
+  "nom": "Camille etienne - vulgarisation",
+  "cat": "Urgence Climatique",
+  "url": "https://www.instagram.com/graine_de_possible",
+  "status": 200,
+  "final": "https://www.instagram.com/graine_de_possible"
+ },
+ {
+  "lang": "fr",
+  "id": "14",
+  "nom": "Adelia",
+  "cat": "Back-End",
+  "url": "http://www.adel-label.com/livre-blanc/",
+  "status": "ERR:gaierror",
+  "final": "http://www.adel-label.com/livre-blanc/"
+ },
+ {
+  "lang": "fr",
+  "id": "15",
+  "nom": "Adversarial robustness toolbox",
+  "cat": "Back-End",
+  "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
+ },
+ {
+  "lang": "fr",
+  "id": "16",
+  "nom": "Aequitas",
+  "cat": "Back-End",
+  "url": "http://www.datasciencepublicpolicy.org/projects/aequitas/",
+  "status": 200,
+  "final": "https://datasciencepublicpolicy.org/our-work/tools-guides/aequitas/"
+ },
+ {
+  "lang": "fr",
+  "id": "17",
+  "nom": "Agaro",
+  "cat": "Back-End",
+  "url": "https://aguaro.io/fr",
+  "status": 200,
+  "final": "https://www.aguaro.io/fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "18",
+  "nom": "Ai fairness 360 (aif360)",
+  "cat": "Back-End",
+  "url": "https://github.com/Trusted-AI/AIF360",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/AIF360"
+ },
+ {
+  "lang": "fr",
+  "id": "19",
+  "nom": "Cabanon",
+  "cat": "Back-End",
+  "url": "https://github.com/LINCnil/Cabanon",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Cabanon"
+ },
+ {
+  "lang": "fr",
+  "id": "20",
+  "nom": "Carbon emissions tracker",
+  "cat": "Back-End",
+  "url": "https://github.com/yang573/carbon-footprint",
+  "status": 200,
+  "final": "https://github.com/yang573/carbon-footprint"
+ },
+ {
+  "lang": "fr",
+  "id": "21",
+  "nom": "Carbontracker",
+  "cat": "Back-End",
+  "url": "https://github.com/lfwa/carbontracker",
+  "status": 200,
+  "final": "https://github.com/saintslab/carbontracker"
+ },
+ {
+  "lang": "fr",
+  "id": "22",
+  "nom": "Code carbon",
+  "cat": "Back-End",
+  "url": "https://github.com/mlco2/codecarbon",
+  "status": 200,
+  "final": "https://github.com/mlco2/codecarbon"
+ },
+ {
+  "lang": "fr",
+  "id": "23",
+  "nom": "Cookieviz",
+  "cat": "Back-End",
+  "url": "https://linc.cnil.fr/fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation",
+  "status": 200,
+  "final": "https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation"
+ },
+ {
+  "lang": "fr",
+  "id": "24",
+  "nom": "Cpu energy meter",
+  "cat": "Back-End",
+  "url": "https://github.com/sosy-lab/cpu-energy-meter",
+  "status": 200,
+  "final": "https://github.com/sosy-lab/cpu-energy-meter"
+ },
+ {
+  "lang": "fr",
+  "id": "25",
+  "nom": "Data science ethics checklist",
+  "cat": "Back-End",
+  "url": "https://deon.drivendata.org/#data-science-ethics-checklist",
+  "status": 200,
+  "final": "https://deon.drivendata.org/#data-science-ethics-checklist"
+ },
+ {
+  "lang": "fr",
+  "id": "26",
+  "nom": "Eemeter",
+  "cat": "Back-End",
+  "url": "https://github.com/openeemeter/eemeter",
+  "status": 200,
+  "final": "https://github.com/opendsm/opendsm"
+ },
+ {
+  "lang": "fr",
+  "id": "27",
+  "nom": "Energy meter logger",
+  "cat": "Back-End",
+  "url": "https://github.com/samuelphy/energy-meter-logger",
+  "status": 200,
+  "final": "https://github.com/samuelphy/energy-meter-logger"
+ },
+ {
+  "lang": "fr",
+  "id": "28",
+  "nom": "Energybox",
+  "cat": "Back-End",
+  "url": "https://github.com/rtslab/EnergyBox",
+  "status": 200,
+  "final": "https://github.com/rtslab/EnergyBox"
+ },
+ {
+  "lang": "fr",
+  "id": "29",
+  "nom": "Energyusage",
+  "cat": "Back-End",
+  "url": "https://github.com/responsibleproblemsolving/energy-usage",
+  "status": 200,
+  "final": "https://github.com/responsibleproblemsolving/energy-usage"
+ },
+ {
+  "lang": "fr",
+  "id": "30",
+  "nom": "Ethical os toolkit",
+  "cat": "Back-End",
+  "url": "https://ethicalos.org",
+  "status": 200,
+  "final": "https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/"
+ },
+ {
+  "lang": "fr",
+  "id": "31",
+  "nom": "Ethics & algorithms toolkit",
+  "cat": "Back-End",
+  "url": "http://ethicstoolkit.ai",
+  "status": 200,
+  "final": "http://ethicstoolkit.ai"
+ },
+ {
+  "lang": "fr",
+  "id": "32",
+  "nom": "Experiment-impact-tracker",
+  "cat": "Back-End",
+  "url": "https://github.com/Breakend/experiment-impact-tracker",
+  "status": 200,
+  "final": "https://github.com/Breakend/experiment-impact-tracker"
+ },
+ {
+  "lang": "fr",
+  "id": "33",
+  "nom": "Green algorithms",
+  "cat": "Back-End",
+  "url": "http://www.green-algorithms.org/",
+  "status": 200,
+  "final": "http://www.green-algorithms.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "34",
+  "nom": "Intel power gadget",
+  "cat": "Back-End",
+  "url": "https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html",
+  "status": 403,
+  "final": "https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html"
+ },
+ {
+  "lang": "fr",
+  "id": "35",
+  "nom": "Joulemeter",
+  "cat": "Back-End",
+  "url": "https://joulemeter.fr.uptodown.com/windows",
+  "status": 200,
+  "final": "https://joulemeter.fr.uptodown.com/windows"
+ },
+ {
+  "lang": "fr",
+  "id": "36",
+  "nom": "Deda (data ethics decision aid)",
+  "cat": "Back-End",
+  "url": "https://dataschool.nl/deda/",
+  "status": 200,
+  "final": "https://dataschool.nl/tools/deda/"
+ },
+ {
+  "lang": "fr",
+  "id": "37",
+  "nom": "Linux extended bpf",
+  "cat": "Back-End",
+  "url": "http://www.brendangregg.com/ebpf.html",
+  "status": 200,
+  "final": "https://www.brendangregg.com/ebpf.html"
+ },
+ {
+  "lang": "fr",
+  "id": "38",
+  "nom": "Ml co2 impact",
+  "cat": "Back-End",
+  "url": "https://mlco2.github.io/impact/",
+  "status": 200,
+  "final": "https://mlco2.github.io/impact/"
+ },
+ {
+  "lang": "fr",
+  "id": "39",
+  "nom": "Mlco2",
+  "cat": "Back-End",
+  "url": "https://mlco2.github.io/impact/#compute",
+  "status": 200,
+  "final": "https://mlco2.github.io/impact/#compute"
+ },
+ {
+  "lang": "fr",
+  "id": "40",
+  "nom": "Petra",
+  "cat": "Back-End",
+  "url": "https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233",
+  "status": 202,
+  "final": "https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233"
+ },
+ {
+  "lang": "fr",
+  "id": "41",
+  "nom": "Power meter",
+  "cat": "Back-End",
+  "url": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master",
+  "status": 200,
+  "final": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master"
+ },
+ {
+  "lang": "fr",
+  "id": "42",
+  "nom": "Powerapi",
+  "cat": "Back-End",
+  "url": "https://github.com/powerapi-ng/powerapi",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/powerapi"
+ },
+ {
+  "lang": "fr",
+  "id": "43",
+  "nom": "Powertop",
+  "cat": "Back-End",
+  "url": "https://github.com/fenrus75/powertop",
+  "status": 200,
+  "final": "https://github.com/fenrus75/powertop"
+ },
+ {
+  "lang": "fr",
+  "id": "44",
+  "nom": "Ptopw",
+  "cat": "Back-End",
+  "url": "https://github.com/hch-im/ptopw",
+  "status": 200,
+  "final": "https://github.com/hch-im/ptopw"
+ },
+ {
+  "lang": "fr",
+  "id": "45",
+  "nom": "Scaphandre",
+  "cat": "Back-End",
+  "url": "https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/",
+  "status": 200,
+  "final": "https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/"
+ },
+ {
+  "lang": "fr",
+  "id": "46",
+  "nom": "Tfjs-models",
+  "cat": "Back-End",
+  "url": "https://github.com/tensorflow/tfjs-models",
+  "status": 200,
+  "final": "https://github.com/tensorflow/tfjs-models"
+ },
+ {
+  "lang": "fr",
+  "id": "47",
+  "nom": "Transalgo",
+  "cat": "Back-End",
+  "url": "https://www.transalgo.org/",
+  "status": "ERR:gaierror",
+  "final": "https://www.transalgo.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "48",
+  "nom": "Cloud carbon footprint",
+  "cat": "Back-End",
+  "url": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint",
+  "status": 200,
+  "final": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint"
+ },
+ {
+  "lang": "fr",
+  "id": "49",
+  "nom": "Cloud jewels",
+  "cat": "Back-End",
+  "url": "https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/",
+  "status": 403,
+  "final": "https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/"
+ },
+ {
+  "lang": "fr",
+  "id": "50",
+  "nom": "Globaldcanalysis : global data center energy analysis model",
+  "cat": "Back-End",
+  "url": "https://github.com/emasanet/GlobalDCAnalysis",
+  "status": 200,
+  "final": "https://github.com/emasanet/GlobalDCAnalysis"
+ },
+ {
+  "lang": "fr",
+  "id": "51",
+  "nom": "Cloud foundry footprint",
+  "cat": "Back-End",
+  "url": "https://github.com/P-Ehlert/cloudfoundry_footprint",
+  "status": 200,
+  "final": "https://github.com/P-Ehlert/cloudfoundry_footprint"
+ },
+ {
+  "lang": "fr",
+  "id": "52",
+  "nom": "Pyjoules",
+  "cat": "Back-End",
+  "url": "https://github.com/powerapi-ng/pyJoules",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/pyJoules"
+ },
+ {
+  "lang": "fr",
+  "id": "53",
+  "nom": "Likwid",
+  "cat": "Back-End",
+  "url": "https://github.com/RRZE-HPC/likwid",
+  "status": 200,
+  "final": "https://github.com/RRZE-HPC/likwid"
+ },
+ {
+  "lang": "fr",
+  "id": "54",
+  "nom": "Powersim",
+  "cat": "Back-End",
+  "url": "http://powersim.sourceforge.net",
+  "status": 403,
+  "final": "http://powersim.sourceforge.net"
+ },
+ {
+  "lang": "fr",
+  "id": "55",
+  "nom": "Ethereum-nft-activity",
+  "cat": "Back-End",
+  "url": "https://github.com/kylemcdonald/ethereum-nft-activity",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-nft-activity"
+ },
+ {
+  "lang": "fr",
+  "id": "56",
+  "nom": "Ethereum energy consumption",
+  "cat": "Back-End",
+  "url": "https://github.com/kylemcdonald/ethereum-energy",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-emissions"
+ },
+ {
+  "lang": "fr",
+  "id": "57",
+  "nom": "Data co2 calculator v4",
+  "cat": "Back-End",
+  "url": "https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx",
+  "status": 200,
+  "final": "https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx"
+ },
+ {
+  "lang": "fr",
+  "id": "58",
+  "nom": "Pop",
+  "cat": "Back-End",
+  "url": "https://pop-coe.eu/partners/tools",
+  "status": 200,
+  "final": "https://pop-coe.eu/partners/tools"
+ },
+ {
+  "lang": "fr",
+  "id": "59",
+  "nom": "Cleer modèle",
+  "cat": "Back-End",
+  "url": "http://cleermodel.lbl.gov/",
+  "status": 500,
+  "final": "http://cleermodel.lbl.gov/"
+ },
+ {
+  "lang": "fr",
+  "id": "60",
+  "nom": "Catalogue des outils green it switzerland ",
+  "cat": "Back-End",
+  "url": "https://greenit-switzerland.ch/en/tools-2/",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/en/tools-2/"
+ },
+ {
+  "lang": "fr",
+  "id": "61",
+  "nom": "Google carbon footprint",
+  "cat": "Back-End",
+  "url": "https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=-",
+  "status": 200,
+  "final": "https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=-"
+ },
+ {
+  "lang": "fr",
+  "id": "62",
+  "nom": "Diff joules",
+  "cat": "Back-End",
+  "url": "https://github.com/davidson-consulting/diff-jjoules",
+  "status": 200,
+  "final": "https://github.com/davidson-consulting/diff-jjoules"
+ },
+ {
+  "lang": "fr",
+  "id": "63",
+  "nom": "Joularjx",
+  "cat": "Back-End",
+  "url": "ttps://gitlab.com/joular/joularjx",
+  "status": "ERR:str",
+  "final": "ttps://gitlab.com/joular/joularjx"
+ },
+ {
+  "lang": "fr",
+  "id": "64",
+  "nom": "Axe monitor",
+  "cat": "Back-End",
+  "url": "https://www.deque.com/axe/monitor/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/monitor/"
+ },
+ {
+  "lang": "fr",
+  "id": "65",
+  "nom": "Eninclusif",
+  "cat": "Contenus",
+  "url": "https://eninclusif.fr/",
+  "status": 200,
+  "final": "https://eninclusif.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "66",
+  "nom": "Video optimizer",
+  "cat": "Contenus",
+  "url": "https://github.com/attdevsupport/VideoOptimzer",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/VideoOptimizer"
+ },
+ {
+  "lang": "fr",
+  "id": "67",
+  "nom": "Clic connect",
+  "cat": "Contenus",
+  "url": "https://www.clic-connect.fr/",
+  "status": 200,
+  "final": "https://www.clic-connect.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "68",
+  "nom": "Opidor",
+  "cat": "Contenus",
+  "url": "https://dmp.opidor.fr",
+  "status": 200,
+  "final": "https://dmp.opidor.fr"
+ },
+ {
+  "lang": "fr",
+  "id": "69",
+  "nom": "Arneo",
+  "cat": "Front-End",
+  "url": "https://ecoconception.arneogroup.com/",
+  "status": 200,
+  "final": "https://arneo.io/fr/ecoconception-allier-performance-frugalite"
+ },
+ {
+  "lang": "fr",
+  "id": "70",
+  "nom": "Aro",
+  "cat": "Front-End",
+  "url": "https://github.com/attdevsupport/ARO",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/ARO"
+ },
+ {
+  "lang": "fr",
+  "id": "71",
+  "nom": "Audit rgaa",
+  "cat": "Front-End",
+  "url": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/kit/#contenu",
+  "status": 404,
+  "final": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/kit/#contenu"
+ },
+ {
+  "lang": "fr",
+  "id": "72",
+  "nom": "Checkmycolor",
+  "cat": "Front-End",
+  "url": "https://www.checkmycolours.com/",
+  "status": 403,
+  "final": "https://www.checkmycolours.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "73",
+  "nom": "Coldcms",
+  "cat": "Front-End",
+  "url": "https://gitlab.com/hashbangfr/coldcms",
+  "status": 200,
+  "final": "https://gitlab.com/hashbangfr/coldcms"
+ },
+ {
+  "lang": "fr",
+  "id": "74",
+  "nom": "Color safe",
+  "cat": "Front-End",
+  "url": "http://colorsafe.co/",
+  "status": 200,
+  "final": "http://colorsafe.co/"
+ },
+ {
+  "lang": "fr",
+  "id": "75",
+  "nom": "Colour contrast analyser (cca)",
+  "cat": "Front-End",
+  "url": "https://www.tpgi.com/color-contrast-checker/",
+  "status": 200,
+  "final": "https://vispero.com/lp/color-contrast-checker/"
+ },
+ {
+  "lang": "fr",
+  "id": "76",
+  "nom": "Contrastradio",
+  "cat": "Front-End",
+  "url": "https://contrast-ratio.com/",
+  "status": 200,
+  "final": "https://www.siegemedia.com/contrast-ratio"
+ },
+ {
+  "lang": "fr",
+  "id": "77",
+  "nom": "Dareboost",
+  "cat": "Front-End",
+  "url": "https://www.dareboost.com",
+  "status": 200,
+  "final": "https://www.dareboost.com/en"
+ },
+ {
+  "lang": "fr",
+  "id": "78",
+  "nom": "Darkpatterns",
+  "cat": "Front-End",
+  "url": "https://www.darkpatterns.org/index.html",
+  "status": 404,
+  "final": "https://www.darkpatterns.org/index.html"
+ },
+ {
+  "lang": "fr",
+  "id": "79",
+  "nom": "Eco meter",
+  "cat": "Front-End",
+  "url": "http://www.ecometer.org/",
+  "status": 200,
+  "final": "https://www.thulatula.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "80",
+  "nom": "Ecocode",
+  "cat": "Front-End",
+  "url": "https://www.ecocode.io/",
+  "status": 200,
+  "final": "https://ecocode.io/"
+ },
+ {
+  "lang": "fr",
+  "id": "81",
+  "nom": "Ecograder",
+  "cat": "Front-End",
+  "url": "https://ecograder.com/",
+  "status": 200,
+  "final": "https://ecograder.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "82",
+  "nom": "Ecoindex",
+  "cat": "Front-End",
+  "url": "http://www.ecoindex.fr/",
+  "status": 200,
+  "final": "https://www.ecoindex.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "83",
+  "nom": "Kastor.green",
+  "cat": "Front-End",
+  "url": "https://kastor.green/",
+  "status": 200,
+  "final": "https://kastor.green/"
+ },
+ {
+  "lang": "fr",
+  "id": "84",
+  "nom": "Ecometer",
+  "cat": "Front-End",
+  "url": "http://ecometer.org/",
+  "status": 200,
+  "final": "https://www.thulatula.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "85",
+  "nom": "Empreinte carbone page web",
+  "cat": "Front-End",
+  "url": "https://www.websitecarbon.com/badge/",
+  "status": 200,
+  "final": "https://www.websitecarbon.com/badge/"
+ },
+ {
+  "lang": "fr",
+  "id": "86",
+  "nom": "Energy profiler",
+  "cat": "Front-End",
+  "url": "https://developer.android.com/studio/profile/energy-profiler",
+  "status": 302,
+  "final": "https://developer.android.com/studio/profile/energy-profiler"
+ },
+ {
+  "lang": "fr",
+  "id": "87",
+  "nom": "Energy smells (android)",
+  "cat": "Front-End",
+  "url": "http://olegoaer.perso.univ-pau.fr/android-energy-smells/",
+  "status": 200,
+  "final": "https://olegoaer.perso.univ-pau.fr/android-energy-smells/"
+ },
+ {
+  "lang": "fr",
+  "id": "88",
+  "nom": "Google amp",
+  "cat": "Front-End",
+  "url": "https://search.google.com/test/amp?hl=fr#",
+  "status": 200,
+  "final": "https://search.google.com/test/amp?hl=fr"
+ },
+ {
+  "lang": "fr",
+  "id": "89",
+  "nom": "Google richtxt",
+  "cat": "Front-End",
+  "url": "https://search.google.com/test/rich-results",
+  "status": 200,
+  "final": "https://search.google.com/test/rich-results"
+ },
+ {
+  "lang": "fr",
+  "id": "90",
+  "nom": "Greenframe",
+  "cat": "Front-End",
+  "url": "https://greenframe.io/",
+  "status": 200,
+  "final": "https://greenframe.io/"
+ },
+ {
+  "lang": "fr",
+  "id": "91",
+  "nom": "Greenspector",
+  "cat": "Front-End",
+  "url": "https://mobile-efficiency-index.com/en/",
+  "status": "ERR:OSError:[Errno 51] Network is unreachable",
+  "final": "https://mobile-efficiency-index.com/en/"
+ },
+ {
+  "lang": "fr",
+  "id": "92",
+  "nom": "Gt metrix",
+  "cat": "Front-End",
+  "url": "https://gtmetrix.com/",
+  "status": 200,
+  "final": "https://gtmetrix.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "93",
+  "nom": "Https everywhere",
+  "cat": "Front-End",
+  "url": "https://www.eff.org/https-everywhere",
+  "status": 200,
+  "final": "https://www.eff.org/https-everywhere"
+ },
+ {
+  "lang": "fr",
+  "id": "94",
+  "nom": "Ionos",
+  "cat": "Front-End",
+  "url": "https://www.ionos.fr/tools/analyse-site-web",
+  "status": 200,
+  "final": "https://www.ionos.fr/tools/analyse-site-web"
+ },
+ {
+  "lang": "fr",
+  "id": "95",
+  "nom": "Learn accessibility",
+  "cat": "Front-End",
+  "url": "https://www.learn-accessibility.org/index.html",
+  "status": 200,
+  "final": "https://www.learn-accessibility.org/index.html"
+ },
+ {
+  "lang": "fr",
+  "id": "96",
+  "nom": "Low web",
+  "cat": "Front-End",
+  "url": "https://github.com/lowwebtech/low-web-extension",
+  "status": 200,
+  "final": "https://github.com/vicocotea/low-web-extension"
+ },
+ {
+  "lang": "fr",
+  "id": "97",
+  "nom": "Node.js ecoindex",
+  "cat": "Front-End",
+  "url": "https://github.com/cyve/ecoindex_node",
+  "status": 200,
+  "final": "https://github.com/cyve/ecoindex_node"
+ },
+ {
+  "lang": "fr",
+  "id": "98",
+  "nom": "One click accessibility",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/pojo-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/pojo-accessibility/"
+ },
+ {
+  "lang": "fr",
+  "id": "99",
+  "nom": "Page speed insights",
+  "cat": "Front-End",
+  "url": "https://developers.google.com/speed/pagespeed/insights/",
+  "status": 200,
+  "final": "https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect"
+ },
+ {
+  "lang": "fr",
+  "id": "100",
+  "nom": "Pingdom",
+  "cat": "Front-End",
+  "url": "https://tools.pingdom.com/",
+  "status": 200,
+  "final": "https://tools.pingdom.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "101",
+  "nom": "Privacy bager",
+  "cat": "Front-End",
+  "url": "https://privacybadger.org/",
+  "status": 200,
+  "final": "https://privacybadger.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "102",
+  "nom": "Qualscan",
+  "cat": "Front-End",
+  "url": "https://www.npmjs.com/package/qualscan",
+  "status": 403,
+  "final": "https://www.npmjs.com/package/qualscan"
+ },
+ {
+  "lang": "fr",
+  "id": "103",
+  "nom": "Simulateur d'ecoindex",
+  "cat": "Front-End",
+  "url": "https://rachelwe.github.io/Simulateur-ecoindex/",
+  "status": 200,
+  "final": "https://rachelwe.github.io/Simulateur-ecoindex/"
+ },
+ {
+  "lang": "fr",
+  "id": "104",
+  "nom": "Susty",
+  "cat": "Front-End",
+  "url": "https://github.com/jacklenox/susty",
+  "status": 200,
+  "final": "https://github.com/jacklenox/susty"
+ },
+ {
+  "lang": "fr",
+  "id": "105",
+  "nom": "Test my site",
+  "cat": "Front-End",
+  "url": "https://www.thinkwithgoogle.com/feature/testmysite/",
+  "status": 200,
+  "final": "https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/?ucbcb=1"
+ },
+ {
+  "lang": "fr",
+  "id": "106",
+  "nom": "Ublock origin",
+  "cat": "Front-End",
+  "url": "https://ublockorigin.com/fr",
+  "status": 200,
+  "final": "https://ublockorigin.com/fr"
+ },
+ {
+  "lang": "fr",
+  "id": "107",
+  "nom": "Uptrends",
+  "cat": "Front-End",
+  "url": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web",
+  "status": 200,
+  "final": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web"
+ },
+ {
+  "lang": "fr",
+  "id": "108",
+  "nom": "Wave webaim",
+  "cat": "Front-End",
+  "url": "https://wave.webaim.org/",
+  "status": 200,
+  "final": "https://wave.webaim.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "109",
+  "nom": "Web page test",
+  "cat": "Front-End",
+  "url": "https://www.webpagetest.org/",
+  "status": 403,
+  "final": "https://www.webpagetest.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "110",
+  "nom": "Webaccessibility",
+  "cat": "Front-End",
+  "url": "https://www.webaccessibility.com/tools/",
+  "status": 200,
+  "final": "https://www.webaccessibility.com/tools/"
+ },
+ {
+  "lang": "fr",
+  "id": "111",
+  "nom": "Wp accessibility (wordpress)",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility/"
+ },
+ {
+  "lang": "fr",
+  "id": "112",
+  "nom": "Wah (wordpress)",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility-helper/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility-helper/"
+ },
+ {
+  "lang": "fr",
+  "id": "113",
+  "nom": "Greenit-analysis",
+  "cat": "Front-End",
+  "url": "https://github.com/cnumr/GreenIT-Analysis",
+  "status": 200,
+  "final": "https://github.com/cnumr/GreenIT-Analysis"
+ },
+ {
+  "lang": "fr",
+  "id": "114",
+  "nom": "Device co2 calculator v4",
+  "cat": "Front-End",
+  "url": "https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx#",
+  "status": 200,
+  "final": "https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx"
+ },
+ {
+  "lang": "fr",
+  "id": "115",
+  "nom": "Designgouv",
+  "cat": "Front-End",
+  "url": "https://design.numerique.gouv.fr/outils/",
+  "status": 200,
+  "final": "https://design.numerique.gouv.fr/outils/"
+ },
+ {
+  "lang": "fr",
+  "id": "116",
+  "nom": "Tanaguru",
+  "cat": "Front-End",
+  "url": "https://www.tanaguru.com/",
+  "status": 200,
+  "final": "https://www.tanaguru.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "117",
+  "nom": "Yellow labs tools",
+  "cat": "Front-End",
+  "url": "https://yellowlab.tools/",
+  "status": 200,
+  "final": "https://yellowlab.tools/"
+ },
+ {
+  "lang": "fr",
+  "id": "118",
+  "nom": "Assistant rgaa",
+  "cat": "Front-End",
+  "url": "https://github.com/empreinte-digitale/assistant-rgaa/blob/master/README.md",
+  "status": 200,
+  "final": "https://github.com/boscop-fr/assistant-rgaa/blob/main/README.md"
+ },
+ {
+  "lang": "fr",
+  "id": "119",
+  "nom": "Axe dev tools ",
+  "cat": "Front-End",
+  "url": "https://www.deque.com/axe/devtools/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/devtools/"
+ },
+ {
+  "lang": "fr",
+  "id": "120",
+  "nom": "Axe auditor",
+  "cat": "Front-End",
+  "url": "https://www.deque.com/axe/auditor/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/auditor/"
+ },
+ {
+  "lang": "fr",
+  "id": "121",
+  "nom": "Caudron",
+  "cat": "Front-End",
+  "url": "https://pattern-library.dequelabs.com/",
+  "status": 200,
+  "final": "https://cauldron.dequelabs.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "122",
+  "nom": "Green web foundation",
+  "cat": "Hébergement",
+  "url": "https://www.thegreenwebfoundation.org/",
+  "status": 200,
+  "final": "https://www.thegreenwebfoundation.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "123",
+  "nom": "42u",
+  "cat": "Hébergement",
+  "url": "https://www.42u.com/measuring-datacenter-performance.htm",
+  "status": 200,
+  "final": "https://www.42u.com/measuring-datacenter-performance.htm"
+ },
+ {
+  "lang": "fr",
+  "id": "124",
+  "nom": "Amazon codeguru",
+  "cat": "Hébergement",
+  "url": "https://aws.amazon.com/fr/codeguru/",
+  "status": 200,
+  "final": "https://aws.amazon.com/codeguru/profiler/"
+ },
+ {
+  "lang": "fr",
+  "id": "125",
+  "nom": "Argos",
+  "cat": "Hébergement",
+  "url": "https://github.com/marmelab/argos",
+  "status": 200,
+  "final": "https://github.com/marmelab/argos"
+ },
+ {
+  "lang": "fr",
+  "id": "126",
+  "nom": "Green cost explorer (amazon)",
+  "cat": "Hébergement",
+  "url": "https://github.com/thegreenwebfoundation/green-cost-explorer",
+  "status": 200,
+  "final": "https://github.com/thegreenwebfoundation/green-cost-explorer"
+ },
+ {
+  "lang": "fr",
+  "id": "127",
+  "nom": "Greenframe",
+  "cat": "Hébergement",
+  "url": "https://greenframe.io",
+  "status": 200,
+  "final": "https://greenframe.io"
+ },
+ {
+  "lang": "fr",
+  "id": "128",
+  "nom": "La banqui.se",
+  "cat": "Hébergement",
+  "url": "https://www.labanqui.se",
+  "status": 200,
+  "final": "https://www.labanqui.se"
+ },
+ {
+  "lang": "fr",
+  "id": "129",
+  "nom": "Lowtus",
+  "cat": "Hébergement",
+  "url": "https://lowtus.fr/",
+  "status": 200,
+  "final": "https://lowtus.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "130",
+  "nom": "Microsoft sustainability calculator",
+  "cat": "Hébergement",
+  "url": "https://www.microsoft.com/en-us/sustainability/sustainability-guide/sustainability-calculator?activetab=pivot_1:primaryr2",
+  "status": 200,
+  "final": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability"
+ },
+ {
+  "lang": "fr",
+  "id": "131",
+  "nom": "Recommandation pour les datacenter de green it swtzerland",
+  "cat": "Hébergement",
+  "url": "https://greenit-switzerland.ch/app/mc-dc/de/cc-mesures?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/cc-mesures/?lang=fr"
+ },
+ {
+  "lang": "fr",
+  "id": "132",
+  "nom": "Questionnaire d'évaluation énergétique de green it switzerland",
+  "cat": "Hébergement",
+  "url": "https://greenit-switzerland.ch/app/dca/de/evaluation-cc?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/evaluation-cc/?lang=fr"
+ },
+ {
+  "lang": "fr",
+  "id": "133",
+  "nom": "Boavizta calcul empreinte fabrication serveur",
+  "cat": "Hébergement",
+  "url": "https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment",
+  "status": 200,
+  "final": "https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment"
+ },
+ {
+  "lang": "fr",
+  "id": "134",
+  "nom": "Powerjoular",
+  "cat": "Hébergement",
+  "url": "https://gitlab.com/joular/powerjoular",
+  "status": 200,
+  "final": "https://gitlab.com/joular/powerjoular"
+ },
+ {
+  "lang": "fr",
+  "id": "135",
+  "nom": "Rtlamr",
+  "cat": "IoT",
+  "url": "https://github.com/bemasher/rtlamr",
+  "status": 200,
+  "final": "https://github.com/bemasher/rtlamr"
+ },
+ {
+  "lang": "fr",
+  "id": "136",
+  "nom": "Loi sur la déclaration annuelle de performance extra-financière (2017)\n",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-sur-la-declaration-annuelle-de-performance",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-sur-la-declaration-annuelle-de-performance"
+ },
+ {
+  "lang": "fr",
+  "id": "137",
+  "nom": "Loi relative à la transition énergétique pour la croissance verte (2015) et loi énergie climat (2019)",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-relative-a-la-transition-energetique-pour",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-relative-a-la-transition-energetique-pour"
+ },
+ {
+  "lang": "fr",
+  "id": "138",
+  "nom": "Loi au sujet de la consommation d'énergie et la valorisation de la chaleur induite des centres de stockages des données",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-au-sujet-de-la-consommation-denergie",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-au-sujet-de-la-consommation-denergie"
+ },
+ {
+  "lang": "fr",
+  "id": "139",
+  "nom": "Arrêté relatif au traitement des deee",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-arrete-relatif-au-traitement-des-deee-",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-arrete-relatif-au-traitement-des-deee-"
+ },
+ {
+  "lang": "fr",
+  "id": "140",
+  "nom": "Directive du parlement européen et du conseil relative aux deee",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-directive-du-parlement-europeen-et-du-conseil",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-directive-du-parlement-europeen-et-du-conseil"
+ },
+ {
+  "lang": "fr",
+  "id": "141",
+  "nom": "Loi (2015) relative à la transition énergétique pour la croissance verte ",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi--relative-a-la-transition-energetique",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi--relative-a-la-transition-energetique"
+ },
+ {
+  "lang": "fr",
+  "id": "142",
+  "nom": "Loi relative à la lutte contre le gaspillage et à l'économie circulaire (2020)",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-relative-a-la-lutte-contre-le",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-relative-a-la-lutte-contre-le"
+ },
+ {
+  "lang": "fr",
+  "id": "143",
+  "nom": "Loi climat (2021) relative au greenwashing",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-climat--relative-au-greenwashing-",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-climat--relative-au-greenwashing-"
+ },
+ {
+  "lang": "fr",
+  "id": "144",
+  "nom": "Loi reen (2021)",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-reen-----",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-reen-----"
+ },
+ {
+  "lang": "fr",
+  "id": "145",
+  "nom": "Loi sur l'accessibilité numérique",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-sur-laccessibilite-numerique---",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-sur-laccessibilite-numerique---"
+ },
+ {
+  "lang": "fr",
+  "id": "146",
+  "nom": "Loi informatique et libertés",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-informatique-et-libertes---",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-informatique-et-libertes---"
+ },
+ {
+  "lang": "fr",
+  "id": "147",
+  "nom": "Projet de loi européen sur la régulation de l'ia",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-projet-de-loi-europeen-sur-la-regulation",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-projet-de-loi-europeen-sur-la-regulation"
+ },
+ {
+  "lang": "fr",
+  "id": "148",
+  "nom": "Réglementation sur l'ia et les dispositifs médicaux",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-reglementation-sur-lia-et-les-dispositifs-medicaux",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-reglementation-sur-lia-et-les-dispositifs-medicaux"
+ },
+ {
+  "lang": "fr",
+  "id": "149",
+  "nom": "Directives du rgpd en matière d'ia",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-directives-du-rgpd-en-matiere-dia-",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-directives-du-rgpd-en-matiere-dia-"
+ },
+ {
+  "lang": "fr",
+  "id": "150",
+  "nom": "Loi pour une république numérique relative aux algorithmes",
+  "cat": "Juridique",
+  "url": "fiche-outils.php?lien=7-loi-pour-une-republique-numerique-relative-aux",
+  "status": "ERR:ValueError",
+  "final": "fiche-outils.php?lien=7-loi-pour-une-republique-numerique-relative-aux"
+ },
+ {
+  "lang": "fr",
+  "id": "151",
+  "nom": "Académie nr",
+  "cat": "MOOC",
+  "url": "https://www.academie-nr.org/",
+  "status": 200,
+  "final": "https://www.academie-nr.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "152",
+  "nom": "Agir pour un numérique responsable",
+  "cat": "MOOC",
+  "url": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/",
+  "status": 200,
+  "final": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/"
+ },
+ {
+  "lang": "fr",
+  "id": "153",
+  "nom": "Appliquer les principes du green it ",
+  "cat": "MOOC",
+  "url": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise",
+  "status": 200,
+  "final": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise"
+ },
+ {
+  "lang": "fr",
+  "id": "154",
+  "nom": "Causes et enjeux du changement climatique",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/"
+ },
+ {
+  "lang": "fr",
+  "id": "155",
+  "nom": "Développement durable: enjeux et trajectoires",
+  "cat": "MOOC",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires"
+ },
+ {
+  "lang": "fr",
+  "id": "156",
+  "nom": "Developpement socialement durable",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/"
+ },
+ {
+  "lang": "fr",
+  "id": "157",
+  "nom": "E-parcours transition energétique et ecologique",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/",
+  "status": 404,
+  "final": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/"
+ },
+ {
+  "lang": "fr",
+  "id": "158",
+  "nom": "Eco-concevoir demain",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/"
+ },
+ {
+  "lang": "fr",
+  "id": "159",
+  "nom": "Eco-concevoir vos produits et services",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/"
+ },
+ {
+  "lang": "fr",
+  "id": "160",
+  "nom": "Ecologie politique: défi de la durabilité pour les démocraties",
+  "cat": "MOOC",
+  "url": "https://fr.coursera.org/learn/ecologie-politique",
+  "status": 200,
+  "final": "https://www.coursera.org/learn/ecologie-politique"
+ },
+ {
+  "lang": "fr",
+  "id": "161",
+  "nom": "Fresque du numérique",
+  "cat": "MOOC",
+  "url": "https://www.fresquedunumerique.org/",
+  "status": 200,
+  "final": "https://www.fresquedunumerique.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "162",
+  "nom": "Humanités numériques responsables",
+  "cat": "MOOC",
+  "url": "http://www.sup-numerique.gouv.fr/pid33288/moteur-des-ressources-pedagogiques.html?ressourceUrl=http%3A%2F%2Fwww.sup-numerique.gouv.fr%2Fressources-pedagogiques%2Fnotice%2Fview%2Foai%25253Acanal-u.fr%25253A19273?xtmc=numerique_responsable&xtnp=1&xtcr=undefi",
+  "status": "ERR:gaierror",
+  "final": "http://www.sup-numerique.gouv.fr/pid33288/moteur-des-ressources-pedagogiques.html?ressourceUrl=http%3A%2F%2Fwww.sup-numerique.gouv.fr%2Fressources-pedagogiques%2Fnotice%2Fview%2Foai%25253Acanal-u.fr%25253A19273?xtmc=numerique_responsable&xtnp=1&xtcr=undefi"
+ },
+ {
+  "lang": "fr",
+  "id": "163",
+  "nom": "Impacts numériques",
+  "cat": "MOOC",
+  "url": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html",
+  "status": 200,
+  "final": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html"
+ },
+ {
+  "lang": "fr",
+  "id": "164",
+  "nom": "Ingénieurie ecologique",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/"
+ },
+ {
+  "lang": "fr",
+  "id": "165",
+  "nom": "L’atelier rgpd",
+  "cat": "MOOC",
+  "url": "https://www.cnil.fr/fr/la-cnil-lance-sa-formation-en-ligne-sur-le-rgpd-ouverte-tous",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/comprendre-le-rgpd/le-mooc-de-la-cnil"
+ },
+ {
+  "lang": "fr",
+  "id": "166",
+  "nom": "Les odd c’est pas compliqué",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/"
+ },
+ {
+  "lang": "fr",
+  "id": "167",
+  "nom": "Management responsable",
+  "cat": "MOOC",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable"
+ },
+ {
+  "lang": "fr",
+  "id": "168",
+  "nom": "Master classe green it",
+  "cat": "MOOC",
+  "url": "https://careers.societegenerale.com/green-it-program",
+  "status": 200,
+  "final": "https://careers.societegenerale.com/green-it-program"
+ },
+ {
+  "lang": "fr",
+  "id": "169",
+  "nom": "Objectifs de développement durable",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/objectifs-de-developpement-durable/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/objectifs-de-developpement-durable/"
+ },
+ {
+  "lang": "fr",
+  "id": "170",
+  "nom": "Principes de l’ingénierie logicielle durable",
+  "cat": "MOOC",
+  "url": "https://docs.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/",
+  "status": 200,
+  "final": "https://learn.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/"
+ },
+ {
+  "lang": "fr",
+  "id": "171",
+  "nom": "W3c web accessibility",
+  "cat": "MOOC",
+  "url": "https://www.edx.org/course/web-accessibility-introduction",
+  "status": 200,
+  "final": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility"
+ },
+ {
+  "lang": "fr",
+  "id": "172",
+  "nom": "Accessibilité",
+  "cat": "MOOC",
+  "url": "https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/",
+  "status": 200,
+  "final": "https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/"
+ },
+ {
+  "lang": "fr",
+  "id": "173",
+  "nom": "Data privacy",
+  "cat": "MOOC",
+  "url": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/",
+  "status": 200,
+  "final": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/"
+ },
+ {
+  "lang": "fr",
+  "id": "174",
+  "nom": "Grande ecole du numérique",
+  "cat": "MOOC",
+  "url": "https://www.grandeecolenumerique.fr/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.grandeecolenumerique.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "175",
+  "nom": "Anatomie d'une ai",
+  "cat": "Référence",
+  "url": "https://anatomyof.ai",
+  "status": 200,
+  "final": "https://anatomyof.ai"
+ },
+ {
+  "lang": "fr",
+  "id": "176",
+  "nom": "Bonnes pratiques en eco-conception",
+  "cat": "Référence",
+  "url": "https://hal.archives-ouvertes.fr/hal-03009741/",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-03009741/"
+ },
+ {
+  "lang": "fr",
+  "id": "177",
+  "nom": "Charte nr",
+  "cat": "Référence",
+  "url": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf",
+  "status": 404,
+  "final": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "178",
+  "nom": "Check-list 115 bonnes pratiques",
+  "cat": "Référence",
+  "url": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html"
+ },
+ {
+  "lang": "fr",
+  "id": "179",
+  "nom": "Check-list de conformité ecoconception web",
+  "cat": "Référence",
+  "url": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls"
+ },
+ {
+  "lang": "fr",
+  "id": "180",
+  "nom": "Clickclean",
+  "cat": "Référence",
+  "url": "http://www.clickclean.org/",
+  "status": 404,
+  "final": "http://www.clickclean.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "181",
+  "nom": "Code de conduite européen sur les datacentres",
+  "cat": "Référence",
+  "url": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf",
+  "status": 200,
+  "final": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "182",
+  "nom": "Consommation energétique des équipements informatiques",
+  "cat": "Référence",
+  "url": "https://www.ademe.fr/sites/default/files/assets/documents/livre-blanc-consommation-energetique-equipements-informatique-2015.pdf",
+  "status": 403,
+  "final": "https://www.ademe.fr/sites/default/files/assets/documents/livre-blanc-consommation-energetique-equipements-informatique-2015.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "183",
+  "nom": "Corser",
+  "cat": "Référence",
+  "url": "https://sustainabledesign.isit-europe.org/",
+  "status": 404,
+  "final": "https://sustainabledesign.isit-europe.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "184",
+  "nom": "Données personnelles",
+  "cat": "Référence",
+  "url": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles"
+ },
+ {
+  "lang": "fr",
+  "id": "185",
+  "nom": "Eco2mix",
+  "cat": "Référence",
+  "url": "https://www.rte-france.com/eco2mix",
+  "status": 200,
+  "final": "https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel"
+ },
+ {
+  "lang": "fr",
+  "id": "186",
+  "nom": "Electricitymap",
+  "cat": "Référence",
+  "url": "https://www.electricitymap.org/map",
+  "status": 200,
+  "final": "https://app.electricitymaps.com/map/live/fifteen_minutes"
+ },
+ {
+  "lang": "fr",
+  "id": "187",
+  "nom": "Energy efficiency across programming languages",
+  "cat": "Référence",
+  "url": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf",
+  "status": 200,
+  "final": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "188",
+  "nom": "Energy languages",
+  "cat": "Référence",
+  "url": "https://github.com/greensoftwarelab/Energy-Languages",
+  "status": 200,
+  "final": "https://github.com/greensoftwarelab/Energy-Languages"
+ },
+ {
+  "lang": "fr",
+  "id": "189",
+  "nom": "Estimation de l’empreinte carbone d’une heure.coeur de calcul",
+  "cat": "Référence",
+  "url": "https://hal.archives-ouvertes.fr/hal-02549565v4",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02549565v4"
+ },
+ {
+  "lang": "fr",
+  "id": "190",
+  "nom": "Etalab",
+  "cat": "Référence",
+  "url": "https://etalab.github.io/algorithmes-publics/guide.html",
+  "status": 200,
+  "final": "https://etalab.github.io/algorithmes-publics/guide.html"
+ },
+ {
+  "lang": "fr",
+  "id": "191",
+  "nom": "Ganr",
+  "cat": "Référence",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/",
+  "status": 200,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/"
+ },
+ {
+  "lang": "fr",
+  "id": "192",
+  "nom": "Google accessibilty on android",
+  "cat": "Référence",
+  "url": "https://support.google.com/accessibility/android/answer/6006564?hl=fr",
+  "status": 404,
+  "final": "https://support.google.com/accessibility/android/answer/6006564?hl=fr"
+ },
+ {
+  "lang": "fr",
+  "id": "193",
+  "nom": "Green it - le matériel de l’immatériel",
+  "cat": "Référence",
+  "url": "https://hal.archives-ouvertes.fr/hal-02492252",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02492252"
+ },
+ {
+  "lang": "fr",
+  "id": "194",
+  "nom": "Green patterns",
+  "cat": "Référence",
+  "url": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf",
+  "status": 404,
+  "final": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "195",
+  "nom": "Gta22 livre blanc mobile",
+  "cat": "Référence",
+  "url": "https://www.accessiweb.org/tl_files/doc_telechargement/gta22/GTA22_LivreBlanc_Mobile_v1.3.pdf",
+  "status": "ERR:gaierror",
+  "final": "https://www.accessiweb.org/tl_files/doc_telechargement/gta22/GTA22_LivreBlanc_Mobile_v1.3.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "196",
+  "nom": "Guide rgpd du développeur",
+  "cat": "Référence",
+  "url": "https://github.com/LINCnil/Guide-RGPD-du-developpeur",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Guide-RGPD-du-developpeur"
+ },
+ {
+  "lang": "fr",
+  "id": "197",
+  "nom": "Interpretable machine learning",
+  "cat": "Référence",
+  "url": "https://christophm.github.io/interpretable-ml-book/",
+  "status": 200,
+  "final": "https://christophm.github.io/interpretable-ml-book/"
+ },
+ {
+  "lang": "fr",
+  "id": "198",
+  "nom": "Les kpi des datacenter",
+  "cat": "Référence",
+  "url": "https://alliancegreenit.org/2017-les-kpi-des-datacenters",
+  "status": 404,
+  "final": "https://alliancegreenit.org/2017-les-kpi-des-datacenters"
+ },
+ {
+  "lang": "fr",
+  "id": "199",
+  "nom": "Manuel d'écriture inclusive",
+  "cat": "Référence",
+  "url": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf",
+  "status": 404,
+  "final": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "200",
+  "nom": "Mobile accessibility",
+  "cat": "Référence",
+  "url": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Mobile_accessibility_checklist",
+  "status": 200,
+  "final": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist"
+ },
+ {
+  "lang": "fr",
+  "id": "201",
+  "nom": "Opquast",
+  "cat": "Référence",
+  "url": "https://checklists.opquast.com/fr/qualiteweb/",
+  "status": 200,
+  "final": "https://checklists.opquast.com/fr/qualite-numerique/"
+ },
+ {
+  "lang": "fr",
+  "id": "202",
+  "nom": "Pidila",
+  "cat": "Référence",
+  "url": "https://pidila.gitlab.io/checklist-pidila/?Référentiel=Éco-conception",
+  "status": "ERR:UnicodeEncodeError",
+  "final": "https://pidila.gitlab.io/checklist-pidila/?Référentiel=Éco-conception"
+ },
+ {
+  "lang": "fr",
+  "id": "203",
+  "nom": "Principes des green software",
+  "cat": "Référence",
+  "url": "https://principles.green/",
+  "status": 200,
+  "final": "https://principles.green/"
+ },
+ {
+  "lang": "fr",
+  "id": "204",
+  "nom": "Référentiel de connaissances pour un numérique éco-responsable",
+  "cat": "Référence",
+  "url": "https://hal.archives-ouvertes.fr/hal-02954188",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02954188"
+ },
+ {
+  "lang": "fr",
+  "id": "205",
+  "nom": "Reset",
+  "cat": "Référence",
+  "url": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf",
+  "status": 200,
+  "final": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "206",
+  "nom": "Rgaa",
+  "cat": "Référence",
+  "url": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/",
+  "status": 200,
+  "final": "https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/"
+ },
+ {
+  "lang": "fr",
+  "id": "207",
+  "nom": "Rgpd by design ",
+  "cat": "Référence",
+  "url": "https://www.cnil.fr/fr/guide-rgpd-du-developpeur",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/guide-rgpd-du-developpeur"
+ },
+ {
+  "lang": "fr",
+  "id": "208",
+  "nom": "Serment d'hippocrate pour data scientist",
+  "cat": "Référence",
+  "url": "https://hippocrate.tech",
+  "status": "ERR:gaierror",
+  "final": "https://hippocrate.tech"
+ },
+ {
+  "lang": "fr",
+  "id": "209",
+  "nom": "Substra foundation",
+  "cat": "Référence",
+  "url": "https://assessment.substra.ai/fr/",
+  "status": "ERR:SSLEOFError",
+  "final": "https://assessment.substra.ai/fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "210",
+  "nom": "Watttime",
+  "cat": "Référence",
+  "url": "https://www.watttime.org/explorer/#4/46.89/1.72",
+  "status": 200,
+  "final": "https://watttime.org/docs-dev/coverage-map/"
+ },
+ {
+  "lang": "fr",
+  "id": "211",
+  "nom": "Wiki nr",
+  "cat": "Référence",
+  "url": "https://wiki.institutnr.org",
+  "status": 200,
+  "final": "https://fr.wiki.isit-europe.org/nr/Accueil"
+ },
+ {
+  "lang": "fr",
+  "id": "212",
+  "nom": "Enviroscore",
+  "cat": "Référence",
+  "url": "https://www.enviroscore.fr/",
+  "status": 200,
+  "final": "https://enviroscore.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "213",
+  "nom": "Code du travail numérique",
+  "cat": "Référence",
+  "url": "https://github.com/SocialGouv/code-du-travail-numerique",
+  "status": 200,
+  "final": "https://github.com/SocialGouv/code-du-travail-numerique"
+ },
+ {
+  "lang": "fr",
+  "id": "214",
+  "nom": "Documents bureautiques accessibles (rgaa)",
+  "cat": "Référence",
+  "url": "https://github.com/DISIC/guides-documents_bureautiques_accessibles",
+  "status": 200,
+  "final": "https://github.com/DISIC/guides-documents_bureautiques_accessibles"
+ },
+ {
+  "lang": "fr",
+  "id": "215",
+  "nom": "Le rgaa pour les intégrateurs",
+  "cat": "Référence",
+  "url": "https://github.com/DISIC/guide-integrateur",
+  "status": 200,
+  "final": "https://github.com/DISIC/guide-integrateur"
+ },
+ {
+  "lang": "fr",
+  "id": "216",
+  "nom": "Blockchain carbon accounting",
+  "cat": "Référence",
+  "url": "https://github.com/opentaps/blockchain-carbon-accounting",
+  "status": 200,
+  "final": "https://github.com/opentaps/blockchain-carbon-accounting"
+ },
+ {
+  "lang": "fr",
+  "id": "217",
+  "nom": "Green-ai",
+  "cat": "Référence",
+  "url": "https://github.com/daviddao/green-ai",
+  "status": 200,
+  "final": "https://github.com/daviddao/green-ai"
+ },
+ {
+  "lang": "fr",
+  "id": "218",
+  "nom": "Fiches pratiques nr",
+  "cat": "Référence",
+  "url": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/"
+ },
+ {
+  "lang": "fr",
+  "id": "219",
+  "nom": "Ethics guidelines for trustworthy ai",
+  "cat": "Référence",
+  "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+  "status": 200,
+  "final": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+ },
+ {
+  "lang": "fr",
+  "id": "220",
+  "nom": "Denton declaration",
+  "cat": "Référence",
+  "url": "https://openaccess.unt.edu/denton-declaration",
+  "status": 200,
+  "final": "https://openaccess.unt.edu/denton-declaration"
+ },
+ {
+  "lang": "fr",
+  "id": "221",
+  "nom": "The turing way",
+  "cat": "Référence",
+  "url": "https://github.com/alan-turing-institute/the-turing-way",
+  "status": 200,
+  "final": "https://github.com/the-turing-way/the-turing-way"
+ },
+ {
+  "lang": "fr",
+  "id": "222",
+  "nom": "Open sustainable technology",
+  "cat": "Référence",
+  "url": "https://opensustain.tech",
+  "status": 200,
+  "final": "https://opensustain.tech"
+ },
+ {
+  "lang": "fr",
+  "id": "223",
+  "nom": "Referentiel de données boavizta",
+  "cat": "Référence",
+  "url": "https://github.com/Boavizta/environmental-footprint-data",
+  "status": 200,
+  "final": "https://github.com/Boavizta/environmental-footprint-data"
+ },
+ {
+  "lang": "fr",
+  "id": "224",
+  "nom": "Mesures green it switzerland ",
+  "cat": "Référence",
+  "url": "https://greenit-switzerland.ch/app/mc-general/de/catalogue-de-mesures?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/catalogue-de-mesures/?lang=fr"
+ },
+ {
+  "lang": "fr",
+  "id": "225",
+  "nom": "Air.e lca",
+  "cat": "Stratégie",
+  "url": "https://www.solidforest.com/",
+  "status": 200,
+  "final": "https://www.solidforest.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "226",
+  "nom": "Carbonefootprint",
+  "cat": "Stratégie",
+  "url": "https://www.carbonfootprint.com/",
+  "status": 200,
+  "final": "https://www.carbonfootprint.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "227",
+  "nom": "Climatomètre",
+  "cat": "Stratégie",
+  "url": "https://climatometre.bpifrance.fr/#/home",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://climatometre.bpifrance.fr/#/home"
+ },
+ {
+  "lang": "fr",
+  "id": "228",
+  "nom": "Diagrse",
+  "cat": "Stratégie",
+  "url": "https://diagrse.goodwill-management.com",
+  "status": 403,
+  "final": "https://diagrse.goodwill-management.com"
+ },
+ {
+  "lang": "fr",
+  "id": "229",
+  "nom": "Earthsmart",
+  "cat": "Stratégie",
+  "url": "https://www.earthshiftglobal.com/software/earthsmart-lca-software",
+  "status": 404,
+  "final": "https://www.earthshiftglobal.com/software/earthsmart-lca-software"
+ },
+ {
+  "lang": "fr",
+  "id": "230",
+  "nom": "Eime",
+  "cat": "Stratégie",
+  "url": "https://codde.fr/nos-logiciels/presentation-eime",
+  "status": 404,
+  "final": "https://codde.fr/nos-logiciels/presentation-eime"
+ },
+ {
+  "lang": "fr",
+  "id": "231",
+  "nom": "Fruggr",
+  "cat": "Stratégie",
+  "url": "https://www.fruggr.io/",
+  "status": 200,
+  "final": "https://www.fruggr.io/fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "232",
+  "nom": "Gabi 4",
+  "cat": "Stratégie",
+  "url": "http://www.gabi-software.com/france/index/",
+  "status": "ERR:gaierror",
+  "final": "http://www.gabi-software.com/france/index/"
+ },
+ {
+  "lang": "fr",
+  "id": "233",
+  "nom": "One click lca",
+  "cat": "Stratégie",
+  "url": "https://www.oneclicklca.com/",
+  "status": 200,
+  "final": "https://oneclicklca.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "234",
+  "nom": "Openlca",
+  "cat": "Stratégie",
+  "url": "https://www.openlca.org/",
+  "status": 200,
+  "final": "https://www.openlca.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "235",
+  "nom": "Regis",
+  "cat": "Stratégie",
+  "url": "https://sinum.com/regis",
+  "status": 200,
+  "final": "https://sinum.com/regis"
+ },
+ {
+  "lang": "fr",
+  "id": "236",
+  "nom": "Simapro",
+  "cat": "Stratégie",
+  "url": "https://simapro.com/",
+  "status": 200,
+  "final": "https://simapro.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "237",
+  "nom": "Toovalu",
+  "cat": "Stratégie",
+  "url": "https://www.toovalu.com/",
+  "status": 200,
+  "final": "https://www.toovalu.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "238",
+  "nom": "Umberto lca+",
+  "cat": "Stratégie",
+  "url": "https://www.ifu.com/en/umberto/lca-software/",
+  "status": 200,
+  "final": "https://www.ipoint-systems.com/software/umberto/"
+ },
+ {
+  "lang": "fr",
+  "id": "239",
+  "nom": "Wenr",
+  "cat": "Stratégie",
+  "url": "https://wenr.isit-europe.org/fr/wenr-2021/",
+  "status": 404,
+  "final": "https://wenr.isit-europe.org/fr/wenr-2021/"
+ },
+ {
+  "lang": "fr",
+  "id": "240",
+  "nom": "Egapro",
+  "cat": "Stratégie",
+  "url": "https://github.com/SocialGouv/egapro",
+  "status": 200,
+  "final": "https://github.com/SocialGouv/egapro"
+ },
+ {
+  "lang": "fr",
+  "id": "241",
+  "nom": "Pix",
+  "cat": "Stratégie",
+  "url": "https://github.com/1024pix/pix",
+  "status": 200,
+  "final": "https://github.com/1024pix/pix"
+ },
+ {
+  "lang": "fr",
+  "id": "242",
+  "nom": "Calculatrice bilan carbone octo",
+  "cat": "Stratégie",
+  "url": "https://docs.google.com/spreadsheets/d/1EvHHW-sFHhIIjgoJob-0grLglmfJlSXx/edit#gid=1383163911",
+  "status": "ERR:timeout",
+  "final": "https://docs.google.com/spreadsheets/d/1EvHHW-sFHhIIjgoJob-0grLglmfJlSXx/edit#gid=1383163911"
+ },
+ {
+  "lang": "fr",
+  "id": "243",
+  "nom": "Pia",
+  "cat": "Stratégie",
+  "url": "https://github.com/LINCnil/pia",
+  "status": 200,
+  "final": "https://github.com/LINCnil/pia"
+ },
+ {
+  "lang": "fr",
+  "id": "244",
+  "nom": "Solidarite numérique",
+  "cat": "Stratégie",
+  "url": "https://www.solidarite-numerique.fr/",
+  "status": 200,
+  "final": "https://lesbases.anct.gouv.fr/bases/solidarite-numerique"
+ },
+ {
+  "lang": "fr",
+  "id": "245",
+  "nom": "Les bons clics",
+  "cat": "Stratégie",
+  "url": "https://www.lesbonsclics.fr/fr/",
+  "status": 200,
+  "final": "https://www.lesbonsclics.fr/fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "246",
+  "nom": "Mixity",
+  "cat": "Stratégie",
+  "url": "https://www.mixity.co/",
+  "status": 403,
+  "final": "https://www.mixity.co/"
+ },
+ {
+  "lang": "fr",
+  "id": "247",
+  "nom": "Design system de l'état",
+  "cat": "Transverse",
+  "url": "https://gouvfr.atlassian.net/wiki/spaces/DB/overview",
+  "status": 200,
+  "final": "https://gouvfr.atlassian.net/wiki/spaces/DB/overview"
+ },
+ {
+  "lang": "fr",
+  "id": "248",
+  "nom": "Ecodiag",
+  "cat": "Transverse",
+  "url": "https://ecoinfo.cnrs.fr/ecodiag-calcul/",
+  "status": 200,
+  "final": "https://ecoinfo.cnrs.fr/ecodiag-calcul/"
+ },
+ {
+  "lang": "fr",
+  "id": "249",
+  "nom": "Ecogine",
+  "cat": "Transverse",
+  "url": "https://ecogine.org/",
+  "status": 200,
+  "final": "https://ecogine.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "250",
+  "nom": "Filevert",
+  "cat": "Transverse",
+  "url": "https://filevert.fr/",
+  "status": 200,
+  "final": "https://filevert.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "251",
+  "nom": "Klip.green",
+  "cat": "Transverse",
+  "url": "https://klip.green/",
+  "status": 200,
+  "final": "https://klip.green/"
+ },
+ {
+  "lang": "fr",
+  "id": "252",
+  "nom": "Greenprint",
+  "cat": "Transverse",
+  "url": "https://www.printgreener.com/",
+  "status": 200,
+  "final": "https://www.printgreener.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "253",
+  "nom": "Kmeet",
+  "cat": "Transverse",
+  "url": "https://kmeet.infomaniak.com/",
+  "status": 200,
+  "final": "https://kmeet.infomaniak.com/"
+ },
+ {
+  "lang": "fr",
+  "id": "254",
+  "nom": "Lean ict materials",
+  "cat": "Transverse",
+  "url": "https://theshiftproject.org/wp-content/uploads/2019/10/Lean-ICT-Materials-Liens-%C3%A0-t%C3%A9l%C3%A9charger-r%C3%A9par%C3%A9-le-29-10-2019.pdf",
+  "status": 200,
+  "final": "https://theshiftproject.org/app/uploads/2025/02/Lean-ICT-Materials-Liens-a-telecharger-repare-le-29-10-2019.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "255",
+  "nom": "Monconvertisseurco2",
+  "cat": "Transverse",
+  "url": "https://monconvertisseurco2.fr/?co2=15",
+  "status": 200,
+  "final": "https://impactco2.fr/outils/comparateur"
+ },
+ {
+  "lang": "fr",
+  "id": "256",
+  "nom": "Myclimatepal",
+  "cat": "Transverse",
+  "url": "https://github.com/mowolf/MyClimatePal",
+  "status": 200,
+  "final": "https://github.com/mowolf/MyClimatePal"
+ },
+ {
+  "lang": "fr",
+  "id": "257",
+  "nom": "Nuts",
+  "cat": "Transverse",
+  "url": "https://nuts.be-ma.fr/calculator.php",
+  "status": 523,
+  "final": "https://nuts.be-ma.fr/calculator.php"
+ },
+ {
+  "lang": "fr",
+  "id": "258",
+  "nom": "Rgs",
+  "cat": "Transverse",
+  "url": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/",
+  "status": 404,
+  "final": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/"
+ },
+ {
+  "lang": "fr",
+  "id": "259",
+  "nom": "Swiss transfert",
+  "cat": "Transverse",
+  "url": "https://www.swisstransfer.com/fr",
+  "status": 200,
+  "final": "https://www.swisstransfer.com/fr"
+ },
+ {
+  "lang": "fr",
+  "id": "260",
+  "nom": "Treebal",
+  "cat": "Transverse",
+  "url": "https://www.treebal.green/",
+  "status": 200,
+  "final": "https://www.treebal.green/"
+ },
+ {
+  "lang": "fr",
+  "id": "261",
+  "nom": "Numerik ea",
+  "cat": "Transverse",
+  "url": "https://www.numerik-ea.fr/",
+  "status": 200,
+  "final": "https://www.numerik-ea.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "262",
+  "nom": "Aptic",
+  "cat": "Transverse",
+  "url": "https://www.aptic.fr/",
+  "status": 403,
+  "final": "https://www.aptic.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "263",
+  "nom": "Presoft",
+  "cat": "Transverse",
+  "url": "http://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf",
+  "status": 200,
+  "final": "https://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "264",
+  "nom": "Software management plans",
+  "cat": "Transverse",
+  "url": "https://zenodo.org/record/2159713#.YT557C8ivZk",
+  "status": 200,
+  "final": "https://zenodo.org/records/2159713"
+ },
+ {
+  "lang": "fr",
+  "id": "265",
+  "nom": "Calculateur gr491",
+  "cat": "Transverse",
+  "url": "https://conformite-nr.specinov.fr/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://conformite-nr.specinov.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "266",
+  "nom": "Boite a outils nr de la dinum",
+  "cat": "Transverse",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/",
+  "status": 200,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/"
+ },
+ {
+  "lang": "fr",
+  "id": "267",
+  "nom": "Co2digitalcalculator",
+  "cat": "Transverse",
+  "url": "https://github.com/julienGONTIER/CO2DigitalDalculator",
+  "status": 200,
+  "final": "https://github.com/julienGONTIER/CO2DigitalDalculator"
+ },
+ {
+  "lang": "fr",
+  "id": "268",
+  "nom": "Calculatrice inr",
+  "cat": "Transverse",
+  "url": "https://institutnr.org/calculatrice/impact-environnemental-numerique-inr.html",
+  "status": 200,
+  "final": "https://myimpact.isit-europe.org/"
+ },
+ {
+  "lang": "fr",
+  "id": "269",
+  "nom": "Dark pattern",
+  "cat": "Ux/Ui",
+  "url": "https://linc.cnil.fr/sites/default/files/atoms/files/190903-topography.pdf",
+  "status": 404,
+  "final": "https://linc.cnil.fr/sites/default/files/atoms/files/190903-topography.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "270",
+  "nom": "Designing for guidance",
+  "cat": "Ux/Ui",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "lang": "fr",
+  "id": "271",
+  "nom": "Données & design",
+  "cat": "Ux/Ui",
+  "url": "https://design.cnil.fr/",
+  "status": 200,
+  "final": "https://design.cnil.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "272",
+  "nom": "Inclusive design toolkit",
+  "cat": "Ux/Ui",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "lang": "fr",
+  "id": "273",
+  "nom": "Le bëurktionnary",
+  "cat": "Ux/Ui",
+  "url": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "274",
+  "nom": "Lisio",
+  "cat": "Ux/Ui",
+  "url": "https://www.lisio.fr/",
+  "status": 200,
+  "final": "https://lisio.fr/"
+ },
+ {
+  "lang": "fr",
+  "id": "275",
+  "nom": "Matrice de captology",
+  "cat": "Ux/Ui",
+  "url": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211",
+  "status": 200,
+  "final": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211"
+ },
+ {
+  "lang": "fr",
+  "id": "276",
+  "nom": "Méthode de diagnostic du design attentionnel",
+  "cat": "Ux/Ui",
+  "url": "https://attention.designersethiques.org/2018-methode-attentionnelle/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://attention.designersethiques.org/2018-methode-attentionnelle/"
+ },
+ {
+  "lang": "fr",
+  "id": "277",
+  "nom": "Planet centric toolkit",
+  "cat": "Ux/Ui",
+  "url": "https://cdn2.hubspot.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf",
+  "status": 200,
+  "final": "https://6362597.fs1.hubspotusercontent-eu1.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf"
+ },
+ {
+  "lang": "fr",
+  "id": "278",
+  "nom": "Sustainable business canvas",
+  "cat": "Ux/Ui",
+  "url": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg",
+  "status": 200,
+  "final": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg"
+ },
+ {
+  "lang": "fr",
+  "id": "279",
+  "nom": "Systemic design methode et toolkit",
+  "cat": "Ux/Ui",
+  "url": "https://www.systemicdesigntoolkit.org/download",
+  "status": 200,
+  "final": "https://www.systemicdesigntoolkit.org/download"
+ },
+ {
+  "lang": "fr",
+  "id": "280",
+  "nom": "The fifties (toolkit)",
+  "cat": "Ux/Ui",
+  "url": "https://www.thefifties.fr/blog/cartes-levier-un-outil-de-design-systemique/",
+  "status": 200,
+  "final": "https://www.thefifties.fr/blog/cartes-levier-un-outil-de-design-systemique/"
+ },
+ {
+  "lang": "fr",
+  "id": "281",
+  "nom": "Tiny png",
+  "cat": "Ux/Ui",
+  "url": "https://www.tinypng.com",
+  "status": 200,
+  "final": "https://tinypng.com/"
+ },
+ {
+  "lang": "en",
+  "id": "1",
+  "nom": "Adelia",
+  "cat": "Back-End",
+  "url": "http://www.adel-label.com/livre-blanc/",
+  "status": "ERR:gaierror",
+  "final": "http://www.adel-label.com/livre-blanc/"
+ },
+ {
+  "lang": "en",
+  "id": "2",
+  "nom": "Adversarial robustness toolbox",
+  "cat": "Back-End",
+  "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
+ },
+ {
+  "lang": "en",
+  "id": "3",
+  "nom": "Aequitas",
+  "cat": "Back-End",
+  "url": "http://www.datasciencepublicpolicy.org/projects/aequitas/",
+  "status": 200,
+  "final": "https://datasciencepublicpolicy.org/our-work/tools-guides/aequitas/"
+ },
+ {
+  "lang": "en",
+  "id": "4",
+  "nom": "Agaro",
+  "cat": "Back-End",
+  "url": "https://aguaro.io/fr",
+  "status": 200,
+  "final": "https://www.aguaro.io/fr/"
+ },
+ {
+  "lang": "en",
+  "id": "5",
+  "nom": "Ai fairness 360 (aif360)",
+  "cat": "Back-End",
+  "url": "https://github.com/Trusted-AI/AIF360",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/AIF360"
+ },
+ {
+  "lang": "en",
+  "id": "6",
+  "nom": "Avolin",
+  "cat": "Back-End",
+  "url": "https://www.avolin.com/products/it-management-cloud-solutions/verdiem/",
+  "status": 200,
+  "final": "https://ignitetech.ai:443/software-library/verdiem/"
+ },
+ {
+  "lang": "en",
+  "id": "7",
+  "nom": "Cottage",
+  "cat": "Back-End",
+  "url": "https://github.com/LINCnil/Cabanon",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Cabanon"
+ },
+ {
+  "lang": "en",
+  "id": "8",
+  "nom": "Carbon emissions tracker",
+  "cat": "Back-End",
+  "url": "https://github.com/yang573/carbon-footprint",
+  "status": 200,
+  "final": "https://github.com/yang573/carbon-footprint"
+ },
+ {
+  "lang": "en",
+  "id": "9",
+  "nom": "Carbontracker",
+  "cat": "Back-End",
+  "url": "https://github.com/lfwa/carbontracker",
+  "status": 200,
+  "final": "https://github.com/saintslab/carbontracker"
+ },
+ {
+  "lang": "en",
+  "id": "10",
+  "nom": "Code carbon",
+  "cat": "Back-End",
+  "url": "https://github.com/mlco2/codecarbon",
+  "status": 200,
+  "final": "https://github.com/mlco2/codecarbon"
+ },
+ {
+  "lang": "en",
+  "id": "11",
+  "nom": "Cookieviz",
+  "cat": "Back-End",
+  "url": "https://linc.cnil.fr/fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation",
+  "status": 200,
+  "final": "https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation"
+ },
+ {
+  "lang": "en",
+  "id": "12",
+  "nom": "Cpu energy meter",
+  "cat": "Back-End",
+  "url": "https://github.com/sosy-lab/cpu-energy-meter",
+  "status": 200,
+  "final": "https://github.com/sosy-lab/cpu-energy-meter"
+ },
+ {
+  "lang": "en",
+  "id": "13",
+  "nom": "Data science ethics checklist",
+  "cat": "Back-End",
+  "url": "https://deon.drivendata.org/#data-science-ethics-checklist",
+  "status": 200,
+  "final": "https://deon.drivendata.org/#data-science-ethics-checklist"
+ },
+ {
+  "lang": "en",
+  "id": "14",
+  "nom": "Send",
+  "cat": "Back-End",
+  "url": "https://github.com/openeemeter/eemeter",
+  "status": 200,
+  "final": "https://github.com/opendsm/opendsm"
+ },
+ {
+  "lang": "en",
+  "id": "15",
+  "nom": "Energy meter logger",
+  "cat": "Back-End",
+  "url": "https://github.com/samuelphy/energy-meter-logger",
+  "status": 200,
+  "final": "https://github.com/samuelphy/energy-meter-logger"
+ },
+ {
+  "lang": "en",
+  "id": "16",
+  "nom": "Energybox",
+  "cat": "Back-End",
+  "url": "https://github.com/rtslab/EnergyBox",
+  "status": 200,
+  "final": "https://github.com/rtslab/EnergyBox"
+ },
+ {
+  "lang": "en",
+  "id": "17",
+  "nom": "Energy usage",
+  "cat": "Back-End",
+  "url": "https://github.com/responsibleproblemsolving/energy-usage",
+  "status": 200,
+  "final": "https://github.com/responsibleproblemsolving/energy-usage"
+ },
+ {
+  "lang": "en",
+  "id": "18",
+  "nom": "Ethical os toolkit",
+  "cat": "Back-End",
+  "url": "https://ethicalos.org",
+  "status": 200,
+  "final": "https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/"
+ },
+ {
+  "lang": "en",
+  "id": "19",
+  "nom": "Ethics & algorithms toolkit",
+  "cat": "Back-End",
+  "url": "http://ethicstoolkit.ai",
+  "status": 200,
+  "final": "http://ethicstoolkit.ai"
+ },
+ {
+  "lang": "en",
+  "id": "20",
+  "nom": "Experiment-impact-tracker",
+  "cat": "Back-End",
+  "url": "https://github.com/Breakend/experiment-impact-tracker",
+  "status": 200,
+  "final": "https://github.com/Breakend/experiment-impact-tracker"
+ },
+ {
+  "lang": "en",
+  "id": "21",
+  "nom": "Green algorithms",
+  "cat": "Back-End",
+  "url": "http://www.green-algorithms.org/",
+  "status": 200,
+  "final": "http://www.green-algorithms.org/"
+ },
+ {
+  "lang": "en",
+  "id": "22",
+  "nom": "Intel power gadget",
+  "cat": "Back-End",
+  "url": "https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html",
+  "status": 403,
+  "final": "https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html"
+ },
+ {
+  "lang": "en",
+  "id": "23",
+  "nom": "Joulemeter",
+  "cat": "Back-End",
+  "url": "https://joulemeter.fr.uptodown.com/windows",
+  "status": 200,
+  "final": "https://joulemeter.fr.uptodown.com/windows"
+ },
+ {
+  "lang": "en",
+  "id": "24",
+  "nom": "Deda (data ethics decision aid)",
+  "cat": "Back-End",
+  "url": "https://dataschool.nl/deda/",
+  "status": 200,
+  "final": "https://dataschool.nl/tools/deda/"
+ },
+ {
+  "lang": "en",
+  "id": "25",
+  "nom": "Linux extended bpf",
+  "cat": "Back-End",
+  "url": "http://www.brendangregg.com/ebpf.html",
+  "status": 200,
+  "final": "https://www.brendangregg.com/ebpf.html"
+ },
+ {
+  "lang": "en",
+  "id": "26",
+  "nom": "Ml co2 impact",
+  "cat": "Back-End",
+  "url": "https://mlco2.github.io/impact/",
+  "status": 200,
+  "final": "https://mlco2.github.io/impact/"
+ },
+ {
+  "lang": "en",
+  "id": "27",
+  "nom": "Mlco2",
+  "cat": "Back-End",
+  "url": "https://mlco2.github.io/impact/#compute",
+  "status": 200,
+  "final": "https://mlco2.github.io/impact/#compute"
+ },
+ {
+  "lang": "en",
+  "id": "28",
+  "nom": "Petra",
+  "cat": "Back-End",
+  "url": "https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233",
+  "status": 202,
+  "final": "https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233"
+ },
+ {
+  "lang": "en",
+  "id": "29",
+  "nom": "Power meter",
+  "cat": "Back-End",
+  "url": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master",
+  "status": 200,
+  "final": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master"
+ },
+ {
+  "lang": "en",
+  "id": "30",
+  "nom": "Powerapi",
+  "cat": "Back-End",
+  "url": "https://github.com/powerapi-ng/powerapi",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/powerapi"
+ },
+ {
+  "lang": "en",
+  "id": "31",
+  "nom": "Powertop",
+  "cat": "Back-End",
+  "url": "https://github.com/fenrus75/powertop",
+  "status": 200,
+  "final": "https://github.com/fenrus75/powertop"
+ },
+ {
+  "lang": "en",
+  "id": "32",
+  "nom": "Ptopw",
+  "cat": "Back-End",
+  "url": "https://github.com/hch-im/ptopw",
+  "status": 200,
+  "final": "https://github.com/hch-im/ptopw"
+ },
+ {
+  "lang": "en",
+  "id": "33",
+  "nom": "Diving suit",
+  "cat": "Back-End",
+  "url": "https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/",
+  "status": 200,
+  "final": "https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/"
+ },
+ {
+  "lang": "en",
+  "id": "34",
+  "nom": "Tfjs-models",
+  "cat": "Back-End",
+  "url": "https://github.com/tensorflow/tfjs-models",
+  "status": 200,
+  "final": "https://github.com/tensorflow/tfjs-models"
+ },
+ {
+  "lang": "en",
+  "id": "35",
+  "nom": "Transalgo",
+  "cat": "Back-End",
+  "url": "https://www.transalgo.org/",
+  "status": "ERR:gaierror",
+  "final": "https://www.transalgo.org/"
+ },
+ {
+  "lang": "en",
+  "id": "36",
+  "nom": "Cloud carbon footprint",
+  "cat": "Back-End",
+  "url": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint",
+  "status": 200,
+  "final": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint"
+ },
+ {
+  "lang": "en",
+  "id": "37",
+  "nom": "Cloud jewels",
+  "cat": "Back-End",
+  "url": "https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/",
+  "status": 403,
+  "final": "https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/"
+ },
+ {
+  "lang": "en",
+  "id": "38",
+  "nom": "Globaldcanalysis: global data center energy analysis model",
+  "cat": "Back-End",
+  "url": "https://github.com/emasanet/GlobalDCAnalysis",
+  "status": 200,
+  "final": "https://github.com/emasanet/GlobalDCAnalysis"
+ },
+ {
+  "lang": "en",
+  "id": "39",
+  "nom": "Cloud foundry footprint",
+  "cat": "Back-End",
+  "url": "https://github.com/P-Ehlert/cloudfoundry_footprint",
+  "status": 200,
+  "final": "https://github.com/P-Ehlert/cloudfoundry_footprint"
+ },
+ {
+  "lang": "en",
+  "id": "40",
+  "nom": "Pyjoules",
+  "cat": "Back-End",
+  "url": "https://github.com/powerapi-ng/pyJoules",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/pyJoules"
+ },
+ {
+  "lang": "en",
+  "id": "41",
+  "nom": "Likwid",
+  "cat": "Back-End",
+  "url": "https://github.com/RRZE-HPC/likwid",
+  "status": 200,
+  "final": "https://github.com/RRZE-HPC/likwid"
+ },
+ {
+  "lang": "en",
+  "id": "42",
+  "nom": "Powersim",
+  "cat": "Back-End",
+  "url": "http://powersim.sourceforge.net",
+  "status": 403,
+  "final": "http://powersim.sourceforge.net"
+ },
+ {
+  "lang": "en",
+  "id": "43",
+  "nom": "Ethereum-nft-activity",
+  "cat": "Back-End",
+  "url": "https://github.com/kylemcdonald/ethereum-nft-activity",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-nft-activity"
+ },
+ {
+  "lang": "en",
+  "id": "44",
+  "nom": "Ethereum energy consumption",
+  "cat": "Back-End",
+  "url": "https://github.com/kylemcdonald/ethereum-energy",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-emissions"
+ },
+ {
+  "lang": "en",
+  "id": "45",
+  "nom": "Data co2 calculator v4",
+  "cat": "Back-End",
+  "url": "https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx",
+  "status": 200,
+  "final": "https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx"
+ },
+ {
+  "lang": "en",
+  "id": "46",
+  "nom": "Pop",
+  "cat": "Back-End",
+  "url": "https://pop-coe.eu/partners/tools",
+  "status": 200,
+  "final": "https://pop-coe.eu/partners/tools"
+ },
+ {
+  "lang": "en",
+  "id": "47",
+  "nom": "Inclusive",
+  "cat": "Contents",
+  "url": "https://eninclusif.fr/",
+  "status": 200,
+  "final": "https://eninclusif.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "48",
+  "nom": "Video optimizer",
+  "cat": "Contents",
+  "url": "https://github.com/attdevsupport/VideoOptimzer",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/VideoOptimizer"
+ },
+ {
+  "lang": "en",
+  "id": "49",
+  "nom": "Click connect",
+  "cat": "Contents",
+  "url": "https://www.clic-connect.fr/",
+  "status": 200,
+  "final": "https://www.clic-connect.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "50",
+  "nom": "Opidor",
+  "cat": "Contents",
+  "url": "https://dmp.opidor.fr",
+  "status": 200,
+  "final": "https://dmp.opidor.fr"
+ },
+ {
+  "lang": "en",
+  "id": "51",
+  "nom": "Arneo",
+  "cat": "Front-End",
+  "url": "https://ecoconception.arneogroup.com/",
+  "status": 200,
+  "final": "https://arneo.io/fr/ecoconception-allier-performance-frugalite"
+ },
+ {
+  "lang": "en",
+  "id": "52",
+  "nom": "Aro",
+  "cat": "Front-End",
+  "url": "https://github.com/attdevsupport/ARO",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/ARO"
+ },
+ {
+  "lang": "en",
+  "id": "53",
+  "nom": "Rgaa audit",
+  "cat": "Front-End",
+  "url": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/kit/#contenu",
+  "status": 404,
+  "final": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/kit/#contenu"
+ },
+ {
+  "lang": "en",
+  "id": "54",
+  "nom": "Axis",
+  "cat": "Front-End",
+  "url": "https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd",
+  "status": 200,
+  "final": "https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?ucbcb=1"
+ },
+ {
+  "lang": "en",
+  "id": "55",
+  "nom": "Checkmycolor",
+  "cat": "Front-End",
+  "url": "https://www.checkmycolours.com/",
+  "status": 403,
+  "final": "https://www.checkmycolours.com/"
+ },
+ {
+  "lang": "en",
+  "id": "56",
+  "nom": "Coldcms",
+  "cat": "Front-End",
+  "url": "https://gitlab.com/hashbangfr/coldcms",
+  "status": 200,
+  "final": "https://gitlab.com/hashbangfr/coldcms"
+ },
+ {
+  "lang": "en",
+  "id": "57",
+  "nom": "Color safe",
+  "cat": "Front-End",
+  "url": "http://colorsafe.co/",
+  "status": 200,
+  "final": "http://colorsafe.co/"
+ },
+ {
+  "lang": "en",
+  "id": "58",
+  "nom": "Color contrast analyzer (cca)",
+  "cat": "Front-End",
+  "url": "https://www.tpgi.com/color-contrast-checker/",
+  "status": 200,
+  "final": "https://vispero.com/lp/color-contrast-checker/"
+ },
+ {
+  "lang": "en",
+  "id": "59",
+  "nom": "Contrastradio",
+  "cat": "Front-End",
+  "url": "https://contrast-ratio.com/",
+  "status": 200,
+  "final": "https://www.siegemedia.com/contrast-ratio"
+ },
+ {
+  "lang": "en",
+  "id": "60",
+  "nom": "Dareboost",
+  "cat": "Front-End",
+  "url": "https://www.dareboost.com",
+  "status": 200,
+  "final": "https://www.dareboost.com/en"
+ },
+ {
+  "lang": "en",
+  "id": "61",
+  "nom": "Darkpatterns",
+  "cat": "Front-End",
+  "url": "https://www.darkpatterns.org/index.html",
+  "status": 404,
+  "final": "https://www.darkpatterns.org/index.html"
+ },
+ {
+  "lang": "en",
+  "id": "62",
+  "nom": "Eco meter",
+  "cat": "Front-End",
+  "url": "http://www.ecometer.org/",
+  "status": 200,
+  "final": "https://www.thulatula.com/"
+ },
+ {
+  "lang": "en",
+  "id": "63",
+  "nom": "Ecocode",
+  "cat": "Front-End",
+  "url": "https://www.ecocode.io/",
+  "status": 200,
+  "final": "https://ecocode.io/"
+ },
+ {
+  "lang": "en",
+  "id": "64",
+  "nom": "Ecograding",
+  "cat": "Front-End",
+  "url": "https://ecograder.com/",
+  "status": 200,
+  "final": "https://ecograder.com/"
+ },
+ {
+  "lang": "en",
+  "id": "65",
+  "nom": "Ecoindex",
+  "cat": "Front-End",
+  "url": "http://www.ecoindex.fr/",
+  "status": 200,
+  "final": "https://www.ecoindex.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "66",
+  "nom": "Ecometer",
+  "cat": "Front-End",
+  "url": "http://ecometer.org/",
+  "status": 200,
+  "final": "https://www.thulatula.com/"
+ },
+ {
+  "lang": "en",
+  "id": "67",
+  "nom": "Carbon footprint web page",
+  "cat": "Front-End",
+  "url": "https://www.websitecarbon.com/badge/",
+  "status": 200,
+  "final": "https://www.websitecarbon.com/badge/"
+ },
+ {
+  "lang": "en",
+  "id": "68",
+  "nom": "Energy profiler",
+  "cat": "Front-End",
+  "url": "https://developer.android.com/studio/profile/energy-profiler",
+  "status": 302,
+  "final": "https://developer.android.com/studio/profile/energy-profiler"
+ },
+ {
+  "lang": "en",
+  "id": "69",
+  "nom": "Energy smells for android",
+  "cat": "Front-End",
+  "url": "http://olegoaer.perso.univ-pau.fr/android-energy-smells/",
+  "status": 200,
+  "final": "https://olegoaer.perso.univ-pau.fr/android-energy-smells/"
+ },
+ {
+  "lang": "en",
+  "id": "70",
+  "nom": "Google amp",
+  "cat": "Front-End",
+  "url": "https://search.google.com/test/amp?hl=fr#",
+  "status": 200,
+  "final": "https://search.google.com/test/amp?hl=fr"
+ },
+ {
+  "lang": "en",
+  "id": "71",
+  "nom": "Google richtxt",
+  "cat": "Front-End",
+  "url": "https://search.google.com/test/rich-results",
+  "status": 200,
+  "final": "https://search.google.com/test/rich-results"
+ },
+ {
+  "lang": "en",
+  "id": "72",
+  "nom": "Green web foundation",
+  "cat": "Front-End",
+  "url": "https://www.thegreenwebfoundation.org/",
+  "status": 200,
+  "final": "https://www.thegreenwebfoundation.org/"
+ },
+ {
+  "lang": "en",
+  "id": "73",
+  "nom": "Greenframe",
+  "cat": "Front-End",
+  "url": "https://greenframe.io/",
+  "status": 200,
+  "final": "https://greenframe.io/"
+ },
+ {
+  "lang": "en",
+  "id": "74",
+  "nom": "Greenspector",
+  "cat": "Front-End",
+  "url": "https://mobile-efficiency-index.com/en/",
+  "status": "ERR:OSError:[Errno 51] Network is unreachable",
+  "final": "https://mobile-efficiency-index.com/en/"
+ },
+ {
+  "lang": "en",
+  "id": "75",
+  "nom": "Gt metrix",
+  "cat": "Front-End",
+  "url": "https://gtmetrix.com/",
+  "status": 200,
+  "final": "https://gtmetrix.com/"
+ },
+ {
+  "lang": "en",
+  "id": "76",
+  "nom": "Https everywhere",
+  "cat": "Front-End",
+  "url": "https://www.eff.org/https-everywhere",
+  "status": 200,
+  "final": "https://www.eff.org/https-everywhere"
+ },
+ {
+  "lang": "en",
+  "id": "77",
+  "nom": "Ionos",
+  "cat": "Front-End",
+  "url": "https://www.ionos.fr/tools/analyse-site-web",
+  "status": 200,
+  "final": "https://www.ionos.fr/tools/analyse-site-web"
+ },
+ {
+  "lang": "en",
+  "id": "78",
+  "nom": "Learn accessibility",
+  "cat": "Front-End",
+  "url": "https://www.learn-accessibility.org/index.html",
+  "status": 200,
+  "final": "https://www.learn-accessibility.org/index.html"
+ },
+ {
+  "lang": "en",
+  "id": "79",
+  "nom": "Low web",
+  "cat": "Front-End",
+  "url": "https://github.com/lowwebtech/low-web-extension",
+  "status": 200,
+  "final": "https://github.com/vicocotea/low-web-extension"
+ },
+ {
+  "lang": "en",
+  "id": "80",
+  "nom": "Node.js ecoindex",
+  "cat": "Front-End",
+  "url": "https://github.com/cyve/ecoindex_node",
+  "status": 200,
+  "final": "https://github.com/cyve/ecoindex_node"
+ },
+ {
+  "lang": "en",
+  "id": "81",
+  "nom": "One click accessibility",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/pojo-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/pojo-accessibility/"
+ },
+ {
+  "lang": "en",
+  "id": "82",
+  "nom": "Speed insights page",
+  "cat": "Front-End",
+  "url": "https://developers.google.com/speed/pagespeed/insights/",
+  "status": 200,
+  "final": "https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect"
+ },
+ {
+  "lang": "en",
+  "id": "83",
+  "nom": "Pingdom",
+  "cat": "Front-End",
+  "url": "https://tools.pingdom.com/",
+  "status": 200,
+  "final": "https://tools.pingdom.com/"
+ },
+ {
+  "lang": "en",
+  "id": "84",
+  "nom": "Privacy bager",
+  "cat": "Front-End",
+  "url": "https://privacybadger.org/",
+  "status": 200,
+  "final": "https://privacybadger.org/"
+ },
+ {
+  "lang": "en",
+  "id": "85",
+  "nom": "Qualscan",
+  "cat": "Front-End",
+  "url": "https://www.npmjs.com/package/qualscan",
+  "status": 403,
+  "final": "https://www.npmjs.com/package/qualscan"
+ },
+ {
+  "lang": "en",
+  "id": "86",
+  "nom": "Ecoindex simulator",
+  "cat": "Front-End",
+  "url": "https://rachelwe.github.io/Simulateur-ecoindex/",
+  "status": 200,
+  "final": "https://rachelwe.github.io/Simulateur-ecoindex/"
+ },
+ {
+  "lang": "en",
+  "id": "87",
+  "nom": "Susty",
+  "cat": "Front-End",
+  "url": "https://github.com/jacklenox/susty",
+  "status": 200,
+  "final": "https://github.com/jacklenox/susty"
+ },
+ {
+  "lang": "en",
+  "id": "88",
+  "nom": "Test my site",
+  "cat": "Front-End",
+  "url": "https://www.thinkwithgoogle.com/feature/testmysite/",
+  "status": 200,
+  "final": "https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/?ucbcb=1"
+ },
+ {
+  "lang": "en",
+  "id": "89",
+  "nom": "Ublock origin",
+  "cat": "Front-End",
+  "url": "https://ublockorigin.com/fr",
+  "status": 200,
+  "final": "https://ublockorigin.com/fr"
+ },
+ {
+  "lang": "en",
+  "id": "90",
+  "nom": "Uptrends",
+  "cat": "Front-End",
+  "url": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web",
+  "status": 200,
+  "final": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web"
+ },
+ {
+  "lang": "en",
+  "id": "91",
+  "nom": "Wave webaim",
+  "cat": "Front-End",
+  "url": "https://wave.webaim.org/",
+  "status": 200,
+  "final": "https://wave.webaim.org/"
+ },
+ {
+  "lang": "en",
+  "id": "92",
+  "nom": "Web page test",
+  "cat": "Front-End",
+  "url": "https://www.webpagetest.org/",
+  "status": 403,
+  "final": "https://www.webpagetest.org/"
+ },
+ {
+  "lang": "en",
+  "id": "93",
+  "nom": "Webaccessibility",
+  "cat": "Front-End",
+  "url": "https://www.webaccessibility.com/tools/",
+  "status": 200,
+  "final": "https://www.webaccessibility.com/tools/"
+ },
+ {
+  "lang": "en",
+  "id": "94",
+  "nom": "Wp accessibility",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility/"
+ },
+ {
+  "lang": "en",
+  "id": "95",
+  "nom": "Wah",
+  "cat": "Front-End",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility-helper/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility-helper/"
+ },
+ {
+  "lang": "en",
+  "id": "96",
+  "nom": "Greenit-analysis",
+  "cat": "Front-End",
+  "url": "https://github.com/cnumr/GreenIT-Analysis",
+  "status": 200,
+  "final": "https://github.com/cnumr/GreenIT-Analysis"
+ },
+ {
+  "lang": "en",
+  "id": "97",
+  "nom": "Device co2 calculator v4",
+  "cat": "Front-End",
+  "url": "https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx#",
+  "status": 200,
+  "final": "https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx"
+ },
+ {
+  "lang": "en",
+  "id": "98",
+  "nom": "Front-end",
+  "cat": "Front-End",
+  "url": "https://design.numerique.gouv.fr/outils/",
+  "status": 200,
+  "final": "https://design.numerique.gouv.fr/outils/"
+ },
+ {
+  "lang": "en",
+  "id": "99",
+  "nom": "Tanaguru",
+  "cat": "Front-End",
+  "url": "https://www.tanaguru.com/",
+  "status": 200,
+  "final": "https://www.tanaguru.com/"
+ },
+ {
+  "lang": "en",
+  "id": "100",
+  "nom": "42u",
+  "cat": "Hosting",
+  "url": "https://www.42u.com/measuring-datacenter-performance.htm",
+  "status": 200,
+  "final": "https://www.42u.com/measuring-datacenter-performance.htm"
+ },
+ {
+  "lang": "en",
+  "id": "101",
+  "nom": "Amazon codeguru",
+  "cat": "Hosting",
+  "url": "https://aws.amazon.com/fr/codeguru/",
+  "status": 200,
+  "final": "https://aws.amazon.com/codeguru/profiler/"
+ },
+ {
+  "lang": "en",
+  "id": "102",
+  "nom": "Argos",
+  "cat": "Hosting",
+  "url": "https://github.com/marmelab/argos",
+  "status": 200,
+  "final": "https://github.com/marmelab/argos"
+ },
+ {
+  "lang": "en",
+  "id": "103",
+  "nom": "Cleer",
+  "cat": "Hosting",
+  "url": "http://cleermodel.lbl.gov/",
+  "status": 503,
+  "final": "http://cleermodel.lbl.gov/"
+ },
+ {
+  "lang": "en",
+  "id": "104",
+  "nom": "Green cost explorer",
+  "cat": "Hosting",
+  "url": "https://github.com/thegreenwebfoundation/green-cost-explorer",
+  "status": 200,
+  "final": "https://github.com/thegreenwebfoundation/green-cost-explorer"
+ },
+ {
+  "lang": "en",
+  "id": "105",
+  "nom": "Greenframe",
+  "cat": "Hosting",
+  "url": "https://greenframe.io",
+  "status": 200,
+  "final": "https://greenframe.io"
+ },
+ {
+  "lang": "en",
+  "id": "106",
+  "nom": "The ice",
+  "cat": "Hosting",
+  "url": "https://www.labanqui.se",
+  "status": 200,
+  "final": "https://www.labanqui.se"
+ },
+ {
+  "lang": "en",
+  "id": "107",
+  "nom": "Lowtus",
+  "cat": "Hosting",
+  "url": "https://lowtus.fr/",
+  "status": 200,
+  "final": "https://lowtus.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "108",
+  "nom": "Microsoft sustainability calculator",
+  "cat": "Hosting",
+  "url": "https://www.microsoft.com/en-us/sustainability/sustainability-guide/sustainability-calculator?activetab=pivot_1:primaryr2",
+  "status": 200,
+  "final": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability"
+ },
+ {
+  "lang": "en",
+  "id": "109",
+  "nom": "Rtlamr",
+  "cat": "IoT",
+  "url": "https://github.com/bemasher/rtlamr",
+  "status": 200,
+  "final": "https://github.com/bemasher/rtlamr"
+ },
+ {
+  "lang": "en",
+  "id": "110",
+  "nom": "Sustainable it academy",
+  "cat": "MOOC",
+  "url": "https://www.academie-nr.org/",
+  "status": 200,
+  "final": "https://www.academie-nr.org/"
+ },
+ {
+  "lang": "en",
+  "id": "111",
+  "nom": "Act for sustainable digital",
+  "cat": "MOOC",
+  "url": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/",
+  "status": 200,
+  "final": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/"
+ },
+ {
+  "lang": "en",
+  "id": "112",
+  "nom": "Apply the principles of green it",
+  "cat": "MOOC",
+  "url": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise",
+  "status": 200,
+  "final": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise"
+ },
+ {
+  "lang": "en",
+  "id": "113",
+  "nom": "Causes and challenges of climate change",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/"
+ },
+ {
+  "lang": "en",
+  "id": "114",
+  "nom": "Sustainable development: challenges and trajectories",
+  "cat": "MOOC",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires"
+ },
+ {
+  "lang": "en",
+  "id": "115",
+  "nom": "Socially sustainable development",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/"
+ },
+ {
+  "lang": "en",
+  "id": "116",
+  "nom": "E-pathway energy and ecological transition",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/",
+  "status": 404,
+  "final": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/"
+ },
+ {
+  "lang": "en",
+  "id": "117",
+  "nom": "Eco-design tomorrow",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/"
+ },
+ {
+  "lang": "en",
+  "id": "118",
+  "nom": "Eco-design your products and services",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/"
+ },
+ {
+  "lang": "en",
+  "id": "119",
+  "nom": "Political ecology: challenge of sustainability for democracies",
+  "cat": "MOOC",
+  "url": "https://fr.coursera.org/learn/ecologie-politique",
+  "status": 200,
+  "final": "https://www.coursera.org/learn/ecologie-politique"
+ },
+ {
+  "lang": "en",
+  "id": "120",
+  "nom": "Digital impacts",
+  "cat": "MOOC",
+  "url": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html",
+  "status": 200,
+  "final": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html"
+ },
+ {
+  "lang": "en",
+  "id": "121",
+  "nom": "Ecological engineering",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/"
+ },
+ {
+  "lang": "en",
+  "id": "122",
+  "nom": "The gdpr workshop",
+  "cat": "MOOC",
+  "url": "https://www.cnil.fr/fr/la-cnil-lance-sa-formation-en-ligne-sur-le-rgpd-ouverte-tous",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/comprendre-le-rgpd/le-mooc-de-la-cnil"
+ },
+ {
+  "lang": "en",
+  "id": "123",
+  "nom": "The sdgs are not complicated",
+  "cat": "MOOC",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/"
+ },
+ {
+  "lang": "en",
+  "id": "124",
+  "nom": "Responsible management",
+  "cat": "MOOC",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable"
+ },
+ {
+  "lang": "en",
+  "id": "125",
+  "nom": "Master class green it",
+  "cat": "MOOC",
+  "url": "https://careers.societegenerale.com/green-it-program",
+  "status": 200,
+  "final": "https://careers.societegenerale.com/green-it-program"
+ },
+ {
+  "lang": "en",
+  "id": "126",
+  "nom": "Sustainable development goals",
+  "cat": "MOOC",
+  "url": "https://www.my-mooc.com/fr/mooc/objectifs-de-developpement-durable/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/objectifs-de-developpement-durable/"
+ },
+ {
+  "lang": "en",
+  "id": "127",
+  "nom": "Principles of sustainable software engineering",
+  "cat": "MOOC",
+  "url": "https://docs.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/",
+  "status": 200,
+  "final": "https://learn.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/"
+ },
+ {
+  "lang": "en",
+  "id": "128",
+  "nom": "W3c web accessibility",
+  "cat": "MOOC",
+  "url": "https://www.edx.org/course/web-accessibility-introduction",
+  "status": 200,
+  "final": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility"
+ },
+ {
+  "lang": "en",
+  "id": "129",
+  "nom": "Accessibility",
+  "cat": "MOOC",
+  "url": "https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/",
+  "status": 200,
+  "final": "https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/"
+ },
+ {
+  "lang": "en",
+  "id": "130",
+  "nom": "Data privacy",
+  "cat": "MOOC",
+  "url": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/",
+  "status": 200,
+  "final": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/"
+ },
+ {
+  "lang": "en",
+  "id": "131",
+  "nom": "Grande ecole du numérique",
+  "cat": "MOOC",
+  "url": "https://www.grandeecolenumerique.fr/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.grandeecolenumerique.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "132",
+  "nom": "Anatomy of a cew",
+  "cat": "Reference",
+  "url": "https://anatomyof.ai",
+  "status": 200,
+  "final": "https://anatomyof.ai"
+ },
+ {
+  "lang": "en",
+  "id": "133",
+  "nom": "Good practices in eco-design",
+  "cat": "Reference",
+  "url": "https://hal.archives-ouvertes.fr/hal-03009741/",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-03009741/"
+ },
+ {
+  "lang": "en",
+  "id": "134",
+  "nom": "Sustainable it charter",
+  "cat": "Reference",
+  "url": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf",
+  "status": 404,
+  "final": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "135",
+  "nom": "Checklist 115 good practices",
+  "cat": "Reference",
+  "url": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html"
+ },
+ {
+  "lang": "en",
+  "id": "136",
+  "nom": "Ecodesign web compliance checklist",
+  "cat": "Reference",
+  "url": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls"
+ },
+ {
+  "lang": "en",
+  "id": "137",
+  "nom": "Clickclean",
+  "cat": "Reference",
+  "url": "http://www.clickclean.org/",
+  "status": 404,
+  "final": "http://www.clickclean.org/"
+ },
+ {
+  "lang": "en",
+  "id": "138",
+  "nom": "European code of conduct for data centers",
+  "cat": "Reference",
+  "url": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf",
+  "status": 200,
+  "final": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "139",
+  "nom": "Energy consumption of it equipment",
+  "cat": "Reference",
+  "url": "https://www.ademe.fr/sites/default/files/assets/documents/livre-blanc-consommation-energetique-equipements-informatique-2015.pdf",
+  "status": 403,
+  "final": "https://www.ademe.fr/sites/default/files/assets/documents/livre-blanc-consommation-energetique-equipements-informatique-2015.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "140",
+  "nom": "Corser",
+  "cat": "Reference",
+  "url": "https://sustainabledesign.isit-europe.org/",
+  "status": 404,
+  "final": "https://sustainabledesign.isit-europe.org/"
+ },
+ {
+  "lang": "en",
+  "id": "141",
+  "nom": "Personal data",
+  "cat": "Reference",
+  "url": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles"
+ },
+ {
+  "lang": "en",
+  "id": "142",
+  "nom": "éco2mix",
+  "cat": "Reference",
+  "url": "https://www.rte-france.com/eco2mix",
+  "status": 200,
+  "final": "https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel"
+ },
+ {
+  "lang": "en",
+  "id": "143",
+  "nom": "Electricitymap",
+  "cat": "Reference",
+  "url": "https://www.electricitymap.org/map",
+  "status": 200,
+  "final": "https://app.electricitymaps.com/map/live/fifteen_minutes"
+ },
+ {
+  "lang": "en",
+  "id": "144",
+  "nom": "Energy efficiency across programming languages",
+  "cat": "Reference",
+  "url": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf",
+  "status": 200,
+  "final": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "145",
+  "nom": "Energy languages",
+  "cat": "Reference",
+  "url": "https://github.com/greensoftwarelab/Energy-Languages",
+  "status": 200,
+  "final": "https://github.com/greensoftwarelab/Energy-Languages"
+ },
+ {
+  "lang": "en",
+  "id": "146",
+  "nom": "Estimated one hour carbon footprint calculation core",
+  "cat": "Reference",
+  "url": "https://hal.archives-ouvertes.fr/hal-02549565v4",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02549565v4"
+ },
+ {
+  "lang": "en",
+  "id": "147",
+  "nom": "Etalab",
+  "cat": "Reference",
+  "url": "https://etalab.github.io/algorithmes-publics/guide.html",
+  "status": 200,
+  "final": "https://etalab.github.io/algorithmes-publics/guide.html"
+ },
+ {
+  "lang": "en",
+  "id": "148",
+  "nom": "Ganr",
+  "cat": "Reference",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/",
+  "status": 200,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/"
+ },
+ {
+  "lang": "en",
+  "id": "149",
+  "nom": "Google accessibilty on android",
+  "cat": "Reference",
+  "url": "https://support.google.com/accessibility/android/answer/6006564?hl=fr",
+  "status": 404,
+  "final": "https://support.google.com/accessibility/android/answer/6006564?hl=fr"
+ },
+ {
+  "lang": "en",
+  "id": "150",
+  "nom": "Green it - the material of the intangible",
+  "cat": "Reference",
+  "url": "https://hal.archives-ouvertes.fr/hal-02492252",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02492252"
+ },
+ {
+  "lang": "en",
+  "id": "151",
+  "nom": "Green patterns",
+  "cat": "Reference",
+  "url": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf",
+  "status": 404,
+  "final": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "152",
+  "nom": "Gta22 mobile white paper",
+  "cat": "Reference",
+  "url": "https://www.accessiweb.org/tl_files/doc_telechargement/gta22/GTA22_LivreBlanc_Mobile_v1.3.pdf",
+  "status": "ERR:gaierror",
+  "final": "https://www.accessiweb.org/tl_files/doc_telechargement/gta22/GTA22_LivreBlanc_Mobile_v1.3.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "153",
+  "nom": "Gdpr developer guide",
+  "cat": "Reference",
+  "url": "https://github.com/LINCnil/Guide-RGPD-du-developpeur",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Guide-RGPD-du-developpeur"
+ },
+ {
+  "lang": "en",
+  "id": "154",
+  "nom": "Interpretable machine learning",
+  "cat": "Reference",
+  "url": "https://christophm.github.io/interpretable-ml-book/",
+  "status": 200,
+  "final": "https://christophm.github.io/interpretable-ml-book/"
+ },
+ {
+  "lang": "en",
+  "id": "155",
+  "nom": "Datacenter kpis",
+  "cat": "Reference",
+  "url": "https://alliancegreenit.org/2017-les-kpi-des-datacenters",
+  "status": 404,
+  "final": "https://alliancegreenit.org/2017-les-kpi-des-datacenters"
+ },
+ {
+  "lang": "en",
+  "id": "156",
+  "nom": "Inclusive writing manual",
+  "cat": "Reference",
+  "url": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf",
+  "status": 404,
+  "final": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "157",
+  "nom": "Mobile accessibility",
+  "cat": "Reference",
+  "url": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Mobile_accessibility_checklist",
+  "status": 200,
+  "final": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist"
+ },
+ {
+  "lang": "en",
+  "id": "158",
+  "nom": "Opquast",
+  "cat": "Reference",
+  "url": "https://checklists.opquast.com/fr/qualiteweb/",
+  "status": 200,
+  "final": "https://checklists.opquast.com/fr/qualite-numerique/"
+ },
+ {
+  "lang": "en",
+  "id": "159",
+  "nom": "Pidila",
+  "cat": "Reference",
+  "url": "https://pidila.gitlab.io/checklist-pidila/?Référentiel=Éco-conception",
+  "status": "ERR:UnicodeEncodeError",
+  "final": "https://pidila.gitlab.io/checklist-pidila/?Référentiel=Éco-conception"
+ },
+ {
+  "lang": "en",
+  "id": "160",
+  "nom": "Principles of green software",
+  "cat": "Reference",
+  "url": "https://principles.green/",
+  "status": 200,
+  "final": "https://principles.green/"
+ },
+ {
+  "lang": "en",
+  "id": "161",
+  "nom": "Knowledge repository for esustainable it",
+  "cat": "Reference",
+  "url": "https://hal.archives-ouvertes.fr/hal-02954188",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02954188"
+ },
+ {
+  "lang": "en",
+  "id": "162",
+  "nom": "Reset",
+  "cat": "Reference",
+  "url": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf",
+  "status": 200,
+  "final": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "163",
+  "nom": "Rgaa",
+  "cat": "Reference",
+  "url": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/",
+  "status": 200,
+  "final": "https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/"
+ },
+ {
+  "lang": "en",
+  "id": "164",
+  "nom": "Gdpr by design",
+  "cat": "Reference",
+  "url": "https://www.cnil.fr/fr/guide-rgpd-du-developpeur",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/guide-rgpd-du-developpeur"
+ },
+ {
+  "lang": "en",
+  "id": "165",
+  "nom": "Hippocratic oath for data scientist",
+  "cat": "Reference",
+  "url": "https://hippocrate.tech",
+  "status": "ERR:gaierror",
+  "final": "https://hippocrate.tech"
+ },
+ {
+  "lang": "en",
+  "id": "166",
+  "nom": "Substra foundation",
+  "cat": "Reference",
+  "url": "https://assessment.substra.ai/fr/",
+  "status": "ERR:SSLEOFError",
+  "final": "https://assessment.substra.ai/fr/"
+ },
+ {
+  "lang": "en",
+  "id": "167",
+  "nom": "Watttime",
+  "cat": "Reference",
+  "url": "https://www.watttime.org/explorer/#4/46.89/1.72",
+  "status": 200,
+  "final": "https://watttime.org/docs-dev/coverage-map/"
+ },
+ {
+  "lang": "en",
+  "id": "168",
+  "nom": "Sustainable it wiki",
+  "cat": "Reference",
+  "url": "https://wiki.institutnr.org",
+  "status": 200,
+  "final": "https://fr.wiki.isit-europe.org/nr/Accueil"
+ },
+ {
+  "lang": "en",
+  "id": "169",
+  "nom": "Enviroscore",
+  "cat": "Reference",
+  "url": "https://www.enviroscore.fr/",
+  "status": 200,
+  "final": "https://enviroscore.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "170",
+  "nom": "Digital labor code",
+  "cat": "Reference",
+  "url": "https://github.com/SocialGouv/code-du-travail-numerique",
+  "status": 200,
+  "final": "https://github.com/SocialGouv/code-du-travail-numerique"
+ },
+ {
+  "lang": "en",
+  "id": "171",
+  "nom": "Accessible office documents (rgaa)",
+  "cat": "Reference",
+  "url": "https://github.com/DISIC/guides-documents_bureautiques_accessibles",
+  "status": 200,
+  "final": "https://github.com/DISIC/guides-documents_bureautiques_accessibles"
+ },
+ {
+  "lang": "en",
+  "id": "172",
+  "nom": "The rgaa for integrators",
+  "cat": "Reference",
+  "url": "https://github.com/DISIC/guide-integrateur",
+  "status": 200,
+  "final": "https://github.com/DISIC/guide-integrateur"
+ },
+ {
+  "lang": "en",
+  "id": "173",
+  "nom": "Blockchain carbon accounting",
+  "cat": "Reference",
+  "url": "https://github.com/opentaps/blockchain-carbon-accounting",
+  "status": 200,
+  "final": "https://github.com/opentaps/blockchain-carbon-accounting"
+ },
+ {
+  "lang": "en",
+  "id": "174",
+  "nom": "Green-ai",
+  "cat": "Reference",
+  "url": "https://github.com/daviddao/green-ai",
+  "status": 200,
+  "final": "https://github.com/daviddao/green-ai"
+ },
+ {
+  "lang": "en",
+  "id": "175",
+  "nom": "Sustainable it fact sheets",
+  "cat": "Reference",
+  "url": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/"
+ },
+ {
+  "lang": "en",
+  "id": "176",
+  "nom": "Ethics guidelines for trustworthy ai",
+  "cat": "Reference",
+  "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+  "status": 200,
+  "final": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+ },
+ {
+  "lang": "en",
+  "id": "177",
+  "nom": "Denton declaration",
+  "cat": "Reference",
+  "url": "https://openaccess.unt.edu/denton-declaration",
+  "status": 200,
+  "final": "https://openaccess.unt.edu/denton-declaration"
+ },
+ {
+  "lang": "en",
+  "id": "178",
+  "nom": "The turing way",
+  "cat": "Reference",
+  "url": "https://github.com/alan-turing-institute/the-turing-way",
+  "status": 200,
+  "final": "https://github.com/the-turing-way/the-turing-way"
+ },
+ {
+  "lang": "en",
+  "id": "179",
+  "nom": "Open sustainable technology",
+  "cat": "Reference",
+  "url": "https://opensustain.tech",
+  "status": 200,
+  "final": "https://opensustain.tech"
+ },
+ {
+  "lang": "en",
+  "id": "180",
+  "nom": "Air.e lca",
+  "cat": "Strategy",
+  "url": "https://www.solidforest.com/",
+  "status": 200,
+  "final": "https://www.solidforest.com/"
+ },
+ {
+  "lang": "en",
+  "id": "181",
+  "nom": "Carbonfootprint",
+  "cat": "Strategy",
+  "url": "https://www.carbonfootprint.com/",
+  "status": 200,
+  "final": "https://www.carbonfootprint.com/"
+ },
+ {
+  "lang": "en",
+  "id": "182",
+  "nom": "Climatometer",
+  "cat": "Strategy",
+  "url": "https://climatometre.bpifrance.fr/#/home",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://climatometre.bpifrance.fr/#/home"
+ },
+ {
+  "lang": "en",
+  "id": "183",
+  "nom": "Diagress",
+  "cat": "Strategy",
+  "url": "https://diagrse.goodwill-management.com",
+  "status": 403,
+  "final": "https://diagrse.goodwill-management.com"
+ },
+ {
+  "lang": "en",
+  "id": "184",
+  "nom": "Earthsmart",
+  "cat": "Strategy",
+  "url": "https://www.earthshiftglobal.com/software/earthsmart-lca-software",
+  "status": 404,
+  "final": "https://www.earthshiftglobal.com/software/earthsmart-lca-software"
+ },
+ {
+  "lang": "en",
+  "id": "185",
+  "nom": "Eime",
+  "cat": "Strategy",
+  "url": "https://codde.fr/nos-logiciels/presentation-eime",
+  "status": 404,
+  "final": "https://codde.fr/nos-logiciels/presentation-eime"
+ },
+ {
+  "lang": "en",
+  "id": "186",
+  "nom": "Fruggr",
+  "cat": "Strategy",
+  "url": "https://www.fruggr.io/",
+  "status": 200,
+  "final": "https://www.fruggr.io/fr/"
+ },
+ {
+  "lang": "en",
+  "id": "187",
+  "nom": "Gabi 4",
+  "cat": "Strategy",
+  "url": "http://www.gabi-software.com/france/index/",
+  "status": "ERR:gaierror",
+  "final": "http://www.gabi-software.com/france/index/"
+ },
+ {
+  "lang": "en",
+  "id": "188",
+  "nom": "One click lca",
+  "cat": "Strategy",
+  "url": "https://www.oneclicklca.com/",
+  "status": 200,
+  "final": "https://oneclicklca.com/"
+ },
+ {
+  "lang": "en",
+  "id": "189",
+  "nom": "Openlca",
+  "cat": "Strategy",
+  "url": "https://www.openlca.org/",
+  "status": 200,
+  "final": "https://www.openlca.org/"
+ },
+ {
+  "lang": "en",
+  "id": "190",
+  "nom": "Regis",
+  "cat": "Strategy",
+  "url": "https://sinum.com/regis",
+  "status": 200,
+  "final": "https://sinum.com/regis"
+ },
+ {
+  "lang": "en",
+  "id": "191",
+  "nom": "Simapro",
+  "cat": "Strategy",
+  "url": "https://simapro.com/",
+  "status": 200,
+  "final": "https://simapro.com/"
+ },
+ {
+  "lang": "en",
+  "id": "192",
+  "nom": "Toovalu",
+  "cat": "Strategy",
+  "url": "https://www.toovalu.com/",
+  "status": 200,
+  "final": "https://www.toovalu.com/"
+ },
+ {
+  "lang": "en",
+  "id": "193",
+  "nom": "Umberto lca +",
+  "cat": "Strategy",
+  "url": "https://www.ifu.com/en/umberto/lca-software/",
+  "status": 200,
+  "final": "https://www.ipoint-systems.com/software/umberto/"
+ },
+ {
+  "lang": "en",
+  "id": "194",
+  "nom": "Wenr",
+  "cat": "Strategy",
+  "url": "https://wenr.isit-europe.org/fr/wenr-2021/",
+  "status": 404,
+  "final": "https://wenr.isit-europe.org/fr/wenr-2021/"
+ },
+ {
+  "lang": "en",
+  "id": "195",
+  "nom": "Egapro",
+  "cat": "Strategy",
+  "url": "https://github.com/SocialGouv/egapro",
+  "status": 200,
+  "final": "https://github.com/SocialGouv/egapro"
+ },
+ {
+  "lang": "en",
+  "id": "196",
+  "nom": "Pix",
+  "cat": "Strategy",
+  "url": "https://github.com/1024pix/pix",
+  "status": 200,
+  "final": "https://github.com/1024pix/pix"
+ },
+ {
+  "lang": "en",
+  "id": "197",
+  "nom": "Boavizta",
+  "cat": "Strategy",
+  "url": "https://boavizta.org/calculateur",
+  "status": 404,
+  "final": "https://boavizta.org/calculateur"
+ },
+ {
+  "lang": "en",
+  "id": "198",
+  "nom": "Octo carbon footprint calculator",
+  "cat": "Strategy",
+  "url": "https://docs.google.com/spreadsheets/d/1EvHHW-sFHhIIjgoJob-0grLglmfJlSXx/edit#gid=1383163911",
+  "status": 410,
+  "final": "https://docs.google.com/spreadsheets/d/1EvHHW-sFHhIIjgoJob-0grLglmfJlSXx/edit#gid=1383163911"
+ },
+ {
+  "lang": "en",
+  "id": "199",
+  "nom": "Pia",
+  "cat": "Strategy",
+  "url": "https://github.com/LINCnil/pia",
+  "status": 200,
+  "final": "https://github.com/LINCnil/pia"
+ },
+ {
+  "lang": "en",
+  "id": "200",
+  "nom": "Digital solidarity",
+  "cat": "Strategy",
+  "url": "https://www.solidarite-numerique.fr/",
+  "status": 200,
+  "final": "https://lesbases.anct.gouv.fr/bases/solidarite-numerique"
+ },
+ {
+  "lang": "en",
+  "id": "201",
+  "nom": "The right clicks",
+  "cat": "Strategy",
+  "url": "https://www.lesbonsclics.fr/fr/",
+  "status": 200,
+  "final": "https://www.lesbonsclics.fr/fr/"
+ },
+ {
+  "lang": "en",
+  "id": "202",
+  "nom": "Mixity",
+  "cat": "Strategy",
+  "url": "https://www.mixity.co/",
+  "status": 403,
+  "final": "https://www.mixity.co/"
+ },
+ {
+  "lang": "en",
+  "id": "203",
+  "nom": "Inr calculator",
+  "cat": "Transverse",
+  "url": "https://institutnr.org/calculatrice/impact-environnemental-numerique-inr.html",
+  "status": 200,
+  "final": "https://myimpact.isit-europe.org/"
+ },
+ {
+  "lang": "en",
+  "id": "204",
+  "nom": "State design system",
+  "cat": "Transverse",
+  "url": "https://gouvfr.atlassian.net/wiki/spaces/DB/overview",
+  "status": 200,
+  "final": "https://gouvfr.atlassian.net/wiki/spaces/DB/overview"
+ },
+ {
+  "lang": "en",
+  "id": "205",
+  "nom": "Ecodiag",
+  "cat": "Transverse",
+  "url": "https://ecoinfo.cnrs.fr/ecodiag-calcul/",
+  "status": 200,
+  "final": "https://ecoinfo.cnrs.fr/ecodiag-calcul/"
+ },
+ {
+  "lang": "en",
+  "id": "206",
+  "nom": "Ecogine",
+  "cat": "Transverse",
+  "url": "https://ecogine.org/",
+  "status": 200,
+  "final": "https://ecogine.org/"
+ },
+ {
+  "lang": "en",
+  "id": "207",
+  "nom": "Filevert",
+  "cat": "Transverse",
+  "url": "https://filevert.fr/",
+  "status": 200,
+  "final": "https://filevert.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "208",
+  "nom": "Greenprint",
+  "cat": "Transverse",
+  "url": "https://www.printgreener.com/",
+  "status": 200,
+  "final": "https://www.printgreener.com/"
+ },
+ {
+  "lang": "en",
+  "id": "209",
+  "nom": "Klip",
+  "cat": "Transverse",
+  "url": "https://www.klip.green/",
+  "status": "ERR:ConnectionResetError",
+  "final": "https://www.klip.green/"
+ },
+ {
+  "lang": "en",
+  "id": "210",
+  "nom": "Kmeet",
+  "cat": "Transverse",
+  "url": "https://kmeet.infomaniak.com/",
+  "status": 200,
+  "final": "https://kmeet.infomaniak.com/"
+ },
+ {
+  "lang": "en",
+  "id": "211",
+  "nom": "Lean ict materials",
+  "cat": "Transverse",
+  "url": "https://theshiftproject.org/wp-content/uploads/2019/10/Lean-ICT-Materials-Liens-%C3%A0-t%C3%A9l%C3%A9charger-r%C3%A9par%C3%A9-le-29-10-2019.pdf",
+  "status": 200,
+  "final": "https://theshiftproject.org/app/uploads/2025/02/Lean-ICT-Materials-Liens-a-telecharger-repare-le-29-10-2019.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "212",
+  "nom": "Monconvertisseurco2",
+  "cat": "Transverse",
+  "url": "https://monconvertisseurco2.fr/?co2=15",
+  "status": 200,
+  "final": "https://impactco2.fr/outils/comparateur"
+ },
+ {
+  "lang": "en",
+  "id": "213",
+  "nom": "Myclimatepal",
+  "cat": "Transverse",
+  "url": "https://github.com/mowolf/MyClimatePal",
+  "status": 200,
+  "final": "https://github.com/mowolf/MyClimatePal"
+ },
+ {
+  "lang": "en",
+  "id": "214",
+  "nom": "Nuts",
+  "cat": "Transverse",
+  "url": "https://nuts.be-ma.fr/calculator.php",
+  "status": 523,
+  "final": "https://nuts.be-ma.fr/calculator.php"
+ },
+ {
+  "lang": "en",
+  "id": "215",
+  "nom": "Rgs",
+  "cat": "Transverse",
+  "url": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/",
+  "status": 404,
+  "final": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/"
+ },
+ {
+  "lang": "en",
+  "id": "216",
+  "nom": "Swiss transfer",
+  "cat": "Transverse",
+  "url": "https://www.swisstransfer.com/fr",
+  "status": 200,
+  "final": "https://www.swisstransfer.com/fr"
+ },
+ {
+  "lang": "en",
+  "id": "217",
+  "nom": "Treebal",
+  "cat": "Transverse",
+  "url": "https://www.treebal.green/",
+  "status": 200,
+  "final": "https://www.treebal.green/"
+ },
+ {
+  "lang": "en",
+  "id": "218",
+  "nom": "Numerik ea",
+  "cat": "Transverse",
+  "url": "https://www.numerik-ea.fr/",
+  "status": 200,
+  "final": "https://www.numerik-ea.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "219",
+  "nom": "Aptic",
+  "cat": "Transverse",
+  "url": "https://www.aptic.fr/",
+  "status": 403,
+  "final": "https://www.aptic.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "220",
+  "nom": "Presoft",
+  "cat": "Transverse",
+  "url": "http://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf",
+  "status": 200,
+  "final": "https://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "221",
+  "nom": "Software management plans",
+  "cat": "Transverse",
+  "url": "https://zenodo.org/record/2159713#.YT557C8ivZk",
+  "status": 200,
+  "final": "https://zenodo.org/records/2159713"
+ },
+ {
+  "lang": "en",
+  "id": "222",
+  "nom": "Dark pattern",
+  "cat": "Ux / Ui",
+  "url": "https://linc.cnil.fr/sites/default/files/atoms/files/190903-topography.pdf",
+  "status": 404,
+  "final": "https://linc.cnil.fr/sites/default/files/atoms/files/190903-topography.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "223",
+  "nom": "Designing for guidance",
+  "cat": "Ux / Ui",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "lang": "en",
+  "id": "224",
+  "nom": "Data & design",
+  "cat": "Ux / Ui",
+  "url": "https://design.cnil.fr/",
+  "status": 200,
+  "final": "https://design.cnil.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "225",
+  "nom": "Inclusive design toolkit",
+  "cat": "Ux / Ui",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "lang": "en",
+  "id": "226",
+  "nom": "The bëurktionnary",
+  "cat": "Ux / Ui",
+  "url": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "227",
+  "nom": "Lisio",
+  "cat": "Ux / Ui",
+  "url": "https://www.lisio.fr/",
+  "status": 200,
+  "final": "https://lisio.fr/"
+ },
+ {
+  "lang": "en",
+  "id": "228",
+  "nom": "Captology matrix",
+  "cat": "Ux / Ui",
+  "url": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211",
+  "status": 200,
+  "final": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211"
+ },
+ {
+  "lang": "en",
+  "id": "229",
+  "nom": "Attentional design diagnostic method",
+  "cat": "Ux / Ui",
+  "url": "https://attention.designersethiques.org/2018-methode-attentionnelle/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://attention.designersethiques.org/2018-methode-attentionnelle/"
+ },
+ {
+  "lang": "en",
+  "id": "230",
+  "nom": "Planet centric toolkit",
+  "cat": "Ux / Ui",
+  "url": "https://cdn2.hubspot.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf",
+  "status": 200,
+  "final": "https://6362597.fs1.hubspotusercontent-eu1.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf"
+ },
+ {
+  "lang": "en",
+  "id": "231",
+  "nom": "Sustainable business canvas",
+  "cat": "Ux / Ui",
+  "url": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg",
+  "status": 200,
+  "final": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg"
+ },
+ {
+  "lang": "en",
+  "id": "232",
+  "nom": "The fifties (toolkit)",
+  "cat": "Ux / Ui",
+  "url": "https://www.thefifties.fr/blog/cartes-levier-un-outil-de-design-systemique/",
+  "status": 200,
+  "final": "https://www.thefifties.fr/blog/cartes-levier-un-outil-de-design-systemique/"
+ }
+]

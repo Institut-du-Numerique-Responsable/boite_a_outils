@@ -1,0 +1,39 @@
+# Boîte à outils du Numérique Responsable — Institut du Numérique Responsable (INR)
+
+> Catalogue de 355 outils, guides, référentiels, formations et textes de loi du numérique responsable, sélectionnés par l'Institut du Numérique Responsable (INR / Institute for Sustainable IT). Chaque lien est testé périodiquement ; les ressources dont l'adresse ne répond plus sont retirées, et la date du dernier contrôle est publiée sur chaque fiche.
+
+L'INR est une association loi 1901 basée à La Rochelle, réseau européen d'instituts en France, Belgique et Suisse. Le catalogue couvre l'écoconception de services numériques, la mesure d'empreinte environnementale, l'accessibilité, la sobriété, l'impact de l'IA générative, le cadre juridique français et européen, et la sensibilisation.
+
+## Données
+
+- [Catalogue complet, français (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json) : 355 ressources, champs nom, description, url, thème, type, public visé, coût, mots-clés, état du lien et date de vérification.
+- [Catalogue complet, anglais (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-en.json)
+- [Version texte intégrale de ce catalogue](https://sustainableit-tools.isit-europe.org/llms-full.txt)
+
+## Thèmes
+
+- [Accessibilité & inclusivité](https://sustainableit-tools.isit-europe.org/themes/accessibilite-inclusivite.html) : 38 ressources
+- [Conception web](https://sustainableit-tools.isit-europe.org/themes/conception-web.html) : 9 ressources
+- [DEEEE et Equipements](https://sustainableit-tools.isit-europe.org/themes/deeee-et-equipements.html) : 11 ressources
+- [Démarche pour les organisations / entreprises](https://sustainableit-tools.isit-europe.org/themes/demarche-pour-les-organisations-entreprises.html) : 25 ressources
+- [Gestion de l'énergie et des ressources](https://sustainableit-tools.isit-europe.org/themes/gestion-de-l-energie-et-des-ressources.html) : 27 ressources
+- [IA](https://sustainableit-tools.isit-europe.org/themes/ia.html) : 17 ressources
+- [Innovation et recherche](https://sustainableit-tools.isit-europe.org/themes/innovation-et-recherche.html) : 3 ressources
+- [Juridique et réglementation](https://sustainableit-tools.isit-europe.org/themes/juridique-et-reglementation.html) : 15 ressources
+- [Marketing et Communication](https://sustainableit-tools.isit-europe.org/themes/marketing-et-communication.html) : 9 ressources
+- [Respect de la vie privée, transparence et éthique](https://sustainableit-tools.isit-europe.org/themes/respect-de-la-vie-privee-transparence-et-ethique.html) : 13 ressources
+- [Références et guides](https://sustainableit-tools.isit-europe.org/themes/references-et-guides.html) : 6 ressources
+- [Sensibilisation et formation](https://sustainableit-tools.isit-europe.org/themes/sensibilisation-et-formation.html) : 45 ressources
+- [Sobriété de ses données](https://sustainableit-tools.isit-europe.org/themes/sobriete-de-ses-donnees.html) : 7 ressources
+- [Éco-conception (Web)](https://sustainableit-tools.isit-europe.org/themes/eco-conception-web.html) : 25 ressources
+- [Évaluation et mesure](https://sustainableit-tools.isit-europe.org/themes/evaluation-et-mesure.html) : 105 ressources
+
+## Pages
+
+- [Recherche et filtres](https://sustainableit-tools.isit-europe.org/) : moteur de recherche du catalogue
+- [À propos](https://sustainableit-tools.isit-europe.org/a-propos.html) : méthode de sélection, vérification des liens
+- [Mentions légales](https://sustainableit-tools.isit-europe.org/mentions-legales.html)
+
+## Conditions de citation
+
+Contenu réutilisable avec attribution à l'Institut du Numérique Responsable et lien vers la fiche concernée. L'INR n'est pas partie prenante des outils référencés et ne se porte pas garant de leur qualité pour un cas d'usage donné.

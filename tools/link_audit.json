@@ -1,0 +1,2458 @@
+[
+ {
+  "i": 0,
+  "nom": "POP",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://pop-coe.eu/partners/tools",
+  "status": 200,
+  "final": "https://pop-coe.eu/partners/tools"
+ },
+ {
+  "i": 1,
+  "nom": "Recommandations pour les DataCenter de Green IT Swtzerland",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://greenit-switzerland.ch/app/mc-dc/de/cc-mesures?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/cc-mesures/?lang=fr"
+ },
+ {
+  "i": 2,
+  "nom": "GANR",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/",
+  "status": 200,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/"
+ },
+ {
+  "i": 3,
+  "nom": "WeNR",
+  "cat": "Évaluation et mesure",
+  "url": "https://wenr.isit-europe.org/fr/wenr-2021/",
+  "status": 404,
+  "final": "https://wenr.isit-europe.org/fr/wenr-2021/"
+ },
+ {
+  "i": 4,
+  "nom": "Solidarite Numérique",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.solidarite-numerique.fr/",
+  "status": 200,
+  "final": "https://lesbases.anct.gouv.fr/bases/solidarite-numerique"
+ },
+ {
+  "i": 5,
+  "nom": "Les Bons Clics",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.lesbonsclics.fr/fr/",
+  "status": 200,
+  "final": "https://www.lesbonsclics.fr/fr/"
+ },
+ {
+  "i": 6,
+  "nom": "TreeBal",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.treebal.green/",
+  "status": 200,
+  "final": "https://www.treebal.green/"
+ },
+ {
+  "i": 7,
+  "nom": "Aptic",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.aptic.fr/",
+  "status": 403,
+  "final": "https://www.aptic.fr/"
+ },
+ {
+  "i": 8,
+  "nom": "PreSoft",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "http://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf",
+  "status": 200,
+  "final": "https://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf"
+ },
+ {
+  "i": 9,
+  "nom": "Software Management Plans",
+  "cat": "Sobriété de ses données",
+  "url": "https://zenodo.org/record/2159713#.YT557C8ivZk",
+  "status": 200,
+  "final": "https://zenodo.org/records/2159713"
+ },
+ {
+  "i": 10,
+  "nom": "Calculateur de taux de conformité numérique responsable",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://conformite-nr.specinov.fr/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://conformite-nr.specinov.fr/"
+ },
+ {
+  "i": 11,
+  "nom": "Planet Centric toolkit",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://cdn2.hubspot.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf",
+  "status": 200,
+  "final": "https://6362597.fs1.hubspotusercontent-eu1.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf"
+ },
+ {
+  "i": 12,
+  "nom": "Sustainable Business Canvas",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg",
+  "status": 200,
+  "final": "https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg"
+ },
+ {
+  "i": 13,
+  "nom": "Systemic Design methode et toolkit",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.systemicdesigntoolkit.org/download",
+  "status": 200,
+  "final": "https://www.systemicdesigntoolkit.org/download"
+ },
+ {
+  "i": 14,
+  "nom": "SYSDEREP",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://syderep.ademe.fr",
+  "status": 200,
+  "final": "https://syderep.ademe.fr"
+ },
+ {
+  "i": 15,
+  "nom": "Etude - effets rebond induits par le télétravail",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://librairie.ademe.fr/mobilite-et-transport/3776-caracterisation-des-effets-rebond-induits-par-le-teletravail.html",
+  "status": 200,
+  "final": "https://librairie.ademe.fr/mobilite-et-transport/3776-caracterisation-des-effets-rebond-induits-par-le-teletravail.html"
+ },
+ {
+  "i": 16,
+  "nom": "\"Why it’s time for a Green revolution for your organization’s IT\"",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf",
+  "status": 200,
+  "final": "https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf"
+ },
+ {
+  "i": 17,
+  "nom": "\"Déployer la sobriété numérique\" du Shift project",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://theshiftproject.org/article/deployer-la-sobriete-numerique-rapport-shift/",
+  "status": 200,
+  "final": "https://theshiftproject.org/publications/deployer-sobriete-numerique/"
+ },
+ {
+  "i": 18,
+  "nom": "\"Eco-responsable au bureau\"",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://librairie.ademe.fr/consommer-autrement/5225-ecoresponsable-au-bureau-9791029718960.html",
+  "status": 200,
+  "final": "https://librairie.ademe.fr/consommer-autrement/8402-comment-etre-ecoresponsable-au-bureau--9791029725074.html"
+ },
+ {
+  "i": 19,
+  "nom": "Guide - la stratégie numérique responsable de la collectivité en 10 étapes",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf",
+  "status": 403,
+  "final": "https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf"
+ },
+ {
+  "i": 20,
+  "nom": "5 fiches méthodologiques pour la rédaction de la stratégie numérique responsable",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://labase.anct.gouv.fr/base/433?tab=collections&collection=108",
+  "status": "ERR:RemoteDisconnected",
+  "final": "https://labase.anct.gouv.fr/base/433?tab=collections&collection=108"
+ },
+ {
+  "i": 21,
+  "nom": "Axe Monitor",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.deque.com/axe/monitor/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/monitor/"
+ },
+ {
+  "i": 22,
+  "nom": "Color Safe",
+  "cat": "Accessibilité & inclusivité",
+  "url": "http://colorsafe.co/",
+  "status": 200,
+  "final": "http://colorsafe.co/"
+ },
+ {
+  "i": 23,
+  "nom": "Colour Contrast Analyser (CCA)",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.tpgi.com/color-contrast-checker/",
+  "status": 200,
+  "final": "https://vispero.com/lp/color-contrast-checker/"
+ },
+ {
+  "i": 24,
+  "nom": "ContrastRadio",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://contrast-ratio.com/",
+  "status": 200,
+  "final": "https://www.siegemedia.com/contrast-ratio"
+ },
+ {
+  "i": 25,
+  "nom": "One Click Accessibility",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://fr.wordpress.org/plugins/pojo-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/pojo-accessibility/"
+ },
+ {
+  "i": 26,
+  "nom": "Wave Webaim",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://wave.webaim.org/",
+  "status": 200,
+  "final": "https://wave.webaim.org/"
+ },
+ {
+  "i": 27,
+  "nom": "WebAccessibility",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.webaccessibility.com/tools/",
+  "status": 200,
+  "final": "https://www.webaccessibility.com/tools/"
+ },
+ {
+  "i": 28,
+  "nom": "WP Accessibility (Wordpress)",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility/"
+ },
+ {
+  "i": 29,
+  "nom": "WAH (Wordpress)",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://fr.wordpress.org/plugins/wp-accessibility-helper/",
+  "status": 200,
+  "final": "https://fr.wordpress.org/plugins/wp-accessibility-helper/"
+ },
+ {
+  "i": 30,
+  "nom": "DesignGouv",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://design.numerique.gouv.fr/outils/",
+  "status": 200,
+  "final": "https://design.numerique.gouv.fr/outils/"
+ },
+ {
+  "i": 31,
+  "nom": "Tanaguru",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.tanaguru.com/",
+  "status": 200,
+  "final": "https://www.tanaguru.com/"
+ },
+ {
+  "i": 32,
+  "nom": "Assistant RGAA",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/empreinte-digitale/assistant-rgaa/blob/master/README.md",
+  "status": 200,
+  "final": "https://github.com/boscop-fr/assistant-rgaa/blob/main/README.md"
+ },
+ {
+  "i": 33,
+  "nom": "Axe Dev Tools ",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.deque.com/axe/devtools/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/devtools/"
+ },
+ {
+  "i": 34,
+  "nom": "Axe Auditor",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.deque.com/axe/auditor/",
+  "status": 200,
+  "final": "https://www.deque.com/axe/auditor/"
+ },
+ {
+  "i": 35,
+  "nom": "W3C Web Accessibility",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.edx.org/course/web-accessibility-introduction",
+  "status": 200,
+  "final": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility"
+ },
+ {
+  "i": 36,
+  "nom": "Google Accessibilty on Android",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://support.google.com/accessibility/android/answer/6006564?hl=fr",
+  "status": 404,
+  "final": "https://support.google.com/accessibility/android/answer/6006564?hl=fr"
+ },
+ {
+  "i": 37,
+  "nom": "Manuel d'écriture inclusive",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf",
+  "status": 404,
+  "final": "https://static1.squarespace.com/static/5e441b2fb746a7235f25667e/t/5e7d1cfc03a13b4fe2f01c17/1585257726011/Mots-Cl%C3%A9s+-+Manuel+d%27%C3%A9criture+inclusive.pdf"
+ },
+ {
+  "i": 38,
+  "nom": "Mobile Accessibility",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Mobile_accessibility_checklist",
+  "status": 200,
+  "final": "https://developer.mozilla.org/fr/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist"
+ },
+ {
+  "i": 39,
+  "nom": "RGAA",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.numerique.gouv.fr/publications/rgaa-accessibilite/",
+  "status": 200,
+  "final": "https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/"
+ },
+ {
+  "i": 40,
+  "nom": "Documents Bureautiques Accessibles (RGAA)",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/DISIC/guides-documents_bureautiques_accessibles",
+  "status": 200,
+  "final": "https://github.com/DISIC/guides-documents_bureautiques_accessibles"
+ },
+ {
+  "i": 41,
+  "nom": "Le RGAA pour les intégrateurs",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/DISIC/guide-integrateur",
+  "status": 200,
+  "final": "https://github.com/DISIC/guide-integrateur"
+ },
+ {
+  "i": 42,
+  "nom": "Données & Design",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://design.cnil.fr/",
+  "status": 200,
+  "final": "https://design.cnil.fr/"
+ },
+ {
+  "i": 43,
+  "nom": "a11y",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://color.a11y.com/",
+  "status": 429,
+  "final": "https://color.a11y.com/"
+ },
+ {
+  "i": 44,
+  "nom": "Acessibility Checker",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.accessibilitychecker.org/",
+  "status": 200,
+  "final": "https://www.accessibilitychecker.org/"
+ },
+ {
+  "i": 45,
+  "nom": "Test d'accessibilité",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.experte.com/fr/accessibilite",
+  "status": 200,
+  "final": "https://www.experte.com/fr/accessibilite"
+ },
+ {
+  "i": 46,
+  "nom": "Access-Score",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://access-score.org",
+  "status": 200,
+  "final": "https://access-score.org"
+ },
+ {
+  "i": 47,
+  "nom": "Accessconfig A11Y",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://accessconfig.a11y.fr",
+  "status": 200,
+  "final": "https://accessconfig.a11y.fr"
+ },
+ {
+  "i": 48,
+  "nom": "OpenDyslexic",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://opendyslexic.org",
+  "status": 200,
+  "final": "https://opendyslexic.org"
+ },
+ {
+  "i": 49,
+  "nom": "Font DFA",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/Orange-OpenSource/font-accessible-dfa",
+  "status": 200,
+  "final": "https://github.com/Orange-OpenSource/font-accessible-dfa"
+ },
+ {
+  "i": 50,
+  "nom": "European Accessibility Act",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://ec.europa.eu/social/main.jsp?catId=1202",
+  "status": 200,
+  "final": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en"
+ },
+ {
+  "i": 51,
+  "nom": "Guide : \"Concevoir sans dark patterns\"",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://beta.designersethiques.org/thematique-design-persuasif/concevoir-sans-dark-patterns",
+  "status": 404,
+  "final": "https://beta.designersethiques.org/thematique-design-persuasif/concevoir-sans-dark-patterns"
+ },
+ {
+  "i": 52,
+  "nom": "Chrome DevTools - Accessibility tree",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://developer.chrome.com/blog/full-accessibility-tree/",
+  "status": 200,
+  "final": "https://developer.chrome.com/blog/full-accessibility-tree/"
+ },
+ {
+  "i": 53,
+  "nom": "Posters de sensibilisation à l'accessibilité numérique",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/UKHomeOffice/posters/tree/master/accessibility/dos-donts",
+  "status": 200,
+  "final": "https://github.com/UKHomeOffice/posters/tree/master/accessibility/dos-donts"
+ },
+ {
+  "i": 54,
+  "nom": "Site web \"Design Accessible\"",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://design-accessible.fr/",
+  "status": 200,
+  "final": "https://design-accessible.fr/"
+ },
+ {
+  "i": 55,
+  "nom": "Jeux de couleurs accessibles",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://randoma11y.com/",
+  "status": 200,
+  "final": "https://randoma11y.com/"
+ },
+ {
+  "i": 56,
+  "nom": "webaccessibility.com",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.webaccessibility.com/tools/",
+  "status": 200,
+  "final": "https://www.webaccessibility.com/tools/"
+ },
+ {
+  "i": 58,
+  "nom": "Video Optimizer",
+  "cat": "Conception web",
+  "url": "https://github.com/attdevsupport/VideoOptimzer",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/VideoOptimizer"
+ },
+ {
+  "i": 59,
+  "nom": "Boite à outils NR de la DINUM",
+  "cat": "Conception web",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/",
+  "status": 200,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/"
+ },
+ {
+  "i": 60,
+  "nom": "Designing for guidance",
+  "cat": "Conception web",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "i": 61,
+  "nom": "Lisio",
+  "cat": "Conception web",
+  "url": "https://www.lisio.fr/",
+  "status": 200,
+  "final": "https://lisio.fr/"
+ },
+ {
+  "i": 62,
+  "nom": "Tiny PNG",
+  "cat": "Conception web",
+  "url": "https://www.tinypng.com",
+  "status": 200,
+  "final": "https://tinypng.com/"
+ },
+ {
+  "i": 63,
+  "nom": "Unused CSS",
+  "cat": "Conception web",
+  "url": "https://unused-css.com",
+  "status": 200,
+  "final": "https://unused-css.com"
+ },
+ {
+  "i": 64,
+  "nom": "eleventy-dsfr",
+  "cat": "Conception web",
+  "url": "https://codegouvfr.github.io/eleventy-dsfr/",
+  "status": 200,
+  "final": "https://codegouvfr.github.io/eleventy-dsfr/"
+ },
+ {
+  "i": 65,
+  "nom": "Ecodit",
+  "cat": "Conception web",
+  "url": "https://ecodit.keleo.fr/",
+  "status": 200,
+  "final": "https://ecodit.keleo.fr/"
+ },
+ {
+  "i": 66,
+  "nom": "Documentaire : \"Welcome to Sodom\"",
+  "cat": "DEEEE et Equipements",
+  "url": "https://www.imdb.com/title/tt8116550/",
+  "status": 202,
+  "final": "https://www.imdb.com/title/tt8116550/"
+ },
+ {
+  "i": 67,
+  "nom": "E-waste Monitor (United Nations)",
+  "cat": "DEEEE et Equipements",
+  "url": "https://ewastemonitor.info/",
+  "status": 200,
+  "final": "https://ewastemonitor.info/"
+ },
+ {
+  "i": 68,
+  "nom": "Right to Repair Europe",
+  "cat": "DEEEE et Equipements",
+  "url": "https://repair.eu/",
+  "status": 200,
+  "final": "https://repair.eu/"
+ },
+ {
+  "i": 69,
+  "nom": "Rapport Amnesty International : \"This is what we die for\"",
+  "cat": "DEEEE et Equipements",
+  "url": "https://www.amnesty.org/en/wp-content/uploads/2021/05/AFR6231832016ENGLISH.pdf",
+  "status": 200,
+  "final": "https://www.amnesty.org/en/wp-content/uploads/2021/05/AFR6231832016ENGLISH.pdf"
+ },
+ {
+  "i": 70,
+  "nom": "e-Trash Transparency Project (Basel)",
+  "cat": "DEEEE et Equipements",
+  "url": "https://www.ban.org/trash-transparency",
+  "status": 200,
+  "final": "https://www.ban.org/trash-transparency"
+ },
+ {
+  "i": 71,
+  "nom": "Label - TCO Certified",
+  "cat": "DEEEE et Equipements",
+  "url": "https://tcocertified.com/",
+  "status": 200,
+  "final": "https://tcocertified.com/"
+ },
+ {
+  "i": 72,
+  "nom": "Base de données Resilio (CH)",
+  "cat": "DEEEE et Equipements",
+  "url": "https://db.resilio.tech/",
+  "status": 200,
+  "final": "https://db.resilio.tech/"
+ },
+ {
+  "i": 73,
+  "nom": "Label - EPEAT",
+  "cat": "DEEEE et Equipements",
+  "url": "https://www.epeat.net/",
+  "status": 200,
+  "final": "https://www.epeat.net/"
+ },
+ {
+  "i": 74,
+  "nom": "TV Size to Distance Calculator",
+  "cat": "DEEEE et Equipements",
+  "url": "https://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship",
+  "status": 200,
+  "final": "https://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship"
+ },
+ {
+  "i": 76,
+  "nom": "iFixIT : Plateforme en ligne - Manuels de réparations",
+  "cat": "DEEEE et Equipements",
+  "url": "https://fr.ifixit.com/",
+  "status": 200,
+  "final": "https://fr.ifixit.com/"
+ },
+ {
+  "i": 77,
+  "nom": "Mesures Green IT Switzerland ",
+  "cat": " Démarche pour les organisations / entreprises",
+  "url": "https://greenit-switzerland.ch/app/mc-general/de/catalogue-de-mesures?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/catalogue-de-mesures/?lang=fr"
+ },
+ {
+  "i": 78,
+  "nom": "Dark Pattern",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.calameo.com/read/007567583e85a4130362c",
+  "status": 200,
+  "final": "https://www.calameo.com/read/007567583e85a4130362c"
+ },
+ {
+  "i": 79,
+  "nom": "Inclusive Design toolkit",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.microsoft.com/design/inclusive/",
+  "status": 200,
+  "final": "https://inclusive.microsoft.design/"
+ },
+ {
+  "i": 80,
+  "nom": "Le Bëurktionnary",
+  "cat": "Documentation",
+  "url": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "http://beurktionary.com/assets/dl/Beurktionary_V2_print.pdf"
+ },
+ {
+  "i": 81,
+  "nom": "a11yproject",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.a11yproject.com/resources/",
+  "status": 200,
+  "final": "https://www.a11yproject.com/resources/"
+ },
+ {
+  "i": 82,
+  "nom": "coldcms",
+  "cat": "Eco-conception (Web)",
+  "url": "https://gitlab.com/hashbangfr/coldcms",
+  "status": 200,
+  "final": "https://gitlab.com/hashbangfr/coldcms"
+ },
+ {
+  "i": 83,
+  "nom": "Dareboost/Contentsquare",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.dareboost.com",
+  "status": 200,
+  "final": "https://www.dareboost.com/en"
+ },
+ {
+  "i": 84,
+  "nom": "QualScan",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.npmjs.com/package/qualscan",
+  "status": 403,
+  "final": "https://www.npmjs.com/package/qualscan"
+ },
+ {
+  "i": 85,
+  "nom": "Simulateur d'EcoIndex",
+  "cat": "Eco-conception (Web)",
+  "url": "https://rachelwe.github.io/Simulateur-ecoindex/",
+  "status": 200,
+  "final": "https://rachelwe.github.io/Simulateur-ecoindex/"
+ },
+ {
+  "i": 86,
+  "nom": "Susty",
+  "cat": "Eco-conception (Web)",
+  "url": "https://github.com/jacklenox/susty",
+  "status": 200,
+  "final": "https://github.com/jacklenox/susty"
+ },
+ {
+  "i": 87,
+  "nom": "Uptrends",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web",
+  "status": 200,
+  "final": "https://www.uptrends.fr/outils-gratuits/speed-test-site-web"
+ },
+ {
+  "i": 88,
+  "nom": "Web Page Test",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.webpagetest.org/",
+  "status": 403,
+  "final": "https://www.webpagetest.org/"
+ },
+ {
+  "i": 89,
+  "nom": "Caudron",
+  "cat": "Eco-conception (Web)",
+  "url": "https://pattern-library.dequelabs.com/",
+  "status": 200,
+  "final": "https://cauldron.dequelabs.com/"
+ },
+ {
+  "i": 90,
+  "nom": "Eco-concevoir vos produits et services",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/eco-concevoir-vos-produits-et-services-pour-entrer-dans-lere-de-leconomie-circulaire/"
+ },
+ {
+  "i": 91,
+  "nom": "Bonnes pratiques en eco-conception",
+  "cat": "Eco-conception (Web)",
+  "url": "https://hal.archives-ouvertes.fr/hal-03009741/",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-03009741/"
+ },
+ {
+  "i": 92,
+  "nom": "Check-list 115 bonnes pratiques",
+  "cat": "Eco-conception (Web)",
+  "url": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html"
+ },
+ {
+  "i": 93,
+  "nom": "Check-list de Conformité Ecoconception Web",
+  "cat": "Eco-conception (Web)",
+  "url": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls",
+  "status": 200,
+  "final": "https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls"
+ },
+ {
+  "i": 94,
+  "nom": "RG491",
+  "cat": "Eco-conception (Web)",
+  "url": "https://gr491.isit-europe.org",
+  "status": 200,
+  "final": "https://gr491.isit-europe.org"
+ },
+ {
+  "i": 95,
+  "nom": "Opquast",
+  "cat": "Eco-conception (Web)",
+  "url": "https://checklists.opquast.com/fr/qualiteweb/",
+  "status": 200,
+  "final": "https://checklists.opquast.com/fr/qualite-numerique/"
+ },
+ {
+  "i": 96,
+  "nom": "SCAMPI",
+  "cat": "Eco-conception (Web)",
+  "url": "https://pidila.gitlab.io/scampi/",
+  "status": 200,
+  "final": "https://pidila.gitlab.io/scampi/"
+ },
+ {
+  "i": 97,
+  "nom": "GoodAlgo",
+  "cat": "Évaluation et mesure",
+  "url": "https://goodalgo.fr/demarrez-votre-auto-evaluation/",
+  "status": 404,
+  "final": "https://goodalgo.fr/demarrez-votre-auto-evaluation/"
+ },
+ {
+  "i": 98,
+  "nom": "My IT footprint",
+  "cat": "Évaluation et mesure",
+  "url": "https://aguaro.io/fr",
+  "status": 200,
+  "final": "https://www.aguaro.io/fr/"
+ },
+ {
+  "i": 99,
+  "nom": "Code Carbon",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/mlco2/codecarbon",
+  "status": 200,
+  "final": "https://github.com/mlco2/codecarbon"
+ },
+ {
+  "i": 100,
+  "nom": "Cookieviz",
+  "cat": "Évaluation et mesure",
+  "url": "https://linc.cnil.fr/fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation",
+  "status": 200,
+  "final": "https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation"
+ },
+ {
+  "i": 101,
+  "nom": "CPU Energy Meter",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/sosy-lab/cpu-energy-meter",
+  "status": 200,
+  "final": "https://github.com/sosy-lab/cpu-energy-meter"
+ },
+ {
+  "i": 102,
+  "nom": "EEmeter",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/openeemeter/eemeter",
+  "status": 200,
+  "final": "https://github.com/opendsm/opendsm"
+ },
+ {
+  "i": 103,
+  "nom": "Energy Meter Logger",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/samuelphy/energy-meter-logger",
+  "status": 200,
+  "final": "https://github.com/samuelphy/energy-meter-logger"
+ },
+ {
+  "i": 104,
+  "nom": "EnergyBox",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/rtslab/EnergyBox",
+  "status": 200,
+  "final": "https://github.com/rtslab/EnergyBox"
+ },
+ {
+  "i": 105,
+  "nom": "experiment-impact-tracker",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/Breakend/experiment-impact-tracker",
+  "status": 200,
+  "final": "https://github.com/Breakend/experiment-impact-tracker"
+ },
+ {
+  "i": 106,
+  "nom": "Green Algorithms",
+  "cat": "Évaluation et mesure",
+  "url": "http://www.green-algorithms.org/",
+  "status": 200,
+  "final": "http://www.green-algorithms.org/"
+ },
+ {
+  "i": 107,
+  "nom": "Intel PCM (anciennement Power Gadget)",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/intel/pcm",
+  "status": 200,
+  "final": "https://github.com/intel/pcm"
+ },
+ {
+  "i": 108,
+  "nom": "Joulemeter",
+  "cat": "Évaluation et mesure",
+  "url": "https://joulemeter.fr.uptodown.com/windows",
+  "status": 200,
+  "final": "https://joulemeter.fr.uptodown.com/windows"
+ },
+ {
+  "i": 109,
+  "nom": "Power Meter",
+  "cat": "Évaluation et mesure",
+  "url": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master",
+  "status": 200,
+  "final": "https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master"
+ },
+ {
+  "i": 110,
+  "nom": "PowerAPI",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/powerapi-ng/powerapi",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/powerapi"
+ },
+ {
+  "i": 111,
+  "nom": "PowerTop",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/fenrus75/powertop",
+  "status": 200,
+  "final": "https://github.com/fenrus75/powertop"
+ },
+ {
+  "i": 112,
+  "nom": "pTopW",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/hch-im/ptopw",
+  "status": 200,
+  "final": "https://github.com/hch-im/ptopw"
+ },
+ {
+  "i": 113,
+  "nom": "Scaphandre",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/hubblo-org/scaphandre",
+  "status": 200,
+  "final": "https://github.com/hubblo-org/scaphandre"
+ },
+ {
+  "i": 114,
+  "nom": "Cloud Carbon Footprint",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint",
+  "status": 200,
+  "final": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint"
+ },
+ {
+  "i": 115,
+  "nom": "Cloud Jewels",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/etsy/cloud-jewels",
+  "status": 200,
+  "final": "https://github.com/etsy/cloud-jewels"
+ },
+ {
+  "i": 117,
+  "nom": "GlobalDCAnalysis : Global data center energy analysis model",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/emasanet/GlobalDCAnalysis",
+  "status": 200,
+  "final": "https://github.com/emasanet/GlobalDCAnalysis"
+ },
+ {
+  "i": 118,
+  "nom": "Cloud Foundry Footprint",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/P-Ehlert/cloudfoundry_footprint",
+  "status": 200,
+  "final": "https://github.com/P-Ehlert/cloudfoundry_footprint"
+ },
+ {
+  "i": 119,
+  "nom": "pyJoules",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/powerapi-ng/pyJoules",
+  "status": 200,
+  "final": "https://github.com/powerapi-ng/pyJoules"
+ },
+ {
+  "i": 120,
+  "nom": "Likwid",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/RRZE-HPC/likwid",
+  "status": 200,
+  "final": "https://github.com/RRZE-HPC/likwid"
+ },
+ {
+  "i": 121,
+  "nom": "Powersim",
+  "cat": "Évaluation et mesure",
+  "url": "http://powersim.sourceforge.net",
+  "status": 403,
+  "final": "http://powersim.sourceforge.net"
+ },
+ {
+  "i": 122,
+  "nom": "ethereum-nft-activity",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/kylemcdonald/ethereum-nft-activity",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-nft-activity"
+ },
+ {
+  "i": 123,
+  "nom": "Catalogue des outils Green IT Switzerland ",
+  "cat": "Évaluation et mesure",
+  "url": "https://greenit-switzerland.ch/en/tools-2/",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/en/tools-2/"
+ },
+ {
+  "i": 124,
+  "nom": "Google Carbon FootPrint",
+  "cat": "Évaluation et mesure",
+  "url": "https://cloud.google.com/carbon-footprint/docs/view-carbon-data?hl=fr",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/carbon-footprint/docs/view-carbon-data?hl=fr"
+ },
+ {
+  "i": 125,
+  "nom": "Diff-JJoules",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/davidson-consulting/diff-jjoules",
+  "status": 200,
+  "final": "https://github.com/davidson-consulting/diff-jjoules"
+ },
+ {
+  "i": 126,
+  "nom": "Arneo",
+  "cat": "Évaluation et mesure",
+  "url": "https://ecoconception.arneogroup.com/",
+  "status": 200,
+  "final": "https://arneo.io/fr/ecoconception-allier-performance-frugalite"
+ },
+ {
+  "i": 127,
+  "nom": "ARO",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/attdevsupport/ARO",
+  "status": 200,
+  "final": "https://github.com/attdevsupport/ARO"
+ },
+ {
+  "i": 128,
+  "nom": "ecoCode",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/cnumr/ecoCode",
+  "status": 404,
+  "final": "https://github.com/cnumr/ecoCode"
+ },
+ {
+  "i": 129,
+  "nom": "ecograder",
+  "cat": "Évaluation et mesure",
+  "url": "https://ecograder.com/",
+  "status": 200,
+  "final": "https://ecograder.com/"
+ },
+ {
+  "i": 130,
+  "nom": "ecoindex",
+  "cat": "Évaluation et mesure",
+  "url": "http://www.ecoindex.fr/",
+  "status": 200,
+  "final": "https://www.ecoindex.fr/"
+ },
+ {
+  "i": 131,
+  "nom": "Kastor.green",
+  "cat": "Évaluation et mesure",
+  "url": "https://kastor.green/",
+  "status": 200,
+  "final": "https://kastor.green/"
+ },
+ {
+  "i": 132,
+  "nom": "Empreinte Carbone Page Web",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.websitecarbon.com/badge/",
+  "status": 200,
+  "final": "https://www.websitecarbon.com/badge/"
+ },
+ {
+  "i": 133,
+  "nom": "Energy Profiler",
+  "cat": "Évaluation et mesure",
+  "url": "https://developer.android.com/studio/profile/energy-profiler",
+  "status": 302,
+  "final": "https://developer.android.com/studio/profile/energy-profiler"
+ },
+ {
+  "i": 134,
+  "nom": "GreenFrame",
+  "cat": "Évaluation et mesure",
+  "url": "https://greenframe.io/",
+  "status": 200,
+  "final": "https://greenframe.io/"
+ },
+ {
+  "i": 135,
+  "nom": "Node.JS EcoIndex",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/cyve/ecoindex_node",
+  "status": 200,
+  "final": "https://github.com/cyve/ecoindex_node"
+ },
+ {
+  "i": 136,
+  "nom": "Page Speed Insights",
+  "cat": "Évaluation et mesure",
+  "url": "https://developers.google.com/speed/pagespeed/insights/",
+  "status": 200,
+  "final": "https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect"
+ },
+ {
+  "i": 137,
+  "nom": "Pingdom",
+  "cat": "Évaluation et mesure",
+  "url": "https://tools.pingdom.com/",
+  "status": 200,
+  "final": "https://tools.pingdom.com/"
+ },
+ {
+  "i": 138,
+  "nom": "GreenIT-Analysis",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/cnumr/GreenIT-Analysis",
+  "status": 200,
+  "final": "https://github.com/cnumr/GreenIT-Analysis"
+ },
+ {
+  "i": 139,
+  "nom": "Yellow Labs Tools",
+  "cat": "Évaluation et mesure",
+  "url": "https://yellowlab.tools/",
+  "status": 200,
+  "final": "https://yellowlab.tools/"
+ },
+ {
+  "i": 140,
+  "nom": "CarbonViz/Equiwatt",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.equiwatt-lausanne.ch/challenge-numerique-inscription/?",
+  "status": 200,
+  "final": "https://www.equiwatt-lausanne.ch/challenge-numerique-inscription/?"
+ },
+ {
+  "i": 141,
+  "nom": "Argos",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/marmelab/argos",
+  "status": 200,
+  "final": "https://github.com/marmelab/argos"
+ },
+ {
+  "i": 142,
+  "nom": "GreenFrame",
+  "cat": "Évaluation et mesure",
+  "url": "https://greenframe.io",
+  "status": 200,
+  "final": "https://greenframe.io"
+ },
+ {
+  "i": 143,
+  "nom": "La Banqui.se",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.labanqui.se",
+  "status": 200,
+  "final": "https://www.labanqui.se"
+ },
+ {
+  "i": 144,
+  "nom": "Microsoft Sustainability Calculator",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.microsoft.com/en-us/sustainability/sustainability-guide/sustainability-calculator?activetab=pivot_1:primaryr2",
+  "status": 200,
+  "final": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability"
+ },
+ {
+  "i": 145,
+  "nom": "Boavizta Calcul Empreinte Fabrication Serveur",
+  "cat": "Évaluation et mesure",
+  "url": "https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment",
+  "status": 200,
+  "final": "https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment"
+ },
+ {
+  "i": 146,
+  "nom": "PowerJoular",
+  "cat": "Évaluation et mesure",
+  "url": "https://gitlab.com/joular/powerjoular",
+  "status": 200,
+  "final": "https://gitlab.com/joular/powerjoular"
+ },
+ {
+  "i": 147,
+  "nom": "eCO2mix",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.rte-france.com/eco2mix",
+  "status": 200,
+  "final": "https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel"
+ },
+ {
+  "i": 148,
+  "nom": "Energy Efficiency across Programming Languages",
+  "cat": "Évaluation et mesure",
+  "url": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf",
+  "status": 200,
+  "final": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf"
+ },
+ {
+  "i": 149,
+  "nom": "Estimation de l’empreinte carbone d’une heure.coeur de calcul",
+  "cat": "Évaluation et mesure",
+  "url": "https://hal.archives-ouvertes.fr/hal-02549565v4",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02549565v4"
+ },
+ {
+  "i": 150,
+  "nom": "Les KPI des DataCenter",
+  "cat": "Évaluation et mesure",
+  "url": "https://alliancegreenit.org/les-kpi-des-datacenters",
+  "status": 200,
+  "final": "https://alliancegreenit.org/les-kpi-des-datacenters"
+ },
+ {
+  "i": 151,
+  "nom": "Blockchain Carbon Accounting",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/opentaps/blockchain-carbon-accounting",
+  "status": 200,
+  "final": "https://github.com/opentaps/blockchain-carbon-accounting"
+ },
+ {
+  "i": 152,
+  "nom": "Referentiel de données Boavizta",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/Boavizta/environmental-footprint-data",
+  "status": 200,
+  "final": "https://github.com/Boavizta/environmental-footprint-data"
+ },
+ {
+  "i": 153,
+  "nom": "Air.e LCA",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.solidforest.com/",
+  "status": 200,
+  "final": "https://www.solidforest.com/"
+ },
+ {
+  "i": 154,
+  "nom": "Carbonefootprint",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.carbonfootprint.com/",
+  "status": 200,
+  "final": "https://www.carbonfootprint.com/"
+ },
+ {
+  "i": 155,
+  "nom": "Climatomètre",
+  "cat": "Évaluation et mesure",
+  "url": "https://climatometre.bpifrance.fr/#/home",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://climatometre.bpifrance.fr/#/home"
+ },
+ {
+  "i": 156,
+  "nom": "DiagRSE",
+  "cat": "Évaluation et mesure",
+  "url": "https://diagrse.goodwill-management.com",
+  "status": 403,
+  "final": "https://diagrse.goodwill-management.com"
+ },
+ {
+  "i": 157,
+  "nom": "EarthSmart",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.earthshiftglobal.com/software/earthsmart-lca-software",
+  "status": 404,
+  "final": "https://www.earthshiftglobal.com/software/earthsmart-lca-software"
+ },
+ {
+  "i": 158,
+  "nom": "eime",
+  "cat": "Évaluation et mesure",
+  "url": "https://codde.fr/nos-logiciels/presentation-eime",
+  "status": 404,
+  "final": "https://codde.fr/nos-logiciels/presentation-eime"
+ },
+ {
+  "i": 159,
+  "nom": "Fruggr",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.fruggr.io/",
+  "status": 200,
+  "final": "https://www.fruggr.io/fr/"
+ },
+ {
+  "i": 160,
+  "nom": "OpenLCA",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.openlca.org/",
+  "status": 200,
+  "final": "https://www.openlca.org/"
+ },
+ {
+  "i": 161,
+  "nom": "Simapro",
+  "cat": "Évaluation et mesure",
+  "url": "https://simapro.com/",
+  "status": 200,
+  "final": "https://simapro.com/"
+ },
+ {
+  "i": 162,
+  "nom": "Toovalu",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.toovalu.com/",
+  "status": 200,
+  "final": "https://www.toovalu.com/"
+ },
+ {
+  "i": 163,
+  "nom": "Umberto LCA+",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.ifu.com/en/umberto/lca-software/",
+  "status": 200,
+  "final": "https://www.ipoint-systems.com/software/umberto/"
+ },
+ {
+  "i": 164,
+  "nom": "Pix",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://github.com/1024pix/pix",
+  "status": 200,
+  "final": "https://github.com/1024pix/pix"
+ },
+ {
+  "i": 165,
+  "nom": "Mixity",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://www.mixity.co/",
+  "status": 403,
+  "final": "https://www.mixity.co/"
+ },
+ {
+  "i": 166,
+  "nom": "EcoDiag",
+  "cat": "Évaluation et mesure",
+  "url": "https://ecoinfo.cnrs.fr/ecodiag-calcul/",
+  "status": 200,
+  "final": "https://ecoinfo.cnrs.fr/ecodiag-calcul/"
+ },
+ {
+  "i": 167,
+  "nom": "GreenPrint",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.printgreener.com/",
+  "status": 200,
+  "final": "https://www.printgreener.com/"
+ },
+ {
+  "i": 168,
+  "nom": "Lean ICT Materials",
+  "cat": "Évaluation et mesure",
+  "url": "https://theshiftproject.org/wp-content/uploads/2019/10/Lean-ICT-Materials-Liens-%C3%A0-t%C3%A9l%C3%A9charger-r%C3%A9par%C3%A9-le-29-10-2019.pdf",
+  "status": 200,
+  "final": "https://theshiftproject.org/app/uploads/2025/02/Lean-ICT-Materials-Liens-a-telecharger-repare-le-29-10-2019.pdf"
+ },
+ {
+  "i": 169,
+  "nom": "MonConvertisseurCO2",
+  "cat": "Évaluation et mesure",
+  "url": "https://monconvertisseurco2.fr/?co2=15",
+  "status": 200,
+  "final": "https://impactco2.fr/outils/comparateur"
+ },
+ {
+  "i": 170,
+  "nom": "Nuts",
+  "cat": "Évaluation et mesure",
+  "url": "https://nuts.be-ma.fr/calculator.php",
+  "status": 523,
+  "final": "https://nuts.be-ma.fr/calculator.php"
+ },
+ {
+  "i": 171,
+  "nom": "CO2DigitalCalculator",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/julienGONTIER/CO2DigitalDalculator",
+  "status": 200,
+  "final": "https://github.com/julienGONTIER/CO2DigitalDalculator"
+ },
+ {
+  "i": 172,
+  "nom": "Calculatrice INR",
+  "cat": "Évaluation et mesure",
+  "url": "https://institutnr.org/calculatrice/impact-environnemental-numerique-inr.html",
+  "status": 200,
+  "final": "https://myimpact.isit-europe.org/"
+ },
+ {
+  "i": 173,
+  "nom": "Matrice de captology",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211",
+  "status": 200,
+  "final": "https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211"
+ },
+ {
+  "i": 174,
+  "nom": "Méthode de diagnostic du design attentionnel",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://attention.designersethiques.org/2018-methode-attentionnelle/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://attention.designersethiques.org/2018-methode-attentionnelle/"
+ },
+ {
+  "i": 175,
+  "nom": "CO2 SCope",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.easyvirt.com/",
+  "status": 200,
+  "final": "https://www.easyvirt.com/"
+ },
+ {
+  "i": 176,
+  "nom": "Digital Carbon Footprint",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.digitalcarbonfootprint.eu/",
+  "status": 200,
+  "final": "https://www.digitalcarbonfootprint.eu/"
+ },
+ {
+  "i": 177,
+  "nom": "Impactometre",
+  "cat": "Évaluation et mesure",
+  "url": "https://impactometre.fr",
+  "status": 200,
+  "final": "https://impactometre.fr"
+ },
+ {
+  "i": 178,
+  "nom": "Tracarbon",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/fvaleye/tracarbon",
+  "status": 200,
+  "final": "https://github.com/fvaleye/tracarbon"
+ },
+ {
+  "i": 179,
+  "nom": "LEAF",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/dos-group/leaf",
+  "status": 200,
+  "final": "https://github.com/dos-group/leaf"
+ },
+ {
+  "i": 180,
+  "nom": "CarbonFreeConf",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.carbonfreeconf.com/carbon-calculator",
+  "status": 522,
+  "final": "https://www.carbonfreeconf.com/carbon-calculator"
+ },
+ {
+  "i": 181,
+  "nom": "powersupplycalculator",
+  "cat": "Évaluation et mesure",
+  "url": "http://powersupplycalculator.net",
+  "status": 200,
+  "final": "https://powersupplycalculator.net/"
+ },
+ {
+  "i": 182,
+  "nom": "42U",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.42u.com/efficiency/energy-efficiency-calculator.htm",
+  "status": 200,
+  "final": "https://www.42u.com/efficiency/energy-efficiency-calculator.htm"
+ },
+ {
+  "i": 183,
+  "nom": "Energy Use Calculator",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://energyusecalculator.com/electricity_wifirouter.htm",
+  "status": 200,
+  "final": "https://energyusecalculator.com/electricity_wifirouter.htm"
+ },
+ {
+  "i": 184,
+  "nom": "Green Software Patterns",
+  "cat": "Évaluation et mesure",
+  "url": "https://patterns.greensoftware.foundation/catalog/cloud/delete-unused-storage-resources",
+  "status": 200,
+  "final": "https://patterns.greensoftware.foundation/catalog/cloud/delete-unused-storage-resources/"
+ },
+ {
+  "i": 185,
+  "nom": "Greenoco",
+  "cat": "Évaluation et mesure",
+  "url": "https://greenoco.io/",
+  "status": 200,
+  "final": "https://greenoco.io/"
+ },
+ {
+  "i": 186,
+  "nom": "Carbonalyser",
+  "cat": "Évaluation et mesure",
+  "url": "https://theshiftproject.org/carbonalyser-extension-navigateur/",
+  "status": 200,
+  "final": "https://theshiftproject.org/publications/carbonalyser/"
+ },
+ {
+  "i": 187,
+  "nom": "Lighthouse",
+  "cat": "Évaluation et mesure",
+  "url": "https://developers.google.com/web/tools/lighthouse/",
+  "status": 200,
+  "final": "https://developer.chrome.com/docs/lighthouse/overview/"
+ },
+ {
+  "i": 188,
+  "nom": "NumEcoDiag",
+  "cat": "Évaluation et mesure",
+  "url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/numecodiag/",
+  "status": 404,
+  "final": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/numecodiag/"
+ },
+ {
+  "i": 189,
+  "nom": "NumEcoEval",
+  "cat": "Évaluation et mesure",
+  "url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval",
+  "status": 200,
+  "final": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval"
+ },
+ {
+  "i": 190,
+  "nom": "Impactomètre",
+  "cat": "Évaluation et mesure",
+  "url": "https://impactometre.fr",
+  "status": 200,
+  "final": "https://impactometre.fr"
+ },
+ {
+  "i": 191,
+  "nom": "Mx Power Gadget",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.seense.com/menubarstats/mxpg/",
+  "status": 200,
+  "final": "https://www.seense.com/menubarstats/mxpg/"
+ },
+ {
+  "i": 192,
+  "nom": "Emissions Impact Dashboard for Azure",
+  "cat": "Évaluation et mesure",
+  "url": "https://appsource.microsoft.com/en-us/product/power-bi/coi-sustainability.emissions_impact_dashboard",
+  "status": 200,
+  "final": "https://marketplace.microsoft.com/en-us/product/power-bi/coi-sustainability.emissions_impact_dashboard"
+ },
+ {
+  "i": 193,
+  "nom": "EcoCode JavaScript",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/green-code-initiative/ecoCode-javascript",
+  "status": 200,
+  "final": "https://github.com/green-code-initiative/creedengo-javascript"
+ },
+ {
+  "i": 194,
+  "nom": "EcoIndex Cypress",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/EmmanuelDemey/eco-index-audit",
+  "status": 200,
+  "final": "https://github.com/EmmanuelDemey/eco-index-audit"
+ },
+ {
+  "i": 195,
+  "nom": "GreenFrame Cli",
+  "cat": "Évaluation et mesure",
+  "url": "https://github.com/marmelab/greenframe-cli",
+  "status": 200,
+  "final": "https://github.com/marmelab/greenframe-cli"
+ },
+ {
+  "i": 196,
+  "nom": "TinyPNG",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://tinypng.com/",
+  "status": 200,
+  "final": "https://tinypng.com/"
+ },
+ {
+  "i": 197,
+  "nom": "ShortPixel",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://shortpixel.com/",
+  "status": 200,
+  "final": "https://shortpixel.com/"
+ },
+ {
+  "i": 198,
+  "nom": "ImageResizer",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://imageresizer.com/fr",
+  "status": 200,
+  "final": "https://imageresizer.com/fr"
+ },
+ {
+  "i": 199,
+  "nom": "Energy Smells (Android)",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "http://olegoaer.perso.univ-pau.fr/android-energy-smells/",
+  "status": 200,
+  "final": "https://olegoaer.perso.univ-pau.fr/android-energy-smells/"
+ },
+ {
+  "i": 200,
+  "nom": "GreenSpector",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://mobile-efficiency-index.com/en/",
+  "status": "ERR:OSError:[Errno 51] Network is unreachable",
+  "final": "https://mobile-efficiency-index.com/en/"
+ },
+ {
+  "i": 201,
+  "nom": "Low Web",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/lowwebtech/low-web-extension",
+  "status": 200,
+  "final": "https://github.com/vicocotea/low-web-extension"
+ },
+ {
+  "i": 202,
+  "nom": "Questionnaire d'évaluation énergétique de Green IT Switzerland",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://greenit-switzerland.ch/app/dca/de/evaluation-cc?lang=fr",
+  "status": 200,
+  "final": "https://greenit-switzerland.ch/de/evaluation-cc/?lang=fr"
+ },
+ {
+  "i": 203,
+  "nom": "Code de Conduite européen sur les Datacentres",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf",
+  "status": 200,
+  "final": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf"
+ },
+ {
+  "i": 204,
+  "nom": "Consommation Energétique des équipements informatiques",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://www.planetoscope.com/Source-d-energie/224-consommation-electrique-due-a-l-informatique-dans-le-monde-en-kwh.html",
+  "status": 200,
+  "final": "https://www.planetoscope.com/Source-d-energie/224-consommation-electrique-due-a-l-informatique-dans-le-monde-en-kwh.html"
+ },
+ {
+  "i": 205,
+  "nom": "ElectricityMap",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://www.electricitymap.org/map",
+  "status": 200,
+  "final": "https://app.electricitymaps.com/map/live/fifteen_minutes"
+ },
+ {
+  "i": 206,
+  "nom": "Energy Languages",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/greensoftwarelab/Energy-Languages",
+  "status": 200,
+  "final": "https://github.com/greensoftwarelab/Energy-Languages"
+ },
+ {
+  "i": 207,
+  "nom": "Open Sustainable Technology",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://opensustain.tech",
+  "status": 200,
+  "final": "https://opensustain.tech"
+ },
+ {
+  "i": 208,
+  "nom": "FileVert",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://filevert.fr/",
+  "status": 200,
+  "final": "https://filevert.fr/"
+ },
+ {
+  "i": 209,
+  "nom": "Klip.green",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://klip.green/",
+  "status": 200,
+  "final": "https://klip.green/"
+ },
+ {
+  "i": 210,
+  "nom": "Kmeet",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://kmeet.infomaniak.com/",
+  "status": 200,
+  "final": "https://kmeet.infomaniak.com/"
+ },
+ {
+  "i": 211,
+  "nom": "Swiss Transfert",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://www.swisstransfer.com/fr",
+  "status": 200,
+  "final": "https://www.swisstransfer.com/fr"
+ },
+ {
+  "i": 212,
+  "nom": "Software Carbon Intensity (SCI) Specification",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md",
+  "status": 404,
+  "final": "https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md"
+ },
+ {
+  "i": 213,
+  "nom": "Métaux & terres rares présents dans un smartphone",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "://www.frandroid.com/comment-faire/comment-fonctionne-la-technologie/613459_a-quoi-servent-les-metaux-rares-dans-nos-smartphones#pid=2",
+  "status": "ERR:ValueError",
+  "final": "://www.frandroid.com/comment-faire/comment-fonctionne-la-technologie/613459_a-quoi-servent-les-metaux-rares-dans-nos-smartphones#pid=2"
+ },
+ {
+  "i": 214,
+  "nom": "Extraction minière",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://dillonmarsh.com/work.html",
+  "status": 404,
+  "final": "https://dillonmarsh.com/work.html"
+ },
+ {
+  "i": 215,
+  "nom": "Les métaux dans vos smartphones",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://elements.visualcapitalist.com/critical-metals-in-a-smartphone/",
+  "status": 200,
+  "final": "https://elements.visualcapitalist.com/critical-metals-in-a-smartphone/"
+ },
+ {
+  "i": 216,
+  "nom": "Photos : industrie du Lithium",
+  "cat": "Gestion de l'énergie et des ressources",
+  "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+  "status": 200,
+  "final": "https://www.tomhegen.com/collections/the-lithium-series-i"
+ },
+ {
+  "i": 217,
+  "nom": "Adversarial Robustness Toolbox",
+  "cat": "IA",
+  "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
+ },
+ {
+  "i": 218,
+  "nom": "Aequitas Framework",
+  "cat": "IA",
+  "url": "https://github.com/dssg/aequitas",
+  "status": 200,
+  "final": "https://github.com/dssg/aequitas"
+ },
+ {
+  "i": 219,
+  "nom": "AI Fairness 360 (AIF360)",
+  "cat": "IA",
+  "url": "https://github.com/Trusted-AI/AIF360",
+  "status": 200,
+  "final": "https://github.com/Trusted-AI/AIF360"
+ },
+ {
+  "i": 220,
+  "nom": "carbontracker",
+  "cat": "IA",
+  "url": "https://github.com/lfwa/carbontracker",
+  "status": 200,
+  "final": "https://github.com/saintslab/carbontracker"
+ },
+ {
+  "i": 221,
+  "nom": "ML CO2 Impact",
+  "cat": "IA",
+  "url": "https://mlco2.github.io/impact/",
+  "status": 200,
+  "final": "https://mlco2.github.io/impact/"
+ },
+ {
+  "i": 222,
+  "nom": "tfjs-models",
+  "cat": "IA",
+  "url": "https://github.com/tensorflow/tfjs-models",
+  "status": 200,
+  "final": "https://github.com/tensorflow/tfjs-models"
+ },
+ {
+  "i": 223,
+  "nom": "Anatomie d'une AI",
+  "cat": "IA",
+  "url": "https://anatomyof.ai",
+  "status": 200,
+  "final": "https://anatomyof.ai"
+ },
+ {
+  "i": 224,
+  "nom": "Interpretable Machine Learning",
+  "cat": "IA",
+  "url": "https://christophm.github.io/interpretable-ml-book/",
+  "status": 200,
+  "final": "https://christophm.github.io/interpretable-ml-book/"
+ },
+ {
+  "i": 225,
+  "nom": "Green-AI",
+  "cat": "IA",
+  "url": "https://github.com/daviddao/green-ai",
+  "status": 200,
+  "final": "https://github.com/daviddao/green-ai"
+ },
+ {
+  "i": 226,
+  "nom": "ethics guidelines for trustworthy ai",
+  "cat": "IA",
+  "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+  "status": 200,
+  "final": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+ },
+ {
+  "i": 227,
+  "nom": "The Turing Way",
+  "cat": "IA",
+  "url": "https://github.com/alan-turing-institute/the-turing-way",
+  "status": 200,
+  "final": "https://github.com/the-turing-way/the-turing-way"
+ },
+ {
+  "i": 228,
+  "nom": "Artificial Intelligence Index Report (2023)",
+  "cat": "IA",
+  "url": "https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf",
+  "status": 403,
+  "final": "https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf"
+ },
+ {
+  "i": 229,
+  "nom": "Etude de cas sur l'IA en Europe",
+  "cat": "IA",
+  "url": "https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542",
+  "status": 200,
+  "final": "https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542"
+ },
+ {
+  "i": 230,
+  "nom": "Livre blanc IA générative",
+  "cat": "IA",
+  "url": "https://dataforgood.fr/iagenerative/",
+  "status": 404,
+  "final": "https://dataforgood.fr/iagenerative/"
+ },
+ {
+  "i": 231,
+  "nom": "Fresque de la Publicité",
+  "cat": "Marketing et Communication",
+  "url": "https://www.fresquedelapublicite.org/",
+  "status": 200,
+  "final": "https://www.karlsbadtravel.cz/"
+ },
+ {
+  "i": 232,
+  "nom": "Ecogine",
+  "cat": "On ne sait pas",
+  "url": "https://ecogine.org/",
+  "status": 200,
+  "final": "https://ecogine.org/"
+ },
+ {
+  "i": 233,
+  "nom": "Cabanon",
+  "cat": "Pour aller plus loin - En phase de qualification : Innovation/ recherche / juridique?",
+  "url": "https://github.com/LINCnil/Cabanon",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Cabanon"
+ },
+ {
+  "i": 234,
+  "nom": "OPIDoR",
+  "cat": "Pour aller plus loin - En phase de qualification : Innovation/ recherche / juridique?",
+  "url": "https://dmp.opidor.fr",
+  "status": 200,
+  "final": "https://dmp.opidor.fr"
+ },
+ {
+  "i": 235,
+  "nom": "Audit RGAA",
+  "cat": "Pour aller plus loin - En phase de qualification : Innovation/ recherche / juridique?",
+  "url": "https://accessibilite.numerique.gouv.fr",
+  "status": 200,
+  "final": "https://accessibilite.numerique.gouv.fr"
+ },
+ {
+  "i": 236,
+  "nom": "RGS",
+  "cat": "Pour aller plus loin - En phase de qualification : Innovation/ recherche / juridique?",
+  "url": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/",
+  "status": 404,
+  "final": "https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/"
+ },
+ {
+  "i": 237,
+  "nom": "DEON",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://deon.drivendata.org/#data-science-ethics-checklist",
+  "status": 200,
+  "final": "https://deon.drivendata.org/#data-science-ethics-checklist"
+ },
+ {
+  "i": 238,
+  "nom": "Ethical OS Toolkit",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://ethicalos.org",
+  "status": 200,
+  "final": "https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/"
+ },
+ {
+  "i": 239,
+  "nom": "Ethics & Algorithms Toolkit",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "http://ethicstoolkit.ai",
+  "status": 200,
+  "final": "http://ethicstoolkit.ai"
+ },
+ {
+  "i": 240,
+  "nom": "DEDA (Data Ethics Decision Aid)",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://dataschool.nl/deda/",
+  "status": 200,
+  "final": "https://dataschool.nl/tools/deda/"
+ },
+ {
+  "i": 241,
+  "nom": "darkpatterns",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://www.darkpatterns.org/index.html",
+  "status": 404,
+  "final": "https://www.darkpatterns.org/index.html"
+ },
+ {
+  "i": 242,
+  "nom": "HTTPS Everywhere",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://www.eff.org/https-everywhere",
+  "status": 200,
+  "final": "https://www.eff.org/https-everywhere"
+ },
+ {
+  "i": 243,
+  "nom": "Privacy Bager",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://privacybadger.org/",
+  "status": 200,
+  "final": "https://privacybadger.org/"
+ },
+ {
+  "i": 244,
+  "nom": "uBlock Origin",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://ublockorigin.com/fr",
+  "status": 200,
+  "final": "https://ublockorigin.com/fr"
+ },
+ {
+  "i": 245,
+  "nom": "Charte NR",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf",
+  "status": 404,
+  "final": "https://charte.institutnr.org/wp-content/uploads/2020/10/charte-inr-numerique-responsable.pdf"
+ },
+ {
+  "i": 246,
+  "nom": "Données Personnelles",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles",
+  "status": 200,
+  "final": "https://www.cnil.fr/fr/identifier-les-donnees-personnelles"
+ },
+ {
+  "i": 247,
+  "nom": "Guide RGPD du développeur",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://github.com/LINCnil/Guide-RGPD-du-developpeur",
+  "status": 200,
+  "final": "https://github.com/LINCnil/Guide-RGPD-du-developpeur"
+ },
+ {
+  "i": 248,
+  "nom": "PIA",
+  "cat": "Respect de la vie privée, transparence et éthique",
+  "url": "https://github.com/LINCnil/pia",
+  "status": 200,
+  "final": "https://github.com/LINCnil/pia"
+ },
+ {
+  "i": 249,
+  "nom": "Les rapports du GIEC",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.ipcc.ch/reports/",
+  "status": 200,
+  "final": "https://www.ipcc.ch/reports/"
+ },
+ {
+  "i": 250,
+  "nom": "The Shift : Décarboner l'industrie",
+  "cat": "Sensibilisation et formation",
+  "url": "https://theshiftproject.org/wp-content/uploads/2022/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf",
+  "status": 200,
+  "final": "https://theshiftproject.org/app/uploads/2025/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf"
+ },
+ {
+  "i": 251,
+  "nom": "Qu'est-ce qu'on fait ?!",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter",
+  "status": 200,
+  "final": "https://archives.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter"
+ },
+ {
+  "i": 252,
+  "nom": "YSlow",
+  "cat": "Eco-conception (Web)",
+  "url": "https://yslow.org",
+  "status": 200,
+  "final": "https://yslow.org"
+ },
+ {
+  "i": 253,
+  "nom": "DigitalCarbonFootPrint",
+  "cat": "Évaluation et mesure",
+  "url": "https://www.digitalcarbonfootprint.eu",
+  "status": 200,
+  "final": "https://www.digitalcarbonfootprint.eu"
+ },
+ {
+  "i": 254,
+  "nom": "Thinkerview",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.thinkerview.com/",
+  "status": 200,
+  "final": "https://www.thinkerview.com/"
+ },
+ {
+  "i": 255,
+  "nom": "Green Algorithms",
+  "cat": "Eco-conception (Web)",
+  "url": "https://www.green-algorithms.org",
+  "status": 200,
+  "final": "https://www.green-algorithms.org"
+ },
+ {
+  "i": 256,
+  "nom": "Bon Pote",
+  "cat": "Sensibilisation et formation",
+  "url": "https://bonpote.com/",
+  "status": 200,
+  "final": "https://bonpote.com/"
+ },
+ {
+  "i": 257,
+  "nom": "Manifeste pour un réveil écologique",
+  "cat": "Sensibilisation et formation",
+  "url": "https://manifeste.pour-un-reveil-ecologique.org/fr",
+  "status": 200,
+  "final": "https://manifeste.pour-un-reveil-ecologique.org/fr"
+ },
+ {
+  "i": 258,
+  "nom": "Futur.eco",
+  "cat": "Sensibilisation et formation",
+  "url": "https://futur.eco//",
+  "status": 200,
+  "final": "https://futur.eco//"
+ },
+ {
+  "i": 259,
+  "nom": "The Shift Project : décarboner l'économie française",
+  "cat": "Sensibilisation et formation",
+  "url": "https://ilnousfautunplan.fr/",
+  "status": 200,
+  "final": "https://ilnousfautunplan.fr/"
+ },
+ {
+  "i": 260,
+  "nom": "Rareté des éléments EuChemS",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.euchems.eu/euchems-periodic-table/",
+  "status": 200,
+  "final": "https://www.euchems.eu/euchems-periodic-table/"
+ },
+ {
+  "i": 261,
+  "nom": "Le jeu de l'OAA",
+  "cat": "Accessibilité & inclusivité",
+  "url": "https://design.numerique.gouv.fr/outils/jeu-de-oaa/",
+  "status": 200,
+  "final": "https://design.numerique.gouv.fr/outils/jeu-de-oaa/"
+ },
+ {
+  "i": 262,
+  "nom": "Videos Team for the Planet",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC",
+  "status": 200,
+  "final": "https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1"
+ },
+ {
+  "i": 263,
+  "nom": "L'homme a mangé la Terre ",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.facebook.com/VisitAnalalava405/videos/lhomme-a-mang%C3%A9-la-terre/4553542684671140/",
+  "status": 200,
+  "final": "https://www.facebook.com/VisitAnalalava405/videos/lhomme-a-mang%C3%A9-la-terre/4553542684671140/"
+ },
+ {
+  "i": 264,
+  "nom": "Ethereum Energy Consumption",
+  "cat": "Sensibilisation et formation",
+  "url": "https://github.com/kylemcdonald/ethereum-energy",
+  "status": 200,
+  "final": "https://github.com/kylemcdonald/ethereum-emissions"
+ },
+ {
+  "i": 265,
+  "nom": "eninclusif",
+  "cat": "Sensibilisation et formation",
+  "url": "https://eninclusif.fr/",
+  "status": 200,
+  "final": "https://eninclusif.fr/"
+ },
+ {
+  "i": 266,
+  "nom": "Learn Accessibility",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.learn-accessibility.org/index.html",
+  "status": 200,
+  "final": "https://www.learn-accessibility.org/index.html"
+ },
+ {
+  "i": 267,
+  "nom": "Digital Green",
+  "cat": "Sensibilisation et formation",
+  "url": "https://jeu.digital.green/",
+  "status": 200,
+  "final": "https://jeu.digital.green/"
+ },
+ {
+  "i": 268,
+  "nom": "Green Web Foundation",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.thegreenwebfoundation.org/",
+  "status": 200,
+  "final": "https://www.thegreenwebfoundation.org/"
+ },
+ {
+  "i": 269,
+  "nom": "Lowtus",
+  "cat": "Sensibilisation et formation",
+  "url": "https://lowtus.fr/",
+  "status": 200,
+  "final": "https://lowtus.fr/"
+ },
+ {
+  "i": 270,
+  "nom": "Académie NR",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.academie-nr.org/",
+  "status": 200,
+  "final": "https://www.academie-nr.org/"
+ },
+ {
+  "i": 271,
+  "nom": "Agir pour un numérique responsable",
+  "cat": "Sensibilisation et formation",
+  "url": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/",
+  "status": 200,
+  "final": "https://metropoleposition.fr/agir-pour-un-numerique-responsable/"
+ },
+ {
+  "i": 272,
+  "nom": "Appliquer les principes du Green IT ",
+  "cat": "Sensibilisation et formation",
+  "url": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise",
+  "status": 200,
+  "final": "https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise"
+ },
+ {
+  "i": 273,
+  "nom": "Causes et enjeux du changement climatique",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/"
+ },
+ {
+  "i": 274,
+  "nom": "Développement durable: enjeux et trajectoires",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires"
+ },
+ {
+  "i": 275,
+  "nom": "E-Parcours Transition Energétique et Ecologique",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/",
+  "status": 404,
+  "final": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/e-parcours-transition-energetique-et-ecologique/"
+ },
+ {
+  "i": 276,
+  "nom": "Eco-Concevoir Demain",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/",
+  "status": 202,
+  "final": "https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/"
+ },
+ {
+  "i": 277,
+  "nom": "Ecologie Politique: défi de la durabilité pour les démocraties",
+  "cat": "Sensibilisation et formation",
+  "url": "https://fr.coursera.org/learn/ecologie-politique",
+  "status": 200,
+  "final": "https://www.coursera.org/learn/ecologie-politique"
+ },
+ {
+  "i": 278,
+  "nom": "Fresque du Numérique",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.fresquedunumerique.org/",
+  "status": 200,
+  "final": "https://www.fresquedunumerique.org/"
+ },
+ {
+  "i": 279,
+  "nom": "L’impact environnemental du numérique dans les formations",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.enseignementsup-recherche.gouv.fr/fr/l-impact-environnemental-du-numerique-dans-les-formations-92151",
+  "status": 403,
+  "final": "https://www.enseignementsup-recherche.gouv.fr/fr/l-impact-environnemental-du-numerique-dans-les-formations-92151"
+ },
+ {
+  "i": 280,
+  "nom": "Impacts Numériques",
+  "cat": "Sensibilisation et formation",
+  "url": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html",
+  "status": 200,
+  "final": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html"
+ },
+ {
+  "i": 281,
+  "nom": "L’atelier RGPD",
+  "cat": "Sensibilisation et formation",
+  "url": "https://atelier-rgpd.cnil.fr/login/index.php",
+  "status": 200,
+  "final": "https://atelier-rgpd.cnil.fr/login/index.php"
+ },
+ {
+  "i": 282,
+  "nom": "Les ODD c’est pas compliqué",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.bpifrance-universite.fr/formations/responsabilite-societale-des-entreprises/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/",
+  "status": 200,
+  "final": "https://www.bpifrance-universite.fr/formation/les-odd-cest-pas-complique-tpe-pme-osez-la-rse-pour-une-croissance-durable/"
+ },
+ {
+  "i": 283,
+  "nom": "Management Responsable",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable",
+  "status": 200,
+  "final": "https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable"
+ },
+ {
+  "i": 284,
+  "nom": "Master Classe Green IT",
+  "cat": "Sensibilisation et formation",
+  "url": "https://careers.societegenerale.com/green-it-program",
+  "status": 200,
+  "final": "https://careers.societegenerale.com/green-it-program"
+ },
+ {
+  "i": 285,
+  "nom": "Principes de l’ingénierie logicielle durable",
+  "cat": "Sensibilisation et formation",
+  "url": "https://docs.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/",
+  "status": 200,
+  "final": "https://learn.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/"
+ },
+ {
+  "i": 286,
+  "nom": "Data Privacy",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/",
+  "status": 200,
+  "final": "https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/"
+ },
+ {
+  "i": 287,
+  "nom": "Grande Ecole du Numérique",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.grandeecolenumerique.fr/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.grandeecolenumerique.fr/"
+ },
+ {
+  "i": 288,
+  "nom": "Green IT - Le matériel de l’immatériel",
+  "cat": "Sensibilisation et formation",
+  "url": "https://hal.archives-ouvertes.fr/hal-02492252",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02492252"
+ },
+ {
+  "i": 289,
+  "nom": "Green Patterns",
+  "cat": "Sensibilisation et formation",
+  "url": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf",
+  "status": 404,
+  "final": "https://livrels.fr/Ordinateur/Logiciels%20%C3%A9co-con%C3%A7us.pdf"
+ },
+ {
+  "i": 290,
+  "nom": "Principes des Green Software",
+  "cat": "Sensibilisation et formation",
+  "url": "https://principles.green/",
+  "status": 200,
+  "final": "https://principles.green/"
+ },
+ {
+  "i": 291,
+  "nom": "Référentiel de connaissances pour un numérique éco-responsable",
+  "cat": "Sensibilisation et formation",
+  "url": "https://hal.archives-ouvertes.fr/hal-02954188",
+  "status": 200,
+  "final": "https://hal.archives-ouvertes.fr/hal-02954188"
+ },
+ {
+  "i": 292,
+  "nom": "RESET",
+  "cat": "Sensibilisation et formation",
+  "url": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf",
+  "status": 200,
+  "final": "https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf"
+ },
+ {
+  "i": 293,
+  "nom": "Wiki NR",
+  "cat": "Sensibilisation et formation",
+  "url": "fr.wiki.isit-eu.org",
+  "status": "ERR:ValueError",
+  "final": "fr.wiki.isit-eu.org"
+ },
+ {
+  "i": 294,
+  "nom": "Ecolog",
+  "cat": "Sensibilisation et formation",
+  "url": "https://ecolog.isit-europe.org/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://ecolog.isit-europe.org/"
+ },
+ {
+  "i": 295,
+  "nom": "Fiches Pratiques NR",
+  "cat": "Sensibilisation et formation",
+  "url": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://www.spn.asso.fr/zoom-sur/decouvrez-nos-fiches-srn-les-bonnes-pratiques/"
+ },
+ {
+  "i": 296,
+  "nom": "Denton Declaration",
+  "cat": "Sensibilisation et formation",
+  "url": "https://openaccess.unt.edu/denton-declaration",
+  "status": 200,
+  "final": "https://openaccess.unt.edu/denton-declaration"
+ },
+ {
+  "i": 297,
+  "nom": "Concevoir sans dark patterns - Guide à l’intention des designers",
+  "cat": "Sensibilisation et formation",
+  "url": "https://beta.designersethiques.org/thematique-design-persuasif/concevoir-sans-dark-patterns",
+  "status": 404,
+  "final": "https://beta.designersethiques.org/thematique-design-persuasif/concevoir-sans-dark-patterns"
+ },
+ {
+  "i": 298,
+  "nom": "Alldup",
+  "cat": "Sobriété de ses données",
+  "url": "https://www.alldup.de/en_download_alldup.php",
+  "status": 200,
+  "final": "https://alldup.de/en/alldup/download.php"
+ },
+ {
+  "i": 299,
+  "nom": "Archifiltre",
+  "cat": "Sobriété de ses données",
+  "url": "https://archifiltre.fr/telechargements",
+  "status": "ERR:gaierror:[Errno 8] nodename nor servname provided, or not known",
+  "final": "https://archifiltre.fr/telechargements"
+ },
+ {
+  "i": 300,
+  "nom": "ADEME - avis d’experts sur l’utilisation de l’argument de « neutralite carbone » dans les communications",
+  "cat": "Marketing et Communication",
+  "url": "https://presse.ademe.fr/2022/02/lademe-publie-un-avis-dexperts-sur-lutilisation-de-largument-de-neutralite-carbone-dans-les-communications.html",
+  "status": 403,
+  "final": "https://presse.ademe.fr/2022/02/lademe-publie-un-avis-dexperts-sur-lutilisation-de-largument-de-neutralite-carbone-dans-les-communications.html"
+ },
+ {
+  "i": 301,
+  "nom": "\"Résultats chiffrés, quelle fiabilité ?\"",
+  "cat": "Marketing et Communication",
+  "url": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/Partie1/FichesConcept/FC1.3.4-FiabiliteResulatsChiffres-MoocImpactNum.html",
+  "status": 200,
+  "final": "https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/Partie1/FichesConcept/FC1.3.4-FiabiliteResulatsChiffres-MoocImpactNum.html"
+ },
+ {
+  "i": 302,
+  "nom": "Libres blancs sur la communication responsable",
+  "cat": "Marketing et Communication",
+  "url": "https://www.leslivresblancs.fr/editeur/sup-de-com",
+  "status": 200,
+  "final": "https://leslivresblancs.fr/editeur/sup-de-com"
+ },
+ {
+  "i": 303,
+  "nom": "Référentiel pour un marketing digital responsable",
+  "cat": "Marketing et Communication",
+  "url": "https://marketingdigitalresponsable.org/",
+  "status": 200,
+  "final": "https://marketingdigitalresponsable.org/"
+ },
+ {
+  "i": 304,
+  "nom": "Ethique - Certificat \"d'influenceur responsable\"",
+  "cat": "Marketing et Communication",
+  "url": "https://www.arpp.org/influence-responsable/",
+  "status": 200,
+  "final": "https://www.arpp.org/influence-responsable/"
+ },
+ {
+  "i": 305,
+  "nom": "Référentiel de la sobriété éditoriale",
+  "cat": "Marketing et Communication",
+  "url": "https://www.sobriete-editoriale.fr/decouvrir-la-sobriete-editoriale/",
+  "status": 200,
+  "final": "https://www.sobriete-editoriale.fr/ressources-sobriete-editoriale/comprendre-la-sobriete-editoriale/"
+ },
+ {
+  "i": 306,
+  "nom": "Ressources pédagogiques en éducation aux médias et à l'information",
+  "cat": "Marketing et Communication",
+  "url": "https://padlet.com/vincent_bornybuzz/ressources-p-dagogiques-en-ducation-aux-m-dias-et-l-informat-hpo70dlkszt48thn",
+  "status": 404,
+  "final": "https://padlet.com/vincent_bornybuzz/ressources-p-dagogiques-en-ducation-aux-m-dias-et-l-informat-hpo70dlkszt48thn"
+ },
+ {
+  "i": 307,
+  "nom": "Ressources Communication Responsable (notion)",
+  "cat": "Marketing et Communication",
+  "url": "https://fir-ixia-5c3.notion.site/Ressources-Communication-Responsable-1cd6d9ce93754dc1b68af4dcfedd9006#b20e1c6e5abb49abbf002935812ab746",
+  "status": 200,
+  "final": "https://fir-ixia-5c3.notion.site/Ressources-Communication-Responsable-1cd6d9ce93754dc1b68af4dcfedd9006#b20e1c6e5abb49abbf002935812ab746"
+ },
+ {
+  "i": 308,
+  "nom": "Handbrake - conversion & compression de vidéos",
+  "cat": "Sobriété de ses données",
+  "url": "https://handbrake.fr/",
+  "status": 200,
+  "final": "https://handbrake.fr/"
+ },
+ {
+  "i": 309,
+  "nom": "\"Empreinte carbone d'un e-mail : mythes, réalités et solutions\"",
+  "cat": "Sobriété de ses données",
+  "url": "https://www.sami.eco/blog/empreinte-carbone-email",
+  "status": 200,
+  "final": "https://www.sami.eco/blog/empreinte-carbone-email"
+ }
+]

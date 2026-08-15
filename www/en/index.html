@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-donnees="../data/">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sustainable IT Toolbox — INR</title>
+<meta name="description" content="Over 200 sustainable IT tools, guides and frameworks curated by the Institut du Numérique Responsable. Every link is checked.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sustainableit-tools.isit-europe.org/en/">
+<link rel="alternate" hreflang="fr" href="../">
+<link rel="alternate" hreflang="en" href="./">
+<link rel="icon" href="../favicon.ico">
+<link rel="preload" href="../data/tools-en.json" as="fetch" crossorigin>
+<link rel="preconnect" href="https://analytic.institutnr.org:8443" crossorigin>
+<link rel="stylesheet" href="../assets/style.css?v=73786cda">
+<meta property="og:title" content="Sustainable IT Toolbox — INR">
+<meta property="og:description" content="Over 200 sustainable IT tools, filterable by topic, audience and type. Links checked.">
+<meta property="og:type" content="website">
+<!-- donnees-structurees -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Sustainable IT Toolbox","url":"https://sustainableit-tools.isit-europe.org/en/","inLanguage":"en","description":"193 sustainable IT tools, guides and frameworks, curated and checked by the INR.","publisher":{"@type":"Organization","name":"Institut du Numérique Responsable","url":"https://institutnr.org","logo":"https://sustainableit-tools.isit-europe.org/assets/logo-inr.svg"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://sustainableit-tools.isit-europe.org/en/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+<!-- /donnees-structurees -->
+</head>
+<body>
+
+<a class="lien-evitement" href="#resultats">Skip to results</a>
+
+<header class="entete">
+  <div class="entete__inner">
+    <a class="entete__marque" href="./">
+      <img class="entete__logo" src="../assets/logo-inr.svg" alt="" width="118" height="36" decoding="async">
+      <span class="entete__titre">
+        <span class="entete__sur-titre">Institut du Numérique Responsable</span>
+        Sustainable IT Toolbox
+      </span>
+    </a>
+    <nav class="entete__nav" aria-label="Main navigation">
+      <a href="./" aria-current="true">Tools</a>
+      <a href="../a-propos.html" lang="fr" hreflang="fr">À propos</a>
+      <a href="https://institutnr.org" target="_blank" rel="noopener">INR website</a>
+      <a href="../" lang="fr" hreflang="fr">Français</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__titre">Find the tool that moves your sustainable IT forward</h1>
+      <p class="hero__intro">
+        A selection by the INR: measurement tools, frameworks, guides and courses.
+        Every link is tested — the ones that no longer answered have been removed.
+      </p>
+
+      <ul class="fraicheur">
+        <li><b id="total-outils">193</b> resources listed</li>
+        <li><b>13</b> topics</li>
+      </ul>
+
+      <div class="recherche">
+        <div class="recherche__champ">
+          <label class="contenu-cache" for="champ-recherche">Search for a tool</label>
+          <input id="champ-recherche" type="search" autocomplete="off"
+                 placeholder="Search: carbon footprint, accessibility, eco-design…">
+          <span class="recherche__raccourci" id="raccourci" aria-hidden="true">/</span>
+          <button class="recherche__effacer" id="effacer-recherche" type="button" hidden>
+            <span aria-hidden="true">×</span>
+            <span class="contenu-cache">Clear search</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="suggestions" id="suggestions">Common topics:</p>
+    </div>
+  </section>
+
+  <div class="corps">
+
+    <aside class="filtres" aria-label="Filters">
+      <button class="filtres__bascule" id="filtres-bascule" type="button"
+              aria-expanded="false" aria-controls="filtres-panneau">
+        Filters <span aria-hidden="true">▾</span>
+      </button>
+      <div id="filtres-panneau" class="filtres__panneau">
+        <div class="filtres__entete">
+          <h2 class="filtres__titre">Refine</h2>
+          <button class="bouton-lien" id="reinitialiser" type="button" disabled>Clear all</button>
+        </div>
+      </div>
+    </aside>
+
+    <section id="resultats" aria-labelledby="titre-resultats">
+      <h2 class="contenu-cache" id="titre-resultats">Results</h2>
+
+      <div class="resultats__barre">
+        <p class="resultats__compte" id="compte"></p>
+        <p class="tri">
+          <label for="tri">Sort by</label>
+          <select id="tri">
+            <option value="pertinence">Relevance</option>
+            <option value="nom">Name (A → Z)</option>
+            <option value="theme">Topic</option>
+          </select>
+        </p>
+      </div>
+
+      <div class="jetons" id="jetons"></div>
+      <p class="contenu-cache" id="annonce" role="status" aria-live="polite"></p>
+
+      <ul class="grille" id="grille"></ul>
+
+      <div class="vide" id="vide" hidden>
+        <h2>No tool matches</h2>
+        <p>Broaden the search: remove a filter, or try a shorter keyword.</p>
+      </div>
+
+      <button class="plus" id="voir-plus" type="button" hidden>Show more tools</button>
+    </section>
+
+  </div>
+</main>
+
+<dialog class="fiche" id="fiche" aria-labelledby="fiche-titre">
+  <div class="fiche__entete">
+    <h2 id="fiche-titre"></h2>
+    <button class="fiche__fermer" type="button">
+      <span aria-hidden="true">×</span>
+      <span class="contenu-cache">Close</span>
+    </button>
+  </div>
+  <div class="fiche__corps"></div>
+</dialog>
+
+<footer class="pied">
+  <div class="pied__inner">
+    <div>
+      <p>
+        Sustainable IT Toolbox, maintained by the
+        <a href="https://institutnr.org" target="_blank" rel="noopener">Institut du Numérique Responsable</a>.
+      </p>
+      <p>Missing a resource, or found a broken link? Write to
+        <a href="mailto:contact@institutnr.org">contact@institutnr.org</a>.
+      </p>
+    </div>
+    <div>
+      <p><a href="topics/">All topics</a> · <a href="../mentions-legales.html" lang="fr" hreflang="fr">Legal notice</a></p>
+      <p>Static site. <a href="../mentions-legales.html" lang="fr" hreflang="fr">Cookieless analytics</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/app.js?v=3b3f28ec" defer></script>
+<script src="../assets/matomo.js?v=9620fab1" defer></script>
+</body>
+</html>

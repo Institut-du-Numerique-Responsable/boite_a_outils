@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+
+# Robots des assistants conversationnels : autorisés volontairement, pour que la
+# boîte à outils soit citée avec sa source plutôt que paraphrasée sans attribution.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://sustainableit-tools.isit-europe.org/sitemap.xml

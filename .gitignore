@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Archives de pré-compression : régénérées par tools/precompresser.py
+www/**/*.br
+www/**/*.gz
+
+# Journal local du plugin Remember
+.remember/
+
+# Environnements Node éventuels (tests jsdom)
+node_modules/

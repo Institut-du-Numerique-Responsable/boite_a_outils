@@ -1,0 +1,153 @@
+# Boîte à outils NR — site statique
+# Apache 2.4. Compression, cache long sur les ressources versionnables,
+# et redirections permanentes depuis l'ancienne version PHP.
+
+# index.html doit primer sur index.php : sur un hébergement mutualisé, PHP passe
+# souvent en premier et l'ancien site reprendrait la main si un .php survivait.
+DirectoryIndex index.html index.htm
+
+RewriteEngine On
+
+# ---------------------------------------------------------------- HTTPS
+# Trois conditions, toutes nécessaires : selon l'hébergement, TLS se signale par
+# %{HTTPS}, par la variable d'environnement, ou — derrière un répartiteur qui
+# termine le TLS — par un simple en-tête. N'en tester qu'une seule provoque soit
+# aucune redirection, soit une boucle infinie.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# HSTS : à décommenter seulement une fois le HTTPS vérifié sur tout le site,
+# sous-domaines compris. L'engagement est tenu par le navigateur pendant un an
+# et ne peut pas être annulé à distance.
+# <IfModule mod_headers.c>
+#   Header always set Strict-Transport-Security "max-age=31536000"
+# </IfModule>
+
+# ------------------------------------------- anciennes URL → nouvelles
+# Les catégories de l'ancienne base deviennent des thèmes.
+RewriteCond %{QUERY_STRING} (^|&)cat=1(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Sensibilisation%20et%20formation [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=2(&|$)
+RewriteRule ^(index\.php)?$ /?theme=%C3%89co-conception%20(Web) [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=3(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Marketing%20et%20Communication [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=4(&|$)
+RewriteRule ^(index\.php)?$ /?theme=%C3%89co-conception%20(Web) [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=5(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Gestion%20de%20l%27%C3%A9nergie%20et%20des%20ressources [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=6(&|$)
+RewriteRule ^(index\.php)?$ /?theme=DEEEE%20et%20Equipements [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=7(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Juridique%20et%20r%C3%A9glementation [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=8(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Sensibilisation%20et%20formation [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=9(&|$)
+RewriteRule ^(index\.php)?$ /?theme=R%C3%A9f%C3%A9rences%20et%20guides [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=10(&|$)
+RewriteRule ^(index\.php)?$ /?theme=D%C3%A9marche%20pour%20les%20organisations%20%2F%20entreprises [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=11(&|$)
+RewriteRule ^(index\.php)?$ /?theme=%C3%89valuation%20et%20mesure [L,R=301]
+RewriteCond %{QUERY_STRING} (^|&)cat=12(&|$)
+RewriteRule ^(index\.php)?$ /?theme=Conception%20web [L,R=301]
+
+# Les fiches juridiques sont désormais des fiches ouvertes côté client.
+RewriteRule ^fiche-outils\.php$ /?theme=Juridique%20et%20r%C3%A9glementation [L,R=301]
+
+# Pages éditoriales et vestiges de l'application PHP.
+RewriteRule ^a-propos-numerique-responsable\.php$ /a-propos.html [L,R=301]
+RewriteRule ^mentions-legales\.php$ /mentions-legales.html [L,R=301]
+RewriteRule ^en/(index\.php)?$ /en/ [L,R=301]
+RewriteRule ^(index|search|odd|toutes-les-contributions)\.php$ / [L,R=301]
+# Le back-office, l'upload et phpinfo n'existent plus : ne pas laisser d'indice.
+RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php$ / [L,R=301]
+
+# ---------------------------------------------------- compression statique
+# Les .br et .gz sont produits une fois par tools/precompresser.py, au niveau
+# maximal. Les servir tels quels évite de recompresser à chaque requête : plus
+# léger sur le réseau et moins de calcul serveur.
+<IfModule mod_headers.c>
+  RewriteCond %{HTTP:Accept-Encoding} br
+  RewriteCond %{REQUEST_FILENAME}.br -f
+  RewriteRule ^(.*)$ $1.br [QSA,L]
+
+  RewriteCond %{HTTP:Accept-Encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule ^(.*)$ $1.gz [QSA,L]
+
+  # Le type MIME doit rester celui du fichier d'origine, pas celui de l'archive.
+  <FilesMatch "\.(html|css|js|json|svg|xml|txt)\.(br|gz)$">
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+  <FilesMatch "\.br$">
+    Header set Content-Encoding br
+  </FilesMatch>
+  <FilesMatch "\.gz$">
+    Header set Content-Encoding gzip
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType text/html .html.br .html.gz
+  AddType text/css .css.br .css.gz
+  AddType application/javascript .js.br .js.gz
+  AddType application/json .json.br .json.gz
+  AddType image/svg+xml .svg.br .svg.gz
+  AddType application/xml .xml.br .xml.gz
+  AddType text/plain .txt.br .txt.gz
+  RemoveLanguage .br
+</IfModule>
+
+# Repli : compression à la volée pour ce qui n'a pas d'archive.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ---------------------------------------------------------------- cache
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # CSS et JS portent une empreinte de contenu dans leur URL (?v=…) : un cache
+  # d'un an est sûr, l'empreinte change dès que le fichier change.
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  # Les données changent à chaque mise à jour du catalogue : cache court.
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# ------------------------------------------------------------- durcissement
+# Pas de listing de répertoire : /data/ et /outils/ ne doivent pas exposer leur
+# contenu à qui devine le chemin.
+Options -Indexes
+
+# Les fichiers cachés et les résidus d'édition ne doivent jamais être servis.
+<FilesMatch "(^\.|~$|\.(bak|old|orig|sql|log|swp|dist)$)">
+  Require all denied
+</FilesMatch>
+
+# --------------------------------------------------------------- entêtes
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+  # Le site n'utilise aucune de ces interfaces : les refuser explicitement évite
+  # qu'un script injecté puisse les solliciter.
+  Header set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+  Header set Cross-Origin-Opener-Policy "same-origin"
+  Header set Cross-Origin-Resource-Policy "same-site"
+  # analytic.institutnr.org:8443 = Matomo auto-hébergé par l'INR. Le port doit
+  # figurer explicitement, sinon le navigateur bloque le chargement du tracker.
+  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data: https://analytic.institutnr.org:8443; style-src 'self'; script-src 'self' https://analytic.institutnr.org:8443; connect-src 'self' https://analytic.institutnr.org:8443; font-src 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+</IfModule>
+
+# Le JSON doit être servi avec le bon type pour être compressé et mis en cache.
+AddType application/json .json
+AddType image/webp .webp
+
+ErrorDocument 404 /404.html
