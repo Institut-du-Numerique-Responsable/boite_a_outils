@@ -6,6 +6,12 @@
 # souvent en premier et l'ancien site reprendrait la main si un .php survivait.
 DirectoryIndex index.html index.htm
 
+<IfModule !mod_rewrite.c>
+  # Sans mod_rewrite, ni HTTPS forcé ni redirections : autant le savoir tout de
+  # suite plutôt que de découvrir le problème en production.
+  ErrorDocument 500 "mod_rewrite est requis par ce site."
+</IfModule>
+
 RewriteEngine On
 
 # ---------------------------------------------------------------- HTTPS
@@ -67,7 +73,10 @@ RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php
 # Les .br et .gz sont produits une fois par tools/precompresser.py, au niveau
 # maximal. Les servir tels quels évite de recompresser à chaque requête : plus
 # léger sur le réseau et moins de calcul serveur.
-<IfModule mod_headers.c>
+# La réécriture relève de mod_rewrite, l'annonce de l'encodage de mod_headers :
+# les deux blocs doivent être gardés séparément, sinon l'absence d'un module
+# désactive silencieusement l'autre.
+<IfModule mod_rewrite.c>
   RewriteCond %{HTTP:Accept-Encoding} br
   RewriteCond %{REQUEST_FILENAME}.br -f
   RewriteRule ^(.*)$ $1.br [QSA,L]
@@ -75,8 +84,11 @@ RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php
   RewriteCond %{HTTP:Accept-Encoding} gzip
   RewriteCond %{REQUEST_FILENAME}.gz -f
   RewriteRule ^(.*)$ $1.gz [QSA,L]
+</IfModule>
 
-  # Le type MIME doit rester celui du fichier d'origine, pas celui de l'archive.
+<IfModule mod_headers.c>
+  # Sans Vary, un cache partagé servirait une archive brotli à un client qui ne
+  # la comprend pas.
   <FilesMatch "\.(html|css|js|json|svg|xml|txt)\.(br|gz)$">
     Header append Vary Accept-Encoding
   </FilesMatch>
@@ -127,8 +139,15 @@ RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php
 Options -Indexes
 
 # Les fichiers cachés et les résidus d'édition ne doivent jamais être servis.
+# Deux syntaxes : Apache 2.4 ignore la seconde, Apache 2.2 ignore la première.
 <FilesMatch "(^\.|~$|\.(bak|old|orig|sql|log|swp|dist)$)">
-  Require all denied
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
 </FilesMatch>
 
 # --------------------------------------------------------------- entêtes

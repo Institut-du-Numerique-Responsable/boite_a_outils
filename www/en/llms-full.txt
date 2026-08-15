@@ -1,0 +1,1402 @@
+# Sustainable IT Toolbox — full catalogue
+
+Source: https://sustainableit-tools.isit-europe.org/en/ — Institut du Numérique Responsable (INR).
+Generated on 2026-08-15. 341 resources.
+
+## AI
+
+### Adversarial robustness toolbox
+Python library for machine learning security. ART provides tools that enable developers and researchers to defend and evaluate learning (ML) models and applications against adverse threats. ART supports all popular machine learning frameworks (TensorFlow, Keras, PyTorch, MXNet, scikit-learn, XGBoost, LightGBM, CatBoost, GPy, etc.), all data types (images, tables, audio, video , etc.) and machine learning of tasks (classification, object detection, voice recognition, generation, certification, etc.).
+Website: https://github.com/Trusted-AI/adversarial-robustness-toolbox — Entry: https://sustainableit-tools.isit-europe.org/en/tools/adversarial-robustness-toolbox.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Machine Learning
+
+### Aequitas Framework
+Open source bias audit and fair machine learning toolkit for data scientists, ML researchers and policymakers.
+Website: https://github.com/dssg/aequitas — Entry: https://sustainableit-tools.isit-europe.org/en/tools/aequitas-framework.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Ai fairness 360 (aif360)
+Open-source library of techniques for detecting and mitigating biases in machine learning models throughout the lifecycle of AI applications. The AI ​​Fairness 360 package is available in Python and R.
+Website: https://github.com/Trusted-AI/AIF360 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ai-fairness-360-aif360.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI
+
+### Anatomy of a cew
+Anatomy of AI systems through interactive maps that can be used as a reference in the case of the measurement and or the LCA of an AI
+Website: https://anatomyof.ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/anatomy-of-a-cew.html — Type: Infographic — Audience: IT professional / Expert — Keywords: Repository
+
+### Artificial Intelligence Index Report (2023)
+Annual report from Stanford University's Institute for Human-Centered AI, tracking the technical, economic and environmental trajectory of artificial intelligence.
+Website: https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/artificial-intelligence-index-report-2023.html — Type: Article
+
+### Carbontracker
+Carbontracker is a tool for monitoring and predicting the energy consumption and carbon footprint of learning models (AI)
+Website: https://github.com/saintslab/carbontracker — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbontracker.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Energy, Footprint
+
+### Case studies on AI in Europe
+Report on the environmental impacts of digital technology in Europe, with case studies covering AI, IoT and cloud services.
+Website: https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/case-studies-on-ai-in-europe.html — Type: Study
+
+### claude-carbon
+Open source extension displaying the carbon footprint of a Claude Code session directly in the terminal status line: cost, quota usage and grams of CO₂ emitted, updated continuously. Makes the impact of everyday AI use visible as it happens. MIT licence.
+Website: https://github.com/gwittebolle/claude-carbon — Entry: https://sustainableit-tools.isit-europe.org/en/tools/claude-carbon.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Measurement, Carbon footprint, Open source
+
+### EcoLogits
+Open source Python library estimating the energy consumption and environmental footprint of calls to generative AI models (OpenAI, Anthropic, Mistral, Google, Hugging Face). Drops into existing code and surfaces the impact of every request, whether text, image or video. Maintained by GenAI Impact.
+Website: https://ecologits.ai/latest/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecologits.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Measurement, Carbon footprint, Open source
+
+### Ethics guidelines for trustworthy ai
+Ethical guidelines for trustworthy AI
+Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethics-guidelines-for-trustworthy-ai.html — Type: Documentation — Audience: General public / Beginner — Keywords: AI, Ai, Artificial Intelligence, Ethics
+
+### Green-ai
+The Green AI Standard aims to develop a standard and raise awareness of best environmental practices in AI research and development
+Website: https://github.com/daviddao/green-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-ai.html — Type: Documentation — Audience: IT professional / Expert — Keywords: AI, Artificial Intelligence
+
+### Impact'IA (SNCF)
+Environmental footprint calculator for large language models, with a detailed methodology document. Covers thirty generative AI models from Google, Anthropic, OpenAI and Mistral, reporting greenhouse gas emissions, water and electricity use per token, with a life-cycle view and reduction practices. Built jointly by SNCF, Resilio and Wavestone.
+Website: https://github.com/SNCFdevelopers/ImpactIA — Entry: https://sustainableit-tools.isit-europe.org/en/tools/impact-ia-sncf.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Measurement, Carbon footprint, Life-cycle assessment, Open source
+
+### Interpretable machine learning
+A guide to understanding black box models.
+Website: https://christophm.github.io/interpretable-ml-book/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/interpretable-machine-learning.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Repository
+
+### Ml co2 impact
+Calculation of the carbon impact, only for the specific use case of machine learning.
+Website: https://mlco2.github.io/impact/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ml-co2-impact.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: HAVE
+
+### Mlco2
+This calculator will give you 2 figures: the gross carbon emissions produced and the approximate offset carbon emissions. The latter number depends on the grid used by the cloud provider and we are open to updating our estimates if anything seems inaccurate or out of date.
+Website: https://mlco2.github.io/impact/#compute — Entry: https://sustainableit-tools.isit-europe.org/en/tools/mlco2.html — Keywords: Carbon Footprint, AI, Machine Learning
+
+### Responsible AI course (Académie NR)
+One-hour course on the ethical, environmental and governance stakes of artificial intelligence, from the INR's training academy.
+Website: https://www.academie-nr.org/mooc-ia/fr/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-ai-course-academie-nr.html — Type: MOOC — Audience: General public / Beginner — Access: Free — Keywords: Training, AI, INR
+
+### Tfjs-models
+This repository hosts a set of pre-trained models that have been ported to TensorFlow.js. The templates are hosted on NPM and unpkg so they can be used in any out-of-the-box project. They can be used directly or in a transfer learning setting with TensorFlow.js.
+Website: https://github.com/tensorflow/tfjs-models — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tfjs-models.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI
+
+### The turing way
+he Turing Way is a reproducible, ethical and collaborative Data Science manual. We involve and support a diverse community of contributors to make data science accessible, understandable and effective for all. Our aim is to provide all the information that researchers and data scientists in academia, industry and the public sector need at the start of their projects to ensure that they are easy to replicate later.
+Website: https://github.com/the-turing-way/the-turing-way — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-turing-way.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Data, Data Science, HandBook, Manual, Open Data
+
+## Accessibility & inclusion
+
+### a11y Color Contrast Checker
+Free colour contrast analysis tools that reveal contrast problems on a web page or between a chosen pair of colours, following the WCAG 2.1 guidelines.
+Website: https://www.audioeye.com/color-contrast-checker/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/a11y-color-contrast-checker.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Access-Score
+Gives users of public digital spaces a simple, immediate reading of how accessible that space is, rather than a raw conformance percentage.
+Website: https://access-score.org — Entry: https://sustainableit-tools.isit-europe.org/en/tools/access-score.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### AccessConfig A11Y
+Lightweight open source style switcher that lets disabled visitors adapt a website to some of their own needs.
+Website: https://accessconfig.a11y.fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessconfig-a11y.html — Type: Tool — Access: Free
+
+### Accessibility Checker
+Free website scan that identifies accessibility problems and returns precise instructions on how to fix each one. Enter a URL to start.
+Website: https://www.accessibilitychecker.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessibility-checker.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Accessible Design website
+Resources for designing services that are useful and usable by everyone, including a practical checklist.
+Website: https://design-accessible.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessible-design-website.html — Type: Documentation
+
+### Accessible office documents (rgaa)
+Create accessible office documents: The RGAA applies to any document or application available online: Internet, Intranet and web applications, but also content available for download. In the RGAA consultation theme, criterion 13.7 (level A) stipulates that "each office document for download has, if necessary, an accessible version". Compliance with this criterion can be achieved in particular by providing an accessible HTML version or by making the document accessible in the format offered for download.
+Website: https://github.com/DISIC/guides-documents_bureautiques_accessibles — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessible-office-documents-rgaa.html — Audience: Content creator / Intermediate — Access: Free — Keywords: Accessibility Microsoft Word, Adobe Acrobat Pro Document Cloud, Calc, Excel, Impress, LibreOffice Writer, PowerPoint, RGAA
+
+### Accessible-DfA font
+Typeface designed for maximum legibility for everyone: high contrast, restrained shapes, wide letterforms and unambiguous characters.
+Website: https://github.com/Orange-OpenSource/font-accessible-dfa — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessible-dfa-font.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Assistant RGAA
+Browser extension for Firefox and Chrome exposing the full list of criteria and tests of the French RGAA accessibility framework, versions 3.0 through 4.1.
+Website: https://github.com/boscop-fr/assistant-rgaa/blob/main/README.md — Entry: https://sustainableit-tools.isit-europe.org/en/tools/assistant-rgaa.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, Conformité, Outils, RGAA
+
+### axe Auditor
+Manual accessibility testing solution for accessibility specialists, with step-by-step guidance, tracking and report generation.
+Website: https://www.deque.com/axe/auditor/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/axe-auditor.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, Audit, Conformité, Outils, RGAA
+
+### axe DevTools
+Automated and guided accessibility testing for component developers, front-end developers, native mobile developers and test engineers.
+Website: https://www.deque.com/axe/devtools/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/axe-devtools.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, Conformité, Outils, RGAA
+
+### axe Monitor
+Enterprise-level analysis and reporting tool that assesses the accessibility of entire websites, including password-protected areas.
+Website: https://www.deque.com/axe/monitor/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/axe-monitor.html — Type: Tool — Audience: Content creator / Intermediate — Keywords: API, Accessibility, Conformité, Dashboard, KPI, Outils, RGAA
+
+### Chrome DevTools — Accessibility tree
+Full accessibility tree inspection built into Chrome developer tools.
+Website: https://developer.chrome.com/blog/full-accessibility-tree/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/chrome-devtools-accessibility-tree.html — Type: Tool
+
+### Color contrast analyzer (cca)
+Color contrast checker
+Website: https://vispero.com/lp/color-contrast-checker/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/color-contrast-analyzer-cca.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Accessibility
+
+### Color safe
+Allows you to create a graphic charter by following the recommendations of WCAG.
+Website: http://colorsafe.co/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/color-safe.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Accessibility
+
+### Contrastradio
+Used to test the contrast ratio between two colors. The tool provides guidance on the level of compliance that can potentially be achieved with this color scheme. To achieve AA accessibility level: minimum contrast ratio of 4.5: 1. For AAA level: minimum contrast ratio of 7: 1.
+Website: https://www.siegemedia.com/contrast-ratio — Entry: https://sustainableit-tools.isit-europe.org/en/tools/contrastradio.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Accessibility
+
+### DesignGouv toolkit
+Toolkit published by the French government design team: methods, templates and checklists for designing public digital services, including accessibility and eco-design guidance.
+Website: https://design.numerique.gouv.fr/outils/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/designgouv-toolkit.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Design, Digital Mediation, Front-end
+
+### Digital accessibility awareness posters (UK Government)
+Do's and don'ts posters on designing for accessibility, published by the UK government and translated into more than a dozen languages.
+Website: https://github.com/UKHomeOffice/posters/tree/master/accessibility/dos-donts — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-accessibility-awareness-posters-uk-government.html — Type: Infographic
+
+### European Accessibility Act
+Reference material on Directive (EU) 2019/882 covering digital accessibility requirements across the European Union.
+Website: https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en — Entry: https://sustainableit-tools.isit-europe.org/en/tools/european-accessibility-act.html — Type: Documentation
+
+### EXPERTE.com Accessibility Test
+Crawls a website and checks whether each subpage can be rendered correctly by screen readers, then reports what needs fixing.
+Website: https://www.experte.com/fr/accessibilite — Entry: https://sustainableit-tools.isit-europe.org/en/tools/experte-com-accessibility-test.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Mobile accessibility
+Checklist for mobile accessibility
+Website: https://developer.mozilla.org/fr/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist — Entry: https://sustainableit-tools.isit-europe.org/en/tools/mobile-accessibility.html — Type: Guide / Framework — Audience: General public / Beginner — Keywords: Accessibility, Mobile, Repository
+
+### One click accessibility
+WordPress Accessibility Plugin
+Website: https://fr.wordpress.org/plugins/pojo-accessibility/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/one-click-accessibility.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Accessibility
+
+### OpenDyslexic
+Typeface designed to counter common symptoms of dyslexia, with weighted letter bottoms that help keep characters from rotating.
+Website: https://opendyslexic.org — Entry: https://sustainableit-tools.isit-europe.org/en/tools/opendyslexic.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Pix
+Digital skills assessment and certification platform for all. Digital is now everywhere. In our professional and private life. Mastering the Internet and computers has become a major issue for society. In this context, Pix's mission is to help everyone to cultivate their digital skills. Pix is ​​aimed at everyone: pupils, students, working professionals, dropouts, job seekers, seniors, or more simply citizens who wish to measure, develop and enhance their digital skills. The service takes the form of an online platform for the assessment and certification of digital skills. Pix seeks to arouse the desire for lifelong learning by offering a standard as well as innovative, demanding and benevolent assessment methods.
+Website: https://github.com/1024pix/pix — Entry: https://sustainableit-tools.isit-europe.org/en/tools/pix.html — Type: Organisation — Audience: General public / Beginner — Access: Free — Keywords: Digital Mediation, Digital Skills, Illectronism, Inclusion
+
+### RandomA11y — accessible colour pairs
+Real-time colour playground offering millions of accessible colour combinations, each rated against contrast requirements.
+Website: https://randoma11y.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/randoma11y-accessible-colour-pairs.html — Type: Tool
+
+### Rgaa
+General framework for improving accessibility
+Website: https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/rgaa.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free — Keywords: Accessibility, Referential
+
+### Tanaguru
+Tanaguru Engine, check the accessibility level of a page, a site or a purchasing process is done in a few clicks in the application. Tanaguru Engine the first step towards RGAA compliance, it is the open source solution to audit the accessibility of your websites and web applications!
+Website: https://www.tanaguru.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tanaguru.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility,
+
+### The A11Y Project
+Community-run collection of accessibility resources: checklists, articles and tooling, maintained in English.
+Website: https://www.a11yproject.com/resources/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-a11y-project.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free
+
+### The OAA accessibility game
+Guided game that walks a team through making a digital service accessible, step by step.
+Website: https://design.numerique.gouv.fr/outils/jeu-de-oaa/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-oaa-accessibility-game.html — Type: Workshop — Access: Free
+
+### The rgaa for integrators
+Integrator's guide as a framework for resources accompanying the handling of the general accessibility reference system for administrations (note version of this kit intended for RGAA 3 while version 4 is already in use)
+Website: https://github.com/DISIC/guide-integrateur — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-rgaa-for-integrators.html — Audience: IT professional / Expert — Access: Free — Keywords: CSS, Code, HTML, RGAA
+
+### W3c web accessibility
+Get a solid foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.
+Website: https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility — Entry: https://sustainableit-tools.isit-europe.org/en/tools/w3c-web-accessibility.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Accessibility, MOOC, Training, W3C, Web
+
+### Wah
+Accessibility plugin for WordPress
+Website: https://fr.wordpress.org/plugins/wp-accessibility-helper/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/wah.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, WordPress
+
+### Wave webaim
+Website accessibility assessment tool.
+Website: https://wave.webaim.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/wave-webaim.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Accessibility, Measurement, Web
+
+### Webaccessibility
+Test and API to assess the accessibility of an external or internal website
+Website: https://www.webaccessibility.com/tools/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/webaccessibility.html — Type: Tool — Audience: Content creator / Intermediate — Keywords: Accessibility
+
+### Wp accessibility
+Accessibility plugin for WordPress
+Website: https://fr.wordpress.org/plugins/wp-accessibility/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/wp-accessibility.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, WordPress
+
+## Awareness & training
+
+### Accessibility
+A 1pm Mooc to help you promote access to the digital world for people with disabilities
+Website: https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/accessibility.html — Keywords: Accessibility, MOOC, Training, W3C, Web
+
+### Act for sustainable digital
+Acting for sustainable digital technology, this MOOC will allow us to understand the impact of digital technology on the environment and identify the sources of pollution in our daily lives and integrate sustainable reflexes into the culture of the company.
+Website: https://metropoleposition.fr/agir-pour-un-numerique-responsable/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/act-for-sustainable-digital.html — Type: Documentation — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Apply the principles of green it
+It is common to hear that digital technology is “green”, that is to say that it has little or no ecological impact, or even that it reduces the ecological impacts of the rest of our economy. . In this MOOC, these two ideas will be questioned. Indeed, digital technology has on the contrary real and growing ecological impacts: greenhouse gas emissions, pollution, production of toxic waste, etc. In addition, its ability to reduce the ecological impacts of the rest of our economy is questionable (rebound effect, planned obsolescence, etc.).
+Website: https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise — Entry: https://sustainableit-tools.isit-europe.org/en/tools/apply-the-principles-of-green-it.html — Type: Documentation — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Bon Pote
+French media outlet dedicated to dismantling the most common misconceptions about climate change, with sourced, referenced articles.
+Website: https://bonpote.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/bon-pote.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Dérèglement climatique, Médias, Learn
+
+### Camille Étienne — climate advocacy
+Account of Camille Étienne, a young French activist for social and climate justice, known for short-form explainers.
+Website: https://www.instagram.com/graine_de_possible — Entry: https://sustainableit-tools.isit-europe.org/en/tools/camille-etienne-climate-advocacy.html — Keywords: Understand, Vulgarisation
+
+### Causes and challenges of climate change
+The MOOC "Causes and challenges of climate change" invites you to come back, as an introduction, to this international negotiation, its objectives, its actors and its mechanisms. This course invites you to explore the climate and its changes; the low carbon transition; adaptation of societies to climate change.
+Website: https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/causes-and-challenges-of-climate-change.html — Type: Documentation — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Data privacy
+Inria offers us training in this MOOC to help you understand how to make informed and reasoned use of applications and objects in the digital world with regard to the challenges of Data Privacy.
+Website: https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-privacy.html — Audience: General public / Beginner
+
+### Denton declaration
+Manifesto for open data
+Website: https://openaccess.unt.edu/denton-declaration — Entry: https://sustainableit-tools.isit-europe.org/en/tools/denton-declaration.html — Type: Guide / Framework — Audience: General public / Beginner — Keywords: Data,, Open Data
+
+### Digital Collage (Fresque du Numérique)
+Collaborative, playful workshop for understanding the environmental impact of digital technology. Doubles as a team-building exercise, using the same teaching approach as the Climate Fresk.
+Website: https://www.fresquedunumerique.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-collage-fresque-du-numerique.html — Type: Documentation — Audience: General public / Beginner — Keywords: Training, Awareness
+
+### Digital Green
+Awareness game on digital eco-design. Accessible, quick and easy: five minutes are enough to grasp what could be improved in the design of a website.
+Website: https://jeu.digital.green/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-green.html — Type: Workshop — Audience: Content creator / Intermediate — Access: Free
+
+### Digital impacts
+Inria offers us a series of educational sheets to understand the impacts generated by digital technology
+Website: https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-impacts.html — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Eco-design tomorrow
+This introductory MOOC to eco-design offers you the opportunity to discover how to reduce the environmental footprints of products (goods or services) while maintaining their intrinsic qualities and performance.
+Website: https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/eco-design-tomorrow.html — Type: Documentation — Audience: Content creator / Intermediate — Keywords: MOOC, Training
+
+### Ecological engineering
+This MOOC invites you to discover the foundations, the challenges, the tools, the actors as well as the conditions of implementation of ecological engineering.
+Website: https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecological-engineering.html — Keywords: MOOC, Training
+
+### Environmental impact of digital technology in higher education
+French ministry report on the environmental footprint of digital technology across higher education and research, and how it is taught.
+Website: https://www.enseignementsup-recherche.gouv.fr/fr/l-impact-environnemental-du-numerique-dans-les-formations-92151 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/environmental-impact-of-digital-technology-in-higher-education.html — Audience: General public / Beginner
+
+### Ethereum energy consumption
+An approach for the estimation of the energy consumption per day of Ethereum which gives birth to a second carbon footprint estimate project ... but some will be interested by this only energy approach
+Website: https://github.com/kylemcdonald/ethereum-emissions — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethereum-energy-consumption.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Cloud, CryptoArt, Energy, Ether
+
+### Futur.eco
+Carbon footprint calculator built to fix orders of magnitude in mind: a steak is a day of the carbon budget compatible with 2°C, an international flight is a quarter of a year.
+Website: https://futur.eco// — Entry: https://sustainableit-tools.isit-europe.org/en/tools/futur-eco.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Calculator, Empreinte carbone, Learn
+
+### Green it - the material of the intangible
+Green IT - The material of the intangible
+Website: https://hal.archives-ouvertes.fr/hal-02492252 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-it-the-material-of-the-intangible.html — Type: Study — Audience: General public / Beginner — Keywords: Repository
+
+### Green web foundation
+This service informs you if the hosting of the DataCenter used for your website uses green energy
+Website: https://www.thegreenwebfoundation.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-web-foundation.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Footprint, Measurement, Web
+
+### Inclusive
+Web application allowing you to search for gendered words so as to allow you to introduce gendered words within your editorial content
+Website: https://eninclusif.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/inclusive.html — Type: Tool — Audience: General public / Beginner — Keywords: Inclusive writing
+
+### IPCC reports
+Access to the latest reports, chapter by chapter, from the Intergovernmental Panel on Climate Change.
+Website: https://www.ipcc.ch/report/ar6/wg3/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ipcc-reports.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Climat, Learn
+
+### Knowledge repository for esustainable it
+Knowledge repository for sustainable IT
+Website: https://hal.archives-ouvertes.fr/hal-02954188 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/knowledge-repository-for-esustainable-it.html — Type: Study — Audience: General public / Beginner — Access: Free — Keywords: Repository
+
+### Learn accessibility
+To learn to understand the challenges and problems of accessibility
+Website: https://www.learn-accessibility.org/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/learn-accessibility.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Accessibility
+
+### Lowtus
+This tool / this site offers site rankings according to criteria of performance, SEO, security and good practices. Lowtus does not try to say which site is better than another; who has a good site and who has a bad site. Lowtus tests web pages, but does not present fine indicators that would allow a one-off quality improvement process to be initiated. Lowtus does not have a business model or profitability objective. Its objective is above all to present a different approach to control the quality of web pages. Lowtus is not versed in free, not necessarily out of discretion, but because the code remains very specific for the moment. We need to sit down the architecture to see how to eventually free some bricks from it.
+Website: https://lowtus.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/lowtus.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: SEO
+
+### Man has eaten the Earth
+Documentary tracing the race for development from the industrial revolution to today, and the point at which the anthropocene began.
+Website: https://www.facebook.com/VisitAnalalava405/videos/lhomme-a-mang%C3%A9-la-terre/4553542684671140/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/man-has-eaten-the-earth.html — Type: Video — Audience: General public / Beginner — Access: Free
+
+### Manifesto for an ecological awakening
+Student initiative launched in 2018, gathering young graduates who commit to working only for employers compatible with ecological limits.
+Website: https://manifeste.pour-un-reveil-ecologique.org/fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/manifesto-for-an-ecological-awakening.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Ecologie, Learn
+
+### Master class green it
+Masterclass offered by Société Générale on its approaches to GreenIT
+Website: https://careers.societegenerale.com/green-it-program — Entry: https://sustainableit-tools.isit-europe.org/en/tools/master-class-green-it.html — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Periodic table of scarcity
+Accessible rendering of the ninety elements that make up our world, how much of each is left, and which ones sit inside a smartphone.
+Website: https://www.euchems.eu/euchems-periodic-table/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/periodic-table-of-scarcity.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Understand, Infographie, Ressources
+
+### Political ecology: challenge of sustainability for democracies
+Course offered by the University of Lausane presented by Dominique Bourg and Grabriel Salerno
+Website: https://www.coursera.org/learn/ecologie-politique — Entry: https://sustainableit-tools.isit-europe.org/en/tools/political-ecology-challenge-of-sustainability-for-democracies.html — Type: Documentation — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Principles of green software
+The Green Software Principles are a set of basic (manifesto) principles needed to define, build and run sustainable software applications.
+Website: https://principles.green/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/principles-of-green-software.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free — Keywords: Green Code, Referential
+
+### Principles of sustainable software engineering
+The principles of sustainable software engineering in the list of courses offered by Microsoft
+Website: https://learn.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/principles-of-sustainable-software-engineering.html — Type: Documentation — Audience: IT professional / Expert — Keywords: MOOC, Training
+
+### Qu'est-ce qu'on fait ?!
+Media outlet producing infographics that are both precise and approachable on today's planetary stakes, pairing each explanation with possible responses.
+Website: https://archives.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter — Entry: https://sustainableit-tools.isit-europe.org/en/tools/qu-est-ce-qu-on-fait.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Dérèglement climatique, Infographie, Médias, Learn
+
+### Reset
+Digital actions / recommendations.
+Website: https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/reset.html — Type: Guide / Framework — Audience: General public / Beginner — Access: Free — Keywords: Repository
+
+### Responsible management
+This MOOC offers a vision of responsible management that can be relevant as much in the day-to-day management of companies as in decision-making that has an impact on the future of the Earth. Responsible management deals with the triple social, economic and environmental constraint of sustainable development. Its deployment is only possible through the transformation of people, businesses and society as a whole. It involves rethinking our habits and prejudices, as well as changing our values.
+Website: https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-management.html — Audience: Content creator / Intermediate — Keywords: MOOC, Training
+
+### Small gestures will not be enough
+Interview series from Time for the Planet on why individual eco-gestures cannot substitute for structural change.
+Website: https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/small-gestures-will-not-be-enough.html — Type: Video — Audience: General public / Beginner — Access: Free — Keywords: Understand, Dérèglement climatique, Interviews
+
+### Socially sustainable development
+This transdisciplinary MOOC invites you to investigate together the interactions between the economic, ecological and social spheres as well as their effects on situations of poverty, vulnerability and exclusion.
+Website: https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/socially-sustainable-development.html — Keywords: MOOC, Training
+
+### Sustainable development goals
+This MOOC aims to inform you about the 17 objectives of sustainable development and to explain to you what they are. This MOOC was also built to make you want to get involved, or even to continue your involvement.
+Website: https://www.my-mooc.com/fr/mooc/objectifs-de-developpement-durable/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-development-goals.html — Keywords: MOOC, Training
+
+### Sustainable development: challenges and trajectories
+This MOOC offers a reflection on sustainable development and awareness of its challenges from historical, environmental and socio-economic perspectives.
+Website: https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-development-challenges-and-trajectories.html — Type: Documentation — Audience: General public / Beginner — Keywords: MOOC, Training
+
+### Sustainable it academy
+The Sustainable Digital Awareness MOOC is a sustainable digital training program for everyone.
+Website: https://www.academie-nr.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-academy.html — Type: Documentation — Audience: General public / Beginner — Keywords: INR, MOOC, Training
+
+### Sustainable IT awareness course (Académie NR)
+Thirty-minute introduction to the environmental, social and ethical stakes of digital technology. Short format designed to be rolled out widely across an organisation. Free, from the INR academy.
+Website: https://www.academie-nr.org/mooc-sensibilisation/fr/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-awareness-course-academie-nr.html — Type: MOOC — Audience: General public / Beginner — Access: Free — Keywords: Training, Awareness, INR
+
+### Sustainable IT course — full programme (Académie NR)
+Eleven modules covering the fundamentals of sustainable IT: environmental, social, economic and geopolitical impacts, then concrete solutions. The INR academy's reference programme.
+Website: https://www.academie-nr.org/mooc-nr/fr/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-course-full-programme-academie-nr.html — Type: MOOC — Audience: General public / Beginner — Access: Free — Keywords: Training, Awareness, INR
+
+### Team for the Planet videos
+Interview series produced by Team for the Planet on climate solutions and the companies attempting them.
+Website: https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/team-for-the-planet-videos.html — Type: Video — Audience: General public / Beginner — Access: Free
+
+### The gdpr workshop
+A new online training course open to all (MOOC) entitled "The RGPD workshop", offers professionals the opportunity to discover, or better, to understand the RGPD. It thus makes it possible to initiate compliance with their organization and to help raise awareness among operational staff.
+Website: https://www.cnil.fr/fr/comprendre-le-rgpd/le-mooc-de-la-cnil — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-gdpr-workshop.html — Keywords: MOOC, Training
+
+### The Shift Project: decarbonising industry
+Working group synthesis produced for the French Economy Transformation Plan, identifying the levers for reaching industrial carbon neutrality.
+Website: https://theshiftproject.org/app/uploads/2025/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-shift-project-decarbonising-industry.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Understand, Economie, Industrie
+
+### The Shift Project: decarbonising the French economy
+The French Economy Transformation Plan, initiated by Jean-Marc Jancovici, proposing pragmatic decarbonisation paths sector by sector.
+Website: https://ilnousfautunplan.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-shift-project-decarbonising-the-french-economy.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Understand, Economie, Industrie
+
+### Thinkerview
+Long-form interview channel that stress-tests arguments and gives airtime to under-represented viewpoints, including on energy and resource limits.
+Website: https://www.thinkerview.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/thinkerview.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Climat, Economie, Industrie, Learn
+
+## Data sobriety
+
+### AllDup
+Software that locates and removes duplicate files across hard drives, matching on several properties rather than filename alone.
+Website: https://alldup.de/en/alldup/download.php — Entry: https://sustainableit-tools.isit-europe.org/en/tools/alldup.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Cleanfox
+Bulk unsubscribe service for marketing emails and inbox clean-up. A mainstream entry point to data sobriety, often used alongside a Digital Cleanup Day.
+Website: https://www.cleanfox.io/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cleanfox.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Sobriety, Data, Awareness
+
+### Digital Cleanup Day
+World digital clean-up day: resources, facilitation kits and materials for running a data clean-up event in an organisation or a school. A concrete way into data sobriety.
+Website: https://digital-cleanup-day.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-cleanup-day.html — Type: Workshop — Audience: General public / Beginner — Access: Free — Keywords: Awareness, Sobriety, Data
+
+### HandBrake — video conversion and compression
+Open source, GPL-licensed, multiplatform video transcoder for reducing the weight of video files before publication.
+Website: https://handbrake.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/handbrake-video-conversion-and-compression.html — Type: Tool
+
+### oPPTimiz
+PowerPoint add-in developed by EDF that shrinks presentations by compressing images and removing unused slide masters. Adds a Sustainable IT group to the ribbon, with a shortcut to Microsoft's accessibility checker. Also works from the command line and Windows Explorer. GPL-3.0.
+Website: https://github.com/groupe-edf/oPPTimiz — Entry: https://sustainableit-tools.isit-europe.org/en/tools/opptimiz.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Office software, Open source, Sobriety
+
+### Software management plans
+Checklist for a software management plan. This checklist will help you write an SMP. It consists of sections that cover the key elements that an SMP should include. A software management plan (SMP) can help you define a set of structures and goals for understanding your research software, including what you will develop; who is the software for (even if it's just for you); how you will deliver your software to the users it is intended for; how it will help them; and how you will assess whether it has helped them and contributed to the research, as you intended. An SMP also helps you understand how you can support those who want or use your research software; how your software relates to other artifacts in your research ecosystem; and how you will ensure that your software remains available beyond the lifespan of your current project.
+Website: https://zenodo.org/records/2159713 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/software-management-plans.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Management plan, Software management plan
+
+### The carbon footprint of an email: myths and reality
+Sets aside the folklore and gives the actual carbon footprint of an email, with three ways to reduce it — and why emptying your inbox achieves almost nothing.
+Website: https://www.sami.eco/blog/empreinte-carbone-email — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-carbon-footprint-of-an-email-myths-and-reality.html — Type: Article
+
+## Energy & resource management
+
+### Carbon Aware SDK (Green Software Foundation)
+Development kit that lets an application shift its workloads to the times or regions where electricity is least carbon-intensive. Moves from measurement to action without changing the architecture.
+Website: https://github.com/Green-Software-Foundation/carbon-aware-sdk — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbon-aware-sdk-green-software-foundation.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Cloud, Open source
+
+### Cpu energy meter
+CPU Energy Meter is a Linux tool that allows you to monitor the energy consumption of Intel processors with fine temporal granularities (a few tens of milliseconds). Power monitoring is available for the following power domains:
+- by package domain (CPU socket)
+- by core domain (all processor cores in a package)
+- by uncore domain (uncore components, by example, integrated graphics on client processors)
+- by memory node (local memory of a package, server processors only)
+- by platform (all devices on the platform that are powered by an integrated power mechanism , for example, processor cores, SOC, memory, add-ons or peripherals)
+Website: https://github.com/sosy-lab/cpu-energy-meter — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cpu-energy-meter.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### Electricitymap
+Allows you to view the quantity of CO₂ emitted to produce your electricity, in real time.
+The regions of the world are colored according to the carbon intensity (including all greenhouse gases) of the electricity consumed there.
+Website: https://app.electricitymaps.com/map/live/fifteen_minutes — Entry: https://sustainableit-tools.isit-europe.org/en/tools/electricitymap.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: CO2, EU, Electricity, Energy, Europe, Reference data
+
+### Energy assessment questionnaire (Green IT Switzerland)
+Self-assessment questionnaire measuring how far a data centre meets energy efficiency best practice, and where the remaining gaps are.
+Website: https://greenit-switzerland.ch/de/evaluation-cc/?lang=fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-assessment-questionnaire-green-it-switzerland.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Good practice, Data centre, Efficacité Energétique, Energy, Evaluation, Measurement
+
+### Energy languages
+Used to assess energy consumption according to programming languages.
+Website: https://github.com/greensoftwarelab/Energy-Languages — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-languages.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Repository
+
+### Energy meter logger
+Records energy data on a Raspberry Pi and allows you to plot graphs of your energy consumption.
+Website: https://github.com/samuelphy/energy-meter-logger — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-meter-logger.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### Energy smells for android
+Catalog of code smells dedicated to energy for Android apps
+Website: https://olegoaer.perso.univ-pau.fr/android-energy-smells/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-smells-for-android.html — Type: Documentation — Audience: IT professional / Expert — Access: Free — Keywords: Mobile
+
+### Energy Use Calculator
+Estimates the electricity consumption of everyday electronic equipment, from a laptop to a fridge, and converts it into a running cost.
+Website: https://energyusecalculator.com/electricity_wifirouter.htm — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-use-calculator.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Energybox
+EnergyBox is a parameterized tool that allows precise studies of communication energy in the user, using real traffic traces as input. Currently, it focuses on the most popular wireless technologies (3G and WiFi) and emulates the communication energy footprint of application data at the user device level. EnergyBox performs iterative simulation based on the trace.
+Website: https://github.com/rtslab/EnergyBox — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energybox.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Mobile, Networks
+
+### European code of conduct for data centers
+The Data Center Energy Efficiency CoC was established to respond to the increase in energy consumption in data centers and the need to reduce environmental, economic and security impacts. energy supply.
+Website: https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/european-code-of-conduct-for-data-centers.html — Type: Documentation — Audience: IT professional / Expert — Access: Free — Keywords: Repository
+
+### Filevert
+Transfer of heavy files respecting the impacts that this type of tool can generate
+Website: https://filevert.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/filevert.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Office tool
+
+### Greenspector
+GreenSpector offers a tool for evaluating the effectiveness of a website on a mobile device; speed and impact on battery are taken into account
+Website: https://greenspector.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenspector.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid — Keywords: Footprint, Measurement, Web
+
+### ImageResizer
+Bulk image resizer: pick a target size and process a whole batch at once before publishing.
+Website: https://imageresizer.com/fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/imageresizer.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Kepler (CNCF)
+Prometheus exporter estimating the energy consumption of Kubernetes pods from hardware counters and eBPF. A Cloud Native Computing Foundation project, to attribute consumption to each containerised workload.
+Website: https://github.com/sustainable-computing-io/kepler — Entry: https://sustainableit-tools.isit-europe.org/en/tools/kepler-cncf.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Energy, Cloud, Open source
+
+### Klip
+The eco-sustainable and secure solution for sending your attachments.
+Website: https://klip.green/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/klip.html — Type: Tool — Audience: General public / Beginner — Keywords: Office tool
+
+### Kmeet
+WebMeeting Tools
+Website: https://kmeet.infomaniak.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/kmeet.html — Audience: General public / Beginner — Keywords: Office tool
+
+### Low web
+Extension that helps you reduce energy consumption and the carbon footprint of your internet browsing.
+Website: https://github.com/vicocotea/low-web-extension — Entry: https://sustainableit-tools.isit-europe.org/en/tools/low-web.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Tool
+
+### Metals and rare earths inside a smartphone
+Tantalum, hafnium, praseodymium, terbium: an explainer on the strategically important exotic metals that make a smartphone work, and where they come from.
+Website: https://www.frandroid.com/comment-faire/comment-fonctionne-la-technologie/613459_a-quoi-servent-les-metaux-rares-dans-nos-smartphones#pid=2 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/metals-and-rare-earths-inside-a-smartphone.html — Type: Article
+
+### Open sustainable technology
+List of open technology projects supporting a stable climate, energy supply and vital natural resources
+Website: https://opensustain.tech — Entry: https://sustainableit-tools.isit-europe.org/en/tools/open-sustainable-technology.html — Audience: IT professional / Expert — Keywords: Climate,, Measures
+
+### Photographs: the lithium industry
+Aerial photographs of the Salar de Atacama and the SQM and Albemarle lithium evaporation ponds, showing the physical footprint of battery supply.
+Website: https://www.tomhegen.com/collections/the-lithium-series-i — Entry: https://sustainableit-tools.isit-europe.org/en/tools/photographs-the-lithium-industry.html — Type: Infographic
+
+### Scaphandre (Hubblo)
+Open source energy metrology agent written in Rust. Measures a machine's power draw and attributes it process by process, on bare metal as well as in virtual machines. Exposes metrics to Prometheus.
+Website: https://github.com/hubblo-org/scaphandre — Entry: https://sustainableit-tools.isit-europe.org/en/tools/scaphandre-hubblo.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Energy, Open source
+
+### Send
+Tools for calculating energy savings.
+Website: https://github.com/opendsm/opendsm — Entry: https://sustainableit-tools.isit-europe.org/en/tools/send.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### ShortPixel
+Compresses images, up to twenty at a time, and analyses a website for oversized assets.
+Website: https://shortpixel.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/shortpixel.html — Type: Tool — Audience: Content creator / Intermediate
+
+### Swiss transfer
+SwissTransfer is a secure and simple way to share files, up to 50GB, securely in the world and without registration.
+Website: https://www.swisstransfer.com/fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/swiss-transfer.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Office tool
+
+### The metals in your smartphone
+Smartphones can contain around 80% of the stable elements in the periodic table. This graphic details the critical metals carried in a pocket.
+Website: https://elements.visualcapitalist.com/critical-metals-in-a-smartphone/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-metals-in-your-smartphone.html — Type: Infographic
+
+## Innovation & research
+
+### Cottage
+Cabanon is an experimental visualization project exploring issues related to privacy and anonymization techniques by visually comparing the results obtained by anonymizing a dataset with different anonymization methods.
+Website: https://github.com/LINCnil/Cabanon — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cottage.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Data privacy
+
+### Opidor
+OPIDoR supports you through the development and implementation of data and software management plans
+Website: https://dmp.opidor.fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/opidor.html — Type: Tool — Audience: IT professional / Expert — Keywords: DMP, Data, Management plan, Software management
+
+### RGAA audit kit
+Starter kit for running an audit against the French RGAA accessibility framework.
+Website: https://accessibilite.numerique.gouv.fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/rgaa-audit-kit.html — Type: Tool — Audience: IT professional / Expert
+
+## Marketing & communication
+
+### ADEME expert opinion on 'carbon neutral' claims in advertising
+Position paper from the French environment agency setting out why claiming carbon neutrality for a product or service is misleading, and what may legitimately be said instead.
+Website: https://presse.ademe.fr/2022/02/lademe-publie-un-avis-dexperts-sur-lutilisation-de-largument-de-neutralite-carbone-dans-les-communications.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ademe-expert-opinion-on-carbon-neutral-claims-in-advertising.html — Type: Article
+
+### Editorial sobriety framework
+Explains editorial sobriety through its four pillars, and what writing less and better brings to both audiences and the organisation.
+Website: https://www.sobriete-editoriale.fr/ressources-sobriete-editoriale/comprendre-la-sobriete-editoriale/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/editorial-sobriety-framework.html — Type: Guide / Framework
+
+### How reliable are the numbers?
+Module from the INRIA course examining how much confidence to place in published environmental figures for digital technology.
+Website: https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/Partie1/FichesConcept/FC1.3.4-FiabiliteResulatsChiffres-MoocImpactNum.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/how-reliable-are-the-numbers.html — Type: Article
+
+### Responsible communication resource base
+Shared resource base on responsible communication assembled by the Collectif pour une Communication Responsable: guides, frameworks, studies and field feedback.
+Website: https://fir-ixia-5c3.notion.site/Ressources-Communication-Responsable-1cd6d9ce93754dc1b68af4dcfedd9006#b20e1c6e5abb49abbf002935812ab746 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-communication-resource-base.html — Type: Documentation
+
+### Responsible digital marketing framework
+Manifesto and framework for embedding responsible practice in marketing teams, setting standards that respect users and their attention.
+Website: https://marketingdigitalresponsable.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-digital-marketing-framework.html — Type: Guide / Framework
+
+### Responsible influencer certificate
+Certification for influencers, content creators and brand ambassadors who want to protect their communities, covering advertising transparency and responsible promotion.
+Website: https://www.arpp.org/influence-responsable/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-influencer-certificate.html — Type: Tool
+
+### Sustainable IT kit — communicating your approach (ANCT)
+Communication kit for local authorities that want to publicise their sustainable IT approach, internally and to residents, without slipping into greenwashing.
+Website: https://lesbases.anct.gouv.fr/ressources/kit-nr-communiquer-autour-de-sa-demarche-numerique-responsable — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-kit-communicating-your-approach-anct.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Access: Free — Keywords: Local authorities, Communication, Public sector
+
+### White papers on responsible communication
+Barometer of communication professions, running since 2013, tracking how responsible practices are actually adopted by communication teams.
+Website: https://leslivresblancs.fr/editeur/sup-de-com — Entry: https://sustainableit-tools.isit-europe.org/en/tools/white-papers-on-responsible-communication.html — Type: Documentation
+
+## Measurement & assessment
+
+### 42u
+Data Center Performance Measurement
+Website: https://www.42u.com/measuring-datacenter-performance.htm — Entry: https://sustainableit-tools.isit-europe.org/en/tools/42u.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: DataCenter, Performance
+
+### Agaro
+Agaro is a solution running on ServiceNow to help you measure and reduce your carbon impact and your electronic waste
+Website: https://www.aguaro.io/fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/agaro.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: Footprint, Measurement, Service Now
+
+### Air.e lca
+Air.e is an LCA tool (paid software)
+Website: https://www.solidforest.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/air-e-lca.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: LCA software
+
+### Argos
+Tool to measure the consumption of a given Docker order and see the evolution of its performance. Argos is able to measure the CPU, memory and network usage of Docker containers for a given order. By measuring the resource consumption of dockerized E2E tests, Argos makes it possible to compare the consumption of an application between its different versions.
+Website: https://github.com/marmelab/argos — Entry: https://sustainableit-tools.isit-europe.org/en/tools/argos.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Cloud, Docker, Measurement
+
+### Arneo
+Offers an environmental scan of your website.
+Website: https://arneo.io/fr/ecoconception-allier-performance-frugalite — Entry: https://sustainableit-tools.isit-europe.org/en/tools/arneo.html — Type: Tool — Audience: IT professional / Expert — Keywords: Footprint, Measurement, Web
+
+### Aro
+Application Resource Optimizer (ARO) is a diagnostic tool for analyzing the performance of mobile web applications, developed by AT&T.
+Website: https://github.com/attdevsupport/ARO — Entry: https://sustainableit-tools.isit-europe.org/en/tools/aro.html — Type: Tool — Audience: IT professional / Expert — Keywords: Mobile, Web
+
+### Base Empreinte (ADEME)
+Public database from the French environment agency gathering the emission factors and life-cycle data used for carbon accounting. The official French source for converting consumption into CO₂ equivalent.
+Website: https://base-empreinte.ademe.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/base-empreinte-ademe.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Life-cycle assessment, Carbon footprint, Data, Framework
+
+### Beacon (Digital Beacon)
+Online carbon footprint calculator for a web page, returning a report on the heaviest resources and how to address them. Free analysis from a single URL.
+Website: https://digitalbeacon.co/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/beacon-digital-beacon.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Measurement, Web, Carbon footprint
+
+### Blockchain carbon accounting
+Repository contains code for the Hyperledger Carbon Accounting and Neutrality working group - This repository contains code for the Hyperledger Carbon Accounting and Neutrality working group. Each file is devoted to a specific project: Utility-emissions-channel for public service emissions / the net-emissions-token-network directory, net emissions token network and climate DAO / and the open-offsets-directory directory voluntary carbon offsets
+Website: https://github.com/opentaps/blockchain-carbon-accounting — Entry: https://sustainableit-tools.isit-europe.org/en/tools/blockchain-carbon-accounting.html — Type: Guide / Framework — Audience: IT professional / Expert — Keywords: Blockchain, CO2, Footprint
+
+### Boavizta environmental footprint dataset
+Open dataset for measuring the environmental impacts of digital technology, covering manufacturing as well as the electricity consumed in delivering a service.
+Website: https://github.com/Boavizta/environmental-footprint-data — Entry: https://sustainableit-tools.isit-europe.org/en/tools/boavizta-environmental-footprint-dataset.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Data, OpenData
+
+### Boavizta — server manufacturing footprint
+Study proposing how to assess the footprint of manufacturing a server, going beyond greenhouse gas emissions alone.
+Website: https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment — Entry: https://sustainableit-tools.isit-europe.org/en/tools/boavizta-server-manufacturing-footprint.html — Type: Article — Audience: IT professional / Expert — Access: Free — Keywords: Carbon footprint, Serveur
+
+### BoaviztAPI
+Open source API from Boavizta returning multi-criteria environmental impacts for equipment and cloud services, manufacturing included rather than usage alone. Integrates into an in-house measurement tool or a continuous integration pipeline.
+Website: https://doc.api.boavizta.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/boaviztapi.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Life-cycle assessment, Measurement, Cloud, Open source
+
+### Carbon footprint web page
+Estimate the carbon footprint of your web page
+Website: https://www.websitecarbon.com/badge/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbon-footprint-web-page.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: CO2, Footprint, carbon
+
+### Carbonalyser
+Browser extension visualising the electricity consumption and greenhouse gas emissions associated with your own web browsing, to make an abstract impact concrete.
+Website: https://theshiftproject.org/publications/carbonalyser/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbonalyser.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Carbone 4: Doing your part
+Publication from Carbone 4, a consultancy supporting decarbonisation and climate adaptation, quantifying the real impact individual action can and cannot achieve.
+Website: https://carbone4.com/fr/publication-faire-sa-part — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbone-4-doing-your-part.html — Keywords: Understand, Ecologie, Empreinte carbone
+
+### Carbonfootprint
+LCA software allowing a rapid assessment of the carbon footprint of products. It allows to carry out an eco-design or to carry out a complete PAS2050 analysis (paid software)
+Website: https://www.carbonfootprint.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbonfootprint.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: LCA software
+
+### CarbonViz / Equiwatt
+Explores the hidden side of online activity in real time. Built by Equiwatt, Lausanne.
+Website: https://www.equiwatt-lausanne.ch/challenge-numerique-inscription/? — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbonviz-equiwatt.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Cloud carbon footprint
+Cloud Carbon Footprint is an open source tool that offers a methodology and tools to measure, monitor and reduce your carbon emissions in the cloud. This approach integrates "Etsy's Cloud Jewels" Cloud kWh Estimate, to convert cloud usage into estimated energy consumption and carbon emissions.
+Website: https://github.com/cloud-carbon-footprint/cloud-carbon-footprint — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cloud-carbon-footprint.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: CO2, Cloud, Footprint, Infrastructure, carbon
+
+### Cloud foundry footprint
+Python script that estimates the carbon footprint of all Cloud Foundry (CF) applications in an organization. The script uses basic "cf cli" commands to count the number of running containers per space. This is then multiplied by an estimated average energy consumption
+Website: https://github.com/P-Ehlert/cloudfoundry_footprint — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cloud-foundry-footprint.html — Type: Tool — Audience: IT professional / Expert — Keywords: CO2, Cloud, Footprint, Infrastructure, carbon
+
+### Cloud jewels
+Methodology for carrying out the estimate in KWh in the Cloud
+Website: https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cloud-jewels.html — Type: Guide / Framework — Audience: IT professional / Expert — Keywords: Cloud, Infrastructure, KWh
+
+### CO2 Digital Calculator
+Calculator built by Decathlon to make professional digital impact easy to estimate, and to shed light on the effects of digital overconsumption at work.
+Website: https://github.com/julienGONTIER/CO2DigitalDalculator — Entry: https://sustainableit-tools.isit-europe.org/en/tools/co2-digital-calculator.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Calculator, Carbon footprint, Measurement
+
+### CO2.js (Green Web Foundation)
+JavaScript library converting a volume of transferred data into CO₂ emissions, with a choice of calculation model and the carbon intensity of the electricity grid taken into account. Lets an application display its own footprint.
+Website: https://developers.thegreenwebfoundation.org/co2js/overview/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/co2-js-green-web-foundation.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Web, Carbon footprint, Open source
+
+### CO2Scope
+Monitors the CO₂ emissions of IT services in real time, based on the actual consumption of virtual machines and servers.
+Website: https://www.easyvirt.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/co2scope.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid
+
+### Code carbon
+Estimate and monitor carbon emissions from the calculation, quantify and analyze their impact.Allows you to calculate and reduce CO2 emissions from your IT
+Website: https://github.com/mlco2/codecarbon — Entry: https://sustainableit-tools.isit-europe.org/en/tools/code-carbon.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI
+
+### Cookieviz
+Cookieviz is a dataviz tool offered by the CNIL which allows you to monitor in real time the tracking of your navigation
+Website: https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cookieviz.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: CNIL, Cookie, Data privacy
+
+### Data centre KPIs
+Energy and environmental performance indicators for data centres, and how to interpret them.
+Website: https://alliancegreenit.org/les-kpi-des-datacenters — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-centre-kpis.html — Type: Documentation — Audience: IT professional / Expert — Access: Free
+
+### Datavizta (Boavizta)
+Visualisation interface for Boavizta's impact data: compare the footprint of servers, devices and cloud instances without writing any code. Useful for arbitrating an equipment or hosting choice.
+Website: https://dataviz.boavizta.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/datavizta-boavizta.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Life-cycle assessment, Measurement, Cloud, Open source
+
+### Diff-JJoules
+Open source tool from Davidson Consulting measuring the impact of individual commits on a program's energy consumption, and failing the build when consumption regresses.
+Website: https://github.com/davidson-consulting/diff-jjoules — Entry: https://sustainableit-tools.isit-europe.org/en/tools/diff-jjoules.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Commit, Energy
+
+### Digital Carbon Footprint
+Simple, playful and customisable digital footprint calculator: click each element to set the usage parameters that match your own situation.
+Website: https://www.digitalcarbonfootprint.eu/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-carbon-footprint.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Ecocode
+Evaluate and improve the environmental and social impact of mobile applications by automatic analysis of the source code (SonarQube plugin)
+Website: https://ecocode.io/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecocode.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Mobile
+
+### ecoCode JavaScript
+Static analysis rules for reducing the environmental footprint of JavaScript and TypeScript programs, from the Green Code Initiative.
+Website: https://github.com/green-code-initiative/creedengo-javascript — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecocode-javascript.html — Type: Tool — Access: Free
+
+### Ecodiag
+The EcoDiag service aims to make it more accessible to carry out a carbon assessment of IT equipment in a research laboratory, a CNRS unit or any other structure with a well-defined scope.
+Website: https://ecoinfo.cnrs.fr/ecodiag-calcul/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecodiag.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: CO2, Measurement, carbon, footprint
+
+### Ecograding
+Allows you to assess how green your website is
+Website: https://ecograder.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecograding.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Eval. Web, Imprint, Index
+
+### Ecoindex
+EcoIndex is a free service that provides the community with a simple way to assess the environmental performance achieved by a website / online service with regard to objective technical parameters: number of DOM elements, number of HTTP requests, weight of the 'URLs (KB transferred), etc.
+Website: https://www.ecoindex.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecoindex.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Footprint, Measurement, Web
+
+### EcoIndex Cypress
+Cypress plugin measuring a page's EcoIndex during automated tests, so the environmental score becomes an acceptance criterion like any functional test.
+Website: https://github.com/EmmanuelDemey/eco-index-audit — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecoindex-cypress.html — Type: Tool — Access: Free
+
+### EcoSonar
+SonarQube plugin adding eco-design and accessibility to existing code quality analysis: EcoIndex, Lighthouse and green rules appear in the same dashboard as technical debt. Maintained by the Green Code Initiative.
+Website: https://github.com/green-code-initiative/EcoSonar — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecosonar.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Software quality, Eco-design, Open source
+
+### Emissions Impact Dashboard for Azure
+Microsoft dashboard letting Azure customers measure the carbon emissions associated with their cloud usage, broken down by service and region.
+Website: https://marketplace.microsoft.com/en-us/product/power-bi/coi-sustainability.emissions_impact_dashboard — Entry: https://sustainableit-tools.isit-europe.org/en/tools/emissions-impact-dashboard-for-azure.html — Type: Tool — Access: Free
+
+### Energy efficiency across programming languages
+Reference document presenting the potential impact of the choice of language on the environmental footprints of a digital service
+Website: https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-efficiency-across-programming-languages.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Back-End, Code, language
+
+### Energy profiler
+Energy Profiler helps you find where your application is using more energy than needed
+Website: https://developer.android.com/studio/profile/energy-profiler — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-profiler.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Mobile
+
+### Estimated one hour carbon footprint calculation core
+Estimated one hour carbon footprint calculation core
+Website: https://hal.archives-ouvertes.fr/hal-02549565v4 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/estimated-one-hour-carbon-footprint-calculation-core.html — Type: Study — Audience: General public / Beginner — Keywords: Repository
+
+### Ethereum-nft-activity
+How much energy does it take to power popular CryptoArt platforms backed by Ethereum? And what emissions are associated with this energy consumption?
+Website: https://github.com/kylemcdonald/ethereum-nft-activity — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethereum-nft-activity.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: CO2, Cloud, CryptoArt, Ether, Footprint
+
+### Experiment-impact-tracker
+Method to track energy consumption, carbon emissions, and calculate your system usage. Currently, on Linux systems with Intel chips (which support RAPL or powergadget interfaces) and NVIDIA GPUs, we record: CPU and GPU power consumption, hardware information, python package versions, information on estimated carbon emissions, etc.
+Website: https://github.com/Breakend/experiment-impact-tracker — Entry: https://sustainableit-tools.isit-europe.org/en/tools/experiment-impact-tracker.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Energy, Footprint
+
+### Firefox Profiler
+Profiler built into Firefox exposing the CPU time, memory and energy a page consumes. A free diagnostic tool for finding what actually costs resources in a service.
+Website: https://profiler.firefox.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/firefox-profiler.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Energy, Web, Open source
+
+### Fruggr
+Fruggr is an automated assessment platform for the environmental and social footprints of digital services. Thanks to its many KPIs, its objective is to improve the impact of companies' information systems by implementing a continuous improvement process. The license is commercial for the moment, even if in the future part of the code (the calculation engine) will be released in Open Source for the sake of transparency and sharing with the community.
+Website: https://www.fruggr.io/fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/fruggr.html — Type: Tool — Audience: General public / Beginner — Access: Paid — Keywords: Measure
+
+### Globaldcanalysis: global data center energy analysis model
+The Excel file contains the Global Data Center Energy Analysis Model, including model structure, discussion of uncertainties, and all data entries, results, methodological notes, figures and sources. (Masanet, E., Shehabi, A., Lei, N., Smith, S., and JG Koomey (2020). "Recalibrating global data center energy use estimates." Science, Vol 367, Iss 6481.)
+Website: https://github.com/emasanet/GlobalDCAnalysis — Entry: https://sustainableit-tools.isit-europe.org/en/tools/globaldcanalysis-global-data-center-energy-analysis-model.html — Type: Tool — Audience: IT professional / Expert — Keywords: Infrastructure
+
+### Google Cloud Carbon Footprint
+Google Cloud customers get an environmental impact category in Active Assist Recommender, to measure and help reduce the IT impact of their workloads.
+Website: https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=- — Entry: https://sustainableit-tools.isit-europe.org/en/tools/google-cloud-carbon-footprint.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Cloud, Carbon footprint, Google
+
+### Green algorithms
+Small online tool allowing you to identify how green are your calculations?
+Website: http://www.green-algorithms.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-algorithms.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: AI, Algorithm, Calculation, Carbon Footprint, Machine Learning
+
+### Green IT Switzerland tools catalogue
+List of tools published by Green IT Switzerland, in German, English and French, for assessing green IT good practice in a data centre.
+Website: https://greenit-switzerland.ch/en/tools-2/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-it-switzerland-tools-catalogue.html — Type: Documentation — Audience: IT professional / Expert — Access: Free — Keywords: Good practice, DE, Data centre, Energy, Evaluation, FR, UK
+
+### Green Software Patterns
+Catalogue of concrete actions to apply when writing greener code, each pattern tied to the impact it addresses.
+Website: https://patterns.greensoftware.foundation/catalog/cloud/delete-unused-storage-resources/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-software-patterns.html — Type: Guide / Framework — Audience: General public / Beginner — Access: Free
+
+### Greenframe
+Free calculator to help you assess your website's impact on the planet.
+Website: https://greenframe.io/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenframe.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid — Keywords: Imprint, Web
+
+### Greenframe
+GrenFrame is a footprint calculator for your website by analyzing the origin of the carbon source (CPU, Network, Display)
+Website: https://greenframe.io — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenframe-2.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid — Keywords: Footprint, Measurement, Web
+
+### GreenFrame CLI
+Estimates the carbon footprint of a user scenario on a web application, from the command line so it can run in continuous integration. Built by Marmelab.
+Website: https://github.com/marmelab/greenframe-cli — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenframe-cli.html — Type: Tool
+
+### Greenit-analysis
+GreenIT-Analysis is a browser extension that allows you to quantify the environmental footprints of a complete user journey, even behind a firewall and / or application authentication. The tool also verifies the use of good practices aimed at reducing these impacts.
+Website: https://github.com/cnumr/GreenIT-Analysis — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenit-analysis.html — Type: Tool — Audience: Content creator / Intermediate — Keywords: CO2 footprint, Good practices, Impacts
+
+### Greenoco
+Online measurement and optimisation tool for websites: yearly carbon emissions for the site, plus the emissions of each individual page.
+Website: https://greenoco.io/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenoco.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid
+
+### Greenprint
+Software suite to allow you to measure, analyze, see to optimize your printing fleet in order to allow you more sobriety, savings, but also a better use of the printer fleet
+Website: https://www.printgreener.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/greenprint.html — Type: Tool — Audience: General public / Beginner — Access: Paid — Keywords: Ink, Measure, Paper, Print, Printer, Tool, tuner
+
+### Impactomètre
+Simulator for the environmental impact of a meeting, whether held in person or remotely. A simple, educational way to weigh meeting formats against each other.
+Website: https://impactometre.fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/impactometre.html — Type: Tool — Audience: General public / Beginner — Access: Free
+
+### Inr calculator
+Allows you to calculate your professional environmental footprint
+Website: https://myimpact.isit-europe.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/inr-calculator.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Footprint, INR
+
+### Intel PCM (formerly Power Gadget)
+Measures energy consumption through a small desktop application running on both PC and Mac.
+Website: https://github.com/intel/pcm — Entry: https://sustainableit-tools.isit-europe.org/en/tools/intel-pcm-formerly-power-gadget.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### JoularJX
+Measures the power consumption of Java application source code at fine granularity, down to the individual method.
+Website: https://gitlab.com/joular/joularjx — Entry: https://sustainableit-tools.isit-europe.org/en/tools/joularjx.html — Keywords: Energy, Java, Measurement
+
+### Joulemeter
+Joulemeter is an interesting application created by Microsoft that shows you the power consumption of each part of your computer. After analyzing your computer, it will calculate the power consumption of each element: motherboard, HD screen, etc. Through this analysis, the program can tell you the power consumption of each element in real time at any time. Joulemeter also records statistics of your consumption so that you can consult them in the future.
+Website: https://joulemeter.fr.uptodown.com/windows — Entry: https://sustainableit-tools.isit-europe.org/en/tools/joulemeter.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Energy
+
+### Kastor.green
+Eco-design audit for websites and web applications, based on the GR491 responsible design reference guide.
+Website: https://kastor.green/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/kastor-green.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Carbon footprint, Measurement, Web
+
+### LEAF
+Simulator for the analytical modelling of energy consumption in cloud, fog and edge computing environments.
+Website: https://github.com/dos-group/leaf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/leaf.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Lean ict materials
+Excel media used by the working group to carry out the calculations presented in the report “Lean ICT - Pour une Sobriété Numérique” published on October 4, 2018 by The Shift Project.
+Website: https://theshiftproject.org/app/uploads/2025/02/Lean-ICT-Materials-Liens-a-telecharger-repare-le-29-10-2019.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/lean-ict-materials.html — Type: Study — Audience: Content creator / Intermediate — Keywords: Caclulate your environmental footprint
+
+### Lighthouse
+Measures web page performance first and foremost, and returns improvement guidance that also reduces the environmental impact of a digital service. Built by Google.
+Website: https://developer.chrome.com/docs/lighthouse/overview/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/lighthouse.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Likwid
+Likwid is an easy-to-install and use command-line application tool suite for performance-oriented programmers. It works for Intel and AMD processors on Linux operating system.
+Website: https://github.com/RRZE-HPC/likwid — Entry: https://sustainableit-tools.isit-europe.org/en/tools/likwid.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Performance
+
+### Microsoft sustainability calculator
+Allows you to quantify the carbon impact of each Azure subscription over a given period and region
+Website: https://www.microsoft.com/en-us/corporate-responsibility/sustainability — Entry: https://sustainableit-tools.isit-europe.org/en/tools/microsoft-sustainability-calculator.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Cloud
+
+### Monconvertisseurco2
+Tool for transcribing eqCo2 into metrics that everyone can understand
+Website: https://impactco2.fr/outils/comparateur — Entry: https://sustainableit-tools.isit-europe.org/en/tools/monconvertisseurco2.html — Type: Tool — Audience: General public / Beginner — Keywords: Communication, Converter
+
+### Mx Power Gadget
+Advanced Mac system monitor with temperature and fan plugins, reporting power draw from the menu bar.
+Website: https://www.seense.com/menubarstats/mxpg/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/mx-power-gadget.html — Type: Tool — Access: Free
+
+### Myclimatepal
+While we generally know that eating meat and stealing is bad for our climate, it is difficult to take effective action. Is it better to stop eating meat or take the train instead of a plane? We believe that understanding the effects of your actions is essential to improve them. That's why we are building MyClimatePal to be the easiest way to better understand your CO2 footprint.
+Website: https://github.com/mowolf/MyClimatePal — Entry: https://sustainableit-tools.isit-europe.org/en/tools/myclimatepal.html — Keywords: Caclulate your environmental footprint
+
+### Node.js ecoindex
+a node.js code to calculate the ecoindex of your web page
+Website: https://github.com/cyve/ecoindex_node — Entry: https://sustainableit-tools.isit-europe.org/en/tools/node-js-ecoindex.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measure
+
+### NumEcoEval
+Calculates the environmental footprint of an entire information system, defined as the whole set of physical equipment, software and services that make it up. Developed for the French public sector.
+Website: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval — Entry: https://sustainableit-tools.isit-europe.org/en/tools/numecoeval.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Numerik ea
+Solidarity web development center for the employment of disabled workers
+Website: https://www.numerik-ea.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/numerik-ea.html — Keywords: Digital Mediation, Disabled Workers, Web Agency
+
+### Openlca
+openLCA is open source LCA software that can be used for professional ecological, social and economic life cycle assessments. Among others, openLCA can be used for LCA, carbon and water footprints, eco-design, environmental product declarations, life cycle cost and social life cycle analysis.
+Website: https://www.openlca.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/openlca.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: LCA software
+
+### perf-sentinel
+Open source analyser detecting performance anti-patterns across several languages and scoring them with carbon awareness. Written in Rust under AGPL-3.0, it plugs into the development pipeline so software sobriety is treated as an ordinary quality defect.
+Website: https://github.com/robintra/perf-sentinel — Entry: https://sustainableit-tools.isit-europe.org/en/tools/perf-sentinel.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Open source, Software quality, Carbon footprint
+
+### PerfSentinelHub
+Companion service to perf-sentinel: centralises findings from several instances and exposes them to IDE extensions through a single endpoint, retained for 180 days by default. Pre-1.0, with no stable release published to date.
+Website: https://github.com/robintra/PerfSentinelHub — Entry: https://sustainableit-tools.isit-europe.org/en/tools/perfsentinelhub.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measurement, Open source, Software quality
+
+### Pingdom
+Pingdom offers website availability and performance analysis: monitoring website availability, performance, and interactions.
+Website: https://tools.pingdom.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/pingdom.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Footprint, Measurement, Web
+
+### Power meter
+This project includes two different tools: power_meter to record multiple power related sensors as a csv file and make_plot.py to generate power consumption graphs.
+Website: https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master — Entry: https://sustainableit-tools.isit-europe.org/en/tools/power-meter.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Measurement
+
+### Power Supply Calculator
+Simulates the power supply required for a workstation configuration, and therefore its energy consumption.
+Website: https://powersupplycalculator.net/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/power-supply-calculator.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Powerapi
+PowerAPI is a middleware toolkit for creating software-defined power meters. Software-defined power meters are configurable software libraries that can estimate software power consumption in real time. PowerAPI supports the acquisition of raw metrics from a wide variety of sensors (e.g. physical meters, processor interfaces, hardware counters, OS counters) and the provision of power consumption through different channels (including file system, network, web, graphics). As a middleware toolkit, PowerAPI offers the ability to assemble “à la carte” power meters to meet user needs.
+Website: https://github.com/powerapi-ng/powerapi — Entry: https://sustainableit-tools.isit-europe.org/en/tools/powerapi.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### PowerJoular
+Measures the power consumption of hardware components and software on GNU/Linux. Reports CPU and GPU energy for servers and PCs, and ARM CPU energy on supported boards.
+Website: https://gitlab.com/joular/powerjoular — Entry: https://sustainableit-tools.isit-europe.org/en/tools/powerjoular.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Linux, Measurement
+
+### Powersim
+Power / energy simulation in SystemC (not to be confused with VHDL). Powersim is a SystemC class library for calculating the power and energy consumption of hardware described at the system level. To this end, C ++ operators are monitored and different energy models can be used for each type of data.
+Website: http://powersim.sourceforge.net — Entry: https://sustainableit-tools.isit-europe.org/en/tools/powersim.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: C ++, Energy, Power, Simulation
+
+### Powertop
+PowerTOP is a Linux tool used to diagnose power consumption and power management issues. In addition to being a diagnostic tool, PowerTOP also has an interactive mode that you can use to experiment with various power management settings, in cases where the Linux distribution has not enabled these settings.
+Website: https://github.com/fenrus75/powertop — Entry: https://sustainableit-tools.isit-europe.org/en/tools/powertop.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### Ptopw
+pTopW estimates the energy consumption of each process and component in each state. User can change these parameters according to their own platform to get more precise result.
+Website: https://github.com/hch-im/ptopw — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ptopw.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy
+
+### Pyjoules
+A software toolkit for measuring the energy footprint of a host machine throughout the execution of a piece of Python code.
+Website: https://github.com/powerapi-ng/pyJoules — Entry: https://sustainableit-tools.isit-europe.org/en/tools/pyjoules.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Python
+
+### Simapro
+LCA software with wide use and age
+Website: https://simapro.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/simapro.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: LCA software
+
+### Speed insights page
+Allows you to improve the loading speed of your pages on all devices.
+Website: https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect — Entry: https://sustainableit-tools.isit-europe.org/en/tools/speed-insights-page.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Footprint, Measurement, Web
+
+### State design system
+Referential of the French State in terms of design (https://systeme-de-design.gouv.fr/)
+Website: https://gouvfr.atlassian.net/wiki/spaces/DB/overview — Entry: https://sustainableit-tools.isit-europe.org/en/tools/state-design-system.html — Keywords: Design, Referential
+
+### The ice
+This application makes it possible to test the ecological performance of development, accessibility, overall performance (ecological performance being very strongly linked to conventional performance), “best practices”.
+Website: https://www.labanqui.se — Entry: https://sustainableit-tools.isit-europe.org/en/tools/the-ice.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Accessibility, Footprint, Measurement
+
+### Toovalu
+Toovalu is a simple tool allowing you to manage and communicate your performance in terms of GHG Balance (Greenhouse Gas) and, more broadly, social responsibility. Toovalu allows you to: simplify and systematize the production of your Bilan Carbone ®, facilitate the management and communication of your CSR performance ...
+Website: https://www.toovalu.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/toovalu.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: CSR, GES software, LCA
+
+### Tracarbon
+Python library tracking a device's energy consumption and computing the resulting carbon emissions, detecting location and hardware automatically.
+Website: https://github.com/fvaleye/tracarbon — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tracarbon.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Umberto lca +
+Umberto is one of the leading lifecycle analysis (LCA) software tools and is recommended by experts in industry, consulting, research and education.
+Website: https://www.ipoint-systems.com/software/umberto/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/umberto-lca.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: LCA software
+
+### Verdikt
+Commercial platform for measuring and steering the environmental footprint of an information system, from the hardware estate to cloud usage, with reduction plans tracked over time.
+Website: https://verdikt.io/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/verdikt.html — Type: Tool — Audience: IT professional / Expert — Access: Paid — Keywords: Measurement, Carbon footprint, Strategy
+
+### Yellow Lab Tools
+Online or self-hosted tool measuring web page performance first, and returning improvement guidance that also reduces the environmental impact of a service.
+Website: https://yellowlab.tools/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/yellow-lab-tools.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Good practice, Measurement, Web
+
+### Éco2mix
+éCO2mix is ​​a tool created by RTE to help consumers learn more about and consume electricity better. éCO2mix provides all the indicators of electricity consumption and production in real time, 24 hours a day, at national and regional level: Electricity consumption in mainland France (excluding Corsica) as well as our forecasts calculated on the old and at the beginning of the afternoon on D-day, French electricity production by sector in value and percentage, Trade in electricity with our 6 neighboring countries, CO2 emissions generated by electricity production, Monthly data at the 'regional scale: consumption, production and interregional flows.
+Website: https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel — Entry: https://sustainableit-tools.isit-europe.org/en/tools/eco2mix.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Carbon, EDF, Electricity, Energy, FRANCE, Mix, RTE, Reference data
+
+## Organisational roadmap
+
+### A local authority's sustainable IT strategy in 10 steps
+Methodological guide published by Les Interconnectés, the French network of digital local authorities.
+Website: https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html — Type: Guide / Framework
+
+### Aptic
+To set up a digital check to work for digital inclusion
+Website: https://www.aptic.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/aptic.html — Audience: General public / Beginner — Access: Paid — Keywords: Digital Check, Digital Mediation
+
+### Being eco-responsible at the office (ADEME)
+French environment agency guide to digital sobriety in professional workplaces.
+Website: https://librairie.ademe.fr/consommer-autrement/8402-comment-etre-ecoresponsable-au-bureau--9791029725074.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/being-eco-responsible-at-the-office-ademe.html — Type: Guide / Framework
+
+### Data centre measures catalogue (Green IT Switzerland)
+Catalogue of data centre recommendations and good practices, sorted by effect achieved and by associated cost.
+Website: https://greenit-switzerland.ch/de/cc-mesures/?lang=fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-centre-measures-catalogue-green-it-switzerland.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free
+
+### Data centre recommendations (Green IT Switzerland)
+Catalogue of recommendations and good practices for data centres.
+Website: https://greenit-switzerland.ch/de/cc-mesures/?lang=fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-centre-recommendations-green-it-switzerland.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Good practice, Data centre, Measurement
+
+### Deploying digital sobriety (The Shift Project)
+Report setting out operational frameworks for digital sobriety: in public strategy and policy, inside companies, and in private usage patterns.
+Website: https://theshiftproject.org/publications/deployer-sobriete-numerique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/deploying-digital-sobriety-the-shift-project.html — Type: Guide / Framework
+
+### Digital solidarity
+To support you on your daily digital needs
+Website: https://lesbases.anct.gouv.fr/bases/solidarite-numerique — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-solidarity.html — Audience: General public / Beginner — Access: Free — Keywords: Digital Mediation
+
+### Ganr
+Sustainable digital purchasing guide
+Website: https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ganr.html — Type: Documentation — Audience: General public / Beginner — Keywords: INR, Purchase, Referential
+
+### Green IT Switzerland measures catalogue
+Catalogue of green IT recommendations and good practices, with each measure rated by environmental benefit and by implementation cost.
+Website: https://greenit-switzerland.ch/de/catalogue-de-mesures/?lang=fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-it-switzerland-measures-catalogue.html — Type: Documentation — Audience: IT professional / Expert — Access: Free — Keywords: Good practice, Measurement
+
+### Introduction to the sustainable IT roadmap (ANCT)
+Entry point to the ANCT sustainable IT toolbox: presents the available versions of the method and helps pick the one matching the authority's size and maturity.
+Website: https://lesbases.anct.gouv.fr/ressources/introduction-a-la-demarche-numerique-responsable — Entry: https://sustainableit-tools.isit-europe.org/en/tools/introduction-to-the-sustainable-it-roadmap-anct.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Local authorities, Roadmap, Public sector
+
+### Les Bons Clics
+French platform of ready-to-use materials for digital inclusion trainers: lesson plans, exercises and assessment grids to support people with limited digital skills.
+Website: https://www.lesbonsclics.fr/fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/les-bons-clics.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Digital Mediation
+
+### Offering sustainable IT support (ANCT)
+ANCT guide for pooling structures — joint authorities and territorial operators — that want to support several local authorities in their sustainable IT approach.
+Website: https://lesbases.anct.gouv.fr/ressources/proposer-un-accompagnement-numerique-responsable — Entry: https://sustainableit-tools.isit-europe.org/en/tools/offering-sustainable-it-support-anct.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Local authorities, Roadmap, Public sector
+
+### Planet centric toolkit
+Methods and tools for developing sustainable products and services.
+Website: https://6362597.fs1.hubspotusercontent-eu1.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/planet-centric-toolkit.html — Type: Workshop — Audience: Content creator / Intermediate — Access: Free — Keywords: Design
+
+### Pop
+Referencing of tools intended for HPC centers with a view to deploying performance and productivity.
+Website: https://pop-coe.eu/partners/tools — Entry: https://sustainableit-tools.isit-europe.org/en/tools/pop.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: HPC, IO, Scala
+
+### Presoft
+Research Software Management Plan Template
+Website: https://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/presoft.html — Type: Guide / Framework — Keywords: Management plan, Software management plan
+
+### Study: rebound effects of remote work
+Field study across 26 French organisations totalling 350,000 employees, plus three focus groups, measuring the rebound effects that offset the expected savings of remote work.
+Website: https://librairie.ademe.fr/mobilite-et-transport/3776-caracterisation-des-effets-rebond-induits-par-le-teletravail.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/study-rebound-effects-of-remote-work.html — Type: Study
+
+### Sustainable business canvas
+Tool to set up workshops and to assess environmental costs and benefits
+Website: https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-business-canvas.html — Type: Workshop — Audience: Content creator / Intermediate — Access: Free — Keywords: Design, Environmental costs, Measurement
+
+### Sustainable IT Charter
+Commitment charter of the Institut du Numérique Responsable: fifteen principles an organisation signs to structure its sustainable IT approach, from hardware sobriety to digital inclusion. The step before the NR label.
+Website: https://charter.isit-europe.org/?lang=fr_FR — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-charter.html — Type: Guide / Framework — Audience: General public / Beginner — Access: Free — Keywords: Roadmap, Commitment, INR
+
+### Sustainable IT kit — from the administration to the territory (ANCT)
+Kit for extending an internal sustainable IT approach to a whole territory: stakeholders to involve, levers, and ready-made materials.
+Website: https://lesbases.anct.gouv.fr/ressources/kit-nr-passer-de-l-echelle-de-l-administration-a-celle-du-territoire — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-kit-from-the-administration-to-the-territory-anct.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Local authorities, Roadmap, Public sector
+
+### Sustainable IT roadmap (ANCT)
+Step-by-step method from the French national agency for territorial cohesion, for local authorities above 3,500 inhabitants with their own digital department: stages, deliverables and pitfalls.
+Website: https://lesbases.anct.gouv.fr/ressources/demarche-numerique-responsable — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-roadmap-anct.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Local authorities, Roadmap, Public sector, Strategy
+
+### Sustainable IT roadmap, short version (ANCT)
+Lighter version of the ANCT method for local authorities below 3,500 inhabitants with no dedicated digital department: same stages, less effort.
+Website: https://lesbases.anct.gouv.fr/ressources/demarche-numerique-responsable-flash — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-roadmap-short-version-anct.html — Type: Guide / Framework — Audience: General public / Beginner — Access: Free — Keywords: Local authorities, Roadmap, Public sector
+
+### SYSDEREP
+French registry tracking the declarations of extended producer responsibility schemes defined by the AGEC circular economy law.
+Website: https://syderep.ademe.fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sysderep.html — Type: Guide / Framework — Audience: General public / Beginner — Access: Free
+
+### Systemic design method and toolkit
+Method and dedicated tools for grasping organisational and societal complexity when designing a service.
+Website: https://www.systemicdesigntoolkit.org/download — Entry: https://sustainableit-tools.isit-europe.org/en/tools/systemic-design-method-and-toolkit.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Access: Free — Keywords: Canvas, Design
+
+### Treebal
+Sustainable messaging that plants trees and protects data.
+Website: https://www.treebal.green/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/treebal.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Cloud, Email, Office tool
+
+### Why it's time for a Green revolution for your organization's IT
+Capgemini report on sustainable IT practices inside organisations.
+Website: https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/why-it-s-time-for-a-green-revolution-for-your-organization-s-it.html — Type: Guide / Framework
+
+## Privacy, transparency & ethics
+
+### Captology matrix
+Analysis of the capture and persuasion of the service
+Website: https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/captology-matrix.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Attention, Captology, Design
+
+### Data & design
+Co-construct user journeys that respect GDPR and privacy
+Website: https://design.cnil.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-design.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Design, GDPR, RGPD
+
+### Data science ethics checklist
+Data Science Ethics Checklist
+Website: https://deon.drivendata.org/#data-science-ethics-checklist — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-science-ethics-checklist.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free — Keywords: Data, Ethic
+
+### Deda (data ethics decision aid)
+It is a “toolbox” which helps to map ethical issues in projects involving data processing. This tool was developed, in collaboration with data “practitioners”, by the Utrecht Data School and the University of Utrecht. It allows companies to analyze the growing challenges they are facing.
+Website: https://dataschool.nl/tools/deda/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/deda-data-ethics-decision-aid.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free — Keywords: Ethics
+
+### Ethical os toolkit
+Toolkit incorporating the following tools: Checklist of 8 risk areas to help you identify the most critical emerging areas of risk and social harm for your team, to start considering now; 14 scenarios to spark conversation and expand your imagination about the long-term impacts of the technology you are developing today; 7 forward-looking strategies to help you take ethical action today.
+Website: https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethical-os-toolkit.html — Type: Workshop — Audience: IT professional / Expert — Access: Free — Keywords: Ethics
+
+### Ethics & algorithms toolkit
+Practical toolkit to help cities and territories understand the implications of using an algorithm, clearly articulate potential risks and identify ways to mitigate them.
+Website: http://ethicstoolkit.ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethics-algorithms-toolkit.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Algorithm, Ethic
+
+### Gdpr developer guide
+In order to support you in bringing your web or application project developments into compliance, the CNIL has drawn up a best practice guide for open source developments.
+Website: https://github.com/LINCnil/Guide-RGPD-du-developpeur — Entry: https://sustainableit-tools.isit-europe.org/en/tools/gdpr-developer-guide.html — Type: Documentation — Audience: IT professional / Expert — Keywords: Repository
+
+### Https everywhere
+HTTPS Everywhere is a Firefox, Chrome and Opera extension that encrypts communications with many websites making browsing more secure.
+Website: https://www.eff.org/https-everywhere — Entry: https://sustainableit-tools.isit-europe.org/en/tools/https-everywhere.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Browser, Data privacy
+
+### Personal data
+Understanding the concepts of "personal data", "purpose" and "processing" is essential for the development of an application that respects the law and user data. Be careful, in particular, not to confuse "anonymization" and "pseudonymization" which have very precise definitions in the GDPR.
+Website: https://www.cnil.fr/fr/identifier-les-donnees-personnelles — Entry: https://sustainableit-tools.isit-europe.org/en/tools/personal-data.html — Type: Documentation — Audience: General public / Beginner — Access: Free — Keywords: Data privacy, Personal Data, RGPD, Referential
+
+### Pia
+The PIA software is a tool freely distributed by the CNIL in order to facilitate the performance of impact analyzes on data protection provided for by the GDPR.
+Website: https://github.com/LINCnil/pia — Entry: https://sustainableit-tools.isit-europe.org/en/tools/pia.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: CNIL, Data privacy, GDPR, RGPD
+
+### Privacy bager
+Privacy Badger allows you to automatically block invisible trackers.
+Website: https://privacybadger.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/privacy-bager.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Browser, Data privacy, Office Tool
+
+### Ublock origin
+Free and open-source ad blocker
+Website: https://ublockorigin.com/fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ublock-origin.html — Type: Tool — Audience: General public / Beginner — Keywords: Block advertising, Office automation, Terminals
+
+## References & guides
+
+### Amazon codeguru
+Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in an application.
+Website: https://aws.amazon.com/codeguru/profiler/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/amazon-codeguru.html — Keywords: Cloud
+
+### Click connect
+To support you in the digitalization of your activity
+Website: https://www.clic-connect.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/click-connect.html — Keywords: Digital Mediation
+
+### Digital labor code
+Implementation project (build) for a digital labor code
+Website: https://github.com/SocialGouv/code-du-travail-numerique — Entry: https://sustainableit-tools.isit-europe.org/en/tools/digital-labor-code.html — Keywords: Code, Lex
+
+### Ecogine
+Search engine (Green)
+Website: https://ecogine.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecogine.html — Type: Tool — Audience: General public / Beginner — Access: Free — Keywords: Office tool
+
+### Egapro
+Calculation of gender equality index in companies
+Website: https://github.com/SocialGouv/egapro — Entry: https://sustainableit-tools.isit-europe.org/en/tools/egapro.html — Keywords: Equality Male Female Index
+
+### Etalab
+Guide to public algorithms
+Website: https://etalab.github.io/algorithmes-publics/guide.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/etalab.html — Keywords: Etalab, Referential
+
+### Gdpr by design
+The GDPR developer's guide offers a first approach to the main principles of the GDPR and the various points of attention to be taken into account in the deployment of applications that respect the privacy of users.
+Website: https://www.cnil.fr/fr/guide-rgpd-du-developpeur — Entry: https://sustainableit-tools.isit-europe.org/en/tools/gdpr-by-design.html — Keywords: Repository
+
+### Green cost explorer
+Analyze the environmental footprint for Amazon architectures (AWS)
+Website: https://github.com/thegreenwebfoundation/green-cost-explorer — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-cost-explorer.html — Keywords: AWS, Amazon, Cloud
+
+### Labelia Labs (ex-Substra Foundation)
+Maturity assessment for responsible and trustworthy AI: an evaluation framework, guides and open source tooling. The Substra Foundation association became Labelia Labs, and the former self-assessment service has moved.
+Website: https://www.labelia.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/labelia-labs.html — Keywords: Repository
+
+### One click lca
+One Click LCA is the automated lifecycle analysis software that helps you calculate and reduce the environmental footprints of your building and infrastructure projects, products and portfolios. (paid software)
+Website: https://oneclicklca.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/one-click-lca.html — Keywords: LCA software
+
+### Regis
+REGIS makes it possible to measure, control and communicate environmental performance. (paid software)
+Website: https://sinum.com/regis — Entry: https://sustainableit-tools.isit-europe.org/en/tools/regis.html — Keywords: LCA software
+
+### Sustainable it wiki
+Sustainable digital wiki. Beta version. Work in progress. Release scheduled for September 2021
+Website: https://fr.wiki.isit-europe.org/nr/Accueil — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-wiki.html — Keywords: INR, Referential
+
+### Watttime
+WattTime is a non-profit organization that provides technology solutions that make it easy for anyone to achieve emissions reductions without compromising on cost, comfort and function.
+Website: https://watttime.org/docs-dev/coverage-map/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/watttime.html — Keywords: Energy, Reference data (World)
+
+## WEEE & hardware
+
+### Amnesty International report: This is what we die for
+Investigation into human rights abuses in the Democratic Republic of Congo linked to the cobalt supply chain that feeds consumer electronics.
+Website: https://www.amnesty.org/en/wp-content/uploads/2021/05/AFR6231832016ENGLISH.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/amnesty-international-report-this-is-what-we-die-for.html — Type: Study
+
+### Documentary: Welcome to Sodom
+Documentary filmed at Agbogbloshie in Ghana, one of the largest electronic waste sites in the world, told through the people who live and work there.
+Website: https://www.imdb.com/title/tt8116550/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/documentary-welcome-to-sodom.html — Type: Video
+
+### e-Trash Transparency Project (Basel Action Network)
+Tracking project set up to obtain real data on what actually happens to an old computer, monitor or printer left at a charity or an electronics recycler.
+Website: https://www.ban.org/trash-transparency — Entry: https://sustainableit-tools.isit-europe.org/en/tools/e-trash-transparency-project-basel-action-network.html — Type: Organisation
+
+### EPEAT label
+Global ecolabel for IT products, covering climate impact, sustainable use of resources, chemicals of concern and supply chain conditions.
+Website: https://www.epeat.net/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/epeat-label.html — Type: Tool
+
+### Global E-waste Monitor (United Nations)
+Reference reports on worldwide volumes of electrical and electronic waste, their flows and their fate.
+Website: https://ewastemonitor.info/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/global-e-waste-monitor-united-nations.html — Type: Study
+
+### iFixit — repair manuals
+Worldwide community helping each other repair the objects around them, with free teardown guides, spare parts and an answers forum.
+Website: https://fr.ifixit.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ifixit-repair-manuals.html — Type: Documentation
+
+### Resilio database (CH)
+Reference platform and API measuring the environmental impact of professional IT according to the European PEF 3.0 standard.
+Website: https://db.resilio.tech/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/resilio-database-ch.html — Type: Tool
+
+### Right to Repair Europe
+European coalition campaigning for the right to repair, with position papers and country-level policy tracking.
+Website: https://repair.eu/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/right-to-repair-europe.html — Type: Organisation
+
+### Rtlamr
+Utilities often use "smart meters" to optimize their residential meter reading infrastructure. Smart meters transmit consumption information in different ISM bands, which allows utilities to simply send readers through neighborhoods to collect product consumption information. One protocol in particular: Encoder Receiver Transmitter by Itron is fairly straightforward to decode and operates in the 900 MHz ISM band, well within the adjustable range of inexpensive rtl-sdr dongles. This project is a software-defined radio receiver for these messages. We use an inexpensive rtl-sdr dongle to enable users to non-invasively record and analyze their household product consumption.
+Website: https://github.com/bemasher/rtlamr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/rtlamr.html — Keywords: IoT, Meter, SmartBuilding, SmartCitie, SmartMeter
+
+### TCO Certified
+Global sustainability certification for IT products, addressing climate, hazardous substances, circularity and supply chain responsibility.
+Website: https://tcocertified.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tco-certified.html — Type: Tool
+
+### TV Size to Distance Calculator
+Works out the right ratio between screen size, resolution and viewing distance, so a larger or higher-definition screen is not bought needlessly.
+Website: https://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tv-size-to-distance-calculator.html — Type: Infographic
+
+## Web design
+
+### Designing for guidance
+Tool proposed by Microsoft to be more inclusive and help reduce the digital divide (Support in EN)
+Website: https://inclusive.microsoft.design/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/designing-for-guidance.html — Type: Infographic — Audience: IT professional / Expert — Keywords: Design, Inclusion
+
+### DINUM sustainable IT toolbox
+Deliberately short curated list from the French government digital directorate, presenting a classification alongside its recommended tools.
+Website: https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/dinum-sustainable-it-toolbox.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Access: Free — Keywords: DINUM, RGESN, ToolBox
+
+### Ecodit
+Assessment tool built by Keleo on top of the GR491 and the French RGESN eco-design framework, to estimate the environmental impact of a digital service.
+Website: https://ecodit.keleo.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecodit.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### eleventy-dsfr
+Template for building a site with the French State design system using Eleventy. Static generation keeps server resource use to a minimum.
+Website: https://codegouvfr.github.io/eleventy-dsfr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/eleventy-dsfr.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free
+
+### Inclusive design toolkit
+Toolkits available to identify reasons for inclusion / exclusion
+Website: https://inclusive.microsoft.design/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/inclusive-design-toolkit.html — Type: Infographic — Audience: IT professional / Expert — Keywords: Design, Inclusion
+
+### Lisio
+Dynamic site reader, accessibility, carbon impact ...
+Website: https://lisio.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/lisio.html — Type: Tool — Audience: General public / Beginner — Access: Paid — Keywords: Design
+
+### TinyPNG
+Compresses images so they weigh less before being published on a website.
+Website: https://tinypng.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/tinypng.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Design, Image, Sobriety
+
+### Unused CSS
+Identifies stylesheet rules that are never applied, so they can be removed from what visitors download.
+Website: https://unused-css.com — Entry: https://sustainableit-tools.isit-europe.org/en/tools/unused-css.html — Type: Tool — Audience: Content creator / Intermediate
+
+### Video optimizer
+Tool for analyzing video and image content for mobile applications by basing its algorithm on network traffic, the battery compared to a series of 43 best practices to assist the developer in his optimizations
+Website: https://github.com/attdevsupport/VideoOptimizer — Entry: https://sustainableit-tools.isit-europe.org/en/tools/video-optimizer.html — Type: Tool — Audience: IT professional / Expert — Keywords: Mobile, Video, Web
+
+## Web eco-design
+
+### Aequitas
+Open source bias auditing framework for machine learning developers, analysts and policymakers to audit machine learning models for discrimination and bias, and make informed and fair decisions regarding the development and the deployment of predictive risk assessment tools.
+Website: https://datasciencepublicpolicy.org/our-work/tools-guides/aequitas/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/aequitas.html — Keywords: Ethics
+
+### Avolin
+Energy management of IT parks
+Website: https://ignitetech.ai:443/software-library/verdiem/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/avolin.html — Keywords: Tool
+
+### Axis
+Chrome plugin - Web accessibility test
+Website: https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?ucbcb=1 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/axis.html — Keywords: Accessibility
+
+### Carbon emissions tracker
+Calculates carbon emissions based on battery usage, car travel, and other factors. The information is displayed to the user, promoting environmental awareness.
+Website: https://github.com/yang573/carbon-footprint — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbon-emissions-tracker.html — Keywords: Footprint
+
+### Cauldron
+Fully accessible front-end framework of HTML, CSS and JavaScript components for building web and mobile applications.
+Website: https://cauldron.dequelabs.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/cauldron.html — Type: Tool — Audience: IT professional / Expert — Keywords: Accessibility, Framework, Mobile, Web
+
+### Checklist 115 good practices
+Checklist of 115 good web ecodesign practices to point out their implementation (or not) and assess your maturity score.
+Website: https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/checklist-115-good-practices.html — Type: Documentation — Audience: General public / Beginner — Keywords: Ecodesign, Referential
+
+### Checkmycolor
+Tool to check the foreground and background color combinations of all DOM elements and determine if they provide sufficient contrast when viewed by a person with disabilities to visualize all of the elements. colors.
+Website: https://www.checkmycolours.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/checkmycolor.html — Keywords: Accessibility
+
+### Coldcms
+A CMS built for ecological performance. ColdCMS is a Django project based on Wagtail CMS and Bulma CSS Framework. Admin can edit websites through intuitive and user-friendly interface. Different types of pages are pre-designed, which allows you to have a beautiful website without spending hours on it. ColdCMS is specially designed for people who want to reduce the impact of their use of digital technologies on the environment. The client's website consists of static pages, built with the Wagtail Bakery. The pages of the site are generated and updated as necessary (for example when the administrator publishes or modifies content). Among other optimizations, CSS file sizes are reduced and unused CSS code is removed, using PurgeCSS and clean-css. ColdCMS supports Python> = 3.6.
+Website: https://gitlab.com/hashbangfr/coldcms — Entry: https://sustainableit-tools.isit-europe.org/en/tools/coldcms.html — Type: Tool — Audience: IT professional / Expert — Keywords: CMS, Framework, Lowtech
+
+### Dareboost
+Test, analyze and optimize your website
+Website: https://www.dareboost.com/en — Entry: https://sustainableit-tools.isit-europe.org/en/tools/dareboost.html — Type: Tool — Audience: Content creator / Intermediate — Access: Paid — Keywords: Eval. Web
+
+### Dark Patterns study (CNIL LINC)
+Reading grid published by the CNIL's digital innovation lab to characterise deceptive design. The study programmatically analysed 53,000 pages across some 11,000 sites.
+Website: https://www.calameo.com/read/007567583e85a4130362c — Entry: https://sustainableit-tools.isit-europe.org/en/tools/dark-patterns-study-cnil-linc.html — Type: Documentation — Audience: Content creator / Intermediate — Access: Free
+
+### Data co2 calculator v4
+Excel sheet allowing the evaluation of the carbon footprint of data in the different phases of their life cycle
+Website: https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx — Entry: https://sustainableit-tools.isit-europe.org/en/tools/data-co2-calculator-v4.html — Keywords: CO2, Data, Footprint
+
+### Device co2 calculator v4
+Excel sheet for the evaluation of the carbon footprint of digital terminals
+Website: https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx — Entry: https://sustainableit-tools.isit-europe.org/en/tools/device-co2-calculator-v4.html — Keywords: CO2, Device, Footprint, Terminals
+
+### Ecodesign web compliance checklist
+Compliance repository checklist to help you assess in a consistent and objective way the implementation of good ecodesign practices for a website
+Website: https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecodesign-web-compliance-checklist.html — Type: Guide / Framework — Audience: IT professional / Expert — Keywords: Ecodesign, Referential
+
+### Ecoindex simulator
+Small simulator to determine the axes necessary for the eco-design of your websites.
+Website: https://rachelwe.github.io/Simulateur-ecoindex/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ecoindex-simulator.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Index, Measure
+
+### Energy usage
+Python package that provides a function to estimate the energy consumption and associated carbon emissions of another function. Emissions are calculated based on the user's location via the GeoJS API and energy mix data from that location (sources: US EIA and eGRID for the year 2016).
+Website: https://github.com/responsibleproblemsolving/energy-usage — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-usage.html — Keywords: Impact
+
+### Good practices in eco-design
+This brochure is a complement to the 3 brochures of good practices related to software development offered by the network of SOFTWARE DEVELOPMENT players within Higher Education and Research: DevLOG. This section is dedicated to good practices in terms of digital service ecodesign which make it possible to apprehend, understand and reduce the environmental footprint of digital technology. After having explained the general context in a first sheet, a second sheet ("But why?") Highlights the need to integrate an environmental dimension in our digital service designs, and consequently in our software developments. The third sheet ("When?") Recalls the stages in the life cycle of a digital service to introduce the best practice sheets that correspond to the different stages: "Before", "During" and "After", keeping in mind the mind that development is often iterative, and the boundaries between the different stages are permeable. At the end of the brochure, you will find a specific sheet on good ecodesign practices for scientific computing, as well as sheets on development on a mobile platform, for the web and on the accelerator.
+Website: https://hal.archives-ouvertes.fr/hal-03009741/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/good-practices-in-eco-design.html — Type: Study — Audience: General public / Beginner — Keywords: Ecodesign, Referential
+
+### Google amp
+This page offered by Google makes it possible to test whether the page of your website has AMP technologies, an online publication format making it possible to speed up the display of pages on mobile devices.
+Website: https://search.google.com/test/amp?hl=fr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/google-amp.html — Keywords: Footprint, Measurement, Web
+
+### Google richtxt
+Used to test the compatibility with the enriched results. This functionality makes it possible to guarantee an enriched referencing in the search engines to promote a fair display of your page with regard to the other pages. It also allows better navigation from a mobile.
+Website: https://search.google.com/test/rich-results — Entry: https://sustainableit-tools.isit-europe.org/en/tools/google-richtxt.html — Keywords: SEO, Web
+
+### GR491
+The INR's reference guide for the responsible design of digital services, organised into families of recommendations and verifiable criteria.
+Website: https://gr491.isit-europe.org — Entry: https://sustainableit-tools.isit-europe.org/en/tools/gr491.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Access: Free
+
+### Gt metrix
+GTmetrix is ​​a tool that allows you to evaluate the web performance of a site, in particular by taking into account the Core Web Vitals criteria related to the user experience, which have become criteria taken into account in Google's algorithm.
+Website: https://gtmetrix.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/gt-metrix.html — Keywords: Footprint, Measurement, Web
+
+### Intel power gadget
+Measure energy consumption on intel code.
+Website: https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/intel-power-gadget.html — Keywords: CPU, Energy, Intel
+
+### Ionos
+Website analysis that offers a first level assessment regarding compliance with security issues, page load speed and UX recommendations for display and visibility.
+Website: https://www.ionos.fr/tools/analyse-site-web — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ionos.html — Keywords: Footprint, Measurement, Web
+
+### Linux extended bpf
+Kernel tracing and manipulation programs.
+Website: https://www.brendangregg.com/ebpf.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/linux-extended-bpf.html — Keywords: Energy
+
+### Opquast
+Good web quality practices.
+Website: https://checklists.opquast.com/fr/qualite-numerique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/opquast.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Keywords: Repository
+
+### Petra
+PETrA (Power Estimation Tool for Android) is an energy estimation tool for Android.
+Website: https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/petra.html — Keywords: Measure, Mobile
+
+### Qualscan
+An ILC tool to run several plugins to check the quality of your JavaScript project.
+Website: https://www.npmjs.com/package/qualscan — Entry: https://sustainableit-tools.isit-europe.org/en/tools/qualscan.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Code Quality
+
+### Responsible design of a digital service (Académie NR)
+Ten video modules covering the first keys of responsible design: method, tools, frameworks and professional practice. Aimed at teams that design digital services.
+Website: https://www.academie-nr.org/mooc-conception/fr/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-design-of-a-digital-service-academie-nr.html — Type: MOOC — Audience: Content creator / Intermediate — Access: Free — Keywords: Training, Eco-design, INR
+
+### RGESN — French general framework for digital service eco-design
+France's reference framework for eco-designing digital services, 2024 version led by Arcep with ADEME, Arcom, DINUM, CNIL and Inria. Organised into verifiable criteria spanning strategy, specification, architecture, content, front-end, back-end and hosting. Underpins eco-design declarations.
+Website: https://www.arcep.fr/mes-demarches-et-services/entreprises/fiches-pratiques/referentiel-general-ecoconception-services-numeriques.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/rgesn-french-general-framework-for-digital-service-eco-design.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Framework, Eco-design, Regulation
+
+### SCAMPI
+Lightweight library of SCSS, HTML and JavaScript components complying with the Pidila checklist: RGAA accessibility, the French State web charter, eco-design, Opquast good practice and the RGI interoperability framework.
+Website: https://pidila.gitlab.io/scampi/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/scampi.html — Type: Tool — Audience: IT professional / Expert — Access: Free
+
+### Scaphandre
+Open source energy metrology agent written in Rust. Measures a machine's power draw and attributes it process by process, on bare metal as well as in virtual machines. Exposes its metrics to Prometheus.
+Website: https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/scaphandre.html — Keywords: Energy
+
+### Sustainable Web Design
+Carbon footprint model for a web page that has become an industry reference, alongside sustainable design principles. This is the methodology behind most web footprint calculators on the market.
+Website: https://sustainablewebdesign.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/sustainable-web-design.html — Type: Guide / Framework — Audience: Content creator / Intermediate — Access: Free — Keywords: Framework, Eco-design, Web, Carbon footprint
+
+### Susty
+Susty is a super lightweight WordPress theme called Susty. It was designed to show how small a WordPress site can be (only 6KB of data transfer, or 7 with Yoast!). Experimenting with minimalism, the goal of this theme is to provide just enough code to power the site. 'Susty WP interface. So it is not recommended to go ahead and activate for your blog or production website without making some adjustments first. The objectives of this theme are described in a blog post titled Delivering WordPress in 7KB.
+Website: https://github.com/jacklenox/susty — Entry: https://sustainableit-tools.isit-europe.org/en/tools/susty.html — Type: Tool — Audience: IT professional / Expert — Keywords: CMS, Framework, Lowtech, Wordpress
+
+### Test my site
+Tests the performance of mobile sites.
+Website: https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/?ucbcb=1 — Entry: https://sustainableit-tools.isit-europe.org/en/tools/test-my-site.html — Keywords: Footprint, Measurement, Mobile, Web
+
+### Uptrends
+Tests the speed of an internet site.
+Website: https://www.uptrends.fr/outils-gratuits/speed-test-site-web — Entry: https://sustainableit-tools.isit-europe.org/en/tools/uptrends.html — Type: Tool — Audience: Content creator / Intermediate — Keywords: Measurement, Web
+
+### Web page test
+Allows you to test the performance of a website with an evaluation of the elements of security, cache, CDN, image optimization, transfer compression etc.
+Website: https://www.webpagetest.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/web-page-test.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Footprint, Measurement, Web
+
+### Web Sustainability Guidelines (W3C)
+W3C guidelines for sustainable web design, modelled on the WCAG for accessibility. Covers interface, content, development, hosting and project management, with success criteria and associated tests.
+Website: https://w3c-cg.github.io/sustyweb/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/web-sustainability-guidelines-w3c.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Framework, Eco-design, Web, W3C
+
+### YSlow
+Open source project analysing web pages and suggesting improvements based on a set of rules for high-performance pages.
+Website: https://yslow.org — Entry: https://sustainableit-tools.isit-europe.org/en/tools/yslow.html — Type: Tool — Access: Free

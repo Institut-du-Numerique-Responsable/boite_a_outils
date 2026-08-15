@@ -133,8 +133,8 @@ def entete(lang, conf, titre, description, canonique, profondeur):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titre)}</title>
 <meta name="description" content="{e(description)}">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="{e(canonique)}">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="{e(canonique)}">{liens_alternes(canonique)}
 <link rel="icon" href="{profondeur}favicon.ico">
 <link rel="stylesheet" href="{profondeur}assets/style.css?v={VERSIONS['css']}">
 <meta property="og:title" content="{e(titre)}">
@@ -218,9 +218,9 @@ def carte_html(outil, conf, lang):
     etiquettes = []
     if outil.get("type"):
         etiquettes.append(f'<span class="etiquette">{e(outil["type"])}</span>')
-    if outil.get("cout") == "Gratuit":
+    if outil.get("cout") in ("Gratuit", "Free"):
         etiquettes.append(f'<span class="etiquette etiquette--gratuit">{e(conf["gratuit"])}</span>')
-    elif outil.get("cout") == "Payant":
+    elif outil.get("cout") in ("Payant", "Paid"):
         etiquettes.append(f'<span class="etiquette etiquette--payant">{e(conf["payant"])}</span>')
     if outil.get("profil"):
         etiquettes.append(f'<span class="etiquette">{e(outil["profil"])}</span>')
@@ -262,8 +262,8 @@ def page_outil(outil, voisines, conf, lang, url_page, url_theme):
                 valeur = e(valeur)
             lignes.append(f"      <tr><th scope=\"row\">{e(libelle)}</th><td>{valeur}</td></tr>")
     if outil.get("cout"):
-        cout = conf["gratuit"] if outil["cout"] == "Gratuit" else (
-            conf["payant"] if outil["cout"] == "Payant" else outil["cout"])
+        cout = conf["gratuit"] if outil["cout"] in ("Gratuit", "Free") else (
+            conf["payant"] if outil["cout"] in ("Payant", "Paid") else outil["cout"])
         lignes.append(f'      <tr><th scope="row">{e(conf["champ"]["cout"])}</th>'
                       f"<td>{e(cout)}</td></tr>")
     if outil.get("tags"):
@@ -354,7 +354,7 @@ def jsonld_outil(outil, url_page, url_theme, conf, lang):
     if outil.get("url"):
         fiche["sameAs"] = outil["url"]
         fiche["installUrl" if type_schema == "SoftwareApplication" else "mainEntityOfPage"] = outil["url"]
-    if outil.get("cout") == "Gratuit":
+    if outil.get("cout") in ("Gratuit", "Free"):
         fiche["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}
     if outil.get("tags"):
         fiche["keywords"] = ", ".join(outil["tags"])
@@ -398,7 +398,7 @@ def jsonld_theme(theme, outils, url_page, lang):
             element["item"]["description"] = outil["description"][:300]
         if outil.get("url"):
             element["item"]["url"] = outil["url"]
-        if outil.get("cout") == "Gratuit":
+        if outil.get("cout") in ("Gratuit", "Free"):
             element["item"]["offers"] = {"@type": "Offer", "price": "0",
                                          "priceCurrency": "EUR"}
         elements.append(element)
@@ -459,6 +459,49 @@ def injecter(chemin, marqueur, contenu):
         fichier.write(page)
 
 
+ALTERNATES = {}
+
+
+def construire_alternates():
+    """Associe chaque ressource à son équivalent dans l'autre langue.
+
+    Les deux catalogues n'ont ni les mêmes identifiants ni les mêmes intitulés :
+    l'URL de la ressource est le seul point commun fiable. Sans cette table, les
+    moteurs traitent les versions française et anglaise comme deux pages
+    concurrentes au lieu de deux traductions.
+    """
+    par_url = {}
+    for lang, conf in LANGUES.items():
+        chemin = os.path.join(WWW, "data", f"tools-{lang}.json")
+        with open(chemin, encoding="utf-8") as fichier:
+            for outil in json.load(fichier)["outils"]:
+                if not outil.get("url"):
+                    continue
+                cle = re.sub(r"^https?://(www\.)?", "", outil["url"].lower()).rstrip("/")
+                par_url.setdefault(cle, {})[lang] = (
+                    DOMAINE + "/" + (conf["dossier"] + "/" if conf["dossier"] else "")
+                    + conf["dossier_outil"] + "/" + outil["id"] + ".html")
+    for equivalents in par_url.values():
+        if len(equivalents) < 2:
+            continue
+        for lang, adresse in equivalents.items():
+            ALTERNATES[adresse] = equivalents
+    print(f"{len(ALTERNATES) // 2} ressources présentes dans les deux langues")
+
+
+def liens_alternes(url_page):
+    """Balises hreflang, y compris x-default pointant sur le français."""
+    equivalents = ALTERNATES.get(url_page)
+    if not equivalents:
+        return ""
+    lignes = [f'<link rel="alternate" hreflang="{lang}" href="{e(adresse)}">'
+              for lang, adresse in sorted(equivalents.items())]
+    if "fr" in equivalents:
+        lignes.append(f'<link rel="alternate" hreflang="x-default" '
+                      f'href="{e(equivalents["fr"])}">')
+    return "\n" + "\n".join(lignes)
+
+
 def ecrire_llms():
     """llms.txt et llms-full.txt : le catalogue en texte, pour les modèles.
 
@@ -494,6 +537,7 @@ def ecrire_llms():
         "coût, mots-clés, état du lien et date de vérification.",
         f"- [Catalogue complet, anglais (JSON)]({DOMAINE}/data/tools-en.json)",
         f"- [Version texte intégrale de ce catalogue]({DOMAINE}/llms-full.txt)",
+        f"- [Version anglaise de ce document]({DOMAINE}/en/llms.txt)",
         "",
         "## Thèmes",
         "",
@@ -549,7 +593,87 @@ def ecrire_llms():
             complet.append("")
     with open(os.path.join(WWW, "llms-full.txt"), "w", encoding="utf-8") as fichier:
         fichier.write("\n".join(complet))
-    print(f"llms.txt et llms-full.txt : {len(outils)} ressources")
+
+    # --- version anglaise ---------------------------------------------------
+    with open(os.path.join(WWW, "data", "tools-en.json"), encoding="utf-8") as fichier:
+        outils_en = json.load(fichier)["outils"]
+    themes_en = {}
+    for outil in outils_en:
+        themes_en.setdefault(outil["theme"], []).append(outil)
+
+    anglais = [
+        "# Sustainable IT Toolbox — Institut du Numérique Responsable (INR)",
+        "",
+        f"> Catalogue of {len(outils_en)} tools, guides, frameworks and training resources for "
+        "sustainable IT, curated by the Institut du Numérique Responsable (Institute for "
+        "Sustainable IT). Every link is tested periodically; resources whose address no longer "
+        "answers are removed, and the date of the last check is published on each entry.",
+        "",
+        "The INR is a French non-profit based in La Rochelle, part of a European network of "
+        "institutes across France, Belgium and Switzerland. The catalogue covers eco-design of "
+        "digital services, environmental footprint measurement, accessibility, sobriety, the "
+        "impact of generative AI, French and European regulation, and awareness raising.",
+        "",
+        "## Data",
+        "",
+        f"- [Full catalogue, English (JSON)]({DOMAINE}/data/tools-en.json): {len(outils_en)} "
+        "resources with name, description, url, topic, type, audience, access, keywords, link "
+        "status and check date.",
+        f"- [Full catalogue, French (JSON)]({DOMAINE}/data/tools-fr.json)",
+        f"- [Plain-text version of this catalogue]({DOMAINE}/en/llms-full.txt)",
+        "",
+        "## Topics",
+        "",
+    ]
+    for theme, liste in sorted(themes_en.items()):
+        anglais.append(f"- [{theme}]({DOMAINE}/en/topics/{slug(theme)}.html): "
+                       f"{len(liste)} resources")
+    anglais += [
+        "",
+        "## Pages",
+        "",
+        f"- [Search and filters]({DOMAINE}/en/): catalogue search engine",
+        f"- [About]({DOMAINE}/a-propos.html) (French): selection method, link checking",
+        "",
+        "## Citation terms",
+        "",
+        "Content may be reused with attribution to the Institut du Numérique Responsable and a "
+        "link to the entry concerned. The INR is not a party to the tools listed and does not "
+        "vouch for their fitness for any given use case.",
+        "",
+    ]
+    dossier_en = os.path.join(WWW, "en")
+    with open(os.path.join(dossier_en, "llms.txt"), "w", encoding="utf-8") as fichier:
+        fichier.write("\n".join(anglais))
+
+    complet_en = [
+        "# Sustainable IT Toolbox — full catalogue",
+        "",
+        f"Source: {DOMAINE}/en/ — Institut du Numérique Responsable (INR).",
+        f"Generated on {date.today().isoformat()}. {len(outils_en)} resources.",
+        "",
+    ]
+    for theme, liste in sorted(themes_en.items()):
+        complet_en += [f"## {theme}", ""]
+        for outil in sorted(liste, key=lambda o: o["nom"].lower()):
+            complet_en.append(f"### {outil['nom']}")
+            if outil.get("description"):
+                complet_en.append(outil["description"])
+            details = []
+            if outil.get("url"):
+                details.append(f"Website: {outil['url']}")
+            details.append(f"Entry: {DOMAINE}/en/tools/{outil['id']}.html")
+            for cle, libelle in (("type", "Type"), ("profil", "Audience"), ("cout", "Access")):
+                if outil.get(cle):
+                    details.append(f"{libelle}: {outil[cle]}")
+            if outil.get("tags"):
+                details.append("Keywords: " + ", ".join(outil["tags"]))
+            complet_en.append(" — ".join(details))
+            complet_en.append("")
+    with open(os.path.join(dossier_en, "llms-full.txt"), "w", encoding="utf-8") as fichier:
+        fichier.write("\n".join(complet_en))
+
+    print(f"llms.txt : {len(outils)} ressources FR, {len(outils_en)} EN")
 
 
 def ecrire_robots():
@@ -647,6 +771,7 @@ def versionner_pages_statiques():
 
 def main():
     aujourd_hui = date.today().isoformat()
+    construire_alternates()
     VERSIONS["css"] = empreinte(os.path.join("assets", "style.css"))
     VERSIONS["app"] = empreinte(os.path.join("assets", "app.js"))
     VERSIONS["matomo"] = empreinte(os.path.join("assets", "matomo.js"))

@@ -31,7 +31,49 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/a11y-color-contrast-checker.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/access-score.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/accessconfig-a11y.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/accessibility-checker.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/accessibility.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/accessible-design-website.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/accessible-dfa-font.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +91,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ademe-expert-opinion-on-carbon-neutral-claims-in-advertising.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/adversarial-robustness-toolbox.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/aequitas-framework.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -79,7 +133,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/alldup.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/amazon-codeguru.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/amnesty-international-report-this-is-what-we-die-for.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +187,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/artificial-intelligence-index-report-2023.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/assistant-rgaa.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/avolin.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/axe-auditor.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/axe-devtools.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/axe-monitor.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -133,13 +229,67 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/base-empreinte-ademe.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/beacon-digital-beacon.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/being-eco-responsible-at-the-office-ademe.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/blockchain-carbon-accounting.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/boavizta-environmental-footprint-dataset.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/boavizta-server-manufacturing-footprint.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/boaviztapi.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/bon-pote.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/camille-etienne-climate-advocacy.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/captology-matrix.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbon-aware-sdk-green-software-foundation.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,6 +307,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbonalyser.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbone-4-doing-your-part.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbonfootprint.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -164,6 +326,24 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbontracker.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/carbonviz-equiwatt.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/case-studies-on-ai-in-europe.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/cauldron.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -182,6 +362,24 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/checkmycolor.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/chrome-devtools-accessibility-tree.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/claude-carbon.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/cleanfox.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -206,6 +404,24 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/cloud-jewels.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/co2-digital-calculator.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/co2-js-green-web-foundation.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/co2scope.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -265,6 +481,30 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/dark-patterns-study-cnil-linc.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/data-centre-kpis.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/data-centre-measures-catalogue-green-it-switzerland.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/data-centre-recommendations-green-it-switzerland.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/data-co2-calculator-v4.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -289,6 +529,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/datavizta-boavizta.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/deda-data-ethics-decision-aid.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -296,6 +542,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/denton-declaration.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/deploying-digital-sobriety-the-shift-project.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -319,6 +571,42 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/diff-jjoules.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-accessibility-awareness-posters-uk-government.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-carbon-footprint.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-cleanup-day.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-collage-fresque-du-numerique.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-green.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-impacts.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -337,6 +625,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/dinum-sustainable-it-toolbox.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/documentary-welcome-to-sodom.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/e-trash-transparency-project-basel-action-network.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/eco-design-tomorrow.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -344,6 +650,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/eco2mix.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecocode-javascript.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -367,6 +679,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecodit.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecogine.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -374,6 +692,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecograding.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecoindex-cypress.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -397,6 +721,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecologits.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ecosonar.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/editorial-sobriety-framework.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/egapro.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -404,6 +746,24 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/electricitymap.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/eleventy-dsfr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/emissions-impact-dashboard-for-azure.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/energy-assessment-questionnaire-green-it-switzerland.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -445,7 +805,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/energy-use-calculator.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/energybox.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/environmental-impact-of-digital-technology-in-higher-education.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/epeat-label.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -493,6 +871,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/european-accessibility-act.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/european-code-of-conduct-for-data-centers.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -505,13 +889,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/experte-com-accessibility-test.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/filevert.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/firefox-profiler.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/fruggr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/futur-eco.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -535,6 +937,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/global-e-waste-monitor-united-nations.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/globaldcanalysis-global-data-center-energy-analysis-model.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -553,7 +961,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/google-cloud-carbon-footprint.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/google-richtxt.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/gr491.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -577,7 +997,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/green-it-switzerland-measures-catalogue.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/green-it-switzerland-tools-catalogue.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/green-it-the-material-of-the-intangible.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/green-software-patterns.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -595,6 +1033,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/greenframe-cli.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/greenframe.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -602,6 +1046,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/greenit-analysis.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/greenoco.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -625,7 +1075,43 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/handbrake-video-conversion-and-compression.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/how-reliable-are-the-numbers.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/https-everywhere.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ifixit-repair-manuals.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/imageresizer.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/impact-ia-sncf.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/impactometre.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -649,6 +1135,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/intel-pcm-formerly-power-gadget.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/intel-power-gadget.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -661,13 +1153,43 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/introduction-to-the-sustainable-it-roadmap-anct.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/ionos.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/ipcc-reports.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/joularjx.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/joulemeter.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/kastor-green.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/kepler-cncf.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -697,6 +1219,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/leaf.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/lean-ict-materials.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -710,6 +1238,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/les-bons-clics.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/lighthouse.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -745,7 +1279,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/man-has-eaten-the-earth.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/manifesto-for-an-ecological-awakening.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/master-class-green-it.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/metals-and-rare-earths-inside-a-smartphone.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -781,6 +1333,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/mx-power-gadget.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/myclimatepal.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -793,7 +1351,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/numecoeval.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/numerik-ea.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/offering-sustainable-it-support-anct.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -817,6 +1387,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/opendyslexic.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/openlca.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -829,7 +1405,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/opptimiz.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/opquast.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/perf-sentinel.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/perfsentinelhub.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/periodic-table-of-scarcity.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -842,6 +1442,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/petra.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/photographs-the-lithium-industry.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -889,7 +1495,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/power-supply-calculator.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/powerapi.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/powerjoular.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -943,7 +1561,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/qu-est-ce-qu-on-fait.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/qualscan.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/randoma11y-accessible-colour-pairs.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -961,7 +1591,49 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/resilio-database-ch.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-ai-course-academie-nr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-communication-resource-base.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-design-of-a-digital-service-academie-nr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-digital-marketing-framework.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-influencer-certificate.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/responsible-management.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/rgaa-audit-kit.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -973,7 +1645,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/rgesn-french-general-framework-for-digital-service-eco-design.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/right-to-repair-europe.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/rtlamr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/scampi.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/scaphandre-hubblo.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -991,7 +1687,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/shortpixel.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/simapro.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/small-gestures-will-not-be-enough.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1021,6 +1729,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/study-rebound-effects-of-remote-work.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-business-canvas.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -1045,7 +1759,55 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-awareness-course-academie-nr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-charter.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-course-full-programme-academie-nr.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-kit-communicating-your-approach-anct.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-kit-from-the-administration-to-the-territory-anct.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-roadmap-anct.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-roadmap-short-version-anct.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-it-wiki.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sustainable-web-design.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1063,7 +1825,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/sysderep.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/systemic-design-method-and-toolkit.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/tanaguru.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/tco-certified.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/team-for-the-planet-videos.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1081,6 +1867,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-a11y-project.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-carbon-footprint-of-an-email-myths-and-reality.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-gdpr-workshop.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -1093,7 +1891,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-metals-in-your-smartphone.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-oaa-accessibility-game.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-rgaa-for-integrators.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-shift-project-decarbonising-industry.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-shift-project-decarbonising-the-french-economy.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1105,13 +1927,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/thinkerview.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/tinypng.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/toovalu.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/tracarbon.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/treebal.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/tv-size-to-distance-calculator.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1129,7 +1975,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/unused-css.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/uptrends.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/verdikt.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1171,7 +2029,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/web-sustainability-guidelines-w3c.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/webaccessibility.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/white-papers-on-responsible-communication.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/why-it-s-time-for-a-green-revolution-for-your-organization-s-it.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1183,85 +2059,103 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/yellow-lab-tools.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/yslow.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/topics/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/accessibilite-inclusivite.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/accessibility-inclusion.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/conception-web.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/ai.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/deeee-et-equipements.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/awareness-training.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/demarche-pour-les-organisations-entreprises.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/data-sobriety.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/eco-conception-web.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/energy-resource-management.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/evaluation-et-mesure.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/innovation-research.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/gestion-de-l-energie-et-des-ressources.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/marketing-communication.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/ia.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/measurement-assessment.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/innovation-et-recherche.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/organisational-roadmap.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/references-et-guides.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/privacy-transparency-ethics.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/respect-de-la-vie-privee-transparence-et-ethique.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/references-guides.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/sensibilisation-et-formation.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/web-design.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/topics/sobriete-de-ses-donnees.html</loc>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/web-eco-design.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/topics/weee-hardware.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

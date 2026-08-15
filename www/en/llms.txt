@@ -1,0 +1,37 @@
+# Sustainable IT Toolbox — Institut du Numérique Responsable (INR)
+
+> Catalogue of 341 tools, guides, frameworks and training resources for sustainable IT, curated by the Institut du Numérique Responsable (Institute for Sustainable IT). Every link is tested periodically; resources whose address no longer answers are removed, and the date of the last check is published on each entry.
+
+The INR is a French non-profit based in La Rochelle, part of a European network of institutes across France, Belgium and Switzerland. The catalogue covers eco-design of digital services, environmental footprint measurement, accessibility, sobriety, the impact of generative AI, French and European regulation, and awareness raising.
+
+## Data
+
+- [Full catalogue, English (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-en.json): 341 resources with name, description, url, topic, type, audience, access, keywords, link status and check date.
+- [Full catalogue, French (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json)
+- [Plain-text version of this catalogue](https://sustainableit-tools.isit-europe.org/en/llms-full.txt)
+
+## Topics
+
+- [AI](https://sustainableit-tools.isit-europe.org/en/topics/ai.html): 18 resources
+- [Accessibility & inclusion](https://sustainableit-tools.isit-europe.org/en/topics/accessibility-inclusion.html): 34 resources
+- [Awareness & training](https://sustainableit-tools.isit-europe.org/en/topics/awareness-training.html): 45 resources
+- [Data sobriety](https://sustainableit-tools.isit-europe.org/en/topics/data-sobriety.html): 7 resources
+- [Energy & resource management](https://sustainableit-tools.isit-europe.org/en/topics/energy-resource-management.html): 25 resources
+- [Innovation & research](https://sustainableit-tools.isit-europe.org/en/topics/innovation-research.html): 3 resources
+- [Marketing & communication](https://sustainableit-tools.isit-europe.org/en/topics/marketing-communication.html): 8 resources
+- [Measurement & assessment](https://sustainableit-tools.isit-europe.org/en/topics/measurement-assessment.html): 94 resources
+- [Organisational roadmap](https://sustainableit-tools.isit-europe.org/en/topics/organisational-roadmap.html): 25 resources
+- [Privacy, transparency & ethics](https://sustainableit-tools.isit-europe.org/en/topics/privacy-transparency-ethics.html): 12 resources
+- [References & guides](https://sustainableit-tools.isit-europe.org/en/topics/references-guides.html): 13 resources
+- [WEEE & hardware](https://sustainableit-tools.isit-europe.org/en/topics/weee-hardware.html): 11 resources
+- [Web design](https://sustainableit-tools.isit-europe.org/en/topics/web-design.html): 9 resources
+- [Web eco-design](https://sustainableit-tools.isit-europe.org/en/topics/web-eco-design.html): 37 resources
+
+## Pages
+
+- [Search and filters](https://sustainableit-tools.isit-europe.org/en/): catalogue search engine
+- [About](https://sustainableit-tools.isit-europe.org/a-propos.html) (French): selection method, link checking
+
+## Citation terms
+
+Content may be reused with attribution to the Institut du Numérique Responsable and a link to the entry concerned. The INR is not a party to the tools listed and does not vouch for their fitness for any given use case.

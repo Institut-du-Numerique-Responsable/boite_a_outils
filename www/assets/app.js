@@ -259,8 +259,14 @@
         (LANG === "fr" ? "Référencé en " : "Listed in ") + outil.ajoute_le));
     }
     if (outil.type) meta.appendChild(el("span", "etiquette", outil.type));
-    if (outil.cout === "Gratuit") meta.appendChild(el("span", "etiquette etiquette--gratuit", LANG === "fr" ? "Gratuit" : "Free"));
-    if (outil.cout === "Payant") meta.appendChild(el("span", "etiquette etiquette--payant", LANG === "fr" ? "Payant" : "Paid"));
+    // Les données portent le libellé dans leur propre langue : on reconnaît les
+    // deux, sinon l'étiquette perdrait sa couleur sur la version anglaise.
+    if (outil.cout === "Gratuit" || outil.cout === "Free") {
+      meta.appendChild(el("span", "etiquette etiquette--gratuit", LANG === "fr" ? "Gratuit" : "Free"));
+    }
+    if (outil.cout === "Payant" || outil.cout === "Paid") {
+      meta.appendChild(el("span", "etiquette etiquette--payant", LANG === "fr" ? "Payant" : "Paid"));
+    }
     if (outil.profil) meta.appendChild(el("span", "etiquette", outil.profil));
     if (meta.childNodes.length) item.appendChild(meta);
 

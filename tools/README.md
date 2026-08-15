@@ -145,29 +145,6 @@ npm install jsdom && node tools/test-site.mjs   # terminal 2
 facettes, jetons de filtre, mots-clés, pagination, tri, fiches juridiques, liens
 sortants, pages de thème, accessibilité de base.
 
-## Régénérer depuis les sources d'origine
-
-Utile seulement pour repartir de zéro — la migration a déjà eu lieu.
-
-```bash
-python3 tools/parse_dump.py                        # export SQL → db_dump.json
-python3 tools/import_xlsx.py "classeur.xlsx"       # classeur → outils_raw.json
-python3 tools/audit_links.py && python3 tools/audit_db.py
-python3 tools/build.py                             # → www/data/*.json + rapports CSV
-```
-
-**Attention : `build.py` écrase `www/data/*.json`.** Toute modification faite à la main
-depuis la dernière génération serait perdue.
-
-## Rapports de migration
-
-- `rapport-liens-morts.csv` — 82 ressources retirées (55 FR, 27 EN), à re-sourcer.
-  **Quatre pointaient vers des domaines de l'INR/ISIT** — WeNR, Ecolog, Wiki NR,
-  Charte NR : les plus visibles, à traiter en premier.
-- `rapport-redirections.csv` — 77 adresses corrigées.
-- `rapport-a-reclasser.csv` — 89 thèmes déduits automatiquement pour les ressources
-  absentes du classeur 2024, à relire.
-
 ## Décisions de structure
 
 - **Thème** = colonne `Catégorie` du classeur 2024, renseignée à 100 %, donc facette
@@ -217,9 +194,19 @@ Maillage interne : l'accueil et les pieds de page pointent vers le sommaire des 
 chaque carte de résultat porte un lien « Fiche détaillée », chaque fiche renvoie vers son
 thème et vers cinq ressources voisines.
 
-**Sitemap** : 587 URL avec `lastmod`, régénéré à chaque exécution.
+**Sitemap** : 731 URL avec `lastmod`, régénéré à chaque exécution.
 
-### Ce qui reste à faire côté INR
+#### Ce que le générateur produit aussi
+
+- **`hreflang`** entre les 335 ressources présentes dans les deux langues, plus `x-default`
+  vers le français. Sans ces balises, les moteurs traitent les deux versions comme des pages
+  concurrentes au lieu de traductions.
+- **`llms.txt` et `llms-full.txt` en anglais** dans `www/en/`, en plus des versions françaises.
+- **Directives d'extrait** (`max-snippet:-1`, `max-image-preview:large`) sur toutes les pages :
+  elles autorisent les moteurs et les assistants à citer un extrait complet plutôt qu'une
+  ligne tronquée.
+
+## Ce qui reste à faire côté INR
 
 - Déclarer le site dans la Search Console Google et Bing Webmaster Tools, puis y soumettre
   le sitemap.
@@ -228,3 +215,14 @@ thème et vers cinq ressources voisines.
 - Renseigner le domaine réel dans `DOMAINE` (`tools/generer_pages.py`) s'il diffère de
   `https://tools.institutnr.org` — toutes les URL canoniques, le sitemap et les `llms.txt`
   en dépendent.
+
+## Migration : ce qui a été archivé
+
+La chaîne qui a servi une seule fois — import du dump MySQL, lecture du classeur XLSX, audits
+initiaux et fusion — n'est plus dans le dépôt. Elle est conservée hors dépôt dans
+`../inr-sustainableit-tools-ARCHIVE-migration.tar.gz`, avec les rapports produits à l'époque
+(liens morts retirés, adresses corrigées, thèmes déduits). Les sources d'origine existent
+toujours de leur côté : l'export SQL et les classeurs INR.
+
+Il n'y a plus de commande qui écrase `www/data/*.json` : ces fichiers ne se modifient qu'à la
+main ou par `ajouter_ressources.py`.

@@ -9,6 +9,7 @@ L'INR est une association loi 1901 basée à La Rochelle, réseau européen d'in
 - [Catalogue complet, français (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json) : 355 ressources, champs nom, description, url, thème, type, public visé, coût, mots-clés, état du lien et date de vérification.
 - [Catalogue complet, anglais (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-en.json)
 - [Version texte intégrale de ce catalogue](https://sustainableit-tools.isit-europe.org/llms-full.txt)
+- [Version anglaise de ce document](https://sustainableit-tools.isit-europe.org/en/llms.txt)
 
 ## Thèmes
 
