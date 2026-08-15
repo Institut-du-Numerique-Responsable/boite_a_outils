@@ -64,7 +64,9 @@ RewriteRule ^fiche-outils\.php$ /?theme=Juridique%20et%20r%C3%A9glementation [L,
 # Pages éditoriales et vestiges de l'application PHP.
 RewriteRule ^a-propos-numerique-responsable\.php$ /a-propos.html [L,R=301]
 RewriteRule ^mentions-legales\.php$ /mentions-legales.html [L,R=301]
-RewriteRule ^en/(index\.php)?$ /en/ [L,R=301]
+# Ne cibler que l'ancien index.php : « ^en/(index\.php)?$ » attrapait aussi
+# « en/ » lui-même et le redirigeait vers lui-même — boucle infinie.
+RewriteRule ^en/index\.php$ /en/ [L,R=301]
 RewriteRule ^(index|search|odd|toutes-les-contributions)\.php$ / [L,R=301]
 # Le back-office, l'upload et phpinfo n'existent plus : ne pas laisser d'indice.
 RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php$ / [L,R=301]
@@ -77,13 +79,15 @@ RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php
 # les deux blocs doivent être gardés séparément, sinon l'absence d'un module
 # désactive silencieusement l'autre.
 <IfModule mod_rewrite.c>
+  # E=no-gzip : sans cette marque, mod_deflate recompresserait une archive déjà
+  # compressée, et le navigateur recevrait un corps illisible.
   RewriteCond %{HTTP:Accept-Encoding} br
   RewriteCond %{REQUEST_FILENAME}.br -f
-  RewriteRule ^(.*)$ $1.br [QSA,L]
+  RewriteRule ^(.*)$ $1.br [QSA,L,E=no-gzip:1]
 
   RewriteCond %{HTTP:Accept-Encoding} gzip
   RewriteCond %{REQUEST_FILENAME}.gz -f
-  RewriteRule ^(.*)$ $1.gz [QSA,L]
+  RewriteRule ^(.*)$ $1.gz [QSA,L,E=no-gzip:1]
 </IfModule>
 
 <IfModule mod_headers.c>
@@ -113,6 +117,7 @@ RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php
 
 # Repli : compression à la volée pour ce qui n'a pas d'archive.
 <IfModule mod_deflate.c>
+  SetEnvIfNoCase Request_URI "\.(br|gz)$" no-gzip dont-vary
   AddOutputFilterByType DEFLATE text/html text/css text/plain
   AddOutputFilterByType DEFLATE application/javascript application/json
   AddOutputFilterByType DEFLATE image/svg+xml
