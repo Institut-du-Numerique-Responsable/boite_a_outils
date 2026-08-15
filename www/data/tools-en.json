@@ -74,9 +74,9 @@
    "verifie_le": "2026-08-15"
   },
   {
-   "id": "front-end",
-   "nom": "Front-end",
-   "description": "A selection of tools to support you in improving the accessibility and design of your websites and web applications.",
+   "id": "designgouv-toolkit",
+   "nom": "DesignGouv toolkit",
+   "description": "Toolkit published by the French government design team: methods, templates and checklists for designing public digital services, including accessibility and eco-design guidance.",
    "url": "https://design.numerique.gouv.fr/outils/",
    "theme": "Accessibilité & inclusivité",
    "domaine": "Front-End",
@@ -493,9 +493,9 @@
    "verifie_le": "2026-08-15"
   },
   {
-   "id": "the-right-clicks",
-   "nom": "The right clicks",
-   "description": "The free platform to support and act on the digital divide",
+   "id": "les-bons-clics",
+   "nom": "Les Bons Clics",
+   "description": "French platform of ready-to-use materials for digital inclusion trainers: lesson plans, exercises and assessment grids to support people with limited digital skills.",
    "url": "https://www.lesbonsclics.fr/fr/",
    "theme": "Démarche pour les organisations / entreprises",
    "domaine": "sans objet",
@@ -1376,7 +1376,7 @@
   {
    "id": "labelia-labs",
    "nom": "Labelia Labs (ex-Substra Foundation)",
-   "description": "Évaluation de la maturité d'une organisation en matière d'IA responsable et de confiance : référentiel d'évaluation, guides et outils open source. L'association Substra Foundation est devenue Labelia Labs, l'ancien service d'auto-évaluation a migré.",
+   "description": "Maturity assessment for responsible and trustworthy AI: an evaluation framework, guides and open source tooling. The Substra Foundation association became Labelia Labs, and the former self-assessment service has moved.",
    "url": "https://www.labelia.org/",
    "theme": "Références et guides",
    "domaine": "Reference",
@@ -2066,9 +2066,9 @@
    "verifie_le": "2026-08-15"
   },
   {
-   "id": "diving-suit",
-   "nom": "Diving suit",
-   "description": "Measure the energy consumption of IT projects.",
+   "id": "scaphandre",
+   "nom": "Scaphandre",
+   "description": "Open source energy metrology agent written in Rust. Measures a machine's power draw and attributes it process by process, on bare metal as well as in virtual machines. Exposes its metrics to Prometheus.",
    "url": "https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/",
    "theme": "Éco-conception (Web)",
    "domaine": "Back-End",

@@ -301,6 +301,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/designgouv-toolkit.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/designing-for-guidance.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -326,12 +332,6 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/digital-solidarity.html</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/tools/diving-suit.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -506,12 +506,6 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/filevert.html</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/tools/front-end.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -710,6 +704,12 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/learn-accessibility.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/les-bons-clics.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -979,6 +979,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/en/tools/scaphandre.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/send.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -1088,12 +1094,6 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-rgaa-for-integrators.html</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/tools/the-right-clicks.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
