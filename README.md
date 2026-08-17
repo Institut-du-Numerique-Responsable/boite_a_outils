@@ -1,5 +1,11 @@
 # Boîte à outils du Numérique Responsable
 
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/boite_a_outils?label=Version)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/releases)
+[![CI](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml)
+[![HTML/CSS/JS](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-blue.svg)]()
+[![Outils](https://img.shields.io/badge/Outils-355_FR_%7C_193_EN-orange.svg)]()
+
 Site statique de la boîte à outils NR de l'[Institut du Numérique Responsable](https://institutnr.org).
 Publié sur <https://sustainableit-tools.isit-europe.org/>.
 
