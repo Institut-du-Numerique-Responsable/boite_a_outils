@@ -48,15 +48,6 @@ npm install jsdom && node tools/test-site.mjs   # terminal 2
 
 45 assertions : recherche, facettes, tri, pagination, fiches juridiques, accessibilité.
 
-## Publier
-
-```bash
-rsync -av --delete --exclude '.DS_Store' www/ utilisateur@serveur:/chemin/racine-web/
-```
-
-C'est le **contenu** de `www/` qui va à la racine web. Vérifiez que le `.htaccess` a bien été
-transféré : il commence par un point et la plupart des clients FTP le masquent.
-
 ## Licence et crédits
 
 Contenu éditorial © Institut du Numérique Responsable. Les ressources référencées appartiennent
