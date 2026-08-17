@@ -1,0 +1,56 @@
+name: Validate Data
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'www/data/*.json'
+      - 'tools/ajouter_ressources.py'
+  push:
+    branches: [main]
+    paths:
+      - 'www/data/*.json'
+
+jobs:
+  validate:
+    name: Validate data structure and links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run data validation
+        run: python3 tools/verifier_donnees.py
+
+      - name: Run SEO validation
+        run: python3 tools/verifier_seo.py
+
+  generate:
+    name: Generate pages and verify
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate pages
+        run: python3 tools/generer_pages.py
+
+      - name: Verify generation
+        run: python3 tools/verifier_seo.py
