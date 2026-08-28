@@ -13,6 +13,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sustainableit-tools.isit-europe.org/langues/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://sustainableit-tools.isit-europe.org/a-propos.html</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>

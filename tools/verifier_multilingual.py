@@ -27,20 +27,59 @@ def pages_for(locale):
             yield from dossier_path.glob("*.html")
 
 
+def public_pages():
+    yield WWW / "index.html"
+    yield WWW / "en" / "index.html"
+    yield WWW / "langues" / "index.html"
+    for locale in ("fr", "en"):
+        yield from pages_for(locale)
+
+
+def public_url(page):
+    relative = page.relative_to(WWW).as_posix()
+    if relative == "index.html":
+        return DOMAIN + "/"
+    if relative.endswith("/index.html"):
+        return DOMAIN + "/" + relative[:-10]
+    return DOMAIN + "/" + relative
+
+
 def validate():
     published = {item["code"] for item in published_locales()}
     errors = []
+    pages = list(public_pages())
+    by_url = {public_url(page): page for page in pages}
+    sitemap = (WWW / "sitemap.xml").read_text(encoding="utf-8")
+    sitemap_urls = set(re.findall(r"<loc>([^<]+)</loc>", sitemap))
     for locale in sorted(published):
         for page in pages_for(locale):
             html = page.read_text(encoding="utf-8")
             if f'<html lang="{locale}"' not in html:
                 errors.append(f"{page}: mauvais attribut lang")
             canonical = re.search(r'<link rel="canonical" href="([^"]+)"', html)
-            if not canonical or not canonical.group(1).startswith(DOMAIN + "/"):
+            expected = public_url(page)
+            if not canonical or canonical.group(1) != expected:
                 errors.append(f"{page}: canonical absente ou invalide")
-            for code in re.findall(r'hreflang="([a-z-]+)"', html):
+            if expected not in sitemap_urls:
+                errors.append(f"{page}: URL absente du sitemap")
+            for code, target in re.findall(r'<link rel="alternate" hreflang="([a-z-]+)" href="([^"]+)"', html):
                 if code != "x-default" and code not in published:
                     errors.append(f"{page}: locale hreflang non publiée: {code}")
+                if code == "x-default":
+                    if target != DOMAIN + "/langues/":
+                        errors.append(f"{page}: x-default invalide")
+                    continue
+                target_page = by_url.get(target)
+                if target_page is None:
+                    errors.append(f"{page}: cible hreflang absente: {target}")
+                    continue
+                target_html = target_page.read_text(encoding="utf-8")
+                if f'hreflang="{locale}"' not in target_html or expected not in target_html:
+                    errors.append(f"{page}: hreflang {code} non réciproque")
+    for page in pages:
+        html = page.read_text(encoding="utf-8")
+        if 'name="robots" content="noindex"' not in html and public_url(page) not in sitemap_urls:
+            errors.append(f"{page}: page publique absente du sitemap")
     return errors
 
 

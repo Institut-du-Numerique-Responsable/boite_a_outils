@@ -47,10 +47,16 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertIn('rel="canonical"', contenu)
         self.assertIn('hreflang="fr"', contenu)
         self.assertIn('hreflang="en"', contenu)
+        english = (Path(__file__).parent.parent / "www" / "en" / "tools" / "42u.html").read_text(encoding="utf-8")
+        self.assertIn('hreflang="x-default" href="https://sustainableit-tools.isit-europe.org/langues/"', english)
+        self.assertIn('href="../../outils/42u.html" lang="fr"', english)
+        self.assertIn("(coming soon)", english)
+        theme = (Path(__file__).parent.parent / "www" / "themes" / "evaluation-et-mesure.html").read_text(encoding="utf-8")
+        self.assertIn('hreflang="en"', theme)
 
     def test_branding_uses_inr_only_in_french(self):
         root = Path(__file__).parent.parent / "www"
-        self.assertIn('src="../../assets/logo-isit.svg"',
+        self.assertIn('src="../../assets/logo-isit.svg" alt=""',
                       (root / "en" / "tools" / "42u.html").read_text(encoding="utf-8"))
         self.assertIn('src="../assets/logo-inr.svg"',
                       (root / "outils" / "42u.html").read_text(encoding="utf-8"))

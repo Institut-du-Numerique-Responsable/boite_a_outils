@@ -13,9 +13,11 @@ import hashlib
 import html
 import json
 import os
+import posixpath
 import re
 import unicodedata
 from datetime import date
+from urllib.parse import urlparse
 
 try:
     from translations import all_locales, published_locales
@@ -105,14 +107,21 @@ LANGUES["fr"]["published"] = True
 LANGUES["en"]["published"] = True
 
 
-def selecteur_langues(lang, profondeur):
-    """Liens de langue accessibles vers les accueils publiés."""
+def selecteur_langues(lang, profondeur, page_url=None):
+    """Liens de langue accessibles vers la fiche courante si elle existe."""
     liens = []
+    equivalents = (ALTERNATES.get(page_url) or PAGE_ALTERNATES.get(page_url)
+                   if page_url else None)
+    page_path = posixpath.dirname(urlparse(page_url).path) if page_url else ""
     for locale in all_locales():
         code = locale["code"]
         conf = LANGUES[code]
         prefixe = conf["dossier"] + "/" if conf["dossier"] else ""
-        href = profondeur + prefixe
+        cible = equivalents.get(code) if equivalents else None
+        if cible and page_url:
+            href = posixpath.relpath(urlparse(cible).path, start=page_path)
+        else:
+            href = profondeur + prefixe
         courant = ' aria-current="true"' if code == lang else ""
         if locale["published"]:
             liens.append(
@@ -120,9 +129,10 @@ def selecteur_langues(lang, profondeur):
                 f'{e(locale["native_name"])}</a>'
             )
         else:
+            suffixe = "bientôt" if lang == "fr" else "coming soon"
             liens.append(
                 f'        <span class="entete__langue-indisponible" lang="{code}" '
-                f'aria-disabled="true">{e(locale["native_name"])} <small>(bientôt)</small></span>'
+                f'aria-disabled="true">{e(locale["native_name"])} <small>({suffixe})</small></span>'
             )
     etiquette = "Langues" if lang == "fr" else "Languages"
     return (f'      <div class="entete__langues" aria-label="{etiquette}">\n'
@@ -168,7 +178,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
         for url, libelle in conf["nav"]
     )
     logo = "logo-inr.svg" if lang == "fr" else "logo-isit.svg"
-    logo_alt = "" if lang == "fr" else "Institute for Sustainable IT"
+    logo_alt = ""
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -200,7 +210,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
     </a>
     <nav class="entete__nav" aria-label="{"Navigation principale" if lang == "fr" else "Main navigation"}">
 {nav}
-{selecteur_langues(lang, profondeur)}
+{selecteur_langues(lang, profondeur, canonique)}
     </nav>
   </div>
 </header>
@@ -503,6 +513,25 @@ def injecter(chemin, marqueur, contenu):
 
 
 ALTERNATES = {}
+PAGE_ALTERNATES = {}
+
+THEME_EQUIVALENTS = {
+    "Accessibilité & inclusivité": "Accessibility & inclusion",
+    "Conception web": "Web design",
+    "DEEEE et Equipements": "WEEE & hardware",
+    "Démarche pour les organisations / entreprises": "Organisational roadmap",
+    "Gestion de l'énergie et des ressources": "Energy & resource management",
+    "IA": "AI",
+    "Innovation et recherche": "Innovation & research",
+    "Juridique et réglementation": None,
+    "Marketing et Communication": "Marketing & communication",
+    "Respect de la vie privée, transparence et éthique": "Privacy, transparency & ethics",
+    "Références et guides": "References & guides",
+    "Sensibilisation et formation": "Awareness & training",
+    "Sobriété de ses données": "Data sobriety",
+    "Éco-conception (Web)": "Web eco-design",
+    "Évaluation et mesure": "Measurement & assessment",
+}
 
 
 def construire_alternates():
@@ -531,19 +560,30 @@ def construire_alternates():
             continue
         for lang, adresse in equivalents.items():
             ALTERNATES[adresse] = equivalents
+    for fr_theme, en_theme in THEME_EQUIVALENTS.items():
+        if not en_theme:
+            continue
+        fr_url = f"{DOMAINE}/themes/{slug(fr_theme)}.html"
+        en_url = f"{DOMAINE}/en/topics/{slug(en_theme)}.html"
+        equivalents = {"fr": fr_url, "en": en_url}
+        PAGE_ALTERNATES[fr_url] = equivalents
+        PAGE_ALTERNATES[en_url] = equivalents
+    PAGE_ALTERNATES[f"{DOMAINE}/themes/"] = {
+        "fr": f"{DOMAINE}/themes/", "en": f"{DOMAINE}/en/topics/"
+    }
+    PAGE_ALTERNATES[f"{DOMAINE}/en/topics/"] = PAGE_ALTERNATES[f"{DOMAINE}/themes/"]
     print(f"{len(ALTERNATES) // 2} ressources présentes dans les deux langues")
 
 
 def liens_alternes(url_page):
     """Balises hreflang, y compris x-default pointant sur le français."""
-    equivalents = ALTERNATES.get(url_page)
+    equivalents = ALTERNATES.get(url_page) or PAGE_ALTERNATES.get(url_page)
     if not equivalents:
-        return ""
+        return f'\n<link rel="alternate" hreflang="x-default" href="{DOMAINE}/langues/">'
     lignes = [f'<link rel="alternate" hreflang="{lang}" href="{e(adresse)}">'
               for lang, adresse in sorted(equivalents.items())]
-    if "fr" in equivalents:
-        lignes.append(f'<link rel="alternate" hreflang="x-default" '
-                      f'href="{e(equivalents["fr"])}">')
+    lignes.append(f'<link rel="alternate" hreflang="x-default" '
+                  f'href="{DOMAINE}/langues/">')
     return "\n" + "\n".join(lignes)
 
 
@@ -814,6 +854,29 @@ def versionner_pages_statiques():
           f"matomo={VERSIONS['matomo']}")
 
 
+def ecrire_selecteur_langues():
+    """Page x-default explicite pour les visiteurs sans langue publiée."""
+    dossier = os.path.join(WWW, "langues")
+    os.makedirs(dossier, exist_ok=True)
+    url = DOMAINE + "/langues/"
+    page = entete("fr", LANGUES["fr"], "Choisir la langue | Boîte à outils NR",
+                  "Choisissez la langue de la boîte à outils du Numérique Responsable.",
+                  url, "../")
+    options = []
+    for locale in all_locales():
+        code = locale["code"]
+        if locale["published"]:
+            conf = LANGUES[code]
+            href = "../" + (conf["dossier"] + "/" if conf["dossier"] else "")
+            options.append(f'    <li><a href="{href}" lang="{code}" hreflang="{code}">{e(locale["native_name"])}</a></li>')
+        else:
+            options.append(f'    <li><span class="entete__langue-indisponible" lang="{code}" aria-disabled="true">{e(locale["native_name"])} <small>(bientôt)</small></span></li>')
+    page += "\n<main class=\"page\" id=\"contenu\">\n  <h1>Choisir la langue</h1>\n  <p class=\"chapeau\">Accédez à la version disponible de la boîte à outils.</p>\n  <ul>\n" + "\n".join(options) + "\n  </ul>\n</main>\n"
+    page += pied("fr", "../")
+    with open(os.path.join(dossier, "index.html"), "w", encoding="utf-8") as sortie:
+        sortie.write(page)
+
+
 def main():
     aujourd_hui = date.today().isoformat()
     construire_alternates()
@@ -923,6 +986,7 @@ def main():
         print(f"[{lang}] {len(themes)} pages de thème + sommaire → {dossier}")
 
     versionner_pages_statiques()
+    ecrire_selecteur_langues()
 
     # ---- llms.txt : point d'entrée pour les modèles de langage --------------
     ecrire_llms()
@@ -932,6 +996,7 @@ def main():
 
     # ---- sitemap ------------------------------------------------------------
     fixes = [(DOMAINE + "/", "1.0"), (DOMAINE + "/en/", "0.8"),
+             (DOMAINE + "/langues/", "0.4"),
              (DOMAINE + "/a-propos.html", "0.5"),
              (DOMAINE + "/mentions-legales.html", "0.3")]
     lignes = []
