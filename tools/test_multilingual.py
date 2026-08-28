@@ -2,6 +2,7 @@
 """Tests for the locale registry and publication contract."""
 
 import unittest
+from pathlib import Path
 
 from tools.translations import SUPPORTED_LOCALES, published_locales, ui
 from tools.generer_pages import LANGUES, selecteur_langues
@@ -28,6 +29,13 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertIn('lang="en"', markup)
         self.assertIn('aria-current="true"', markup)
         self.assertNotIn('lang="nl"', markup)
+
+    def test_generated_pages_have_a_self_canonical_and_language_links(self):
+        page = Path(__file__).parent.parent / "www" / "outils" / "42u.html"
+        contenu = page.read_text(encoding="utf-8")
+        self.assertIn('rel="canonical"', contenu)
+        self.assertIn('hreflang="fr"', contenu)
+        self.assertIn('hreflang="en"', contenu)
 
 
 if __name__ == "__main__":
