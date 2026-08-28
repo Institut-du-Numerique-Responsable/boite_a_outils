@@ -4,6 +4,7 @@
 import unittest
 
 from tools.translations import SUPPORTED_LOCALES, published_locales, ui
+from tools.generer_pages import LANGUES, selecteur_langues
 
 
 class LocaleRegistryTests(unittest.TestCase):
@@ -20,6 +21,13 @@ class LocaleRegistryTests(unittest.TestCase):
 
     def test_unpublished_locale_has_no_public_navigation(self):
         self.assertNotIn("nl", {locale["code"] for locale in published_locales()})
+
+    def test_language_selector_lists_published_locales_and_marks_current(self):
+        markup = selecteur_langues("fr", "../")
+        self.assertIn('lang="fr"', markup)
+        self.assertIn('lang="en"', markup)
+        self.assertIn('aria-current="true"', markup)
+        self.assertNotIn('lang="nl"', markup)
 
 
 if __name__ == "__main__":

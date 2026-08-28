@@ -17,6 +17,11 @@ import re
 import unicodedata
 from datetime import date
 
+try:
+    from translations import published_locales
+except ImportError:  # importé comme module depuis la racine du dépôt
+    from tools.translations import published_locales
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.dirname(HERE)
 WWW = os.path.join(RACINE, "www")
@@ -24,6 +29,7 @@ DOMAINE = "https://sustainableit-tools.isit-europe.org"
 
 LANGUES = {
     "fr": {
+        "code": "fr",
         "dossier": "",
         "racine": "../",
         "dossier_theme": "themes",
@@ -55,6 +61,7 @@ LANGUES = {
                   "tags": "Mots-clés", "verif": "Lien vérifié le"},
     },
     "en": {
+        "code": "en",
         "dossier": "en",
         "racine": "../../",
         "dossier_theme": "topics",
@@ -85,6 +92,24 @@ LANGUES = {
                   "tags": "Keywords", "verif": "Link checked on"},
     },
 }
+
+
+def selecteur_langues(lang, profondeur):
+    """Liens de langue accessibles vers les accueils publiés."""
+    liens = []
+    for locale in published_locales():
+        code = locale["code"]
+        conf = LANGUES[code]
+        prefixe = conf["dossier"] + "/" if conf["dossier"] else ""
+        href = profondeur + prefixe
+        courant = ' aria-current="true"' if code == lang else ""
+        liens.append(
+            f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
+            f'{e(locale["native_name"])}</a>'
+        )
+    etiquette = "Langues" if lang == "fr" else "Languages"
+    return (f'      <div class="entete__langues" aria-label="{etiquette}">\n'
+            + "\n".join(liens) + "\n      </div>")
 
 
 def empreinte(chemin_relatif):
@@ -125,7 +150,6 @@ def entete(lang, conf, titre, description, canonique, profondeur):
         f'      <a href="{e(url)}"{" target=\"_blank\" rel=\"noopener\"" if url.startswith("http") else ""}>{e(libelle)}</a>'
         for url, libelle in conf["nav"]
     )
-    autre_url, autre_libelle, autre_lang = conf["autre_langue"]
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -157,7 +181,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
     </a>
     <nav class="entete__nav" aria-label="{"Navigation principale" if lang == "fr" else "Main navigation"}">
 {nav}
-      <a href="{e(autre_url)}" lang="{autre_lang}" hreflang="{autre_lang}">{e(autre_libelle)}</a>
+{selecteur_langues(lang, profondeur)}
     </nav>
   </div>
 </header>

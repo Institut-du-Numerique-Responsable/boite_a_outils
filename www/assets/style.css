@@ -158,6 +158,28 @@ a {
   border-bottom-color: var(--ambre);
 }
 
+.entete__langues {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(217, 236, 244, 0.35);
+  font-size: 0.8125rem;
+}
+
+.entete__langues a[aria-current="true"] {
+  font-weight: 700;
+}
+
+@media (max-width: 42rem) {
+  .entete__langues {
+    padding-left: 0;
+    border-left: 0;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
 /* ------------------------------------------------------------- hero
    Le hero n'est pas un slogan : c'est le champ de recherche, plus la
    seule chose qu'un annuaire doit prouver — que ses liens sont vivants. */
