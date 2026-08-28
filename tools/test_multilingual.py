@@ -6,6 +6,7 @@ from pathlib import Path
 
 from tools.translations import SUPPORTED_LOCALES, published_locales, ui
 from tools.generer_pages import LANGUES, selecteur_langues
+from tools.verifier_multilingual import pages_for
 
 
 class LocaleRegistryTests(unittest.TestCase):
@@ -28,6 +29,9 @@ class LocaleRegistryTests(unittest.TestCase):
         for code in ("nl", "es", "de"):
             data = __import__("json").loads((root / f"tools-{code}.json").read_text(encoding="utf-8"))
             self.assertEqual(data, {"outils": []})
+
+    def test_validator_accepts_any_configured_locale_path(self):
+        self.assertEqual(list(pages_for("nl")), [])
 
     def test_language_selector_lists_published_locales_and_marks_current(self):
         markup = selecteur_langues("fr", "../")

@@ -17,9 +17,14 @@ DOMAIN = "https://sustainableit-tools.isit-europe.org"
 
 
 def pages_for(locale):
-    conf = {"fr": ("outils", "themes"), "en": ("en/tools", "en/topics")}[locale]
-    for dossier in conf:
-        yield from (WWW / dossier).glob("*.html")
+    if locale == "fr":
+        dossiers = ("outils", "themes")
+    else:
+        dossiers = (f"{locale}/tools", f"{locale}/topics")
+    for dossier in dossiers:
+        dossier_path = WWW / dossier
+        if dossier_path.exists():
+            yield from dossier_path.glob("*.html")
 
 
 def validate():
