@@ -171,6 +171,15 @@ a {
   font-weight: 700;
 }
 
+.entete__langue-indisponible {
+  color: rgba(217, 236, 244, 0.55);
+  white-space: nowrap;
+}
+
+.entete__langue-indisponible small {
+  font-size: 0.65rem;
+}
+
 @media (max-width: 42rem) {
   .entete__langues {
     padding-left: 0;

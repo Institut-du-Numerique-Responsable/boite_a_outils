@@ -51,10 +51,14 @@ def published_locales():
     return tuple(_LOCALES[code] for code in SUPPORTED_LOCALES if _LOCALES[code]["published"])
 
 
+def all_locales():
+    """Return all configured locale records, including planned locales."""
+    return tuple(_LOCALES[code] for code in SUPPORTED_LOCALES)
+
+
 def ui(locale, key):
     """Return a required interface label, failing loudly when absent."""
     try:
         return _LOCALES[locale][key]
     except KeyError as exc:
         raise KeyError(f"Missing UI translation: {locale}.{key}") from exc
-

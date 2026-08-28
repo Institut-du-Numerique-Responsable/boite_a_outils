@@ -23,12 +23,19 @@ class LocaleRegistryTests(unittest.TestCase):
     def test_unpublished_locale_has_no_public_navigation(self):
         self.assertNotIn("nl", {locale["code"] for locale in published_locales()})
 
+    def test_planned_locale_catalogues_are_schema_valid_but_unpublished(self):
+        root = Path(__file__).parent.parent / "www" / "data"
+        for code in ("nl", "es", "de"):
+            data = __import__("json").loads((root / f"tools-{code}.json").read_text(encoding="utf-8"))
+            self.assertEqual(data, {"outils": []})
+
     def test_language_selector_lists_published_locales_and_marks_current(self):
         markup = selecteur_langues("fr", "../")
         self.assertIn('lang="fr"', markup)
         self.assertIn('lang="en"', markup)
         self.assertIn('aria-current="true"', markup)
-        self.assertNotIn('lang="nl"', markup)
+        self.assertIn('lang="nl"', markup)
+        self.assertIn('aria-disabled="true"', markup)
 
     def test_generated_pages_have_a_self_canonical_and_language_links(self):
         page = Path(__file__).parent.parent / "www" / "outils" / "42u.html"
@@ -36,6 +43,13 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertIn('rel="canonical"', contenu)
         self.assertIn('hreflang="fr"', contenu)
         self.assertIn('hreflang="en"', contenu)
+
+    def test_branding_uses_inr_only_in_french(self):
+        root = Path(__file__).parent.parent / "www"
+        self.assertIn('src="../../assets/logo-isit.svg"',
+                      (root / "en" / "tools" / "42u.html").read_text(encoding="utf-8"))
+        self.assertIn('src="../assets/logo-inr.svg"',
+                      (root / "outils" / "42u.html").read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

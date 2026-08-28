@@ -18,9 +18,9 @@ import unicodedata
 from datetime import date
 
 try:
-    from translations import published_locales
+    from translations import all_locales, published_locales
 except ImportError:  # importé comme module depuis la racine du dépôt
-    from tools.translations import published_locales
+    from tools.translations import all_locales, published_locales
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.dirname(HERE)
@@ -93,20 +93,37 @@ LANGUES = {
     },
 }
 
+for _code, _name, _folder, _topics in (
+    ("nl", "Nederlands", "nl", "topics"),
+    ("es", "Español", "es", "topics"),
+    ("de", "Deutsch", "de", "topics"),
+):
+    LANGUES[_code] = {**LANGUES["en"], "code": _code, "published": False,
+                      "dossier": _folder, "dossier_theme": _topics,
+                      "dossier_outil": "tools", "titre_site": f"Sustainable IT Toolbox — {_name}"}
+LANGUES["fr"]["published"] = True
+LANGUES["en"]["published"] = True
+
 
 def selecteur_langues(lang, profondeur):
     """Liens de langue accessibles vers les accueils publiés."""
     liens = []
-    for locale in published_locales():
+    for locale in all_locales():
         code = locale["code"]
         conf = LANGUES[code]
         prefixe = conf["dossier"] + "/" if conf["dossier"] else ""
         href = profondeur + prefixe
         courant = ' aria-current="true"' if code == lang else ""
-        liens.append(
-            f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
-            f'{e(locale["native_name"])}</a>'
-        )
+        if locale["published"]:
+            liens.append(
+                f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
+                f'{e(locale["native_name"])}</a>'
+            )
+        else:
+            liens.append(
+                f'        <span class="entete__langue-indisponible" lang="{code}" '
+                f'aria-disabled="true">{e(locale["native_name"])} <small>(bientôt)</small></span>'
+            )
     etiquette = "Langues" if lang == "fr" else "Languages"
     return (f'      <div class="entete__langues" aria-label="{etiquette}">\n'
             + "\n".join(liens) + "\n      </div>")
@@ -150,6 +167,8 @@ def entete(lang, conf, titre, description, canonique, profondeur):
         f'      <a href="{e(url)}"{" target=\"_blank\" rel=\"noopener\"" if url.startswith("http") else ""}>{e(libelle)}</a>'
         for url, libelle in conf["nav"]
     )
+    logo = "logo-inr.svg" if lang == "fr" else "logo-isit.svg"
+    logo_alt = "" if lang == "fr" else "Institute for Sustainable IT"
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -173,7 +192,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
 <header class="entete">
   <div class="entete__inner">
     <a class="entete__marque" href="{profondeur}{conf['dossier'] + '/' if conf['dossier'] else ''}">
-      <img class="entete__logo" src="{profondeur}assets/logo-inr.svg" alt="" width="118" height="36" decoding="async">
+      <img class="entete__logo" src="{profondeur}assets/{logo}" alt="{logo_alt}" width="118" height="36" decoding="async">
       <span class="entete__titre">
         <span class="entete__sur-titre">Institut du Numérique Responsable</span>
         {e(conf['titre_site'])}
@@ -457,7 +476,7 @@ def jsonld_accueil(nombre, lang, url):
                         "checked by the INR."),
         "publisher": {"@type": "Organization", "name": "Institut du Numérique Responsable",
                       "url": "https://institutnr.org",
-                      "logo": DOMAINE + "/assets/logo-inr.svg"},
+                        "logo": DOMAINE + "/assets/" + ("logo-inr.svg" if lang == "fr" else "logo-isit.svg")},
         "potentialAction": {
             "@type": "SearchAction",
             "target": {"@type": "EntryPoint", "urlTemplate": url + "?q={search_term_string}"},
@@ -496,6 +515,8 @@ def construire_alternates():
     """
     par_url = {}
     for lang, conf in LANGUES.items():
+        if not conf.get("published"):
+            continue
         chemin = os.path.join(WWW, "data", f"tools-{lang}.json")
         with open(chemin, encoding="utf-8") as fichier:
             for outil in json.load(fichier)["outils"]:
@@ -802,6 +823,8 @@ def main():
     urls_sitemap = []
 
     for lang, conf in LANGUES.items():
+        if not conf.get("published"):
+            continue
         chemin_donnees = os.path.join(WWW, "data", f"tools-{lang}.json")
         with open(chemin_donnees, encoding="utf-8") as fichier:
             outils = json.load(fichier)["outils"]

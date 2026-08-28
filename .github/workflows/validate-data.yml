@@ -6,10 +6,13 @@ on:
     paths:
       - 'www/data/*.json'
       - 'tools/ajouter_ressources.py'
+      - 'tools/*.py'
+      - 'www/assets/**'
   push:
     branches: [main]
     paths:
       - 'www/data/*.json'
+      - 'tools/*.py'
 
 jobs:
   validate:
@@ -33,6 +36,12 @@ jobs:
       - name: Run SEO validation
         run: python3 tools/verifier_seo.py
 
+      - name: Run multilingual validation
+        run: python3 tools/verifier_multilingual.py
+
+      - name: Run Python tests
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
+
   generate:
     name: Generate pages and verify
     runs-on: ubuntu-latest
@@ -54,3 +63,6 @@ jobs:
 
       - name: Verify generation
         run: python3 tools/verifier_seo.py
+
+      - name: Verify multilingual generation
+        run: python3 tools/verifier_multilingual.py

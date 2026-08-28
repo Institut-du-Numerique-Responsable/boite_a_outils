@@ -1,9 +1,9 @@
 # Maintenance de la boîte à outils NR
 
-Le site publié (`www/`) est statique : HTML, CSS, JavaScript et deux fichiers JSON.
+Le site publié (`www/`) est statique : HTML, CSS, JavaScript et un catalogue JSON par langue.
 Il n'y a plus de base MySQL, plus de PHP, plus de back-office.
 
-**La source de vérité, ce sont les fichiers `www/data/tools-fr.json` et `tools-en.json`.**
+**La source de vérité, ce sont les fichiers `www/data/tools-*.json`.**
 On les modifie directement dans le code : ils sont indentés, non échappés, et donnent
 des diffs Git lisibles.
 
@@ -82,6 +82,15 @@ python3 tools/generer_pages.py
 Produit `www/themes/*.html` (15 pages FR), `www/en/topics/*.html` (13 pages EN), les
 sommaires, les données structurées JSON-LD et `www/sitemap.xml`.
 
+Les catalogues `tools-nl.json`, `tools-es.json` et `tools-de.json` sont préparés mais
+restent désactivés tant que leurs entrées ne sont pas traduites et relues. Ne marquez
+une locale comme publiée qu'après avoir exécuté :
+
+```bash
+python3 tools/verifier_donnees.py
+python3 tools/verifier_multilingual.py
+```
+
 ## Détecter les domaines détournés
 
 ```bash
@@ -105,6 +114,13 @@ Electricity Maps, Solidarité Numérique) : à lire, pas à retirer machinalemen
 
 ```bash
 python3 tools/verifier_seo.py
+```
+
+Le contrôle complémentaire des locales vérifie les attributs `lang`, les canoniques et
+les annotations `hreflang` :
+
+```bash
+python3 tools/verifier_multilingual.py
 ```
 
 Contrôle, après `generer_pages.py` : une fiche par ressource et aucune orpheline, autant de
