@@ -31,6 +31,11 @@ import urllib.error
 import urllib.request
 from datetime import date
 
+try:
+    from translations import SUPPORTED_LOCALES
+except ImportError:  # importé comme module depuis la racine du dépôt
+    from tools.translations import SUPPORTED_LOCALES
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(os.path.dirname(HERE), "www", "data")
 
@@ -45,6 +50,12 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 CONTEXTE = ssl.create_default_context()
 
 MORT = re.compile(r"^(404|410)$|gaierror|NameResolution")
+
+
+def locales_a_verifier():
+    """Locales configurées dont le catalogue existe dans www/data."""
+    return tuple(lang for lang in SUPPORTED_LOCALES
+                 if os.path.exists(os.path.join(DATA, f"tools-{lang}.json")))
 
 
 def appeler(url):
@@ -188,7 +199,7 @@ def main():
 
     bloquantes = 0
 
-    for lang in ("fr", "en"):
+    for lang in locales_a_verifier():
         chemin = os.path.join(DATA, f"tools-{lang}.json")
         if not os.path.exists(chemin):
             print(f"[{lang}] fichier absent : {chemin}")

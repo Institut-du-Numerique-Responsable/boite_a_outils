@@ -28,11 +28,11 @@ def pages_for(locale):
 
 
 def public_pages():
-    yield WWW / "index.html"
-    yield WWW / "en" / "index.html"
-    yield WWW / "langues" / "index.html"
-    for locale in ("fr", "en"):
+    published = [item["code"] for item in published_locales()]
+    for locale in published:
+        yield (WWW / "index.html" if locale == "fr" else WWW / locale / "index.html")
         yield from pages_for(locale)
+    yield WWW / "langues" / "index.html"
 
 
 def public_url(page):
