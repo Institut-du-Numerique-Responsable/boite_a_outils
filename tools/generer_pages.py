@@ -68,11 +68,11 @@ LANGUES = {
         "racine": "../../",
         "dossier_theme": "topics",
         "titre_site": "Sustainable IT Toolbox",
-        "nav": [("../", "Tools"), ("../../a-propos.html", "À propos"),
-                ("https://institutnr.org", "INR website")],
+        "nav": [("../", "Tools"), ("../../a-propos.html", "About"),
+                ("https://institutnr.org", "ISIT website")],
         "autre_langue": ("../../", "Français", "fr"),
         "intro": "{n} sustainable IT resources filed under « {theme} », selected and checked by "
-                 "the Institut du Numérique Responsable.",
+                 "the Institute for Sustainable IT (ISIT).",
         "retour": "Filter the whole catalogue on this topic",
         "tous": "All topics",
         "verifie": "Link checked on",
@@ -179,6 +179,8 @@ def entete(lang, conf, titre, description, canonique, profondeur):
     )
     logo = "logo-inr.svg" if lang == "fr" else "logo-isit.svg"
     logo_alt = ""
+    nom_institut = ("Institut du Numérique Responsable" if lang == "fr"
+                    else "Institute for Sustainable IT")
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -204,7 +206,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
     <a class="entete__marque" href="{profondeur}{conf['dossier'] + '/' if conf['dossier'] else ''}">
       <img class="entete__logo" src="{profondeur}assets/{logo}" alt="{logo_alt}" width="118" height="36" decoding="async">
       <span class="entete__titre">
-        <span class="entete__sur-titre">Institut du Numérique Responsable</span>
+        <span class="entete__sur-titre">{e(nom_institut)}</span>
         {e(conf['titre_site'])}
       </span>
     </a>
@@ -230,7 +232,7 @@ def pied(lang, profondeur):
     else:
         corps = f"""      <p>
         Sustainable IT Toolbox, maintained by the
-        <a href="https://institutnr.org" target="_blank" rel="noopener">Institut du Numérique Responsable</a>.
+        <a href="https://institutnr.org" target="_blank" rel="noopener">Institute for Sustainable IT (ISIT)</a>.
       </p>
     </div>
     <div>
@@ -414,6 +416,8 @@ def jsonld_outil(outil, url_page, url_theme, conf, lang):
     if outil.get("profil"):
         fiche["audience"] = {"@type": "Audience", "audienceType": outil["profil"]}
 
+    nom_institut = ("Institut du Numérique Responsable" if lang == "fr"
+                    else "Institute for Sustainable IT")
     donnees = {
         "@context": "https://schema.org",
         "@graph": [
@@ -456,6 +460,8 @@ def jsonld_theme(theme, outils, url_page, lang):
                                          "priceCurrency": "EUR"}
         elements.append(element)
 
+    nom_institut = ("Institut du Numérique Responsable" if lang == "fr"
+                    else "Institute for Sustainable IT")
     donnees = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
@@ -463,7 +469,7 @@ def jsonld_theme(theme, outils, url_page, lang):
         "url": url_page,
         "inLanguage": lang,
         "isPartOf": {"@type": "WebSite", "name": "Boîte à outils NR", "url": DOMAINE + "/"},
-        "publisher": {"@type": "Organization", "name": "Institut du Numérique Responsable",
+        "publisher": {"@type": "Organization", "name": nom_institut,
                       "url": "https://institutnr.org"},
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(outils),
                        "itemListElement": elements},
@@ -474,6 +480,8 @@ def jsonld_theme(theme, outils, url_page, lang):
 
 
 def jsonld_accueil(nombre, lang, url):
+    nom_institut = ("Institut du Numérique Responsable" if lang == "fr"
+                    else "Institute for Sustainable IT")
     donnees = {
         "@context": "https://schema.org",
         "@type": "WebSite",
@@ -483,8 +491,8 @@ def jsonld_accueil(nombre, lang, url):
         "description": (f"{nombre} outils, guides et référentiels du numérique responsable, "
                         "sélectionnés et vérifiés par l'INR." if lang == "fr" else
                         f"{nombre} sustainable IT tools, guides and frameworks, curated and "
-                        "checked by the INR."),
-        "publisher": {"@type": "Organization", "name": "Institut du Numérique Responsable",
+                        "checked by the ISIT."),
+        "publisher": {"@type": "Organization", "name": nom_institut,
                       "url": "https://institutnr.org",
                         "logo": DOMAINE + "/assets/" + ("logo-inr.svg" if lang == "fr" else "logo-isit.svg")},
         "potentialAction": {
@@ -687,14 +695,14 @@ def ecrire_llms():
         themes_en.setdefault(outil["theme"], []).append(outil)
 
     anglais = [
-        "# Sustainable IT Toolbox — Institut du Numérique Responsable (INR)",
+        "# Sustainable IT Toolbox — Institute for Sustainable IT (ISIT)",
         "",
         f"> Catalogue of {len(outils_en)} tools, guides, frameworks and training resources for "
-        "sustainable IT, curated by the Institut du Numérique Responsable (Institute for "
-        "Sustainable IT). Every link is tested periodically; resources whose address no longer "
+        "sustainable IT, curated by the Institute for Sustainable IT (ISIT). Every link is tested "
+        "periodically; resources whose address no longer "
         "answers are removed, and the date of the last check is published on each entry.",
         "",
-        "The INR is a French non-profit based in La Rochelle, part of a European network of "
+        "ISIT is a French non-profit based in La Rochelle, part of a European network of "
         "institutes across France, Belgium and Switzerland. The catalogue covers eco-design of "
         "digital services, environmental footprint measurement, accessibility, sobriety, the "
         "impact of generative AI, French and European regulation, and awareness raising.",
@@ -722,7 +730,7 @@ def ecrire_llms():
         "",
         "## Citation terms",
         "",
-        "Content may be reused with attribution to the Institut du Numérique Responsable and a "
+        "Content may be reused with attribution to the Institute for Sustainable IT (ISIT) and a "
         "link to the entry concerned. The INR is not a party to the tools listed and does not "
         "vouch for their fitness for any given use case.",
         "",
@@ -734,7 +742,7 @@ def ecrire_llms():
     complet_en = [
         "# Sustainable IT Toolbox — full catalogue",
         "",
-        f"Source: {DOMAINE}/en/ — Institut du Numérique Responsable (INR).",
+        f"Source: {DOMAINE}/en/ — Institute for Sustainable IT (ISIT).",
         f"Generated on {date.today().isoformat()}. {len(outils_en)} resources.",
         "",
     ]

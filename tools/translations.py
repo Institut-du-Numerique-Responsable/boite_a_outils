@@ -7,6 +7,15 @@ pages while keeping the future language configuration in one place.
 
 SUPPORTED_LOCALES = ("fr", "en", "nl", "es", "de")
 
+TERM_GLOSSARY = {
+    "INR": "ISIT",
+    "DEEE": "WEEE",
+    # Acronymes français conservés tels quels dans toutes les langues.
+    "RGAA": "RGAA",
+    "RGESN": "RGESN",
+    "Numérique Responsable": "Sustainable IT",
+}
+
 _LOCALES = {
     "fr": {
         "code": "fr",

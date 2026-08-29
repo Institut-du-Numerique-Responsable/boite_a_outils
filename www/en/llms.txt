@@ -1,8 +1,8 @@
-# Sustainable IT Toolbox — Institut du Numérique Responsable (INR)
+# Sustainable IT Toolbox — Institute for Sustainable IT (ISIT)
 
-> Catalogue of 341 tools, guides, frameworks and training resources for sustainable IT, curated by the Institut du Numérique Responsable (Institute for Sustainable IT). Every link is tested periodically; resources whose address no longer answers are removed, and the date of the last check is published on each entry.
+> Catalogue of 341 tools, guides, frameworks and training resources for sustainable IT, curated by the Institute for Sustainable IT (ISIT). Every link is tested periodically; resources whose address no longer answers are removed, and the date of the last check is published on each entry.
 
-The INR is a French non-profit based in La Rochelle, part of a European network of institutes across France, Belgium and Switzerland. The catalogue covers eco-design of digital services, environmental footprint measurement, accessibility, sobriety, the impact of generative AI, French and European regulation, and awareness raising.
+ISIT is a French non-profit based in La Rochelle, part of a European network of institutes across France, Belgium and Switzerland. The catalogue covers eco-design of digital services, environmental footprint measurement, accessibility, sobriety, the impact of generative AI, French and European regulation, and awareness raising.
 
 ## Data
 
@@ -34,4 +34,4 @@ The INR is a French non-profit based in La Rochelle, part of a European network 
 
 ## Citation terms
 
-Content may be reused with attribution to the Institut du Numérique Responsable and a link to the entry concerned. The INR is not a party to the tools listed and does not vouch for their fitness for any given use case.
+Content may be reused with attribution to the Institute for Sustainable IT (ISIT) and a link to the entry concerned. The INR is not a party to the tools listed and does not vouch for their fitness for any given use case.

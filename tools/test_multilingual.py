@@ -4,7 +4,7 @@
 import unittest
 from pathlib import Path
 
-from tools.translations import SUPPORTED_LOCALES, published_locales, ui
+from tools.translations import SUPPORTED_LOCALES, TERM_GLOSSARY, published_locales, ui
 from tools.generer_pages import LANGUES, selecteur_langues
 from tools.verifier_multilingual import pages_for
 from tools.verifier_donnees import locales_a_verifier
@@ -64,6 +64,17 @@ class LocaleRegistryTests(unittest.TestCase):
                       (root / "en" / "tools" / "42u.html").read_text(encoding="utf-8"))
         self.assertIn('src="../assets/logo-inr.svg"',
                       (root / "outils" / "42u.html").read_text(encoding="utf-8"))
+
+    def test_non_french_pages_use_isit_name(self):
+        english = (Path(__file__).parent.parent / "www" / "en" / "tools" / "42u.html").read_text(encoding="utf-8")
+        self.assertIn("Institute for Sustainable IT", english)
+        self.assertNotIn("Institut du Numérique Responsable</span>", english)
+
+    def test_international_glossary_uses_isit_and_wEEE(self):
+        self.assertEqual(TERM_GLOSSARY["INR"], "ISIT")
+        self.assertEqual(TERM_GLOSSARY["DEEE"], "WEEE")
+        self.assertEqual(TERM_GLOSSARY["RGAA"], "RGAA")
+        self.assertEqual(TERM_GLOSSARY["RGESN"], "RGESN")
 
 
 if __name__ == "__main__":

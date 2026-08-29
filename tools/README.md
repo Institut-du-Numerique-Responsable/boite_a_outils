@@ -182,6 +182,13 @@ sortants, pages de thème, accessibilité de base.
 
 ## SEO et référencement auprès des IA
 
+### Terminologie multilingue
+
+Dans les versions non françaises, **INR** est rendu par **ISIT** (*Institute for
+Sustainable IT*) et **DEEE** par **WEEE** (*Waste Electrical and Electronic Equipment*).
+Les acronymes français **RGAA** et **RGESN** restent inchangés : ce sont les noms
+officiels des référentiels.
+
 Le catalogue vit dans un JSON : sans JavaScript, un robot ne verrait rien, et aucune
 ressource n'aurait d'adresse citable. Cinq dispositifs compensent, tous produits par
 `generer_pages.py` :

@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
-Source: https://sustainableit-tools.isit-europe.org/en/ — Institut du Numérique Responsable (INR).
-Generated on 2026-08-15. 341 resources.
+Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
+Generated on 2026-08-29. 341 resources.
 
 ## AI
 
