@@ -22,14 +22,20 @@ class LocaleRegistryTests(unittest.TestCase):
             self.assertTrue(ui(locale, "language_name"))
             self.assertTrue(ui(locale, "main_navigation"))
 
+    def test_dutch_interface_labels_are_translated(self):
+        self.assertEqual(LANGUES["nl"]["nav"][0][1], "Hulpmiddelen")
+        self.assertEqual(LANGUES["nl"]["champ"]["theme"], "Thema")
+
     def test_unpublished_locale_has_no_public_navigation(self):
         self.assertNotIn("nl", {locale["code"] for locale in published_locales()})
 
     def test_planned_locale_catalogues_are_schema_valid_but_unpublished(self):
         root = Path(__file__).parent.parent / "www" / "data"
-        for code in ("nl", "es", "de"):
+        for code in ("es", "de"):
             data = __import__("json").loads((root / f"tools-{code}.json").read_text(encoding="utf-8"))
             self.assertEqual(data, {"outils": []})
+        nl = __import__("json").loads((root / "tools-nl.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(nl["outils"]), 3)
 
     def test_validator_accepts_any_configured_locale_path(self):
         self.assertEqual(list(pages_for("nl")), [])

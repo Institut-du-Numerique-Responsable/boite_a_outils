@@ -103,6 +103,33 @@ for _code, _name, _folder, _topics in (
     LANGUES[_code] = {**LANGUES["en"], "code": _code, "published": False,
                       "dossier": _folder, "dossier_theme": _topics,
                       "dossier_outil": "tools", "titre_site": f"Sustainable IT Toolbox — {_name}"}
+
+# Interface néerlandaise : le catalogue reste masqué jusqu'à validation éditoriale.
+LANGUES["nl"].update({
+    "titre_site": "Sustainable IT Toolbox",
+    "nav": [("../", "Hulpmiddelen"), ("../../a-propos.html", "Over ons"),
+            ("https://institutnr.org", "ISIT-website")],
+    "autre_langue": ("../../", "Français", "fr"),
+    "intro": "{n} hulpmiddelen voor duurzame IT binnen het thema « {theme} », geselecteerd en "
+             "gecontroleerd door het Institute for Sustainable IT (ISIT).",
+    "retour": "De volledige catalogus op dit thema filteren",
+    "tous": "Alle thema's",
+    "verifie": "Link gecontroleerd op",
+    "doute": "Link opnieuw controleren",
+    "gratuit": "Gratis",
+    "payant": "Betaald",
+    "sommaire_titre": "De catalogus per thema",
+    "sommaire_intro": "Elk thema bundelt hulpmiddelen over één domein van duurzame IT.",
+    "ressources": "hulpmiddelen",
+    "acceder": "Naar de bron",
+    "site_officiel": "Officiële website",
+    "a_propos_ressource": "Over deze bron",
+    "voisines": "Binnen hetzelfde thema",
+    "accueil": "Home",
+    "champ": {"theme": "Thema", "type": "Type", "profil": "Doelgroep",
+              "cout": "Toegang", "domaine": "Technisch domein",
+              "tags": "Trefwoorden", "verif": "Link gecontroleerd op"},
+})
 LANGUES["fr"]["published"] = True
 LANGUES["en"]["published"] = True
 

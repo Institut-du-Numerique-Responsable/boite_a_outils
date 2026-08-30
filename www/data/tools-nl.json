@@ -1,1 +1,48 @@
-{"outils": []}
+{
+ "genere_le": "2026-08-29",
+ "source": "Vertaling van het Engelstalige INR/ISIT-catalogus — eerste proefbatch",
+ "outils": [
+  {
+   "id": "adversarial-robustness-toolbox",
+   "nom": "Adversarial robustness toolbox",
+   "description": "Open source Python-bibliotheek voor de beveiliging van machine learning. ART biedt hulpmiddelen waarmee ontwikkelaars en onderzoekers modellen en toepassingen kunnen beschermen en evalueren tegen aanvallen.",
+   "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+   "theme": "AI",
+   "domaine": "Back-end",
+   "type": "Hulpmiddel",
+   "profil": "IT-professional / Expert",
+   "cout": "Gratis",
+   "tags": ["AI", "Machine learning"],
+   "lien_ok": "ok",
+   "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "aequitas-framework",
+   "nom": "Aequitas Framework",
+   "description": "Open source toolkit voor bias-audits en eerlijke machine learning, voor data scientists, ML-onderzoekers en beleidsmakers.",
+   "url": "https://github.com/dssg/aequitas",
+   "theme": "AI",
+   "domaine": "Back-end",
+   "type": "Hulpmiddel",
+   "profil": "IT-professional / Expert",
+   "cout": "Gratis",
+   "tags": [],
+   "lien_ok": "ok",
+   "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "ai-fairness-360-aif360",
+   "nom": "AI Fairness 360 (AIF360)",
+   "description": "Open source-bibliotheek met technieken om vooroordelen in machine-learningmodellen gedurende de volledige levenscyclus van AI-toepassingen op te sporen en te beperken.",
+   "url": "https://github.com/Trusted-AI/AIF360",
+   "theme": "AI",
+   "domaine": "Back-end",
+   "type": "Hulpmiddel",
+   "profil": "IT-professional / Expert",
+   "cout": "Gratis",
+   "tags": ["AI", "Machine learning"],
+   "lien_ok": "ok",
+   "verifie_le": "2026-08-15"
+  }
+ ]
+}
