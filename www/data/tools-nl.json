@@ -43,6 +43,46 @@
    "tags": ["AI", "Machine learning"],
    "lien_ok": "ok",
    "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "access-score", "nom": "Access-Score",
+   "description": "Geeft gebruikers van openbare digitale ruimten een eenvoudige, directe indruk van de toegankelijkheid, in plaats van alleen een ruwe nalevingsscore.",
+   "url": "https://access-score.org", "theme": "Toegankelijkheid & inclusie", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "Contentmaker / Gemiddeld", "cout": "Gratis", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "accessibility-checker", "nom": "Accessibility Checker",
+   "description": "Gratis websitecontrole die toegankelijkheidsproblemen opspoort en precieze aanwijzingen geeft om ze op te lossen. Voer een URL in om te beginnen.",
+   "url": "https://www.accessibilitychecker.org/", "theme": "Toegankelijkheid & inclusie", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "Contentmaker / Gemiddeld", "cout": "Gratis", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "accessible-design-website", "nom": "Accessible Design website",
+   "description": "Bronnen voor het ontwerpen van diensten die voor iedereen nuttig en bruikbaar zijn, met een praktische checklist.",
+   "url": "https://design-accessible.fr/", "theme": "Toegankelijkheid & inclusie", "domaine": "", "type": "Documentatie", "profil": "", "cout": "", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "rgaa-audit-kit", "nom": "RGAA audit kit",
+   "description": "Startpakket voor een audit volgens het Franse toegankelijkheidsreferentiekader RGAA.",
+   "url": "https://accessibilite.numerique.gouv.fr", "theme": "Innovatie & onderzoek", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "IT-professional / Expert", "cout": "", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "ecoindex", "nom": "EcoIndex",
+   "description": "Gratis dienst waarmee de gemeenschap de milieuprestaties van een website of online dienst kan beoordelen op basis van objectieve technische parameters, zoals het aantal DOM-elementen, HTTP-verzoeken en overgedragen gegevens.",
+   "url": "https://www.ecoindex.fr/", "theme": "Meting & beoordeling", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "Algemeen publiek / Beginner", "cout": "Gratis", "tags": ["Voetafdruk", "Meting", "Web"], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "greenit-analysis", "nom": "GreenIT-Analysis",
+   "description": "Browserextensie die de ecologische voetafdruk van een volledige gebruikersreis meet, ook achter een firewall of authenticatie, en controleert of goede praktijken worden toegepast.",
+   "url": "https://github.com/cnumr/GreenIT-Analysis", "theme": "Meting & beoordeling", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "Contentmaker / Gemiddeld", "cout": "", "tags": ["CO2-voetafdruk", "Goede praktijken", "Impact"], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "ecodit", "nom": "Ecodit",
+   "description": "Beoordelingstool van Keleo, gebaseerd op GR491 en het Franse RGESN-kader voor ecologisch ontwerp, om de milieu-impact van een digitale dienst te schatten.",
+   "url": "https://ecodit.keleo.fr/", "theme": "Webdesign", "domaine": "Front-end", "type": "Hulpmiddel", "profil": "Contentmaker / Gemiddeld", "cout": "Gratis", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
+  },
+  {
+   "id": "gr491", "nom": "GR491",
+   "description": "Referentiegids van ISIT voor verantwoord ontwerp van digitale diensten, georganiseerd in aanbevelingsfamilies en verifieerbare criteria.",
+   "url": "https://gr491.isit-europe.org", "theme": "Web-ecodesign", "domaine": "", "type": "Gids / Referentiekader", "profil": "Contentmaker / Gemiddeld", "cout": "Gratis", "tags": [], "lien_ok": "ok", "verifie_le": "2026-08-15"
   }
  ]
 }

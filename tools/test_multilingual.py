@@ -35,7 +35,7 @@ class LocaleRegistryTests(unittest.TestCase):
             data = __import__("json").loads((root / f"tools-{code}.json").read_text(encoding="utf-8"))
             self.assertEqual(data, {"outils": []})
         nl = __import__("json").loads((root / "tools-nl.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(nl["outils"]), 3)
+        self.assertEqual(len(nl["outils"]), 11)
 
     def test_validator_accepts_any_configured_locale_path(self):
         self.assertEqual(list(pages_for("nl")), [])
