@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/boite_a_outils?label=Version)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/releases)
 [![CI](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml)
 [![HTML/CSS/JS](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-blue.svg)]()
-[![Outils](https://img.shields.io/badge/Outils-355_FR_%7C_341_EN-orange.svg)]()
+[![Outils](https://img.shields.io/badge/Outils-355_FR_%7C_341_EN_%7C_28_NL-orange.svg)]()
 
 Site statique de la boîte à outils NR de l'[Institut du Numérique Responsable](https://institutnr.org).
 Publié sur <https://sustainableit-tools.isit-europe.org/>.
@@ -29,7 +29,8 @@ www/                 le site à publier — copier son contenu à la racine web
   assets/            style.css, app.js, matomo.js, logo
   outils/ themes/    pages générées, une par ressource et par thème
   en/                version anglaise (logo ISIT)
-  data/tools-{nl,es,de}.json  catalogues réservés aux futures traductions
+  nl/                version néerlandaise (28 fiches traduites, en relecture)
+  data/tools-{es,de}.json  catalogues réservés aux futures traductions
 tools/               scripts de maintenance et rapports — non publiés
 ```
 
@@ -57,10 +58,10 @@ npm install jsdom && node tools/test-site.mjs   # terminal 2
 
 ## Langues et traductions
 
-Le français et l'anglais sont publiés. Le menu prépare le néerlandais, l'espagnol et
-l'allemand ; ces langues restent signalées « bientôt » tant que leurs catalogues n'ont
-pas été traduits et relus. Une langue ne devient publique qu'après validation de ses
-fiches, de ses thèmes et de ses métadonnées SEO.
+Le français, l'anglais et un premier périmètre néerlandais sont publiés. Le néerlandais
+compte actuellement 28 fiches traduites et reste en relecture éditoriale. L'espagnol et
+l'allemand sont préparés dans le menu et signalés « bientôt ». Une langue ne devient
+pleinement publique qu'après validation de ses fiches, de ses thèmes et de ses métadonnées SEO.
 
 Les pages françaises utilisent le logo INR. Les pages dans les autres langues utilisent
 le logo neutre ISIT (Institute for Sustainable IT).
@@ -69,3 +70,8 @@ le logo neutre ISIT (Institute for Sustainable IT).
 
 Contenu éditorial © Institut du Numérique Responsable. Les ressources référencées appartiennent
 à leurs auteurs respectifs ; le site en donne le nom, une description et un lien.
+
+La licence MIT convient au code (HTML, CSS, JavaScript et scripts), mais elle est moins adaptée
+aux textes éditoriaux et aux données du catalogue. Une licence double est recommandée : MIT
+pour le code et **CC BY 4.0** pour les contenus et les données, avec attribution. Les droits
+des auteurs des ressources externes restent inchangés.
