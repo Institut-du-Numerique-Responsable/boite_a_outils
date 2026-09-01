@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-08-29. 341 resources.
+Generated on 2026-09-01. 341 resources.
 
 ## AI
 

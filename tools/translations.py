@@ -33,7 +33,7 @@ _LOCALES = {
     },
     "nl": {
         "code": "nl",
-        "published": False,
+        "published": True,
         "language_name": "Nederlands",
         "native_name": "Nederlands",
         "main_navigation": "Hoofdnavigatie",

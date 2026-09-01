@@ -15,7 +15,7 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertEqual(SUPPORTED_LOCALES, ("fr", "en", "nl", "es", "de"))
 
     def test_only_locales_with_complete_publication_are_published(self):
-        self.assertEqual(tuple(locale["code"] for locale in published_locales()), ("fr", "en"))
+        self.assertEqual(tuple(locale["code"] for locale in published_locales()), ("fr", "en", "nl"))
 
     def test_french_and_english_core_labels_are_not_empty(self):
         for locale in ("fr", "en"):
@@ -27,7 +27,7 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertEqual(LANGUES["nl"]["champ"]["theme"], "Thema")
 
     def test_unpublished_locale_has_no_public_navigation(self):
-        self.assertNotIn("nl", {locale["code"] for locale in published_locales()})
+        self.assertIn("nl", {locale["code"] for locale in published_locales()})
 
     def test_planned_locale_catalogues_are_schema_valid_but_unpublished(self):
         root = Path(__file__).parent.parent / "www" / "data"
@@ -38,7 +38,7 @@ class LocaleRegistryTests(unittest.TestCase):
         self.assertEqual(len(nl["outils"]), 28)
 
     def test_validator_accepts_any_configured_locale_path(self):
-        self.assertEqual(list(pages_for("nl")), [])
+        self.assertEqual(len(list(pages_for("nl"))), 28)
 
     def test_data_validator_discovers_all_configured_catalogues(self):
         self.assertEqual(locales_a_verifier(), ("fr", "en", "nl", "es", "de"))

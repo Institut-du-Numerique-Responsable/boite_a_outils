@@ -132,6 +132,7 @@ LANGUES["nl"].update({
 })
 LANGUES["fr"]["published"] = True
 LANGUES["en"]["published"] = True
+LANGUES["nl"]["published"] = True
 
 
 def selecteur_langues(lang, profondeur, page_url=None):
@@ -933,6 +934,7 @@ def main():
 
         # ---- données structurées et lien « tous les thèmes » sur l'accueil ---
         url_accueil = DOMAINE + "/" + (conf["dossier"] + "/" if conf["dossier"] else "")
+        urls_sitemap.append((url_accueil, "1.0"))
         injecter(os.path.join(base, "index.html"), "donnees-structurees",
                  jsonld_accueil(len(outils), lang, url_accueil))
 
