@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/boite_a_outils?label=Version)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/releases)
 [![CI](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml)
 [![HTML/CSS/JS](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-blue.svg)]()
-[![Outils](https://img.shields.io/badge/Outils-355_FR_%7C_341_EN_%7C_28_NL-orange.svg)]()
+[![Outils](https://img.shields.io/badge/Outils-355_FR_%7C_341_EN_%7C_341_NL-orange.svg)]()
 
 Site statique de la boîte à outils NR de l'[Institut du Numérique Responsable](https://institutnr.org).
 Publié sur <https://sustainableit-tools.isit-europe.org/>.
@@ -29,7 +29,7 @@ www/                 le site à publier — copier son contenu à la racine web
   assets/            style.css, app.js, matomo.js, logo
   outils/ themes/    pages générées, une par ressource et par thème
   en/                version anglaise (logo ISIT)
-  nl/                version néerlandaise (28 fiches traduites, en relecture)
+  nl/                version néerlandaise (341 fiches traduites, en relecture)
   data/tools-{es,de}.json  catalogues réservés aux futures traductions
 tools/               scripts de maintenance et rapports — non publiés
 ```
@@ -59,7 +59,7 @@ npm install jsdom && node tools/test-site.mjs   # terminal 2
 ## Langues et traductions
 
 Le français, l'anglais et un premier périmètre néerlandais sont publiés. Le néerlandais
-compte actuellement 28 fiches traduites et reste en relecture éditoriale. L'espagnol et
+compte actuellement 341 fiches traduites et reste en relecture éditoriale. L'espagnol et
 l'allemand sont préparés dans le menu et signalés « bientôt ». Une langue ne devient
 pleinement publique qu'après validation de ses fiches, de ses thèmes et de ses métadonnées SEO.
 
