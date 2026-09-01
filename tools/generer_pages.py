@@ -201,8 +201,12 @@ def date_lisible(iso, lang):
 
 def entete(lang, conf, titre, description, canonique, profondeur):
     """profondeur = préfixe relatif vers la racine du site."""
+    def lien_nav(url, libelle):
+        cible = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
+        return f'      <a href="{e(url)}"{cible}>{e(libelle)}</a>'
+
     nav = "\n".join(
-        f'      <a href="{e(url)}"{" target=\"_blank\" rel=\"noopener\"" if url.startswith("http") else ""}>{e(libelle)}</a>'
+        lien_nav(url, libelle)
         for url, libelle in conf["nav"]
     )
     logo = "logo-inr.svg" if lang == "fr" else "logo-isit.svg"
