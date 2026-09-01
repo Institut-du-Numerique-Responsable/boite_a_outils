@@ -69,3 +69,11 @@ Votre PR sera mergée une fois validée, ou vous recevrez des commentaires pour 
 ## Code de conduite
 
 Soyez bienveillant et respectueux. Les contributions doivent être constructives et alignées avec les valeurs du numérique responsable.
+
+## Licences
+
+Le code est distribué sous [licence MIT](LICENSE). Les textes, traductions, sélections et
+données du catalogue sont distribués sous [licence CC BY 4.0](LICENSE-CC-BY-4.0). En
+contribuant, vous confirmez disposer des droits nécessaires et acceptez cette réutilisation
+libre avec attribution. Les contenus et marques des ressources référencées restent soumis
+aux droits de leurs auteurs respectifs.

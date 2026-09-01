@@ -1,6 +1,6 @@
 # Boîte à outils du Numérique Responsable
 
-[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Licence: MIT + CC BY 4.0](https://img.shields.io/badge/Licence-MIT%20%2B%20CC%20BY%204.0-yellow.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/boite_a_outils?label=Version)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/releases)
 [![CI](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/boite_a_outils/actions/workflows/validate-data.yml)
 [![HTML/CSS/JS](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-blue.svg)]()
@@ -93,7 +93,11 @@ le logo neutre ISIT (Institute for Sustainable IT).
 Contenu éditorial © Institut du Numérique Responsable. Les ressources référencées appartiennent
 à leurs auteurs respectifs ; le site en donne le nom, une description et un lien.
 
-La licence MIT convient au code (HTML, CSS, JavaScript et scripts), mais elle est moins adaptée
-aux textes éditoriaux et aux données du catalogue. Une licence double est recommandée : MIT
-pour le code et **CC BY 4.0** pour les contenus et les données, avec attribution. Les droits
-des auteurs des ressources externes restent inchangés.
+Le dépôt est distribué sous licence double :
+
+- [MIT](LICENSE) pour le code HTML, CSS, JavaScript et les scripts ;
+- [CC BY 4.0](LICENSE-CC-BY-4.0) pour les textes éditoriaux, traductions, sélections et données.
+
+La licence CC BY 4.0 autorise la copie, la modification et la redistribution, y compris
+commerciale, avec attribution et indication des changements. Les droits des auteurs des
+ressources externes restent inchangés.
