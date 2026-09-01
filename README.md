@@ -9,8 +9,9 @@
 Site statique de la boîte à outils NR de l'[Institut du Numérique Responsable](https://institutnr.org).
 Publié sur <https://sustainableit-tools.isit-europe.org/>.
 
-**355 ressources en français, 341 en anglais** — outils, guides, référentiels, formations et
-textes de loi du numérique responsable, classés par thème, public visé, type et mode d'accès.
+**355 ressources en français, 341 en anglais et 341 en néerlandais** : outils, guides,
+référentiels, formations et textes de loi du numérique responsable, classés par thème, public
+visé, type et mode d'accès.
 
 ## Ce que c'est
 
@@ -24,14 +25,14 @@ Le site remplace une application PHP + MySQL de 2022, dont l'archive est conserv
 ## Organisation
 
 ```
-www/                 le site à publier — copier son contenu à la racine web
+www/                 le site à publier : copier son contenu à la racine web
   data/*.json        source de vérité du catalogue, éditée directement
   assets/            style.css, app.js, matomo.js, logo
   outils/ themes/    pages générées, une par ressource et par thème
   en/                version anglaise (logo ISIT)
   nl/                version néerlandaise (341 fiches traduites, en relecture)
   data/tools-{es,de}.json  catalogues réservés aux futures traductions
-tools/               scripts de maintenance et rapports — non publiés
+tools/               scripts de maintenance et rapports : non publiés
 ```
 
 ## Modifier le catalogue
@@ -58,10 +59,31 @@ npm install jsdom && node tools/test-site.mjs   # terminal 2
 
 ## Langues et traductions
 
-Le français, l'anglais et un premier périmètre néerlandais sont publiés. Le néerlandais
-compte actuellement 341 fiches traduites et reste en relecture éditoriale. L'espagnol et
-l'allemand sont préparés dans le menu et signalés « bientôt ». Une langue ne devient
-pleinement publique qu'après validation de ses fiches, de ses thèmes et de ses métadonnées SEO.
+Le français, l'anglais et le néerlandais sont publiés. Le catalogue néerlandais compte
+341 fiches traduites et reste ouvert à la relecture éditoriale. L'espagnol et l'allemand sont
+préparés dans le menu et signalés « bientôt ». Une langue devient publique après validation
+de ses fiches, de ses thèmes et de ses métadonnées SEO.
+
+## Contribuer
+
+Les contributions passent par une Pull Request vers `main`. Les contributeurs peuvent
+proposer des corrections, de nouvelles ressources ou des améliorations de traduction.
+Le détail du format des données, des contrôles et de la procédure est disponible dans
+[`CONTRIBUTING.md`](CONTRIBUTING.md). Les changements de données doivent être accompagnés
+des pages générées et passer les validateurs avant la revue.
+
+Les propriétaires de code sont définis dans [`.github/CODEOWNERS`](.github/CODEOWNERS) :
+`@gridboy`, `@Guillaume-INR`, `@vcourbou` et `@vincentcourboulay`.
+
+## Documentation
+
+- [Guide de contribution](CONTRIBUTING.md)
+- [Documentation des outils de maintenance](tools/README.md)
+- [Spécification multilingue et SEO](docs/superpowers/specs/2026-08-28-multilingual-seo-design.md)
+- [Points de relecture des traductions NL](TRANSLATION_REVIEW.md)
+
+La CI vérifie automatiquement la structure des catalogues, les liens, le SEO, les pages
+multilingues et les tests Python à chaque Pull Request et à chaque mise à jour de `main`.
 
 Les pages françaises utilisent le logo INR. Les pages dans les autres langues utilisent
 le logo neutre ISIT (Institute for Sustainable IT).
