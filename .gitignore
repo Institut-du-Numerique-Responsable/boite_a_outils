@@ -10,3 +10,6 @@ www/**/*.gz
 
 # Environnements Node éventuels (tests jsdom)
 node_modules/
+
+# Sorties générées par le skill graphify
+graphify-out/
