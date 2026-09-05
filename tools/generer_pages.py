@@ -141,7 +141,10 @@ def selecteur_langues(lang, profondeur, page_url=None):
     equivalents = (ALTERNATES.get(page_url) or PAGE_ALTERNATES.get(page_url)
                    if page_url else None)
     page_path = posixpath.dirname(urlparse(page_url).path) if page_url else ""
-    for locale in all_locales():
+    # Seules les locales publiées apparaissent : un lien « bientôt » vers une
+    # traduction incomplète ferait perdre du temps au visiteur et donnerait
+    # aux moteurs un signal hreflang sur des pages qui n'existent pas encore.
+    for locale in published_locales():
         code = locale["code"]
         conf = LANGUES[code]
         prefixe = conf["dossier"] + "/" if conf["dossier"] else ""
@@ -151,17 +154,10 @@ def selecteur_langues(lang, profondeur, page_url=None):
         else:
             href = profondeur + prefixe
         courant = ' aria-current="true"' if code == lang else ""
-        if locale["published"]:
-            liens.append(
-                f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
-                f'{e(locale["native_name"])}</a>'
-            )
-        else:
-            suffixe = "bientôt" if lang == "fr" else "coming soon"
-            liens.append(
-                f'        <span class="entete__langue-indisponible" lang="{code}" '
-                f'aria-disabled="true">{e(locale["native_name"])} <small>({suffixe})</small></span>'
-            )
+        liens.append(
+            f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
+            f'{e(locale["native_name"])}</a>'
+        )
     etiquette = "Langues" if lang == "fr" else "Languages"
     return (f'      <div class="entete__langues" aria-label="{etiquette}">\n'
             + "\n".join(liens) + "\n      </div>")
@@ -209,7 +205,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
         lien_nav(url, libelle)
         for url, libelle in conf["nav"]
     )
-    logo = "logo-inr.svg" if lang == "fr" else "logo-isit.svg"
+    logo = "logo-inr.svg" if lang == "fr" else "logo-isit.png"
     logo_alt = ""
     nom_institut = ("Institut du Numérique Responsable" if lang == "fr"
                     else "Institute for Sustainable IT")
@@ -526,7 +522,7 @@ def jsonld_accueil(nombre, lang, url):
                         "checked by the ISIT."),
         "publisher": {"@type": "Organization", "name": nom_institut,
                       "url": "https://institutnr.org",
-                        "logo": DOMAINE + "/assets/" + ("logo-inr.svg" if lang == "fr" else "logo-isit.svg")},
+                        "logo": DOMAINE + "/assets/" + ("logo-inr.svg" if lang == "fr" else "logo-isit.png")},
         "potentialAction": {
             "@type": "SearchAction",
             "target": {"@type": "EntryPoint", "urlTemplate": url + "?q={search_term_string}"},
@@ -903,14 +899,11 @@ def ecrire_selecteur_langues():
                   "Choisissez la langue de la boîte à outils du Numérique Responsable.",
                   url, "../")
     options = []
-    for locale in all_locales():
+    for locale in published_locales():
         code = locale["code"]
-        if locale["published"]:
-            conf = LANGUES[code]
-            href = "../" + (conf["dossier"] + "/" if conf["dossier"] else "")
-            options.append(f'    <li><a href="{href}" lang="{code}" hreflang="{code}">{e(locale["native_name"])}</a></li>')
-        else:
-            options.append(f'    <li><span class="entete__langue-indisponible" lang="{code}" aria-disabled="true">{e(locale["native_name"])} <small>(bientôt)</small></span></li>')
+        conf = LANGUES[code]
+        href = "../" + (conf["dossier"] + "/" if conf["dossier"] else "")
+        options.append(f'    <li><a href="{href}" lang="{code}" hreflang="{code}">{e(locale["native_name"])}</a></li>')
     page += "\n<main class=\"page\" id=\"contenu\">\n  <h1>Choisir la langue</h1>\n  <p class=\"chapeau\">Accédez à la version disponible de la boîte à outils.</p>\n  <ul>\n" + "\n".join(options) + "\n  </ul>\n</main>\n"
     page += pied("fr", "../")
     with open(os.path.join(dossier, "index.html"), "w", encoding="utf-8") as sortie:
