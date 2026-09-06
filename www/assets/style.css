@@ -163,19 +163,24 @@ a {
   margin-left: 1rem;
   padding-left: 1rem;
   border-left: 1px solid rgba(217, 236, 244, 0.35);
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
 }
 
-/* <summary> porte son propre triangle : celui du navigateur ferait doublon. */
+/* Un fond et une bordure visibles en permanence : sans eux, un simple texte
+   blanc sur l'entête bleu se lit comme un libellé, pas comme un bouton — et
+   se perd à côté des liens de navigation qui portent la même couleur. */
 .entete__langues > summary {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
   list-style: none;
   cursor: pointer;
   color: var(--blanc);
-  padding: 0.35rem 0.6rem;
-  border-radius: 0.35rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(217, 236, 244, 0.45);
+  background: rgba(255, 255, 255, 0.08);
   white-space: nowrap;
 }
 
@@ -195,9 +200,15 @@ a {
 
 .entete__langues > summary:hover,
 .entete__langues > summary:focus-visible {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.18);
+  border-color: var(--ambre);
   outline: 2px solid var(--ambre);
   outline-offset: 2px;
+}
+
+.entete__langues[open] > summary {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: var(--ambre);
 }
 
 .entete__langues ul {
