@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" data-donnees="../data/">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,7 @@
 <link rel="alternate" hreflang="nl" href="./">
 <link rel="alternate" hreflang="x-default" href="https://sustainableit-tools.isit-europe.org/langues/">
 <link rel="icon" href="../favicon.ico">
+<link rel="preload" href="../data/tools-nl.json" as="fetch" crossorigin>
 <link rel="preconnect" href="https://analytic.institutnr.org:8443" crossorigin>
 <link rel="stylesheet" href="../assets/style.css?v=431ac244">
 <meta property="og:title" content="Sustainable IT Toolbox — INR">
@@ -24,7 +25,7 @@
 </head>
 <body>
 
-<a class="lien-evitement" href="#contenu">Ga naar de inhoud</a>
+<a class="lien-evitement" href="#resultats">Ga naar de resultaten</a>
 
 <header class="entete">
   <div class="entete__inner">
@@ -48,15 +49,94 @@
   </div>
 </header>
 
-<main class="page" id="contenu">
-  <h1>Sustainable IT Toolbox</h1>
-  <p class="chapeau">
-    Nederlandse vertalingen van hulpmiddelen voor duurzame IT: meetinstrumenten,
-    kaders, gidsen en cursussen, samengesteld door het ISIT. Elke link wordt
-    periodiek gecontroleerd.
-  </p>
-  <p><a href="topics/">Bekijk de catalogus per thema</a> (341 hulpmiddelen, 14 thema's)</p>
+<main id="contenu">
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__titre">Vind het hulpmiddel dat uw duurzame IT vooruit helpt</h1>
+      <p class="hero__intro">
+        Een selectie van het ISIT: meetinstrumenten, kaders, gidsen en cursussen.
+        Elke link wordt getest — links die niet meer werkten zijn verwijderd.
+      </p>
+
+      <ul class="fraicheur">
+        <li><b id="total-outils">341</b> hulpmiddelen vermeld</li>
+        <li><b>14</b> thema's</li>
+      </ul>
+
+      <div class="recherche">
+        <div class="recherche__champ">
+          <label class="contenu-cache" for="champ-recherche">Zoek een hulpmiddel</label>
+          <input id="champ-recherche" type="search" autocomplete="off"
+                 placeholder="Zoeken: CO2-voetafdruk, toegankelijkheid, ecodesign…">
+          <span class="recherche__raccourci" id="raccourci" aria-hidden="true">/</span>
+          <button class="recherche__effacer" id="effacer-recherche" type="button" hidden>
+            <span aria-hidden="true">×</span>
+            <span class="contenu-cache">Zoekopdracht wissen</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="suggestions" id="suggestions">Veelvoorkomende onderwerpen:</p>
+    </div>
+  </section>
+
+  <div class="corps">
+
+    <aside class="filtres" aria-label="Filters">
+      <button class="filtres__bascule" id="filtres-bascule" type="button"
+              aria-expanded="false" aria-controls="filtres-panneau">
+        Filters <span aria-hidden="true">▾</span>
+      </button>
+      <div id="filtres-panneau" class="filtres__panneau">
+        <div class="filtres__entete">
+          <h2 class="filtres__titre">Verfijnen</h2>
+          <button class="bouton-lien" id="reinitialiser" type="button" disabled>Alles wissen</button>
+        </div>
+      </div>
+    </aside>
+
+    <section id="resultats" aria-labelledby="titre-resultats">
+      <h2 class="contenu-cache" id="titre-resultats">Resultaten</h2>
+
+      <div class="resultats__barre">
+        <p class="resultats__compte" id="compte"></p>
+        <p class="tri">
+          <label for="tri">Sorteren op</label>
+          <select id="tri">
+            <option value="pertinence">Relevantie</option>
+            <option value="nom">Naam (A → Z)</option>
+            <option value="theme">Thema</option>
+          </select>
+        </p>
+      </div>
+
+      <div class="jetons" id="jetons"></div>
+      <p class="contenu-cache" id="annonce" role="status" aria-live="polite"></p>
+
+      <ul class="grille" id="grille"></ul>
+
+      <div class="vide" id="vide" hidden>
+        <h2>Geen hulpmiddel komt overeen</h2>
+        <p>Verbreed de zoekopdracht: verwijder een filter, of probeer een korter trefwoord.</p>
+      </div>
+
+      <button class="plus" id="voir-plus" type="button" hidden>Meer hulpmiddelen tonen</button>
+    </section>
+
+  </div>
 </main>
+
+<dialog class="fiche" id="fiche" aria-labelledby="fiche-titre">
+  <div class="fiche__entete">
+    <h2 id="fiche-titre"></h2>
+    <button class="fiche__fermer" type="button">
+      <span aria-hidden="true">×</span>
+      <span class="contenu-cache">Sluiten</span>
+    </button>
+  </div>
+  <div class="fiche__corps"></div>
+</dialog>
 
 <footer class="pied">
   <div class="pied__inner">
@@ -76,6 +156,7 @@
   </div>
 </footer>
 
+<script src="../assets/app.js?v=4b5f8690" defer></script>
 <script src="../assets/matomo.js?v=9620fab1" defer></script>
 </body>
 </html>

@@ -4,7 +4,8 @@
 (function () {
   "use strict";
 
-  var LANG = document.documentElement.lang === "en" ? "en" : "fr";
+  var LANG = ["en", "nl"].indexOf(document.documentElement.lang) > -1
+    ? document.documentElement.lang : "fr";
   var PAGE = 48; // fiches rendues par lot
 
   var T = {
@@ -21,6 +22,19 @@
       fiche: "Fiche détaillée",
       dossier_fiches: "outils/",
       filtres_ouvrir: "Filtres",
+      liste_en: "Référencé en ",
+      gratuit: "Gratuit",
+      payant: "Payant",
+      liens_verifies: "Liens vérifiés",
+      retirer_filtre: "Retirer le filtre ",
+      qualite_liens: "Qualité des liens",
+      liens_verifies_uniquement: "Liens vérifiés uniquement",
+      loi_concernes: "Qui est concerné",
+      loi_depuis: "En vigueur depuis",
+      loi_contenu: "Contenu de la loi",
+      loi_sanctions: "Sanctions",
+      erreur_titre: "Les données n'ont pas pu être chargées",
+      erreur_texte: "Rechargez la page. Si le problème persiste, écrivez à contact@institutnr.org.",
       annonce: function (n) {
         return n + (n > 1 ? " outils trouvés" : " outil trouvé");
       }
@@ -38,8 +52,51 @@
       fiche: "Details",
       dossier_fiches: "tools/",
       filtres_ouvrir: "Filters",
+      liste_en: "Listed in ",
+      gratuit: "Free",
+      payant: "Paid",
+      liens_verifies: "Checked links",
+      retirer_filtre: "Remove filter ",
+      qualite_liens: "Link quality",
+      liens_verifies_uniquement: "Verified links only",
+      loi_concernes: "Who is concerned",
+      loi_depuis: "In force since",
+      loi_contenu: "Content",
+      loi_sanctions: "Penalties",
+      erreur_titre: "Data could not be loaded",
+      erreur_texte: "Reload the page. If the problem persists, write to contact@institutnr.org.",
       annonce: function (n) {
         return n + (n > 1 ? " tools found" : " tool found");
+      }
+    },
+    nl: {
+      resultats: "hulpmiddelen",
+      resultat: "hulpmiddel",
+      sur: "van",
+      vide_titre: "Geen hulpmiddel komt overeen",
+      vide_texte: "Verbreed de zoekopdracht: verwijder een filter, of probeer een korter trefwoord.",
+      tout_effacer: "Alles wissen",
+      voir_plus: "Meer hulpmiddelen tonen",
+      verifie: "Link gecontroleerd op",
+      doute: "Link opnieuw controleren",
+      fiche: "Details",
+      dossier_fiches: "tools/",
+      filtres_ouvrir: "Filters",
+      liste_en: "Vermeld in ",
+      gratuit: "Gratis",
+      payant: "Betaald",
+      liens_verifies: "Gecontroleerde links",
+      retirer_filtre: "Filter verwijderen ",
+      qualite_liens: "Kwaliteit van de links",
+      liens_verifies_uniquement: "Alleen geverifieerde links",
+      loi_concernes: "Wie is betrokken",
+      loi_depuis: "Van kracht sinds",
+      loi_contenu: "Inhoud van de wet",
+      loi_sanctions: "Sancties",
+      erreur_titre: "De gegevens konden niet worden geladen",
+      erreur_texte: "Herlaad de pagina. Als het probleem aanhoudt, schrijf naar contact@institutnr.org.",
+      annonce: function (n) {
+        return n + (n > 1 ? " hulpmiddelen gevonden" : " hulpmiddel gevonden");
       }
     }
   }[LANG];
@@ -106,10 +163,10 @@
   };
 
   var FACETTES = [
-    { cle: "theme", champ: "theme", titre: { fr: "Thème", en: "Topic" } },
-    { cle: "type", champ: "type", titre: { fr: "Type de ressource", en: "Resource type" } },
-    { cle: "profil", champ: "profil", titre: { fr: "Public visé", en: "Audience" } },
-    { cle: "cout", champ: "cout", titre: { fr: "Accès", en: "Access" } }
+    { cle: "theme", champ: "theme", titre: { fr: "Thème", en: "Topic", nl: "Thema" } },
+    { cle: "type", champ: "type", titre: { fr: "Type de ressource", en: "Resource type", nl: "Type hulpmiddel" } },
+    { cle: "profil", champ: "profil", titre: { fr: "Public visé", en: "Audience", nl: "Doelgroep" } },
+    { cle: "cout", champ: "cout", titre: { fr: "Accès", en: "Access", nl: "Toegang" } }
   ];
 
   /* --------------------------------------------------------- recherche */
@@ -256,16 +313,16 @@
     // « Référencé en » le dit, « Ajouté en » laissait croire à une date de création.
     if (outil.ajoute_le) {
       meta.appendChild(el("span", "etiquette etiquette--nouveau",
-        (LANG === "fr" ? "Référencé en " : "Listed in ") + outil.ajoute_le));
+        T.liste_en + outil.ajoute_le));
     }
     if (outil.type) meta.appendChild(el("span", "etiquette", outil.type));
     // Les données portent le libellé dans leur propre langue : on reconnaît les
-    // deux, sinon l'étiquette perdrait sa couleur sur la version anglaise.
-    if (outil.cout === "Gratuit" || outil.cout === "Free") {
-      meta.appendChild(el("span", "etiquette etiquette--gratuit", LANG === "fr" ? "Gratuit" : "Free"));
+    // trois, sinon l'étiquette perdrait sa couleur sur les versions traduites.
+    if (outil.cout === "Gratuit" || outil.cout === "Free" || outil.cout === "Gratis") {
+      meta.appendChild(el("span", "etiquette etiquette--gratuit", T.gratuit));
     }
-    if (outil.cout === "Payant" || outil.cout === "Paid") {
-      meta.appendChild(el("span", "etiquette etiquette--payant", LANG === "fr" ? "Payant" : "Paid"));
+    if (outil.cout === "Payant" || outil.cout === "Paid" || outil.cout === "Betaald") {
+      meta.appendChild(el("span", "etiquette etiquette--payant", T.payant));
     }
     if (outil.profil) meta.appendChild(el("span", "etiquette", outil.profil));
     if (meta.childNodes.length) item.appendChild(meta);
@@ -360,7 +417,7 @@
       });
     });
     if (etat.verifies) {
-      ajouterJeton(LANG === "fr" ? "Liens vérifiés" : "Checked links", function () {
+      ajouterJeton(T.liens_verifies, function () {
         etat.verifies = false;
         document.getElementById("verifies").checked = false;
         etat.limite = PAGE;
@@ -372,7 +429,7 @@
   function ajouterJeton(libelle, retrait) {
     var bouton = el("button", "jeton", libelle);
     bouton.type = "button";
-    bouton.setAttribute("aria-label", (LANG === "fr" ? "Retirer le filtre " : "Remove filter ") + libelle);
+    bouton.setAttribute("aria-label", T.retirer_filtre + libelle);
     bouton.addEventListener("click", retrait);
     dom.jetons.appendChild(bouton);
   }
@@ -426,7 +483,7 @@
 
     // Filtre signature : ne montrer que les liens dont l'audit est franc.
     var groupeLiens = el("fieldset", "groupe");
-    groupeLiens.appendChild(el("legend", null, LANG === "fr" ? "Qualité des liens" : "Link quality"));
+    groupeLiens.appendChild(el("legend", null, T.qualite_liens));
     var label = el("label", "option");
     var input = document.createElement("input");
     input.type = "checkbox";
@@ -437,7 +494,7 @@
       rendre();
     });
     label.appendChild(input);
-    label.appendChild(el("span", null, LANG === "fr" ? "Liens vérifiés uniquement" : "Verified links only"));
+    label.appendChild(el("span", null, T.liens_verifies_uniquement));
     groupeLiens.appendChild(label);
     dom.filtres.appendChild(groupeLiens);
   }
@@ -529,11 +586,11 @@
     }
 
     if (outil.description) corps.appendChild(el("p", null, outil.description));
-    bloc(LANG === "fr" ? "Qui est concerné" : "Who is concerned", outil.loi.concernes);
-    bloc(LANG === "fr" ? "En vigueur depuis" : "In force since", outil.loi.depuis);
+    bloc(T.loi_concernes, outil.loi.concernes);
+    bloc(T.loi_depuis, outil.loi.depuis);
 
     if (outil.loi.contenu && outil.loi.contenu.length) {
-      corps.appendChild(el("h3", null, LANG === "fr" ? "Contenu de la loi" : "Content"));
+      corps.appendChild(el("h3", null, T.loi_contenu));
       outil.loi.contenu.forEach(function (partie) {
         if (partie.type === "liste") {
           var liste = document.createElement("ul");
@@ -546,7 +603,7 @@
         }
       });
     }
-    bloc(LANG === "fr" ? "Sanctions" : "Penalties", outil.loi.sanctions);
+    bloc(T.loi_sanctions, outil.loi.sanctions);
 
     if (typeof dom.fiche.showModal === "function") dom.fiche.showModal();
     else dom.fiche.setAttribute("open", "");
@@ -664,11 +721,7 @@
     })
     .catch(function () {
       dom.vide.hidden = false;
-      dom.vide.querySelector("h2").textContent = LANG === "fr"
-        ? "Les données n'ont pas pu être chargées"
-        : "Data could not be loaded";
-      dom.vide.querySelector("p").textContent = LANG === "fr"
-        ? "Rechargez la page. Si le problème persiste, écrivez à contact@institutnr.org."
-        : "Reload the page. If the problem persists, write to contact@institutnr.org.";
+      dom.vide.querySelector("h2").textContent = T.erreur_titre;
+      dom.vide.querySelector("p").textContent = T.erreur_texte;
     });
 })();

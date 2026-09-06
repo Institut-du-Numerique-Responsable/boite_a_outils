@@ -874,7 +874,7 @@ def elaguer(dossier, attendus):
 def versionner_pages_statiques():
     """Applique la même empreinte aux pages écrites à la main."""
     pages = ["index.html", "a-propos.html", "mentions-legales.html", "404.html",
-             os.path.join("en", "index.html")]
+             os.path.join("en", "index.html"), os.path.join("nl", "index.html")]
     for page in pages:
         chemin = os.path.join(WWW, page)
         if not os.path.exists(chemin):
