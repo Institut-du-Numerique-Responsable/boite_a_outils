@@ -159,33 +159,91 @@ a {
 }
 
 .entete__langues {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
+  position: relative;
+  margin-left: 1rem;
   padding-left: 1rem;
   border-left: 1px solid rgba(217, 236, 244, 0.35);
   font-size: 0.8125rem;
 }
 
-.entete__langues a[aria-current="true"] {
-  font-weight: 700;
-}
-
-.entete__langue-indisponible {
-  color: rgba(217, 236, 244, 0.55);
+/* <summary> porte son propre triangle : celui du navigateur ferait doublon. */
+.entete__langues > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  cursor: pointer;
+  color: var(--blanc);
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.35rem;
   white-space: nowrap;
 }
 
-.entete__langue-indisponible small {
-  font-size: 0.65rem;
+.entete__langues > summary::-webkit-details-marker {
+  display: none;
+}
+
+.entete__langues > summary::after {
+  content: "▾";
+  font-size: 0.7em;
+  opacity: 0.8;
+}
+
+.entete__langues[open] > summary::after {
+  content: "▴";
+}
+
+.entete__langues > summary:hover,
+.entete__langues > summary:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+  outline: 2px solid var(--ambre);
+  outline-offset: 2px;
+}
+
+.entete__langues ul {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  min-width: 9rem;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: #0f3d57;
+  border: 1px solid rgba(217, 236, 244, 0.35);
+  border-radius: 0.5rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.entete__langues li + li {
+  margin-top: 0.15rem;
+}
+
+.entete__langues ul a {
+  display: block;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.35rem;
+  color: var(--blanc);
+  text-decoration: none;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.entete__langues ul a:hover,
+.entete__langues ul a:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.entete__langues ul a[aria-current="true"] {
+  font-weight: 700;
+  color: var(--ambre);
 }
 
 @media (max-width: 42rem) {
   .entete__langues {
+    margin-left: 0;
     padding-left: 0;
     border-left: 0;
-    width: 100%;
-    justify-content: flex-end;
   }
 }
 

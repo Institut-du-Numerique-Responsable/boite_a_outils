@@ -136,14 +136,18 @@ LANGUES["nl"]["published"] = True
 
 
 def selecteur_langues(lang, profondeur, page_url=None):
-    """Liens de langue accessibles vers la fiche courante si elle existe."""
+    """Sélecteur de langue replié par défaut.
+
+    Un <details>/<summary> natif plutôt qu'une liste de liens à plat : la
+    même bascule fonctionne au clavier et au lecteur d'écran sans une ligne
+    de JavaScript, et une liste à plat n'aurait pas tenu une fois le
+    catalogue étendu à l'espagnol et à l'allemand.
+    """
     liens = []
     equivalents = (ALTERNATES.get(page_url) or PAGE_ALTERNATES.get(page_url)
                    if page_url else None)
     page_path = posixpath.dirname(urlparse(page_url).path) if page_url else ""
-    # Seules les locales publiées apparaissent : un lien « bientôt » vers une
-    # traduction incomplète ferait perdre du temps au visiteur et donnerait
-    # aux moteurs un signal hreflang sur des pages qui n'existent pas encore.
+    actuel = lang
     for locale in published_locales():
         code = locale["code"]
         conf = LANGUES[code]
@@ -153,14 +157,19 @@ def selecteur_langues(lang, profondeur, page_url=None):
             href = posixpath.relpath(urlparse(cible).path, start=page_path)
         else:
             href = profondeur + prefixe
-        courant = ' aria-current="true"' if code == lang else ""
+        courant_attr = ' aria-current="true"' if code == lang else ""
+        if code == lang:
+            actuel = locale["native_name"]
         liens.append(
-            f'        <a href="{e(href)}" lang="{code}" hreflang="{code}"{courant}>'
-            f'{e(locale["native_name"])}</a>'
+            f'          <li><a href="{e(href)}" lang="{code}" hreflang="{code}"{courant_attr}>'
+            f'{e(locale["native_name"])}</a></li>'
         )
-    etiquette = "Langues" if lang == "fr" else "Languages"
-    return (f'      <div class="entete__langues" aria-label="{etiquette}">\n'
-            + "\n".join(liens) + "\n      </div>")
+    etiquette = "Choisir la langue" if lang == "fr" else "Choose language"
+    return (f'      <details class="entete__langues">\n'
+            f'        <summary aria-label="{e(etiquette)}">'
+            f'<span aria-hidden="true">\U0001F310</span> {e(actuel)}</summary>\n'
+            f'        <ul>\n' + "\n".join(liens) + "\n        </ul>\n"
+            f'      </details>')
 
 
 def empreinte(chemin_relatif):
