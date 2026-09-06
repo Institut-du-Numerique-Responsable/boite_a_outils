@@ -37,43 +37,48 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # donc aucun risque que « %20 » soit lu comme une référence arrière, et un
 # signal plus net pour les moteurs qu'un paramètre d'URL.
 
+# Cible absolue (domaine complet), jamais un chemin commençant par « / » :
+# derrière le proxy OVH, %{HTTP_HOST} peut porter le port (« :443 »), et Apache
+# s'en sert pour construire le Location d'une cible relative. Un chemin
+# absolu court-circuite ce calcul et garantit un 301 propre vers l'URL
+# canonique, sans port ni ambiguïté pour les moteurs.
 RewriteCond %{QUERY_STRING} (^|&)cat=1(&|$)
-RewriteRule ^(index\.php)?$ /themes/sensibilisation-et-formation.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/sensibilisation-et-formation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=2(&|$)
-RewriteRule ^(index\.php)?$ /themes/eco-conception-web.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/eco-conception-web.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=3(&|$)
-RewriteRule ^(index\.php)?$ /themes/marketing-et-communication.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/marketing-et-communication.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=4(&|$)
-RewriteRule ^(index\.php)?$ /themes/eco-conception-web.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/eco-conception-web.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=5(&|$)
-RewriteRule ^(index\.php)?$ /themes/gestion-de-l-energie-et-des-ressources.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/gestion-de-l-energie-et-des-ressources.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=6(&|$)
-RewriteRule ^(index\.php)?$ /themes/deeee-et-equipements.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/deeee-et-equipements.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=7(&|$)
-RewriteRule ^(index\.php)?$ /themes/juridique-et-reglementation.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/juridique-et-reglementation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=8(&|$)
-RewriteRule ^(index\.php)?$ /themes/sensibilisation-et-formation.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/sensibilisation-et-formation.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=9(&|$)
-RewriteRule ^(index\.php)?$ /themes/references-et-guides.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/references-et-guides.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=10(&|$)
-RewriteRule ^(index\.php)?$ /themes/demarche-pour-les-organisations-entreprises.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/demarche-pour-les-organisations-entreprises.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=11(&|$)
-RewriteRule ^(index\.php)?$ /themes/evaluation-et-mesure.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/evaluation-et-mesure.html? [L,R=301]
 RewriteCond %{QUERY_STRING} (^|&)cat=12(&|$)
-RewriteRule ^(index\.php)?$ /themes/conception-web.html? [L,R=301]
+RewriteRule ^(index\.php)?$ https://sustainableit-tools.isit-europe.org/themes/conception-web.html? [L,R=301]
 
 # Les fiches juridiques sont désormais des fiches ouvertes côté client.
-RewriteRule ^fiche-outils\.php$ /themes/juridique-et-reglementation.html? [L,R=301]
+RewriteRule ^fiche-outils\.php$ https://sustainableit-tools.isit-europe.org/themes/juridique-et-reglementation.html? [L,R=301]
 
 # Pages éditoriales et vestiges de l'application PHP.
-RewriteRule ^a-propos-numerique-responsable\.php$ /a-propos.html [L,R=301]
-RewriteRule ^mentions-legales\.php$ /mentions-legales.html [L,R=301]
+RewriteRule ^a-propos-numerique-responsable\.php$ https://sustainableit-tools.isit-europe.org/a-propos.html [L,R=301]
+RewriteRule ^mentions-legales\.php$ https://sustainableit-tools.isit-europe.org/mentions-legales.html [L,R=301]
 # Ne cibler que l'ancien index.php : « ^en/(index\.php)?$ » attrapait aussi
 # « en/ » lui-même et le redirigeait vers lui-même — boucle infinie.
-RewriteRule ^en/index\.php$ /en/ [L,R=301]
-RewriteRule ^(index|search|odd|toutes-les-contributions)\.php$ / [L,R=301]
+RewriteRule ^en/index\.php$ https://sustainableit-tools.isit-europe.org/en/ [L,R=301]
+RewriteRule ^(index|search|odd|toutes-les-contributions)\.php$ https://sustainableit-tools.isit-europe.org/ [L,R=301]
 # Le back-office, l'upload et phpinfo n'existent plus : ne pas laisser d'indice.
-RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php$ / [L,R=301]
+RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php$ https://sustainableit-tools.isit-europe.org/ [L,R=301]
 
 # ---------------------------------------------------- compression statique
 # Les .br et .gz sont produits une fois par tools/precompresser.py, au niveau

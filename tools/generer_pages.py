@@ -513,7 +513,7 @@ def jsonld_accueil(nombre, lang, url):
     donnees = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Boîte à outils du Numérique Responsable" if lang == "fr" else "Sustainable IT Toolbox",
+        "name": "Boîte à outils NR" if lang == "fr" else "Sustainable IT Toolbox",
         "url": url,
         "inLanguage": lang,
         "description": (f"{nombre} outils, guides et référentiels du numérique responsable, "
@@ -529,6 +529,8 @@ def jsonld_accueil(nombre, lang, url):
             "query-input": "required name=search_term_string",
         },
     }
+    if lang == "fr":
+        donnees["alternateName"] = "Boîte à outils du Numérique Responsable"
     return ('<script type="application/ld+json">'
             + json.dumps(donnees, ensure_ascii=False, separators=(",", ":"))
             + "</script>")
