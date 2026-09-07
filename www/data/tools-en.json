@@ -5854,6 +5854,105 @@
       "lien_ok": "ok",
       "verifie_le": "2026-09-07",
       "ajoute_le": "2026"
+    },
+    {
+      "id": "skill-nr",
+      "nom": "Skill NR",
+      "description": "Eco-design rules (RGESN, GR491, Opquast, RGAA) ported to 11 AI coding assistants — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — across 13 languages. Translates these French sustainability frameworks into actionable rules: real-time suggestions while writing code, and after-the-fact review by specialised agents that cite the exact compliance criterion.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/skill-nr",
+      "theme": "AI",
+      "domaine": "Transverse",
+      "type": "Tool",
+      "profil": "IT professional / Expert",
+      "cout": "Free",
+      "tags": [
+        "AI",
+        "Eco-design",
+        "RGESN",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "co2-rapl",
+      "nom": "CO2_RAPL",
+      "description": "A Bash script that monitors a Linux server's CPU energy consumption via Intel RAPL and converts it into estimated CO₂ emissions. Provides real-time power measurement in Watts and computes the corresponding carbon impact using the regional electricity grid's emission factor — useful for assessing a server infrastructure's environmental footprint.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL",
+      "theme": "Energy & resource management",
+      "domaine": "Hosting",
+      "type": "Tool",
+      "profil": "IT professional / Expert",
+      "cout": "Free",
+      "tags": [
+        "Carbon Footprint",
+        "Server",
+        "Measurement",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "nr-analysis-cli",
+      "nom": "nr-analysis-cli",
+      "description": "A Node.js CLI that audits web pages for eco-design and accessibility. Reproduces the GreenIT-Analysis Chrome extension via Puppeteer/Chromium to compute environmental metrics (CO₂ emissions, water use, EcoIndex score) and check compliance with best practices across sobriety, accessibility, cybersecurity and server performance.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli",
+      "theme": "Measurement & assessment",
+      "domaine": "Transverse",
+      "type": "Tool",
+      "profil": "IT professional / Expert",
+      "cout": "Free",
+      "tags": [
+        "Eco-design",
+        "EcoIndex",
+        "CLI",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "claude-skill-accessibilite",
+      "nom": "Claude Skill Accessibility",
+      "description": "A Claude Code skill that automates generating a French RGAA 4.1.2 accessibility declaration compliant with the official government template. Collects audit data, checks consistency across metrics and produces a publication-ready Markdown document, preserving the mandatory legal wording.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite",
+      "theme": "Accessibility & inclusion",
+      "domaine": "Front-end",
+      "type": "Tool",
+      "profil": "IT professional / Expert",
+      "cout": "Free",
+      "tags": [
+        "RGAA",
+        "Accessibility",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "green-claude",
+      "nom": "Green Claude",
+      "description": "A skill for Claude Code that guides towards eco-designed code, no command to remember. 106 eco-design rules covering digital sobriety, energy and water consumption, and CPU/GPU optimisation, compliant with RGESN 2024 and GR491 — applied automatically whenever Claude writes or reviews code.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/green-claude",
+      "theme": "AI",
+      "domaine": "Transverse",
+      "type": "Tool",
+      "profil": "IT professional / Expert",
+      "cout": "Free",
+      "tags": [
+        "AI",
+        "Eco-design",
+        "RGESN",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
     }
   ]
 }

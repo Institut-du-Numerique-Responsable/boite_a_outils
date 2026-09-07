@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-07. 344 resources.
+Generated on 2026-09-07. 349 resources.
 
 ## AI
 
@@ -45,6 +45,10 @@ Website: https://ecologits.ai/latest/ — Entry: https://sustainableit-tools.isi
 Ethical guidelines for trustworthy AI
 Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethics-guidelines-for-trustworthy-ai.html — Type: Documentation — Audience: General public / Beginner — Keywords: AI, Ai, Artificial Intelligence, Ethics
 
+### Green Claude
+A skill for Claude Code that guides towards eco-designed code, no command to remember. 106 eco-design rules covering digital sobriety, energy and water consumption, and CPU/GPU optimisation, compliant with RGESN 2024 and GR491 — applied automatically whenever Claude writes or reviews code.
+Website: https://github.com/Institut-du-Numerique-Responsable/green-claude — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-claude.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Eco-design, RGESN, Open Source
+
 ### Green Codex
 A skill for Codex that applies Green IT and responsible digital practices to software development. Draws on RGESN, GR491, Opquast and RGAA to audit code, review implementations and inform architecture choices — from database queries and API design to infrastructure and AI model usage — with evidence-based findings that separate observed issues from recommendations.
 Website: https://github.com/Institut-du-Numerique-Responsable/green-codex — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-codex.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Eco-design, RGESN, Open Source
@@ -72,6 +76,10 @@ Website: https://mlco2.github.io/impact/#compute — Entry: https://sustainablei
 ### Responsible AI course (Académie NR)
 One-hour course on the ethical, environmental and governance stakes of artificial intelligence, from the INR's training academy.
 Website: https://www.academie-nr.org/mooc-ia/fr/index.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/responsible-ai-course-academie-nr.html — Type: MOOC — Audience: General public / Beginner — Access: Free — Keywords: Training, AI, INR
+
+### Skill NR
+Eco-design rules (RGESN, GR491, Opquast, RGAA) ported to 11 AI coding assistants — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — across 13 languages. Translates these French sustainability frameworks into actionable rules: real-time suggestions while writing code, and after-the-fact review by specialised agents that cite the exact compliance criterion.
+Website: https://github.com/Institut-du-Numerique-Responsable/skill-nr — Entry: https://sustainableit-tools.isit-europe.org/en/tools/skill-nr.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Eco-design, RGESN, Open Source
 
 ### Tfjs-models
 This repository hosts a set of pre-trained models that have been ported to TensorFlow.js. The templates are hosted on NPM and unpkg so they can be used in any out-of-the-box project. They can be used directly or in a transfer learning setting with TensorFlow.js.
@@ -130,6 +138,10 @@ Website: https://www.deque.com/axe/monitor/ — Entry: https://sustainableit-too
 ### Chrome DevTools — Accessibility tree
 Full accessibility tree inspection built into Chrome developer tools.
 Website: https://developer.chrome.com/blog/full-accessibility-tree/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/chrome-devtools-accessibility-tree.html — Type: Tool
+
+### Claude Skill Accessibility
+A Claude Code skill that automates generating a French RGAA 4.1.2 accessibility declaration compliant with the official government template. Collects audit data, checks consistency across metrics and produces a publication-ready Markdown document, preserving the mandatory legal wording.
+Website: https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite — Entry: https://sustainableit-tools.isit-europe.org/en/tools/claude-skill-accessibilite.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: RGAA, Accessibility, Open Source
 
 ### Color contrast analyzer (cca)
 Color contrast checker
@@ -436,6 +448,10 @@ Website: https://www.sami.eco/blog/empreinte-carbone-email — Entry: https://su
 ### Carbon Aware SDK (Green Software Foundation)
 Development kit that lets an application shift its workloads to the times or regions where electricity is least carbon-intensive. Moves from measurement to action without changing the architecture.
 Website: https://github.com/Green-Software-Foundation/carbon-aware-sdk — Entry: https://sustainableit-tools.isit-europe.org/en/tools/carbon-aware-sdk-green-software-foundation.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Cloud, Open source
+
+### CO2_RAPL
+A Bash script that monitors a Linux server's CPU energy consumption via Intel RAPL and converts it into estimated CO₂ emissions. Provides real-time power measurement in Watts and computes the corresponding carbon impact using the regional electricity grid's emission factor — useful for assessing a server infrastructure's environmental footprint.
+Website: https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL — Entry: https://sustainableit-tools.isit-europe.org/en/tools/co2-rapl.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Carbon Footprint, Server, Measurement, Open Source
 
 ### Cpu energy meter
 CPU Energy Meter is a Linux tool that allows you to monitor the energy consumption of Intel processors with fine temporal granularities (a few tens of milliseconds). Power monitoring is available for the following power domains:
@@ -872,6 +888,10 @@ Website: https://github.com/mowolf/MyClimatePal — Entry: https://sustainableit
 ### Node.js ecoindex
 a node.js code to calculate the ecoindex of your web page
 Website: https://github.com/cyve/ecoindex_node — Entry: https://sustainableit-tools.isit-europe.org/en/tools/node-js-ecoindex.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Measure
+
+### nr-analysis-cli
+A Node.js CLI that audits web pages for eco-design and accessibility. Reproduces the GreenIT-Analysis Chrome extension via Puppeteer/Chromium to compute environmental metrics (CO₂ emissions, water use, EcoIndex score) and check compliance with best practices across sobriety, accessibility, cybersecurity and server performance.
+Website: https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli — Entry: https://sustainableit-tools.isit-europe.org/en/tools/nr-analysis-cli.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Eco-design, EcoIndex, CLI, Open Source
 
 ### NumEcoEval
 Calculates the environmental footprint of an entire information system, defined as the whole set of physical equipment, software and services that make it up. Developed for the French public sector.

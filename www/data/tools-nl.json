@@ -191,7 +191,7 @@
       "id": "carbontracker",
       "nom": "CarbonTracker",
       "description": "Python-bibliotheek om energieverbruik en CO2-uitstoot van machine-learningexperimenten te schatten.",
-      "url": "https://github.com/lfwa/carbontracker",
+      "url": "https://github.com/saintslab/carbontracker",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Hulpmiddel",
@@ -5835,6 +5835,105 @@
         "Architectuur",
         "Governance",
         "Infrastructuur"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "skill-nr",
+      "nom": "Skill NR",
+      "description": "Ecodesignregels (RGESN, GR491, Opquast, RGAA) overgezet naar 11 AI-codeassistenten — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — in 13 talen. Vertaalt deze Franse duurzaamheidskaders naar toepasbare regels: suggesties in real time tijdens het coderen, en achteraf review door gespecialiseerde agents die het exacte conformiteitscriterium citeren.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/skill-nr",
+      "theme": "AI",
+      "domaine": "Transversaal",
+      "type": "Hulpmiddel",
+      "profil": "IT-professional / Expert",
+      "cout": "Gratis",
+      "tags": [
+        "AI",
+        "Ecodesign",
+        "RGESN",
+        "Open source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "co2-rapl",
+      "nom": "CO2_RAPL",
+      "description": "Bash-script dat het energieverbruik van de CPU van een Linux-server meet via Intel RAPL en dit omzet in geschatte CO₂-uitstoot. Levert real-time vermogensmeting in Watt en berekent de bijbehorende koolstofimpact aan de hand van de emissiefactor van het regionale elektriciteitsnet — nuttig om de milieu-impact van serverinfrastructuur te beoordelen.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL",
+      "theme": "Energie- & grondstoffenbeheer",
+      "domaine": "Hosting",
+      "type": "Hulpmiddel",
+      "profil": "IT-professional / Expert",
+      "cout": "Gratis",
+      "tags": [
+        "CO2-voetafdruk",
+        "Server",
+        "Meting",
+        "Open source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "nr-analysis-cli",
+      "nom": "nr-analysis-cli",
+      "description": "Node.js-CLI die webpagina's controleert op ecodesign en toegankelijkheid. Bootst de GreenIT-Analysis Chrome-extensie na via Puppeteer/Chromium om milieu-indicatoren te berekenen (CO₂-uitstoot, waterverbruik, EcoIndex-score) en de naleving van best practices te toetsen op het gebied van soberheid, toegankelijkheid, cyberbeveiliging en serverprestaties.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli",
+      "theme": "Meting & beoordeling",
+      "domaine": "Transversaal",
+      "type": "Hulpmiddel",
+      "profil": "IT-professional / Expert",
+      "cout": "Gratis",
+      "tags": [
+        "Ecodesign",
+        "EcoIndex",
+        "CLI",
+        "Open source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "claude-skill-accessibilite",
+      "nom": "Claude Skill Accessibility",
+      "description": "Skill voor Claude Code die het genereren van een Franse RGAA 4.1.2-toegankelijkheidsverklaring automatiseert, conform het officiële overheidsmodel. Verzamelt auditgegevens, controleert de consistentie tussen indicatoren en levert een publicatieklaar Markdown-document op, met behoud van de verplichte juridische formuleringen.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite",
+      "theme": "Toegankelijkheid & inclusie",
+      "domaine": "Front-end",
+      "type": "Hulpmiddel",
+      "profil": "IT-professional / Expert",
+      "cout": "Gratis",
+      "tags": [
+        "RGAA",
+        "Toegankelijkheid",
+        "Open source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "green-claude",
+      "nom": "Green Claude",
+      "description": "Skill voor Claude Code die naar ecologisch ontworpen code leidt, zonder commando om te onthouden. 106 ecodesignregels voor digitale soberheid, energie- en waterverbruik en CPU/GPU-optimalisatie, conform RGESN 2024 en GR491 — automatisch toegepast zodra Claude code schrijft of beoordeelt.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/green-claude",
+      "theme": "AI",
+      "domaine": "Transversaal",
+      "type": "Hulpmiddel",
+      "profil": "IT-professional / Expert",
+      "cout": "Gratis",
+      "tags": [
+        "AI",
+        "Ecodesign",
+        "RGESN",
+        "Open source"
       ],
       "lien_ok": "ok",
       "verifie_le": "2026-09-07",

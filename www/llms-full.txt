@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-07. 358 ressources.
+Généré le 2026-09-07. 363 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -52,6 +52,10 @@ Site : https://www.checkmycolours.com/ — Fiche : https://sustainableit-tools.i
 ### Chrome DevTools - Accessibility tree
 Arborescence complète de l'accessibilité dans les outils pour les développeurs Chrome
 Site : https://developer.chrome.com/blog/full-accessibility-tree/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/chrome-devtools-accessibility-tree.html — Type : Outil
+
+### Claude Skill Accessibilité
+Skill pour Claude Code qui automatise la génération d'une déclaration d'accessibilité RGAA 4.1.2 conforme au modèle officiel gouv.fr. Collecte les données d'audit, vérifie la cohérence des indicateurs entre eux et produit un document Markdown prêt à publier, en conservant les mentions légales obligatoires.
+Site : https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite — Fiche : https://sustainableit-tools.isit-europe.org/outils/claude-skill-accessibilite.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : RGAA, Accessibilité, Open Source
 
 ### Color safe
 Permet de créer une charte graphique en suivant les recommandations du WCAG.
@@ -371,6 +375,10 @@ Site : https://aws.amazon.com/codeguru/profiler/ — Fiche : https://sustainable
 Kit de développement qui permet à une application de décaler ses traitements vers les moments ou les régions où l'électricité est la moins carbonée. Passe de la mesure à l'action, sans changer l'architecture applicative.
 Site : https://github.com/Green-Software-Foundation/carbon-aware-sdk — Fiche : https://sustainableit-tools.isit-europe.org/outils/carbon-aware-sdk-green-software-foundation.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Energie, Cloud, Open Source
 
+### CO2_RAPL
+Script Bash qui mesure la consommation électrique du CPU d'un serveur Linux via la technologie Intel RAPL et la convertit en émissions de CO₂ estimées. Fournit une mesure en temps réel de la puissance en Watts et calcule l'impact carbone correspondant selon le facteur d'émission du mix électrique régional — utile pour évaluer l'empreinte environnementale d'une infrastructure serveur.
+Site : https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL — Fiche : https://sustainableit-tools.isit-europe.org/outils/co2-rapl.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Empreinte Carbone, Serveur, Mesure, Open Source
+
 ### Code de conduite européen sur les datacentres
 Le CoC pour l'efficacité énergétique des Data Centers a été établi pour répondre à l'augmentation de la consommation d'énergie dans les Data Center et à la nécessité de réduire les incidences sur l'environnement, l'économie et la sécurité de l'approvisionnement énergétique.
 Site : https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf — Fiche : https://sustainableit-tools.isit-europe.org/outils/code-de-conduite-europeen-sur-les-datacentres.html — Type : Documentation — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Référentiel
@@ -514,6 +522,10 @@ Site : https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustw
 Rapport sur les impacts environnementaux du numérique en Europe (= études de cas sur l'IA, l'IoT, le Cloud, etc)
 Site : https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542 — Fiche : https://sustainableit-tools.isit-europe.org/outils/etude-de-cas-sur-l-ia-en-europe.html — Type : Etude
 
+### Green Claude
+Skill pour Claude Code qui guide vers un code écoconçu, sans commande à retenir. 106 règles d'écoconception couvrant la sobriété numérique, la consommation d'énergie et d'eau, et l'optimisation CPU/GPU, conformes à RGESN 2024 et GR491 — appliquées automatiquement dès que Claude écrit ou relit du code.
+Site : https://github.com/Institut-du-Numerique-Responsable/green-claude — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-claude.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Éco-conception, RGESN, Open Source
+
 ### Green Codex
 Skill pour Codex qui applique les pratiques du numérique responsable au développement logiciel : audit de code, revue d'implémentation et choix d'architecture évalués selon RGESN, GR491, Opquast et RGAA. Couvre les requêtes base de données, la conception d'API, les choix d'infrastructure et l'usage de modèles d'IA, avec des constats fondés sur des preuves qui distinguent problèmes observés et recommandations.
 Site : https://github.com/Institut-du-Numerique-Responsable/green-codex — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-codex.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Éco-conception, RGESN, Open Source
@@ -537,6 +549,10 @@ Site : https://mlco2.github.io/impact/ — Fiche : https://sustainableit-tools.i
 ### MOOC IA Responsable (Académie NR)
 Formation d'une heure sur les enjeux éthiques, environnementaux et de gouvernance de l'intelligence artificielle. Proposée par l'Académie NR de l'INR.
 Site : https://www.academie-nr.org/mooc-ia/fr/index.html — Fiche : https://sustainableit-tools.isit-europe.org/outils/mooc-ia-responsable-academie-nr.html — Type : MOOC — Public : Tout public/débutant — Accès : Gratuit — Mots-clés : Formation, IA, INR
+
+### Skill NR
+Règles d'écoconception (RGESN, GR491, Opquast, RGAA) portées vers 11 assistants IA de code — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — et 13 langages. Traduit ces référentiels français en règles actionnables : suggestions en temps réel pendant l'écriture du code, et revue a posteriori par des agents spécialisés qui citent le critère de conformité concerné.
+Site : https://github.com/Institut-du-Numerique-Responsable/skill-nr — Fiche : https://sustainableit-tools.isit-europe.org/outils/skill-nr.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Éco-conception, RGESN, Open Source
 
 ### Tfjs-models
 Ce référentiel héberge un ensemble de modèles pré-entraînés qui ont été portés vers TensorFlow.js. Les modèles sont hébergés sur NPM et unpkg afin qu'ils puissent être utilisés dans n'importe quel projet prêt à l'emploi. Ils peuvent être utilisés directement ou dans un cadre d'apprentissage par transfert avec TensorFlow.js.
@@ -1432,6 +1448,10 @@ Site : https://github.com/mowolf/MyClimatePal — Fiche : https://sustainableit-
 ### Node.js ecoindex
 Calculates a webpage ecoindex (from http://www.ecoindex.fr)
 Site : https://github.com/cyve/ecoindex_node — Fiche : https://sustainableit-tools.isit-europe.org/outils/node-js-ecoindex.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Code, Ecoindex, Mesure
+
+### nr-analysis-cli
+CLI Node.js qui audite des pages web pour l'écoconception et l'accessibilité. Reproduit l'extension Chrome GreenIT-Analysis via Puppeteer/Chromium pour calculer des indicateurs environnementaux (émissions de CO₂, consommation d'eau, score EcoIndex) et évaluer la conformité aux bonnes pratiques : sobriété, accessibilité, cybersécurité et performance serveur.
+Site : https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli — Fiche : https://sustainableit-tools.isit-europe.org/outils/nr-analysis-cli.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Écoconception, EcoIndex, CLI, Open Source
 
 ### NumEcoEval
 NumEcoEval est une solution permettant de calculer l’empreinte environnementale d’un système d’information.

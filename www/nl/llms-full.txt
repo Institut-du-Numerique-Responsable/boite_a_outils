@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — volledige catalogus
 
 Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
-Gegenereerd op 2026-09-07. 344 hulpmiddelen.
+Gegenereerd op 2026-09-07. 349 hulpmiddelen.
 
 ## AI
 
@@ -27,7 +27,7 @@ Website: https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Re
 
 ### CarbonTracker
 Python-bibliotheek om energieverbruik en CO2-uitstoot van machine-learningexperimenten te schatten.
-Website: https://github.com/lfwa/carbontracker — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbontracker.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Machine learning
+Website: https://github.com/saintslab/carbontracker — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbontracker.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Machine learning
 
 ### Case studies on AI in Europe
 Rapport over de milieu-impact van digitale technologie in Europa, met casestudy's over AI, IoT en clouddiensten.
@@ -48,6 +48,10 @@ Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trus
 ### Green AI
 Bronnen over efficiëntere machine-learningmodellen met een kleinere milieu-impact.
 Website: https://github.com/sisl/green-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-ai.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign
+
+### Green Claude
+Skill voor Claude Code die naar ecologisch ontworpen code leidt, zonder commando om te onthouden. 106 ecodesignregels voor digitale soberheid, energie- en waterverbruik en CPU/GPU-optimalisatie, conform RGESN 2024 en GR491 — automatisch toegepast zodra Claude code schrijft of beoordeelt.
+Website: https://github.com/Institut-du-Numerique-Responsable/green-claude — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-claude.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign, RGESN, Open source
 
 ### Green Codex
 Skill voor Codex die praktijken van duurzame IT toepast op softwareontwikkeling: codeaudit, implementatiereview en architectuurkeuzes getoetst aan RGESN, GR491, Opquast en RGAA. Dekt databasequery's, API-ontwerp, infrastructuurkeuzes en het gebruik van AI-modellen, met op bewijs gebaseerde bevindingen die vastgestelde problemen onderscheiden van aanbevelingen.
@@ -72,6 +76,10 @@ Website: https://mlco2.github.io/impact/#compute — Fiche: https://sustainablei
 ### Responsible AI course (Académie NR)
 Cursus van één uur over de ethische, ecologische en bestuurlijke inzet van artificiële intelligentie, van de opleidingsacademie van ISIT.
 Website: https://www.academie-nr.org/mooc-ia/fr/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-ai-course-academie-nr.html — Type: MOOC — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Opleiding, AI, ISIT
+
+### Skill NR
+Ecodesignregels (RGESN, GR491, Opquast, RGAA) overgezet naar 11 AI-codeassistenten — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — in 13 talen. Vertaalt deze Franse duurzaamheidskaders naar toepasbare regels: suggesties in real time tijdens het coderen, en achteraf review door gespecialiseerde agents die het exacte conformiteitscriterium citeren.
+Website: https://github.com/Institut-du-Numerique-Responsable/skill-nr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/skill-nr.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign, RGESN, Open source
 
 ### tfjs-models
 Dit depot bevat een reeks voorgetrainde modellen die naar TensorFlow.js zijn overgezet. De modellen staan op NPM en unpkg en zijn zo in elk project direct bruikbaar, rechtstreeks of in een opzet met transfer learning.
@@ -298,6 +306,10 @@ Website: https://www.sami.eco/blog/empreinte-carbone-email — Fiche: https://su
 ### Carbon Aware SDK (Green Software Foundation)
 Ontwikkelkit waarmee een toepassing haar workloads kan verschuiven naar de momenten of de regio's waar elektriciteit het minst koolstofintensief is. Van meten naar handelen, zonder de architectuur te wijzigen.
 Website: https://github.com/Green-Software-Foundation/carbon-aware-sdk — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbon-aware-sdk-green-software-foundation.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Cloud, Open source
+
+### CO2_RAPL
+Bash-script dat het energieverbruik van de CPU van een Linux-server meet via Intel RAPL en dit omzet in geschatte CO₂-uitstoot. Levert real-time vermogensmeting in Watt en berekent de bijbehorende koolstofimpact aan de hand van de emissiefactor van het regionale elektriciteitsnet — nuttig om de milieu-impact van serverinfrastructuur te beoordelen.
+Website: https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/co2-rapl.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Server, Meting, Open source
 
 ### CPU Energy Meter
 CPU Energy Meter is een Linux-hulpmiddel om het energieverbruik van Intel-processoren met een fijne tijdsresolutie te volgen, tot enkele tientallen milliseconden. De meting is beschikbaar per package, dat wil zeggen per CPU-socket, per core voor alle kernen van een package, per uncore voor de overige onderdelen zoals de geïntegreerde grafische chip, per geheugenknooppunt voor het lokale geheugen van een package op serverprocessoren, en per platform voor alle apparaten die door een geïntegreerd voedingsmechanisme worden gevoed.
@@ -729,6 +741,10 @@ Website: https://github.com/mowolf/MyClimatePal — Fiche: https://sustainableit
 Node.js-code om de EcoIndex van uw webpagina te berekenen.
 Website: https://github.com/cyve/ecoindex_node — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/node-js-ecoindex.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting
 
+### nr-analysis-cli
+Node.js-CLI die webpagina's controleert op ecodesign en toegankelijkheid. Bootst de GreenIT-Analysis Chrome-extensie na via Puppeteer/Chromium om milieu-indicatoren te berekenen (CO₂-uitstoot, waterverbruik, EcoIndex-score) en de naleving van best practices te toetsen op het gebied van soberheid, toegankelijkheid, cyberbeveiliging en serverprestaties.
+Website: https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/nr-analysis-cli.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ecodesign, EcoIndex, CLI, Open source
+
 ### NumEcoEval
 Berekent de milieuvoetafdruk van een volledig informatiesysteem, dat wil zeggen van alle fysieke apparatuur, software en diensten die het uitmaken. Ontwikkeld voor de Franse overheid.
 Website: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/numecoeval.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
@@ -1084,6 +1100,10 @@ Website: https://www.deque.com/axe/monitor/ — Fiche: https://sustainableit-too
 ### Chrome DevTools — Accessibility tree
 Volledige inspectie van de toegankelijkheidsboom, ingebouwd in de ontwikkelaarstools van Chrome.
 Website: https://developer.chrome.com/blog/full-accessibility-tree/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/chrome-devtools-accessibility-tree.html — Type: Hulpmiddel
+
+### Claude Skill Accessibility
+Skill voor Claude Code die het genereren van een Franse RGAA 4.1.2-toegankelijkheidsverklaring automatiseert, conform het officiële overheidsmodel. Verzamelt auditgegevens, controleert de consistentie tussen indicatoren en levert een publicatieklaar Markdown-document op, met behoud van de verplichte juridische formuleringen.
+Website: https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/claude-skill-accessibilite.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: RGAA, Toegankelijkheid, Open source
 
 ### Color contrast analyzer (CCA)
 Hulpmiddel om kleurcontrast te controleren.

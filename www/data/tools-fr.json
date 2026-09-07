@@ -6562,6 +6562,105 @@
       "lien_ok": "ok",
       "verifie_le": "2026-09-07",
       "ajoute_le": "2026"
+    },
+    {
+      "id": "skill-nr",
+      "nom": "Skill NR",
+      "description": "Règles d'écoconception (RGESN, GR491, Opquast, RGAA) portées vers 11 assistants IA de code — Claude Code, Continue, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Mistral Vibe, Kilo, Codex, Kimi, ChatGPT — et 13 langages. Traduit ces référentiels français en règles actionnables : suggestions en temps réel pendant l'écriture du code, et revue a posteriori par des agents spécialisés qui citent le critère de conformité concerné.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/skill-nr",
+      "theme": "IA",
+      "domaine": "Transverse",
+      "type": "Outil",
+      "profil": "Informaticien/Expert",
+      "cout": "Gratuit",
+      "tags": [
+        "IA",
+        "Éco-conception",
+        "RGESN",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "co2-rapl",
+      "nom": "CO2_RAPL",
+      "description": "Script Bash qui mesure la consommation électrique du CPU d'un serveur Linux via la technologie Intel RAPL et la convertit en émissions de CO₂ estimées. Fournit une mesure en temps réel de la puissance en Watts et calcule l'impact carbone correspondant selon le facteur d'émission du mix électrique régional — utile pour évaluer l'empreinte environnementale d'une infrastructure serveur.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL",
+      "theme": "Gestion de l'énergie et des ressources",
+      "domaine": "Hébergement",
+      "type": "Outil",
+      "profil": "Informaticien/Expert",
+      "cout": "Gratuit",
+      "tags": [
+        "Empreinte Carbone",
+        "Serveur",
+        "Mesure",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "nr-analysis-cli",
+      "nom": "nr-analysis-cli",
+      "description": "CLI Node.js qui audite des pages web pour l'écoconception et l'accessibilité. Reproduit l'extension Chrome GreenIT-Analysis via Puppeteer/Chromium pour calculer des indicateurs environnementaux (émissions de CO₂, consommation d'eau, score EcoIndex) et évaluer la conformité aux bonnes pratiques : sobriété, accessibilité, cybersécurité et performance serveur.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/nr-analysis-cli",
+      "theme": "Évaluation et mesure",
+      "domaine": "Transverse",
+      "type": "Outil",
+      "profil": "Informaticien/Expert",
+      "cout": "Gratuit",
+      "tags": [
+        "Écoconception",
+        "EcoIndex",
+        "CLI",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "claude-skill-accessibilite",
+      "nom": "Claude Skill Accessibilité",
+      "description": "Skill pour Claude Code qui automatise la génération d'une déclaration d'accessibilité RGAA 4.1.2 conforme au modèle officiel gouv.fr. Collecte les données d'audit, vérifie la cohérence des indicateurs entre eux et produit un document Markdown prêt à publier, en conservant les mentions légales obligatoires.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/claude_skill_accessibilite",
+      "theme": "Accessibilité & inclusivité",
+      "domaine": "Front-End",
+      "type": "Outil",
+      "profil": "Informaticien/Expert",
+      "cout": "Gratuit",
+      "tags": [
+        "RGAA",
+        "Accessibilité",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
+    },
+    {
+      "id": "green-claude",
+      "nom": "Green Claude",
+      "description": "Skill pour Claude Code qui guide vers un code écoconçu, sans commande à retenir. 106 règles d'écoconception couvrant la sobriété numérique, la consommation d'énergie et d'eau, et l'optimisation CPU/GPU, conformes à RGESN 2024 et GR491 — appliquées automatiquement dès que Claude écrit ou relit du code.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/green-claude",
+      "theme": "IA",
+      "domaine": "Transverse",
+      "type": "Outil",
+      "profil": "Informaticien/Expert",
+      "cout": "Gratuit",
+      "tags": [
+        "IA",
+        "Éco-conception",
+        "RGESN",
+        "Open Source"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-07",
+      "ajoute_le": "2026"
     }
   ]
 }
