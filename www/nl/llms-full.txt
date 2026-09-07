@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — volledige catalogus
 
 Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
-Gegenereerd op 2026-09-07. 341 hulpmiddelen.
+Gegenereerd op 2026-09-07. 344 hulpmiddelen.
 
 ## AI
 
@@ -48,6 +48,10 @@ Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trus
 ### Green AI
 Bronnen over efficiëntere machine-learningmodellen met een kleinere milieu-impact.
 Website: https://github.com/sisl/green-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-ai.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign
+
+### Green Codex
+Skill voor Codex die praktijken van duurzame IT toepast op softwareontwikkeling: codeaudit, implementatiereview en architectuurkeuzes getoetst aan RGESN, GR491, Opquast en RGAA. Dekt databasequery's, API-ontwerp, infrastructuurkeuzes en het gebruik van AI-modellen, met op bewijs gebaseerde bevindingen die vastgestelde problemen onderscheiden van aanbevelingen.
+Website: https://github.com/Institut-du-Numerique-Responsable/green-codex — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-codex.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign, RGESN, Open source
 
 ### Impact'IA (SNCF)
 Rekenmodule voor de milieuvoetafdruk van grote taalmodellen, met een uitgewerkt methodologiedocument. Dekt dertig generatieve AI-modellen van Google, Anthropic, OpenAI en Mistral, en rapporteert de uitstoot van broeikasgassen, het water- en het elektriciteitsverbruik per token, met een levenscyclusblik en reductiepraktijken. Samen gebouwd door SNCF, Resilio en Wavestone.
@@ -625,6 +629,10 @@ Website: https://github.com/emasanet/GlobalDCAnalysis — Fiche: https://sustain
 Klanten van Google Cloud krijgen in Active Assist Recommender een categorie milieu-impact, om de IT-impact van hun workloads te meten en te helpen verminderen.
 Website: https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=- — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/google-cloud-carbon-footprint.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, CO2-voetafdruk, Google
 
+### GPC-ONR
+Gratis zelfevaluatiegrid om te prioriteren tussen 32 doelstellingen voor duurzame IT: soberheid, inclusie, ethiek, veerkracht en verantwoord beheer. Combineert het belang en het huidige prestatieniveau van elke doelstelling tot een geprioriteerd actieplan — zonder conformiteitsscore of label. Beschikbaar als Excel-sjabloon en gestructureerde open data (JSON/CSV), bedoeld als gespreksbasis tussen IT, inkoop, business en directie.
+Website: https://github.com/Institut-du-Numerique-Responsable/GPC-ONR — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/gpc-onr.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Zelfevaluatie, Prioritering, Strategie
+
 ### Green Algorithms
 Klein online hulpmiddel om na te gaan hoe groen uw berekeningen zijn.
 Website: http://www.green-algorithms.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-algorithms.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: AI, Algoritme, Berekening, CO2-voetafdruk, Machine learning
@@ -974,6 +982,10 @@ Website: https://ublockorigin.com/fr — Fiche: https://sustainableit-tools.isit
 ### Amazon CodeGuru
 Amazon CodeGuru is een hulpmiddel voor ontwikkelaars dat gerichte aanbevelingen geeft om de codekwaliteit te verbeteren en de duurste regels code in een toepassing aan te wijzen.
 Website: https://aws.amazon.com/codeguru/profiler/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/amazon-codeguru.html — Trefwoorden: Cloud
+
+### BP-AIR
+Samenwerkingsproject dat een volledig kader biedt voor het ontwerpen en beheren van duurzame IT-systemen. Combineert een uniforme gids met theoretische grondslagen en praktische aanbevelingen binnen zes themagebieden: governance, meting, duurzaam ontwerp, infrastructuur, waardeketen en implementatie — van strategie tot uitvoering en communicatie.
+Website: https://institut-du-numerique-responsable.github.io/BP-AIR/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/bp-air.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Architectuur, Governance, Infrastructuur
 
 ### Clic Connect
 Om u te begeleiden bij de digitalisering van uw activiteit.

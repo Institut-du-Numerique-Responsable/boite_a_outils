@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-07. 355 ressources.
+Généré le 2026-09-07. 358 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -514,6 +514,10 @@ Site : https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustw
 Rapport sur les impacts environnementaux du numérique en Europe (= études de cas sur l'IA, l'IoT, le Cloud, etc)
 Site : https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542 — Fiche : https://sustainableit-tools.isit-europe.org/outils/etude-de-cas-sur-l-ia-en-europe.html — Type : Etude
 
+### Green Codex
+Skill pour Codex qui applique les pratiques du numérique responsable au développement logiciel : audit de code, revue d'implémentation et choix d'architecture évalués selon RGESN, GR491, Opquast et RGAA. Couvre les requêtes base de données, la conception d'API, les choix d'infrastructure et l'usage de modèles d'IA, avec des constats fondés sur des preuves qui distinguent problèmes observés et recommandations.
+Site : https://github.com/Institut-du-Numerique-Responsable/green-codex — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-codex.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Éco-conception, RGESN, Open Source
+
 ### Green-ai
 Le Green AI Standard vise à développer une norme et à sensibiliser aux meilleures pratiques environnementales dans la recherche et le développement de l'IA
 Site : https://github.com/daviddao/green-ai — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-ai.html — Type : Documentation — Public : Informaticien/Expert — Mots-clés : IA
@@ -710,6 +714,10 @@ Bloqueur de publicités gratuit et open-source
 Site : https://ublockorigin.com/fr — Fiche : https://sustainableit-tools.isit-europe.org/outils/ublock-origin.html — Type : Outil — Public : Tout public/débutant — Mots-clés : Bloqueur de pub, Outils Bureautique, Terminaux
 
 ## Références et guides
+
+### BP-AIR
+Projet collaboratif proposant un cadre complet pour concevoir et exploiter des systèmes informatiques responsables. Combine un guide unifié de fondations théoriques et des recommandations pratiques réparties en six volets thématiques : gouvernance, mesure, conception durable, infrastructure, chaîne de valeur et déploiement — de la stratégie à la mise en œuvre et la communication.
+Site : https://institut-du-numerique-responsable.github.io/BP-AIR/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/bp-air.html — Type : Guide / Référentiel — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Architecture, Gouvernance, Infrastructure
 
 ### Code du travail numérique
 Projet de mise en oeuvre ( build ) pour un code du travail numérique
@@ -1295,6 +1303,10 @@ Site : https://search.google.com/test/amp?hl=fr — Fiche : https://sustainablei
 ### Google carbon footprint
 Les utilisateurs de Google Cloud, disposent désormais dans Active Assist Recommender nouvelle catégorie d'impact pour mesurer et aider à réduire les impacts IT sur l'envrionenment.
 Site : https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=- — Fiche : https://sustainableit-tools.isit-europe.org/outils/google-carbon-footprint.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Cloud, Empreinte Carbone, Google
+
+### GPC-ONR
+Grille d'auto-évaluation gratuite pour prioriser 32 objectifs du numérique responsable : sobriété, inclusion, éthique, résilience et management responsable. Croise importance et niveau de performance de chaque objectif pour produire un plan d'action priorisé — sans notation de conformité ni label. Disponible en modèle Excel et en données ouvertes structurées (JSON/CSV), pensée comme support de dialogue entre DSI, achats, métiers et direction.
+Site : https://github.com/Institut-du-Numerique-Responsable/GPC-ONR — Fiche : https://sustainableit-tools.isit-europe.org/outils/gpc-onr.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Auto-évaluation, Priorisation, Stratégie
 
 ### Green algorithms
 Petit outils en ligne vous permettant d'identifier à quel point vos calculs sont-ils verts ?

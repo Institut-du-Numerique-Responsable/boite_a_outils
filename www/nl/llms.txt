@@ -1,27 +1,27 @@
 # Sustainable IT Toolbox — Institute for Sustainable IT (ISIT)
 
-> Catalogus van 341 hulpmiddelen, gidsen, kaders en cursussen voor duurzame IT, samengesteld door het Institute for Sustainable IT (ISIT). Elke link wordt periodiek getest; hulpmiddelen waarvan het adres niet meer antwoordt worden verwijderd, en de datum van de laatste controle staat op elke fiche.
+> Catalogus van 344 hulpmiddelen, gidsen, kaders en cursussen voor duurzame IT, samengesteld door het Institute for Sustainable IT (ISIT). Elke link wordt periodiek getest; hulpmiddelen waarvan het adres niet meer antwoordt worden verwijderd, en de datum van de laatste controle staat op elke fiche.
 
 Het ISIT is een Franse non-profitorganisatie gevestigd in La Rochelle, onderdeel van een Europees netwerk van instituten in Frankrijk, België en Zwitserland. De catalogus omvat ecodesign van digitale diensten, meting van de milieuvoetafdruk, toegankelijkheid, soberheid, de impact van generatieve AI, Franse en Europese regelgeving, en bewustmaking.
 
 ## Data
 
-- [Volledige catalogus, Nederlands (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json): 341 hulpmiddelen met naam, beschrijving, url, thema, type, doelgroep, toegang, trefwoorden, linkstatus en controledatum.
+- [Volledige catalogus, Nederlands (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json): 344 hulpmiddelen met naam, beschrijving, url, thema, type, doelgroep, toegang, trefwoorden, linkstatus en controledatum.
 - [Volledige catalogus, Frans (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json)
 - [Volledige tekstversie van deze catalogus](https://sustainableit-tools.isit-europe.org/nl/llms-full.txt)
 
 ## Thema's
 
-- [AI](https://sustainableit-tools.isit-europe.org/nl/topics/ai.html): 18 hulpmiddelen
+- [AI](https://sustainableit-tools.isit-europe.org/nl/topics/ai.html): 19 hulpmiddelen
 - [Bewustmaking & opleiding](https://sustainableit-tools.isit-europe.org/nl/topics/bewustmaking-opleiding.html): 45 hulpmiddelen
 - [Datasoberheid](https://sustainableit-tools.isit-europe.org/nl/topics/datasoberheid.html): 7 hulpmiddelen
 - [Energie- & grondstoffenbeheer](https://sustainableit-tools.isit-europe.org/nl/topics/energie-grondstoffenbeheer.html): 25 hulpmiddelen
 - [Innovatie & onderzoek](https://sustainableit-tools.isit-europe.org/nl/topics/innovatie-onderzoek.html): 3 hulpmiddelen
 - [Marketing & communicatie](https://sustainableit-tools.isit-europe.org/nl/topics/marketing-communicatie.html): 8 hulpmiddelen
-- [Meting & beoordeling](https://sustainableit-tools.isit-europe.org/nl/topics/meting-beoordeling.html): 94 hulpmiddelen
+- [Meting & beoordeling](https://sustainableit-tools.isit-europe.org/nl/topics/meting-beoordeling.html): 95 hulpmiddelen
 - [Organisatorische routekaart](https://sustainableit-tools.isit-europe.org/nl/topics/organisatorische-routekaart.html): 25 hulpmiddelen
 - [Privacy, transparantie & ethiek](https://sustainableit-tools.isit-europe.org/nl/topics/privacy-transparantie-ethiek.html): 12 hulpmiddelen
-- [Referenties & gidsen](https://sustainableit-tools.isit-europe.org/nl/topics/referenties-gidsen.html): 13 hulpmiddelen
+- [Referenties & gidsen](https://sustainableit-tools.isit-europe.org/nl/topics/referenties-gidsen.html): 14 hulpmiddelen
 - [Toegankelijkheid & inclusie](https://sustainableit-tools.isit-europe.org/nl/topics/toegankelijkheid-inclusie.html): 34 hulpmiddelen
 - [WEEE & hardware](https://sustainableit-tools.isit-europe.org/nl/topics/weee-hardware.html): 11 hulpmiddelen
 - [Web-ecodesign](https://sustainableit-tools.isit-europe.org/nl/topics/web-ecodesign.html): 37 hulpmiddelen

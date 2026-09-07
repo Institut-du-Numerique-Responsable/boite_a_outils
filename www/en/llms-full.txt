@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-07. 341 resources.
+Generated on 2026-09-07. 344 resources.
 
 ## AI
 
@@ -44,6 +44,10 @@ Website: https://ecologits.ai/latest/ — Entry: https://sustainableit-tools.isi
 ### Ethics guidelines for trustworthy ai
 Ethical guidelines for trustworthy AI
 Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethics-guidelines-for-trustworthy-ai.html — Type: Documentation — Audience: General public / Beginner — Keywords: AI, Ai, Artificial Intelligence, Ethics
+
+### Green Codex
+A skill for Codex that applies Green IT and responsible digital practices to software development. Draws on RGESN, GR491, Opquast and RGAA to audit code, review implementations and inform architecture choices — from database queries and API design to infrastructure and AI model usage — with evidence-based findings that separate observed issues from recommendations.
+Website: https://github.com/Institut-du-Numerique-Responsable/green-codex — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-codex.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Eco-design, RGESN, Open Source
 
 ### Green-ai
 The Green AI Standard aims to develop a standard and raise awareness of best environmental practices in AI research and development
@@ -769,6 +773,10 @@ Website: https://github.com/emasanet/GlobalDCAnalysis — Entry: https://sustain
 Google Cloud customers get an environmental impact category in Active Assist Recommender, to measure and help reduce the IT impact of their workloads.
 Website: https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=- — Entry: https://sustainableit-tools.isit-europe.org/en/tools/google-cloud-carbon-footprint.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Cloud, Carbon footprint, Google
 
+### GPC-ONR
+A free self-assessment grid for prioritising 32 responsible-digital objectives across sobriety, inclusion, ethics, resilience and responsible management. Cross-references each objective's importance against current performance to produce a prioritised action plan — no conformity score, no label. Available as an Excel template and structured open data (JSON/CSV), designed to support dialogue between IT, procurement, business units and leadership.
+Website: https://github.com/Institut-du-Numerique-Responsable/GPC-ONR — Entry: https://sustainableit-tools.isit-europe.org/en/tools/gpc-onr.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Self-assessment, Prioritisation, Strategy
+
 ### Green algorithms
 Small online tool allowing you to identify how green are your calculations?
 Website: http://www.green-algorithms.org/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-algorithms.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: AI, Algorithm, Calculation, Carbon Footprint, Machine Learning
@@ -1118,6 +1126,10 @@ Website: https://ublockorigin.com/fr — Entry: https://sustainableit-tools.isit
 ### Amazon codeguru
 Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify the most expensive lines of code in an application.
 Website: https://aws.amazon.com/codeguru/profiler/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/amazon-codeguru.html — Keywords: Cloud
+
+### BP-AIR
+A collaborative project offering a comprehensive framework for designing and operating responsible IT systems. Combines a unified guide to theoretical foundations with practical recommendations across six themed areas: governance, measurement, sustainable design, infrastructure, value chain and deployment — from strategy through implementation and communication.
+Website: https://institut-du-numerique-responsable.github.io/BP-AIR/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/bp-air.html — Type: Guide / Framework — Audience: IT professional / Expert — Access: Free — Keywords: Architecture, Governance, Infrastructure
 
 ### Click connect
 To support you in the digitalization of your activity
