@@ -147,7 +147,6 @@ def selecteur_langues(lang, profondeur, page_url=None):
     equivalents = (ALTERNATES.get(page_url) or PAGE_ALTERNATES.get(page_url)
                    if page_url else None)
     page_path = posixpath.dirname(urlparse(page_url).path) if page_url else ""
-    actuel = lang
     for locale in published_locales():
         code = locale["code"]
         conf = LANGUES[code]
@@ -158,16 +157,18 @@ def selecteur_langues(lang, profondeur, page_url=None):
         else:
             href = profondeur + prefixe
         courant_attr = ' aria-current="true"' if code == lang else ""
-        if code == lang:
-            actuel = locale["native_name"]
         liens.append(
             f'          <li><a href="{e(href)}" lang="{code}" hreflang="{code}"{courant_attr}>'
             f'{e(locale["native_name"])}</a></li>'
         )
-    etiquette = "Choisir la langue" if lang == "fr" else "Choose language"
+    # Le code (FR/EN/NL) plutôt que le nom traduit : « Français » resterait
+    # affiché une fois la page passée en anglais puisque c'est la langue
+    # actuelle qui parle d'elle-même dans sa propre langue — un code à deux
+    # lettres, lui, ne dépend d'aucune langue et ne trompe personne.
+    etiquette = {"fr": "Choisir la langue", "nl": "Kies een taal"}.get(lang, "Choose language")
     return (f'      <details class="entete__langues">\n'
             f'        <summary aria-label="{e(etiquette)}">'
-            f'<span aria-hidden="true">\U0001F310</span> {e(actuel)}</summary>\n'
+            f'<span aria-hidden="true">\U0001F310</span> {lang.upper()}</summary>\n'
             f'        <ul>\n' + "\n".join(liens) + "\n        </ul>\n"
             f'      </details>')
 
@@ -236,7 +237,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
 </head>
 <body>
 
-<a class="lien-evitement" href="#contenu">{"Aller au contenu" if lang == "fr" else "Skip to content"}</a>
+<a class="lien-evitement" href="#contenu">{ {"fr": "Aller au contenu", "nl": "Ga naar de inhoud"}.get(lang, "Skip to content") }</a>
 
 <header class="entete">
   <div class="entete__inner">
@@ -247,7 +248,7 @@ def entete(lang, conf, titre, description, canonique, profondeur):
         {e(conf['titre_site'])}
       </span>
     </a>
-    <nav class="entete__nav" aria-label="{"Navigation principale" if lang == "fr" else "Main navigation"}">
+    <nav class="entete__nav" aria-label="{ {"fr": "Navigation principale", "nl": "Hoofdnavigatie"}.get(lang, "Main navigation") }">
 {nav}
 {selecteur_langues(lang, profondeur, canonique)}
     </nav>
@@ -257,6 +258,10 @@ def entete(lang, conf, titre, description, canonique, profondeur):
 
 
 def pied(lang, profondeur):
+    conf = LANGUES[lang]
+    # « en/topics/ » écrit en dur ici, avant l'ajout du néerlandais, envoyait
+    # aussi les pages nl vers le sommaire anglais — lien faux, silencieux.
+    topics = f"{profondeur}{conf['dossier'] + '/' if conf['dossier'] else ''}{conf['dossier_theme']}/"
     if lang == "fr":
         corps = f"""      <p>
         Boîte à outils du Numérique Responsable, maintenue par l'
@@ -264,8 +269,17 @@ def pied(lang, profondeur):
       </p>
     </div>
     <div>
-      <p><a href="{profondeur}mentions-legales.html">Mentions légales</a> · <a href="{profondeur}a-propos.html">À propos</a> · <a href="{profondeur}themes/">Tous les thèmes</a></p>
+      <p><a href="{profondeur}mentions-legales.html">Mentions légales</a> · <a href="{profondeur}a-propos.html">À propos</a> · <a href="{topics}">Tous les thèmes</a></p>
       <p>Site statique. <a href="{profondeur}mentions-legales.html">Mesure d'audience sans cookie</a>.</p>"""
+    elif lang == "nl":
+        corps = f"""      <p>
+        Sustainable IT Toolbox, onderhouden door het
+        <a href="https://institutnr.org" target="_blank" rel="noopener">Institute for Sustainable IT (ISIT)</a>.
+      </p>
+    </div>
+    <div>
+      <p><a href="{profondeur}mentions-legales.html" lang="fr" hreflang="fr">Legal notice</a> · <a href="{topics}">Alle thema's</a></p>
+      <p>Statische site. Cookievrije meting.</p>"""
     else:
         corps = f"""      <p>
         Sustainable IT Toolbox, maintained by the
@@ -273,7 +287,7 @@ def pied(lang, profondeur):
       </p>
     </div>
     <div>
-      <p><a href="{profondeur}mentions-legales.html" lang="fr" hreflang="fr">Legal notice</a> · <a href="{profondeur}en/topics/">All topics</a></p>
+      <p><a href="{profondeur}mentions-legales.html" lang="fr" hreflang="fr">Legal notice</a> · <a href="{topics}">All topics</a></p>
       <p>Static site. Cookieless analytics.</p>"""
     return f"""
 <footer class="pied">
@@ -384,14 +398,16 @@ def page_outil(outil, voisines, conf, lang, url_page, url_theme):
     loi = ""
     if outil.get("loi"):
         blocs = []
-        for titre_bloc, valeur in (("Qui est concerné" if lang == "fr" else "Who is concerned",
-                                    outil["loi"].get("concernes")),
-                                   ("En vigueur depuis" if lang == "fr" else "In force since",
-                                    outil["loi"].get("depuis"))):
+        concernes_lbl = {"fr": "Qui est concerné", "nl": "Wie is betrokken"}.get(lang, "Who is concerned")
+        depuis_lbl = {"fr": "En vigueur depuis", "nl": "Van kracht sinds"}.get(lang, "In force since")
+        contenu_lbl = {"fr": "Contenu de la loi", "nl": "Inhoud van de wet"}.get(lang, "Content")
+        sanctions_lbl = {"fr": "Sanctions", "nl": "Sancties"}.get(lang, "Penalties")
+        for titre_bloc, valeur in ((concernes_lbl, outil["loi"].get("concernes")),
+                                   (depuis_lbl, outil["loi"].get("depuis"))):
             if valeur:
                 blocs.append(f"  <h2>{e(titre_bloc)}</h2>\n  <p>{e(valeur)}</p>")
         if outil["loi"].get("contenu"):
-            blocs.append("  <h2>" + ("Contenu de la loi" if lang == "fr" else "Content") + "</h2>")
+            blocs.append(f"  <h2>{e(contenu_lbl)}</h2>")
             for partie in outil["loi"]["contenu"]:
                 if partie.get("type") == "liste":
                     items = "".join(f"<li>{e(i)}</li>" for i in partie.get("items", []))
@@ -399,7 +415,7 @@ def page_outil(outil, voisines, conf, lang, url_page, url_theme):
                 else:
                     blocs.append(f'  <p>{e(partie.get("texte"))}</p>')
         if outil["loi"].get("sanctions"):
-            blocs.append("  <h2>" + ("Sanctions" if lang == "fr" else "Penalties") + "</h2>\n"
+            blocs.append(f"  <h2>{e(sanctions_lbl)}</h2>\n"
                          f'  <p>{e(outil["loi"]["sanctions"])}</p>')
         loi = "\n" + "\n".join(blocs) + "\n"
 
