@@ -1,0 +1,1396 @@
+# Sustainable IT Toolbox — volledige catalogus
+
+Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
+Gegenereerd op 2026-09-07. 341 hulpmiddelen.
+
+## AI
+
+### Adversarial robustness toolbox
+Open source Python-bibliotheek voor de beveiliging van machine learning. ART biedt hulpmiddelen waarmee ontwikkelaars en onderzoekers modellen en toepassingen kunnen beschermen en evalueren tegen aanvallen.
+Website: https://github.com/Trusted-AI/adversarial-robustness-toolbox — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/adversarial-robustness-toolbox.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Machine learning
+
+### Aequitas Framework
+Open source toolkit voor bias-audits en eerlijke machine learning, voor data scientists, ML-onderzoekers en beleidsmakers.
+Website: https://github.com/dssg/aequitas — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aequitas-framework.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### AI Fairness 360 (AIF360)
+Open source-bibliotheek met technieken om vooroordelen in machine-learningmodellen gedurende de volledige levenscyclus van AI-toepassingen op te sporen en te beperken.
+Website: https://github.com/Trusted-AI/AIF360 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ai-fairness-360-aif360.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Machine learning
+
+### Anatomy of a CEW
+Praktische gids om de milieu-impact van een cloudworkload te begrijpen en te verminderen.
+Website: https://anatomyofacew.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/anatomy-of-a-cew.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, Impact
+
+### Artificial Intelligence Index Report (2023)
+Jaarrapport van het Institute for Human-Centered AI van Stanford University, dat het technische, economische en ecologische traject van artificiële intelligentie volgt.
+Website: https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/artificial-intelligence-index-report-2023.html — Type: Artikel
+
+### CarbonTracker
+Python-bibliotheek om energieverbruik en CO2-uitstoot van machine-learningexperimenten te schatten.
+Website: https://github.com/lfwa/carbontracker — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbontracker.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Machine learning
+
+### Case studies on AI in Europe
+Rapport over de milieu-impact van digitale technologie in Europa, met casestudy's over AI, IoT en clouddiensten.
+Website: https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/case-studies-on-ai-in-europe.html — Type: Studie
+
+### claude-carbon
+Opensource-extensie die de koolstofvoetafdruk van een Claude Code-sessie rechtstreeks in de statusregel van de terminal toont: kosten, quotagebruik en uitgestoten grammen CO₂, doorlopend bijgewerkt. Maakt de impact van dagelijks AI-gebruik zichtbaar terwijl het gebeurt. MIT-licentie.
+Website: https://github.com/gwittebolle/claude-carbon — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/claude-carbon.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Meting, CO2-voetafdruk, Open source
+
+### EcoLogits
+Open source-bibliotheek om de milieu-impact van generatieve AI-modellen te schatten.
+Website: https://ecologits.ai/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecologits.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Impact
+
+### Ethics guidelines for trustworthy AI
+Europese richtsnoeren voor betrouwbare AI, met aandacht voor menselijke controle, veiligheid, privacy, transparantie en maatschappelijke verantwoordelijkheid.
+Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ethics-guidelines-for-trustworthy-ai.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Ethiek, AI
+
+### Green AI
+Bronnen over efficiëntere machine-learningmodellen met een kleinere milieu-impact.
+Website: https://github.com/sisl/green-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-ai.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign
+
+### Impact'IA (SNCF)
+Rekenmodule voor de milieuvoetafdruk van grote taalmodellen, met een uitgewerkt methodologiedocument. Dekt dertig generatieve AI-modellen van Google, Anthropic, OpenAI en Mistral, en rapporteert de uitstoot van broeikasgassen, het water- en het elektriciteitsverbruik per token, met een levenscyclusblik en reductiepraktijken. Samen gebouwd door SNCF, Resilio en Wavestone.
+Website: https://github.com/SNCFdevelopers/ImpactIA — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/impact-ia-sncf.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Meting, CO2-voetafdruk, Levenscyclusanalyse, Open source
+
+### Interpretable Machine Learning
+Interactief boek over interpreteerbare machine learning en methoden om te begrijpen hoe modellen voorspellingen doen.
+Website: https://christophm.github.io/interpretable-ml-book/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/interpretable-machine-learning.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Machine learning
+
+### ML CO2 Impact
+Berekening van de koolstofimpact, specifiek voor machine learning.
+Website: https://mlco2.github.io/impact/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ml-co2-impact.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: AI, Machine learning
+
+### ML CO2 Impact
+Deze rekenmodule geeft twee cijfers: de bruto uitgestoten koolstof en de bij benadering gecompenseerde koolstof. Dat tweede cijfer hangt af van het elektriciteitsnet van de cloudleverancier; de schattingen worden bijgewerkt zodra iets onnauwkeurig of verouderd blijkt.
+Website: https://mlco2.github.io/impact/#compute — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/mlco2.html — Trefwoorden: CO2-voetafdruk, AI, Machine learning
+
+### Responsible AI course (Académie NR)
+Cursus van één uur over de ethische, ecologische en bestuurlijke inzet van artificiële intelligentie, van de opleidingsacademie van ISIT.
+Website: https://www.academie-nr.org/mooc-ia/fr/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-ai-course-academie-nr.html — Type: MOOC — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Opleiding, AI, ISIT
+
+### tfjs-models
+Dit depot bevat een reeks voorgetrainde modellen die naar TensorFlow.js zijn overgezet. De modellen staan op NPM en unpkg en zijn zo in elk project direct bruikbaar, rechtstreeks of in een opzet met transfer learning.
+Website: https://github.com/tensorflow/tfjs-models — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tfjs-models.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI
+
+### The Turing Way
+The Turing Way is een handboek voor reproduceerbare, ethische en samenwerkende data science. Het project betrekt en ondersteunt een diverse gemeenschap van bijdragers om data science toegankelijk, begrijpelijk en doeltreffend te maken voor iedereen. Doel is onderzoekers en data scientists uit de academische wereld, de industrie en de publieke sector bij de start van hun project alle informatie te geven die nodig is om het later eenvoudig te kunnen herhalen.
+Website: https://github.com/the-turing-way/the-turing-way — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-turing-way.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Data, Data science, Handboek, Open data
+
+## Bewustmaking & opleiding
+
+### Accessibility
+Online cursus om digitale toegankelijkheid te begrijpen en websites en diensten toegankelijker te maken.
+Website: https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessibility.html — Type: Opleiding — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### Act for sustainable digital
+MOOC over de impact van digitale technologie en concrete acties voor een duurzame digitale transitie.
+Website: https://metropoleposition.fr/agir-pour-un-numerique-responsable/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/act-for-sustainable-digital.html — Type: Opleiding — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Bewustmaking
+
+### Apply the principles of green it
+Vaak hoort men dat digitale technologie « groen » is, dat ze weinig of geen ecologische impact heeft, of zelfs dat ze de impact van de rest van de economie verkleint. Deze MOOC stelt beide ideeën in vraag. Digitale technologie heeft integendeel reële en groeiende ecologische gevolgen: uitstoot van broeikasgassen, vervuiling, giftig afval. Bovendien is haar vermogen om de impact van de rest van de economie te verkleinen twijfelachtig, onder meer door het reboundeffect en geplande veroudering.
+Website: https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/apply-the-principles-of-green-it.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Bon Pote
+Frans medium dat de meest verspreide misvattingen over klimaatverandering ontmantelt, met gedocumenteerde en gerefereerde artikelen.
+Website: https://bonpote.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/bon-pote.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Klimaatontwrichting, Media, Leren
+
+### Camille Étienne — climate advocacy
+Account van Camille Étienne, een jonge Franse activiste voor sociale en klimaatrechtvaardigheid, bekend om haar korte uitlegvideo's.
+Website: https://www.instagram.com/graine_de_possible — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/camille-etienne-climate-advocacy.html — Trefwoorden: Begrijpen, Popularisering
+
+### Causes and challenges of climate change
+Deze MOOC blikt bij wijze van inleiding terug op de internationale onderhandelingen, hun doelstellingen, hun actoren en hun mechanismen. De cursus verkent het klimaat en zijn veranderingen, de koolstofarme transitie en de aanpassing van samenlevingen aan klimaatverandering.
+Website: https://www.my-mooc.com/fr/mooc/causes-et-enjeux-du-changement-climatique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/causes-and-challenges-of-climate-change.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Data privacy
+Inria biedt met deze MOOC een opleiding om te begrijpen hoe u toepassingen en objecten in de digitale wereld doordacht en met kennis van zaken gebruikt, gelet op de inzet rond privacy.
+Website: https://www.fun-mooc.fr/fr/cours/protection-de-la-vie-privee-dans-le-monde-numerique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-privacy.html — Doelgroep: Algemeen publiek / Beginner
+
+### Denton declaration
+Manifest voor open data.
+Website: https://openaccess.unt.edu/denton-declaration — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/denton-declaration.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Data, Open data
+
+### Digital Collage (Fresque du Numérique)
+Samenwerkende workshop om de milieu-impact van digitale technologie te begrijpen en samen oplossingen te verkennen.
+Website: https://www.fresquedunumerique.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-collage-fresque-du-numerique.html — Type: Opleiding — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Bewustmaking, Impact
+
+### Digital Green
+Bewustmakingsspel over ecologisch ontwerp van digitale diensten; in enkele minuten ontdek je wat beter kan aan een website.
+Website: https://jeu.digital.green/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-green.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Ecodesign
+
+### Digital impacts
+Inria biedt een reeks educatieve fiches aan om de impact van digitale technologie te begrijpen.
+Website: https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-impacts.html — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Eco-design tomorrow
+Deze inleidende MOOC over ecodesign laat u ontdekken hoe u de milieuvoetafdruk van producten, goederen zowel als diensten, verkleint met behoud van hun intrinsieke kwaliteiten en prestaties.
+Website: https://www.my-mooc.com/fr/mooc/eco-concevoir-demain/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/eco-design-tomorrow.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: MOOC, Opleiding
+
+### Ecological engineering
+Deze MOOC laat u de grondslagen, de uitdagingen, de hulpmiddelen, de actoren en de voorwaarden voor de toepassing van ecologische ingenieurskunde ontdekken.
+Website: https://www.my-mooc.com/fr/mooc/Ing%C3%A9nierie-%C3%A9cologique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecological-engineering.html — Trefwoorden: MOOC, Opleiding
+
+### Environmental impact of digital technology in higher education
+Rapport van het Franse ministerie over de milieuvoetafdruk van digitale technologie in het hoger onderwijs en het onderzoek, en over de manier waarop die wordt onderwezen.
+Website: https://www.enseignementsup-recherche.gouv.fr/fr/l-impact-environnemental-du-numerique-dans-les-formations-92151 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/environmental-impact-of-digital-technology-in-higher-education.html — Doelgroep: Algemeen publiek / Beginner
+
+### Ethereum energy consumption
+Een benadering om het dagelijkse energieverbruik van Ethereum te schatten, die aan de basis ligt van een tweede project rond de schatting van de koolstofvoetafdruk. Deze fiche houdt het bij de energiebenadering.
+Website: https://github.com/kylemcdonald/ethereum-emissions — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ethereum-energy-consumption.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, CryptoArt, Energie, Ether
+
+### Futur.eco
+Rekenmodule voor de koolstofvoetafdruk, gebouwd om ordes van grootte te doen beklijven: een biefstuk is een dag van het koolstofbudget dat verenigbaar is met 2 °C, een internationale vlucht een kwart jaar.
+Website: https://futur.eco// — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/futur-eco.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Rekenmodule, CO2-voetafdruk, Leren
+
+### Green IT - The material of the intangible
+Green IT, de materie van het immateriële.
+Website: https://hal.archives-ouvertes.fr/hal-02492252 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-it-the-material-of-the-intangible.html — Type: Studie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Referentiekader
+
+### Green Web Foundation
+Deze dienst vertelt u of het datacenter dat uw website host groene energie gebruikt.
+Website: https://www.thegreenwebfoundation.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-web-foundation.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Voetafdruk, Meting, Web
+
+### Inclusive
+Webtoepassing om gegendeerde woorden op te sporen, zodat u ze in uw redactionele inhoud kunt aanpassen.
+Website: https://eninclusif.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/inclusive.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Inclusief schrijven
+
+### IPCC reports
+Toegang tot de recentste rapporten van het Intergouvernementeel Panel inzake Klimaatverandering, hoofdstuk per hoofdstuk.
+Website: https://www.ipcc.ch/report/ar6/wg3/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ipcc-reports.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Klimaat, Leren
+
+### Knowledge repository for esustainable it
+Kennisreferentiekader voor duurzame IT.
+Website: https://hal.archives-ouvertes.fr/hal-02954188 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/knowledge-repository-for-esustainable-it.html — Type: Studie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Referentiekader
+
+### Learn accessibility
+Om de uitdagingen en de knelpunten van toegankelijkheid te leren begrijpen.
+Website: https://www.learn-accessibility.org/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/learn-accessibility.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### Lowtus
+Deze site rangschikt sites volgens criteria van prestaties, SEO, beveiliging en goede praktijken. Lowtus wil niet zeggen welke site beter is dan een andere. Het test webpagina's, maar geeft geen fijnmazige indicatoren waarmee een gerichte kwaliteitsverbetering kan worden gestart. Lowtus heeft geen bedrijfsmodel of rendementsdoel: het wil vooral een andere kijk bieden op de kwaliteitscontrole van webpagina's. De code is voorlopig niet vrijgegeven, niet uit terughoudendheid, maar omdat hij nog erg specifiek is; de architectuur moet eerst bezinken.
+Website: https://lowtus.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/lowtus.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: SEO
+
+### Man has eaten the Earth
+Documentaire over de race naar ontwikkeling, van de industriële revolutie tot vandaag, en over het punt waarop het antropoceen begon.
+Website: https://www.facebook.com/VisitAnalalava405/videos/lhomme-a-mang%C3%A9-la-terre/4553542684671140/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/man-has-eaten-the-earth.html — Type: Video — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Manifesto for an ecological awakening
+Studenteninitiatief uit 2018 dat jonge afgestudeerden samenbrengt die zich ertoe verbinden alleen te werken voor werkgevers die verenigbaar zijn met de ecologische grenzen.
+Website: https://manifeste.pour-un-reveil-ecologique.org/fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/manifesto-for-an-ecological-awakening.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Ecologie, Leren
+
+### Master class green it
+Masterclass van Société Générale over haar aanpak van green IT.
+Website: https://careers.societegenerale.com/green-it-program — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/master-class-green-it.html — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Periodic table of scarcity
+Toegankelijke weergave van de negentig elementen waaruit onze wereld bestaat, met hoeveel er van elk overblijft en welke in een smartphone zitten.
+Website: https://www.euchems.eu/euchems-periodic-table/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/periodic-table-of-scarcity.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Begrijpen, Infografiek, Grondstoffen
+
+### Political ecology: challenge of sustainability for democracies
+Cursus van de Universiteit van Lausanne, gegeven door Dominique Bourg en Gabriel Salerno.
+Website: https://www.coursera.org/learn/ecologie-politique — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/political-ecology-challenge-of-sustainability-for-democracies.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Principles of Green Software
+Principes en praktische richtlijnen om software met een kleinere ecologische voetafdruk te ontwerpen en te ontwikkelen.
+Website: https://principles.green/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/principles-of-green-software.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ecodesign, Goede praktijken
+
+### Principles of sustainable software engineering
+De principes van duurzame software engineering, uit het cursusaanbod van Microsoft.
+Website: https://learn.microsoft.com/fr-fr/learn/modules/sustainable-software-engineering-overview/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/principles-of-sustainable-software-engineering.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: MOOC, Opleiding
+
+### Qu'est-ce qu'on fait ?!
+Medium dat infografieken maakt die tegelijk precies en toegankelijk zijn over de planetaire inzet van vandaag, en dat elke uitleg koppelt aan mogelijke antwoorden.
+Website: https://archives.qqf.fr/infographie/90/changement-climatique-il-y-a-urgence-a-s-adapter — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/qu-est-ce-qu-on-fait.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Klimaatontwrichting, Infografiek, Media, Leren
+
+### Reset
+Digitale acties en aanbevelingen.
+Website: https://fing.org/wp-content/uploads/2020/02/cahier-d-enjeux-fing-questions-numeriques-reset.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/reset.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Referentiekader
+
+### Responsible management
+Deze MOOC biedt een visie op verantwoord management, bruikbaar zowel in het dagelijkse bestuur van ondernemingen als bij beslissingen die de toekomst van de aarde raken. Verantwoord management gaat om de drievoudige sociale, economische en ecologische randvoorwaarde van duurzame ontwikkeling. De uitrol ervan kan alleen via de transformatie van mensen, ondernemingen en de samenleving als geheel, en vergt dat we onze gewoonten, vooroordelen en waarden herzien.
+Website: https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/le-management-responsable — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-management.html — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: MOOC, Opleiding
+
+### Small gestures will not be enough
+Interviewreeks van Time for the Planet over de reden waarom individuele ecogebaren geen vervanging zijn voor structurele verandering.
+Website: https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/small-gestures-will-not-be-enough.html — Type: Video — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Begrijpen, Klimaatontwrichting, Interviews
+
+### Socially sustainable development
+Deze transdisciplinaire MOOC onderzoekt de wisselwerking tussen de economische, ecologische en sociale sferen, en de gevolgen daarvan voor situaties van armoede, kwetsbaarheid en uitsluiting.
+Website: https://www.my-mooc.com/fr/mooc/developpement-socialement-durable/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/socially-sustainable-development.html — Trefwoorden: MOOC, Opleiding
+
+### Sustainable Development Goals
+De 17 Duurzame Ontwikkelingsdoelen van de Verenigde Naties als kader voor duurzame ontwikkeling.
+Website: https://sdgs.un.org/goals — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-development-goals.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Duurzame ontwikkeling
+
+### Sustainable development: challenges and trajectories
+Deze MOOC biedt een reflectie op duurzame ontwikkeling en maakt bewust van de uitdagingen ervan, vanuit historisch, ecologisch en sociaal-economisch perspectief.
+Website: https://www.ulaval.ca/etudes/mooc-formation-en-ligne-ouverte-a-tous/developpement-durable-enjeux-et-trajectoires — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-development-challenges-and-trajectories.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: MOOC, Opleiding
+
+### Sustainable it academy
+De MOOC over bewustmaking rond duurzame digitale technologie is een opleidingsprogramma voor iedereen.
+Website: https://www.academie-nr.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-academy.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: ISIT, MOOC, Opleiding
+
+### Sustainable IT awareness course (Académie NR)
+Inleiding van dertig minuten tot de ecologische, sociale en ethische inzet van digitale technologie. Kort formaat, bedoeld om breed in een organisatie te worden uitgerold. Gratis, van de academie van ISIT.
+Website: https://www.academie-nr.org/mooc-sensibilisation/fr/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-awareness-course-academie-nr.html — Type: MOOC — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Opleiding, Bewustmaking, ISIT
+
+### Sustainable IT course — full programme (Académie NR)
+Elf modules over de grondbeginselen van duurzame IT: ecologische, sociale, economische en geopolitieke impact, gevolgd door concrete oplossingen. Het referentieprogramma van de academie van ISIT.
+Website: https://www.academie-nr.org/mooc-nr/fr/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-course-full-programme-academie-nr.html — Type: MOOC — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Opleiding, Bewustmaking, ISIT
+
+### Team for the Planet videos
+Interviewreeks van Team for the Planet over klimaatoplossingen en de bedrijven die ze proberen waar te maken.
+Website: https://www.youtube.com/playlist?list=PLVVOLHF0dCQjfYKJIxpabFTB9iXq1G2LC&cbrd=1&ucbcb=1 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/team-for-the-planet-videos.html — Type: Video — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### The gdpr workshop
+Deze online opleiding voor iedereen, « De AVG-workshop », laat professionals de algemene verordening gegevensbescherming ontdekken en beter begrijpen. Ze helpt de conformiteit van de organisatie op gang te brengen en het operationele personeel bewust te maken.
+Website: https://www.cnil.fr/fr/comprendre-le-rgpd/le-mooc-de-la-cnil — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-gdpr-workshop.html — Trefwoorden: MOOC, Opleiding
+
+### The Shift Project: decarbonising industry
+Synthese van de werkgroep voor het Franse plan voor economische transformatie, die de hefbomen aanwijst om industriële koolstofneutraliteit te bereiken.
+Website: https://theshiftproject.org/app/uploads/2025/01/PTEF-Decarboner-lindustrie-SYNTHESE.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-shift-project-decarbonising-industry.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Begrijpen, Economie, Industrie
+
+### The Shift Project: decarbonising the French economy
+Het Franse plan voor economische transformatie, op gang gebracht door Jean-Marc Jancovici, dat sector per sector pragmatische paden naar decarbonisatie voorstelt.
+Website: https://ilnousfautunplan.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-shift-project-decarbonising-the-french-economy.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Begrijpen, Economie, Industrie
+
+### Thinkerview
+Kanaal met lange interviews dat argumenten op de proef stelt en ruimte geeft aan ondervertegenwoordigde standpunten, ook over energie- en grondstoffengrenzen.
+Website: https://www.thinkerview.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/thinkerview.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Klimaat, Economie, Industrie, Leren
+
+## Datasoberheid
+
+### AllDup
+Software die dubbele bestanden op harde schijven opspoort en verwijdert, op basis van meerdere eigenschappen en niet alleen de bestandsnaam.
+Website: https://alldup.de/en/alldup/download.php — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/alldup.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Cleanfox
+Dienst om zich in bulk uit te schrijven voor marketingmails en de mailbox op te ruimen. Een laagdrempelige ingang tot datasoberheid, vaak gebruikt in combinatie met een Digital Cleanup Day.
+Website: https://www.cleanfox.io/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cleanfox.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Soberheid, Data, Bewustmaking
+
+### Digital Cleanup Day
+Wereldwijde dag voor digitale opruiming: bronnen, begeleidingskits en materiaal om een opruimactie te organiseren in een organisatie of een school. Een concrete ingang tot datasoberheid.
+Website: https://digital-cleanup-day.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-cleanup-day.html — Type: Workshop — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Bewustmaking, Soberheid, Data
+
+### HandBrake — video conversion and compression
+Opensource-videotranscoder onder GPL-licentie, voor meerdere platformen, om videobestanden lichter te maken vóór publicatie.
+Website: https://handbrake.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/handbrake-video-conversion-and-compression.html — Type: Hulpmiddel
+
+### oPPTimiz
+PowerPoint-invoegtoepassing van EDF die presentaties verkleint door afbeeldingen te comprimeren en ongebruikte diamodellen te verwijderen. Voegt een groep Duurzame IT toe aan het lint, met een snelkoppeling naar de toegankelijkheidscontrole van Microsoft. Werkt ook vanaf de opdrachtregel en vanuit de Windows Verkenner. GPL-3.0.
+Website: https://github.com/groupe-edf/oPPTimiz — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/opptimiz.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Kantoorsoftware, Open source, Soberheid
+
+### Software management plans
+Checklist voor een softwarebeheerplan. Ze helpt u zo'n plan op te stellen en bestaat uit secties die de sleutelelementen afdekken. Een softwarebeheerplan helpt structuren en doelen te bepalen voor uw onderzoekssoftware: wat u zult ontwikkelen, voor wie de software bedoeld is, hoe u ze bij die gebruikers krijgt, hoe ze hen helpt en hoe u nagaat of ze werkelijk aan het onderzoek heeft bijgedragen. Het plan verduidelijkt ook hoe u gebruikers ondersteunt, hoe de software zich verhoudt tot de andere artefacten van uw onderzoek, en hoe ze beschikbaar blijft na afloop van het huidige project.
+Website: https://zenodo.org/records/2159713 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/software-management-plans.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Beheerplan, Softwarebeheerplan
+
+### The carbon footprint of an email: myths and reality
+Zet de folklore opzij en geeft de werkelijke koolstofvoetafdruk van een e-mail, met drie manieren om die te verkleinen, en met de reden waarom het leegmaken van uw mailbox vrijwel niets oplevert.
+Website: https://www.sami.eco/blog/empreinte-carbone-email — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-carbon-footprint-of-an-email-myths-and-reality.html — Type: Artikel
+
+## Energie- & grondstoffenbeheer
+
+### Carbon Aware SDK (Green Software Foundation)
+Ontwikkelkit waarmee een toepassing haar workloads kan verschuiven naar de momenten of de regio's waar elektriciteit het minst koolstofintensief is. Van meten naar handelen, zonder de architectuur te wijzigen.
+Website: https://github.com/Green-Software-Foundation/carbon-aware-sdk — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbon-aware-sdk-green-software-foundation.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Cloud, Open source
+
+### CPU Energy Meter
+CPU Energy Meter is een Linux-hulpmiddel om het energieverbruik van Intel-processoren met een fijne tijdsresolutie te volgen, tot enkele tientallen milliseconden. De meting is beschikbaar per package, dat wil zeggen per CPU-socket, per core voor alle kernen van een package, per uncore voor de overige onderdelen zoals de geïntegreerde grafische chip, per geheugenknooppunt voor het lokale geheugen van een package op serverprocessoren, en per platform voor alle apparaten die door een geïntegreerd voedingsmechanisme worden gevoed.
+Website: https://github.com/sosy-lab/cpu-energy-meter — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cpu-energy-meter.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### Electricity Maps
+Toont in realtime hoeveel CO₂ wordt uitgestoten om uw elektriciteit te produceren. De regio's van de wereld krijgen een kleur volgens de koolstofintensiteit, alle broeikasgassen inbegrepen, van de daar verbruikte elektriciteit.
+Website: https://app.electricitymaps.com/map/live/fifteen_minutes — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/electricitymap.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: CO2, EU, Elektriciteit, Energie, Europa, Referentiegegevens
+
+### Energy assessment questionnaire (Green IT Switzerland)
+Zelfevaluatievragenlijst die meet in hoeverre een datacenter de goede praktijken voor energie-efficiëntie toepast, en waar de resterende hiaten zitten.
+Website: https://greenit-switzerland.ch/de/evaluation-cc/?lang=fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-assessment-questionnaire-green-it-switzerland.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Goede praktijken, Datacenter, Energie-efficiëntie, Energie, Evaluatie, Meting
+
+### Energy Languages
+Om het energieverbruik naargelang de programmeertaal te beoordelen.
+Website: https://github.com/greensoftwarelab/Energy-Languages — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-languages.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Referentiekader
+
+### Energy meter logger
+Registreert energiegegevens op een Raspberry Pi en laat toe grafieken van uw energieverbruik te tekenen.
+Website: https://github.com/samuelphy/energy-meter-logger — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-meter-logger.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### Energy smells for android
+Catalogus van code smells rond energie voor Android-toepassingen.
+Website: https://olegoaer.perso.univ-pau.fr/android-energy-smells/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-smells-for-android.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Mobiel
+
+### Energy Use Calculator
+Schat het elektriciteitsverbruik van alledaagse elektronische apparaten, van een laptop tot een koelkast, en zet dat om in een gebruikskost.
+Website: https://energyusecalculator.com/electricity_wifirouter.htm — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-use-calculator.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### EnergyBox
+EnergyBox is een parametreerbaar hulpmiddel voor nauwkeurige studies van de communicatie-energie bij de gebruiker, met echte verkeerssporen als invoer. Het richt zich op de meest verspreide draadloze technologieën, 3G en wifi, en bootst de energievoetafdruk van de communicatie van toepassingsgegevens op het toestel van de gebruiker na, via iteratieve simulatie op basis van het spoor.
+Website: https://github.com/rtslab/EnergyBox — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energybox.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Mobiel, Netwerken
+
+### European code of conduct for data centers
+De gedragscode voor de energie-efficiëntie van datacenters is opgesteld als antwoord op de stijging van het energieverbruik in datacenters en op de noodzaak de gevolgen voor het milieu, de economie en de bevoorradingszekerheid te beperken.
+Website: https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc114148_best_practice_guide_2019_final.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/european-code-of-conduct-for-data-centers.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Referentiekader
+
+### Filevert
+Overdracht van zware bestanden, met aandacht voor de impact die dat soort hulpmiddel kan veroorzaken.
+Website: https://filevert.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/filevert.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Kantoorhulpmiddel
+
+### GreenSpector
+GreenSpector biedt een hulpmiddel om de doeltreffendheid van een website op een mobiel toestel te beoordelen; snelheid en impact op de batterij worden meegerekend.
+Website: https://greenspector.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenspector.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald — Trefwoorden: Voetafdruk, Meting, Web
+
+### ImageResizer
+Bulkverkleiner voor afbeeldingen: kies een doelformaat en verwerk een volledige reeks in één keer vóór publicatie.
+Website: https://imageresizer.com/fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/imageresizer.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Kepler (CNCF)
+Prometheus-exporter die het energieverbruik van Kubernetes-pods schat op basis van hardwaretellers en eBPF. Een project van de Cloud Native Computing Foundation, om het verbruik aan elke workload in containers toe te wijzen.
+Website: https://github.com/sustainable-computing-io/kepler — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/kepler-cncf.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Energie, Cloud, Open source
+
+### Klip
+De ecologisch verantwoorde en veilige oplossing om uw bijlagen te versturen.
+Website: https://klip.green/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/klip.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Kantoorhulpmiddel
+
+### kMeet
+Hulpmiddel voor videovergaderingen.
+Website: https://kmeet.infomaniak.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/kmeet.html — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Kantoorhulpmiddel
+
+### Low web
+Extensie die helpt het energieverbruik en de koolstofvoetafdruk van uw surfgedrag te verminderen.
+Website: https://github.com/vicocotea/low-web-extension — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/low-web.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Hulpmiddel
+
+### Metals and rare earths inside a smartphone
+Tantaal, hafnium, praseodymium, terbium: uitleg over de strategisch belangrijke exotische metalen die een smartphone laten werken, en over hun herkomst.
+Website: https://www.frandroid.com/comment-faire/comment-fonctionne-la-technologie/613459_a-quoi-servent-les-metaux-rares-dans-nos-smartphones#pid=2 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/metals-and-rare-earths-inside-a-smartphone.html — Type: Artikel
+
+### Open sustainable technology
+Lijst van opentechnologieprojecten die bijdragen aan een stabiel klimaat, een zekere energievoorziening en essentiële natuurlijke hulpbronnen.
+Website: https://opensustain.tech — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/open-sustainable-technology.html — Doelgroep: IT-professional / Expert — Trefwoorden: Klimaat, Metingen
+
+### Photographs: the lithium industry
+Luchtfoto's van de Salar de Atacama en van de lithiumverdampingsbekkens van SQM en Albemarle, die de fysieke voetafdruk van de batterijketen tonen.
+Website: https://www.tomhegen.com/collections/the-lithium-series-i — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/photographs-the-lithium-industry.html — Type: Infografiek
+
+### Scaphandre (Hubblo)
+Opensource-agent voor energiemetrologie, geschreven in Rust. Meet het opgenomen vermogen van een machine en wijst dat proces per proces toe, zowel op bare metal als in virtuele machines. Stelt de metingen beschikbaar aan Prometheus.
+Website: https://github.com/hubblo-org/scaphandre — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/scaphandre-hubblo.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Energie, Open source
+
+### Send
+Hulpmiddelen om energiebesparingen te berekenen.
+Website: https://github.com/opendsm/opendsm — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/send.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### ShortPixel
+Comprimeert afbeeldingen, tot twintig tegelijk, en analyseert een website op te zware bestanden.
+Website: https://shortpixel.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/shortpixel.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld
+
+### SwissTransfer
+SwissTransfer is een eenvoudige en beveiligde manier om bestanden tot 50 GB wereldwijd te delen, zonder registratie.
+Website: https://www.swisstransfer.com/fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/swiss-transfer.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Kantoorhulpmiddel
+
+### The metals in your smartphone
+Een smartphone kan ongeveer 80 % van de stabiele elementen uit het periodiek systeem bevatten. Deze grafiek beschrijft de kritieke metalen die u in uw broekzak draagt.
+Website: https://elements.visualcapitalist.com/critical-metals-in-a-smartphone/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-metals-in-your-smartphone.html — Type: Infografiek
+
+## Innovatie & onderzoek
+
+### Cabanon
+Experimenteel visualisatieproject dat vraagstukken rond privacy en anonimiseringstechnieken verkent, door de resultaten van een dataset die met verschillende anonimiseringsmethoden is geanonimiseerd visueel te vergelijken.
+Website: https://github.com/LINCnil/Cabanon — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cottage.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Gegevensbescherming
+
+### OPIDoR
+OPIDoR begeleidt u bij het opstellen en uitvoeren van data- en softwarebeheerplannen.
+Website: https://dmp.opidor.fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/opidor.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: DMP, Data, Beheerplan, Softwarebeheer
+
+### RGAA audit kit
+Startpakket voor een audit volgens het Franse toegankelijkheidsreferentiekader RGAA.
+Website: https://accessibilite.numerique.gouv.fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/rgaa-audit-kit.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert
+
+## Marketing & communicatie
+
+### ADEME expert opinion on 'carbon neutral' claims in advertising
+Standpunt van het Franse milieuagentschap dat uitlegt waarom het misleidend is een product of dienst koolstofneutraal te noemen, en wat er wel rechtmatig over gezegd kan worden.
+Website: https://presse.ademe.fr/2022/02/lademe-publie-un-avis-dexperts-sur-lutilisation-de-largument-de-neutralite-carbone-dans-les-communications.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ademe-expert-opinion-on-carbon-neutral-claims-in-advertising.html — Type: Artikel
+
+### Editorial sobriety framework
+Legt redactionele soberheid uit aan de hand van haar vier pijlers, en wat minder en beter schrijven oplevert voor zowel het publiek als de organisatie.
+Website: https://www.sobriete-editoriale.fr/ressources-sobriete-editoriale/comprendre-la-sobriete-editoriale/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/editorial-sobriety-framework.html — Type: Gids / Referentiekader
+
+### How reliable are the numbers?
+Module uit de cursus van Inria die nagaat hoeveel vertrouwen te hechten valt aan de gepubliceerde milieucijfers over digitale technologie.
+Website: https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/Partie1/FichesConcept/FC1.3.4-FiabiliteResulatsChiffres-MoocImpactNum.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/how-reliable-are-the-numbers.html — Type: Artikel
+
+### Responsible communication resource base
+Gedeelde bronnenbank over verantwoorde communicatie, samengesteld door het Collectif pour une Communication Responsable: gidsen, referentiekaders, studies en ervaringen uit de praktijk.
+Website: https://fir-ixia-5c3.notion.site/Ressources-Communication-Responsable-1cd6d9ce93754dc1b68af4dcfedd9006#b20e1c6e5abb49abbf002935812ab746 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-communication-resource-base.html — Type: Documentatie
+
+### Responsible digital marketing framework
+Manifest en referentiekader om verantwoorde praktijken in marketingteams te verankeren, met normen die gebruikers en hun aandacht respecteren.
+Website: https://marketingdigitalresponsable.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-digital-marketing-framework.html — Type: Gids / Referentiekader
+
+### Responsible influencer certificate
+Certificering voor influencers, contentmakers en merkambassadeurs die hun gemeenschap willen beschermen, met aandacht voor transparantie over reclame en voor verantwoorde promotie.
+Website: https://www.arpp.org/influence-responsable/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-influencer-certificate.html — Type: Hulpmiddel
+
+### Sustainable IT kit — communicating your approach (ANCT)
+Communicatiekit voor lokale besturen die hun aanpak van duurzame IT bekend willen maken, intern en bij de inwoners, zonder in greenwashing te vervallen.
+Website: https://lesbases.anct.gouv.fr/ressources/kit-nr-communiquer-autour-de-sa-demarche-numerique-responsable — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-kit-communicating-your-approach-anct.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Lokale besturen, Communicatie, Publieke sector
+
+### White papers on responsible communication
+Barometer van de communicatieberoepen, die sinds 2013 volgt in welke mate verantwoorde praktijken werkelijk door communicatieteams worden overgenomen.
+Website: https://leslivresblancs.fr/editeur/sup-de-com — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/white-papers-on-responsible-communication.html — Type: Documentatie
+
+## Meting & beoordeling
+
+### 42u
+Meting van de prestaties van datacenters.
+Website: https://www.42u.com/measuring-datacenter-performance.htm — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/42u.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Datacenter, Prestaties
+
+### Agaro
+Agaro is een oplossing op ServiceNow om uw koolstofimpact en uw elektronisch afval te meten en te verminderen.
+Website: https://www.aguaro.io/fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/agaro.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: Voetafdruk, Meting, ServiceNow
+
+### Air.e LCA
+Air.e is een LCA-hulpmiddel, betalende software.
+Website: https://www.solidforest.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/air-e-lca.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: LCA-software
+
+### Argos
+Hulpmiddel om het verbruik van een Docker-opdracht te meten en de evolutie van de prestaties te volgen. Argos meet het CPU-, geheugen- en netwerkgebruik van Docker-containers voor een gegeven opdracht. Door het verbruik van gedockeriseerde end-to-endtests te meten, laat Argos toe het verbruik van een toepassing te vergelijken.
+Website: https://github.com/marmelab/argos — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/argos.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, Docker, Meting
+
+### Arneo
+Biedt een milieuscan van uw website.
+Website: https://arneo.io/fr/ecoconception-allier-performance-frugalite — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/arneo.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Voetafdruk, Meting, Web
+
+### ARO
+Application Resource Optimizer (ARO) is een diagnosehulpmiddel om de prestaties van mobiele webtoepassingen te analyseren, ontwikkeld door AT&T.
+Website: https://github.com/attdevsupport/ARO — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aro.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Mobiel, Web
+
+### Base Empreinte (ADEME)
+Publieke databank van het Franse milieuagentschap met de emissiefactoren en levenscyclusgegevens die voor koolstofboekhouding worden gebruikt. De officiële Franse bron om verbruik om te rekenen naar CO₂-equivalent.
+Website: https://base-empreinte.ademe.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/base-empreinte-ademe.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Levenscyclusanalyse, CO2-voetafdruk, Data, Framework
+
+### Beacon (Digital Beacon)
+Online rekenmodule voor de koolstofvoetafdruk van een webpagina, met een rapport over de zwaarste bronnen en hoe die aan te pakken. Gratis analyse vanaf één URL.
+Website: https://digitalbeacon.co/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/beacon-digital-beacon.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Meting, Web, CO2-voetafdruk
+
+### Blockchain carbon accounting
+Dit depot bevat de code van de werkgroep Hyperledger Carbon Accounting and Neutrality. Elk bestand is gewijd aan een specifiek project: utility-emissions-channel voor de uitstoot van nutsbedrijven, de map net-emissions-token-network voor de tokens.
+Website: https://github.com/opentaps/blockchain-carbon-accounting — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/blockchain-carbon-accounting.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Trefwoorden: Blockchain, CO2, Voetafdruk
+
+### Boavizta environmental footprint dataset
+Open dataset om de milieu-impact van digitale technologie te meten, met zowel de productie als de elektriciteit die het leveren van een dienst verbruikt.
+Website: https://github.com/Boavizta/environmental-footprint-data — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/boavizta-environmental-footprint-dataset.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Data, OpenData
+
+### Boavizta — server manufacturing footprint
+Studie met een voorstel om de voetafdruk van de productie van een server te beoordelen, ruimer dan alleen de uitstoot van broeikasgassen.
+Website: https://boavizta.org/blog/boavizta-api-automated-evaluation-of-ict-impacts-on-the-environment — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/boavizta-server-manufacturing-footprint.html — Type: Artikel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Server
+
+### BoaviztAPI
+Opensource-API van Boavizta die multicriteria milieu-impact teruggeeft voor apparatuur en clouddiensten, productie inbegrepen en niet alleen gebruik. Integreerbaar in een eigen meethulpmiddel of in een pijplijn voor continue integratie.
+Website: https://doc.api.boavizta.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/boaviztapi.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Levenscyclusanalyse, Meting, Cloud, Open source
+
+### Carbon footprint web page
+Methode om de koolstofvoetafdruk van een webpagina te schatten op basis van dataverkeer en bezoekersaantallen.
+Website: https://www.websitecarbon.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbon-footprint-web-page.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Web
+
+### Carbonalyser
+Browserextensie die het energieverbruik en de CO2-uitstoot van een browsersessie zichtbaar maakt.
+Website: https://addons.mozilla.org/en-US/firefox/addon/carbonalyser/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbonalyser.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Web
+
+### Carbone 4: Doing your part
+Publicatie van Carbone 4, een adviesbureau voor decarbonisatie en klimaatadaptatie, die kwantificeert wat individueel handelen wel en niet kan bereiken.
+Website: https://carbone4.com/fr/publication-faire-sa-part — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbone-4-doing-your-part.html — Trefwoorden: Begrijpen, Ecologie, CO2-voetafdruk
+
+### Carbonfootprint
+LCA-software voor een snelle beoordeling van de koolstofvoetafdruk van producten. Laat toe aan ecodesign te doen of een volledige PAS2050-analyse uit te voeren. Betalende software.
+Website: https://www.carbonfootprint.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbonfootprint.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: LCA-software
+
+### CarbonViz / Equiwatt
+Verkent in realtime de verborgen kant van online activiteit. Gebouwd door Equiwatt, Lausanne.
+Website: https://www.equiwatt-lausanne.ch/challenge-numerique-inscription/? — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbonviz-equiwatt.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Cloud Carbon Footprint
+Cloud Carbon Footprint is een opensource-hulpmiddel met een methodologie om uw koolstofuitstoot in de cloud te meten, op te volgen en te verminderen. De aanpak neemt de kWh-schatting « Cloud Jewels » van Etsy over om cloudgebruik om te zetten in geschat energieverbruik en geschatte uitstoot.
+Website: https://github.com/cloud-carbon-footprint/cloud-carbon-footprint — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cloud-carbon-footprint.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2, Cloud, Voetafdruk, Infrastructuur
+
+### Cloud Foundry footprint
+Python-script dat de koolstofvoetafdruk schat van alle Cloud Foundry-toepassingen in een organisatie. Het script gebruikt eenvoudige cf cli-opdrachten om het aantal draaiende containers per space te tellen, en vermenigvuldigt dat met een geschat gemiddeld energieverbruik.
+Website: https://github.com/P-Ehlert/cloudfoundry_footprint — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cloud-foundry-footprint.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: CO2, Cloud, Voetafdruk, Infrastructuur
+
+### Cloud Jewels
+Methodologie om het verbruik in kWh in de cloud te schatten.
+Website: https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cloud-jewels.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Trefwoorden: Cloud, Infrastructuur, kWh
+
+### CO2 Digital Calculator
+Rekenmodule van Decathlon om de digitale impact op het werk eenvoudig te schatten en de gevolgen van digitaal oververbruik zichtbaar te maken.
+Website: https://github.com/julienGONTIER/CO2DigitalDalculator — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/co2-digital-calculator.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Rekenmodule, CO2-voetafdruk, Meting
+
+### CO2.js (Green Web Foundation)
+JavaScript-bibliotheek die een volume overgedragen data omzet in CO₂-uitstoot, met keuze uit meerdere rekenmodellen en met de koolstofintensiteit van het elektriciteitsnet. Laat een toepassing toe haar eigen voetafdruk te tonen.
+Website: https://developers.thegreenwebfoundation.org/co2js/overview/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/co2-js-green-web-foundation.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Web, CO2-voetafdruk, Open source
+
+### CO2Scope
+Volgt de CO₂-uitstoot van IT-diensten in realtime, op basis van het werkelijke verbruik van virtuele machines en servers.
+Website: https://www.easyvirt.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/co2scope.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald
+
+### CodeCarbon
+Python-pakket dat de CO2-uitstoot van computerprogramma's en machine-learningexperimenten meet.
+Website: https://github.com/mlco2/codecarbon — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/code-carbon.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Python
+
+### Cookieviz
+Cookieviz is een datavisualisatiehulpmiddel van de CNIL waarmee u in realtime kunt volgen hoe uw surfgedrag wordt getraceerd.
+Website: https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cookieviz.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CNIL, Cookie, Gegevensbescherming
+
+### Data centre KPIs
+Indicatoren voor de energie- en milieuprestaties van datacenters, en hoe u ze interpreteert.
+Website: https://alliancegreenit.org/les-kpi-des-datacenters — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-centre-kpis.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Datavizta (Boavizta)
+Visualisatie-interface voor de impactgegevens van Boavizta: vergelijk de voetafdruk van servers, apparaten en cloudinstanties zonder één regel code. Nuttig om een keuze van apparatuur of hosting te onderbouwen.
+Website: https://dataviz.boavizta.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/datavizta-boavizta.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Levenscyclusanalyse, Meting, Cloud, Open source
+
+### Diff-JJoules
+Opensource-hulpmiddel van Davidson Consulting dat de impact van afzonderlijke commits op het energieverbruik van een programma meet, en de build laat falen wanneer het verbruik verslechtert.
+Website: https://github.com/davidson-consulting/diff-jjoules — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/diff-jjoules.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Commit, Energie
+
+### Digital Carbon Footprint
+Eenvoudige, speelse en aanpasbare rekenmodule voor uw digitale voetafdruk: klik elk element aan om de gebruiksparameters op uw eigen situatie af te stemmen.
+Website: https://www.digitalcarbonfootprint.eu/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-carbon-footprint.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Ecocode
+Analyseert broncode en geeft aanbevelingen om software energiezuiniger te maken.
+Website: https://github.com/cnumr/ecoCode — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecocode.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ecodesign, Goede praktijken
+
+### ecoCode JavaScript
+Regels voor statische analyse om de milieuvoetafdruk van JavaScript- en TypeScript-programma's te verkleinen, van het Green Code Initiative.
+Website: https://github.com/green-code-initiative/creedengo-javascript — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecocode-javascript.html — Type: Hulpmiddel — Toegang: Gratis
+
+### EcoDiag
+De dienst EcoDiag maakt het eenvoudiger om een koolstofbalans van de IT-apparatuur op te maken, voor een onderzoekslaboratorium, een CNRS-eenheid of elke andere structuur met een duidelijk afgebakende perimeter.
+Website: https://ecoinfo.cnrs.fr/ecodiag-calcul/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecodiag.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: CO2, Meting, Voetafdruk
+
+### Ecograding
+Beoordeelt hoe groen uw website is.
+Website: https://ecograder.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecograding.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Webevaluatie, Voetafdruk, Index
+
+### EcoIndex
+Gratis dienst waarmee de gemeenschap de milieuprestaties van een website of online dienst kan beoordelen op basis van objectieve technische parameters, zoals het aantal DOM-elementen, HTTP-verzoeken en overgedragen gegevens.
+Website: https://www.ecoindex.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecoindex.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Voetafdruk, Meting, Web
+
+### EcoIndex Cypress
+Cypress-plug-in die de EcoIndex van een pagina meet tijdens geautomatiseerde tests, zodat de milieuscore een aanvaardingscriterium wordt zoals elke functionele test.
+Website: https://github.com/EmmanuelDemey/eco-index-audit — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecoindex-cypress.html — Type: Hulpmiddel — Toegang: Gratis
+
+### EcoSonar
+SonarQube-plug-in die ecodesign en toegankelijkheid toevoegt aan de bestaande analyse van codekwaliteit: EcoIndex, Lighthouse en groene regels verschijnen in hetzelfde dashboard als de technische schuld. Onderhouden door het Green Code Initiative.
+Website: https://github.com/green-code-initiative/EcoSonar — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecosonar.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Softwarekwaliteit, Ecodesign, Open source
+
+### Emissions Impact Dashboard for Azure
+Dashboard van Microsoft waarmee Azure-klanten de koolstofuitstoot van hun cloudgebruik kunnen meten, uitgesplitst per dienst en per regio.
+Website: https://marketplace.microsoft.com/en-us/product/power-bi/coi-sustainability.emissions_impact_dashboard — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/emissions-impact-dashboard-for-azure.html — Type: Hulpmiddel — Toegang: Gratis
+
+### Energy efficiency across programming languages
+Referentiedocument over de mogelijke invloed van de keuze van de programmeertaal op de milieuvoetafdruk van een digitale dienst.
+Website: https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-efficiency-across-programming-languages.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Back-end, Code, Programmeertaal
+
+### Energy Profiler
+Energy Profiler helpt u te vinden waar uw toepassing meer energie verbruikt dan nodig.
+Website: https://developer.android.com/studio/profile/energy-profiler — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-profiler.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Mobiel
+
+### Estimated one hour carbon footprint calculation core
+Rekenkern voor de geschatte koolstofvoetafdruk van één uur gebruik.
+Website: https://hal.archives-ouvertes.fr/hal-02549565v4 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/estimated-one-hour-carbon-footprint-calculation-core.html — Type: Studie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Referentiekader
+
+### Ethereum-nft-activity
+Hoeveel energie kost het om populaire CryptoArt-platformen op Ethereum te laten draaien, en welke uitstoot hoort bij dat energieverbruik?
+Website: https://github.com/kylemcdonald/ethereum-nft-activity — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ethereum-nft-activity.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CO2, Cloud, CryptoArt, Ether, Voetafdruk
+
+### Experiment-impact-tracker
+Methode om energieverbruik en koolstofuitstoot te volgen en het systeemgebruik te berekenen. Op Linux-systemen met Intel-chips die RAPL of powergadget ondersteunen en met NVIDIA-GPU's registreert het hulpmiddel het stroomverbruik van CPU en GPU, de hardwaregegevens, de versies van de Python-pakketten en de geschatte koolstofuitstoot.
+Website: https://github.com/Breakend/experiment-impact-tracker — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/experiment-impact-tracker.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Energie, Voetafdruk
+
+### Firefox Profiler
+Profiler ingebouwd in Firefox die de CPU-tijd, het geheugen en de energie toont die een pagina verbruikt. Een gratis diagnosehulpmiddel om te vinden wat in een dienst werkelijk resources kost.
+Website: https://profiler.firefox.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/firefox-profiler.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Energie, Web, Open source
+
+### Fruggr
+Fruggr is een platform dat de milieu- en sociale voetafdruk van digitale diensten automatisch beoordeelt. Met een groot aantal KPI's wil het de impact van de informatiesystemen van bedrijven verbeteren via een proces van continue verbetering. De licentie is voorlopig commercieel.
+Website: https://www.fruggr.io/fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/fruggr.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Meting
+
+### GlobalDCAnalysis: global data center energy analysis model
+Het Excel-bestand bevat het Global Data Center Energy Analysis Model, met de structuur van het model, een bespreking van de onzekerheden en alle ingevoerde gegevens, resultaten, methodologische noten, figuren en bronnen. (Masanet, E., Shehabi, A., Lei, N., Smith, S. en J.G. Koomey, 2020, « Recalibrating global data center energy use estimates », Science.)
+Website: https://github.com/emasanet/GlobalDCAnalysis — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/globaldcanalysis-global-data-center-energy-analysis-model.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Infrastructuur
+
+### Google Cloud Carbon Footprint
+Klanten van Google Cloud krijgen in Active Assist Recommender een categorie milieu-impact, om de IT-impact van hun workloads te meten en te helpen verminderen.
+Website: https://cloud.google.com/blog/topics/sustainability/new-tools-to-measure-and-reduce-your-environmental-impact?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy21q4-googlecloud-blog-other-infeed-no-brand-global&utm_content=next-blog-day1&utm_term=- — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/google-cloud-carbon-footprint.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, CO2-voetafdruk, Google
+
+### Green Algorithms
+Klein online hulpmiddel om na te gaan hoe groen uw berekeningen zijn.
+Website: http://www.green-algorithms.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-algorithms.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: AI, Algoritme, Berekening, CO2-voetafdruk, Machine learning
+
+### Green IT Switzerland tools catalogue
+Lijst van hulpmiddelen, uitgegeven door Green IT Switzerland in het Duits, Engels en Frans, om goede praktijken voor green IT in een datacenter te beoordelen.
+Website: https://greenit-switzerland.ch/en/tools-2/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-it-switzerland-tools-catalogue.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Goede praktijken, DE, Datacenter, Energie, Evaluatie, FR, UK
+
+### Green Software Patterns
+Catalogus van concrete acties om groenere code te schrijven, elk patroon gekoppeld aan de impact die het aanpakt.
+Website: https://patterns.greensoftware.foundation/catalog/cloud/delete-unused-storage-resources/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-software-patterns.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### GreenFrame
+Gratis rekenmodule om de impact van uw website op de planeet te beoordelen.
+Website: https://greenframe.io/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenframe.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald — Trefwoorden: Voetafdruk, Web
+
+### GreenFrame
+GreenFrame berekent de voetafdruk van uw website door de oorsprong van de koolstofbron te analyseren: CPU, netwerk en weergave.
+Website: https://greenframe.io — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenframe-2.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald — Trefwoorden: Voetafdruk, Meting, Web
+
+### GreenFrame CLI
+Schat de koolstofvoetafdruk van een gebruikersscenario op een webtoepassing, vanaf de opdrachtregel zodat het in continue integratie kan draaien. Gebouwd door Marmelab.
+Website: https://github.com/marmelab/greenframe-cli — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenframe-cli.html — Type: Hulpmiddel
+
+### GreenIT-Analysis
+Browserextensie die de ecologische voetafdruk van een volledige gebruikersreis meet, ook achter een firewall of authenticatie, en controleert of goede praktijken worden toegepast.
+Website: https://github.com/cnumr/GreenIT-Analysis — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenit-analysis.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: CO2-voetafdruk, Goede praktijken, Impact
+
+### Greenoco
+Online hulpmiddel om websites te meten en te optimaliseren: de jaarlijkse koolstofuitstoot van de site, plus de uitstoot van elke afzonderlijke pagina.
+Website: https://greenoco.io/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenoco.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald
+
+### Greenprint
+Softwarepakket om uw printerpark te meten, te analyseren en te optimaliseren, met het oog op meer soberheid, besparingen en een beter gebruik van de printers.
+Website: https://www.printgreener.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/greenprint.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Inkt, Meting, Papier, Afdrukken, Printer, Hulpmiddel
+
+### Impactomètre
+Simulator voor de milieu-impact van een vergadering, ter plaatse of op afstand. Een eenvoudige, educatieve manier om vergaderformules tegen elkaar af te wegen.
+Website: https://impactometre.fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/impactometre.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Intel PCM (formerly Power Gadget)
+Meet het energieverbruik via een kleine desktoptoepassing die zowel op pc als op Mac draait.
+Website: https://github.com/intel/pcm — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/intel-pcm-formerly-power-gadget.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### ISIT calculator
+Berekent uw professionele milieuvoetafdruk.
+Website: https://myimpact.isit-europe.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/inr-calculator.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Voetafdruk, ISIT
+
+### JoularJX
+Meet het stroomverbruik van de broncode van Java-toepassingen tot op het niveau van de afzonderlijke methode.
+Website: https://gitlab.com/joular/joularjx — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/joularjx.html — Trefwoorden: Energie, Java, Meting
+
+### Joulemeter
+Joulemeter is een toepassing van Microsoft die het stroomverbruik van elk onderdeel van uw computer toont. Na analyse berekent het programma het verbruik van elk element, zoals het moederbord of het scherm, en toont dat op elk moment in realtime. Joulemeter houdt ook statistieken bij die u later kunt raadplegen.
+Website: https://joulemeter.fr.uptodown.com/windows — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/joulemeter.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Energie
+
+### Kastor.green
+Ecodesignaudit voor websites en webtoepassingen, op basis van de GR491-gids voor verantwoord ontwerp.
+Website: https://kastor.green/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/kastor-green.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: CO2-voetafdruk, Meting, Web
+
+### LEAF
+Simulator voor het analytisch modelleren van energieverbruik in cloud-, fog- en edgecomputingomgevingen.
+Website: https://github.com/dos-group/leaf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/leaf.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Lean ICT Materials
+Excel-bestanden die de werkgroep gebruikte voor de berekeningen in het rapport « Lean ICT, pour une sobriété numérique », gepubliceerd op 4 oktober 2018 door The Shift Project.
+Website: https://theshiftproject.org/app/uploads/2025/02/Lean-ICT-Materials-Liens-a-telecharger-repare-le-29-10-2019.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/lean-ict-materials.html — Type: Studie — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: Bereken uw milieuvoetafdruk
+
+### Lighthouse
+Geautomatiseerde tool van Google voor audits van webpagina's op prestaties, toegankelijkheid, best practices en SEO.
+Website: https://developer.chrome.com/docs/lighthouse/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/lighthouse.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Web, Toegankelijkheid
+
+### Likwid
+Likwid is een eenvoudig te installeren reeks opdrachtregelhulpmiddelen voor programmeurs die op prestaties werken. Het werkt met Intel- en AMD-processoren op Linux.
+Website: https://github.com/RRZE-HPC/likwid — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/likwid.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Prestaties
+
+### Microsoft sustainability calculator
+Kwantificeert de koolstofimpact van elk Azure-abonnement voor een gegeven periode en regio.
+Website: https://www.microsoft.com/en-us/corporate-responsibility/sustainability — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/microsoft-sustainability-calculator.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud
+
+### Monconvertisseurco2
+Hulpmiddel om CO₂-equivalenten om te zetten in eenheden die voor iedereen begrijpelijk zijn.
+Website: https://impactco2.fr/outils/comparateur — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/monconvertisseurco2.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Communicatie, Omzetter
+
+### Mx Power Gadget
+Geavanceerde systeemmonitor voor Mac, met plug-ins voor temperatuur en ventilatoren, die het opgenomen vermogen in de menubalk toont.
+Website: https://www.seense.com/menubarstats/mxpg/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/mx-power-gadget.html — Type: Hulpmiddel — Toegang: Gratis
+
+### MyClimatePal
+We weten doorgaans wel dat vlees eten en vliegen slecht zijn voor het klimaat, maar doeltreffend handelen is moeilijk. Is het beter te stoppen met vlees of de trein te nemen in plaats van het vliegtuig? Inzicht in het effect van uw keuzes is nodig om ze te verbeteren. Daarom bouwen we MyClimatePal, de eenvoudigste manier om uw CO₂-voetafdruk beter te begrijpen.
+Website: https://github.com/mowolf/MyClimatePal — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/myclimatepal.html — Trefwoorden: Bereken uw milieuvoetafdruk
+
+### Node.js EcoIndex
+Node.js-code om de EcoIndex van uw webpagina te berekenen.
+Website: https://github.com/cyve/ecoindex_node — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/node-js-ecoindex.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting
+
+### NumEcoEval
+Berekent de milieuvoetafdruk van een volledig informatiesysteem, dat wil zeggen van alle fysieke apparatuur, software en diensten die het uitmaken. Ontwikkeld voor de Franse overheid.
+Website: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/numecoeval.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Numerik EA
+Solidair webontwikkelingscentrum voor de tewerkstelling van werknemers met een beperking.
+Website: https://www.numerik-ea.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/numerik-ea.html — Trefwoorden: Digitale bemiddeling, Werknemers met een beperking, Webbureau
+
+### openLCA
+openLCA is opensource-LCA-software voor professionele ecologische, sociale en economische levenscyclusanalyses. Ze wordt onder meer gebruikt voor LCA, koolstof- en watervoetafdrukken, ecodesign, milieuproductverklaringen, levenscycluskosten en sociale levenscyclusanalyse.
+Website: https://www.openlca.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/openlca.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: LCA-software
+
+### perf-sentinel
+Opensource-analysator die anti-patronen voor prestaties in verschillende talen opspoort en ze scoort met aandacht voor koolstof. Geschreven in Rust onder AGPL-3.0, aansluitbaar op de ontwikkelpijplijn zodat softwaresoberheid als een gewoon kwaliteitsgebrek wordt behandeld.
+Website: https://github.com/robintra/perf-sentinel — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/perf-sentinel.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Open source, Softwarekwaliteit, CO2-voetafdruk
+
+### PerfSentinelHub
+Begeleidende dienst bij perf-sentinel: centraliseert de bevindingen van verschillende instanties en stelt ze via één enkel eindpunt beschikbaar aan IDE-extensies, standaard 180 dagen bewaard. Nog vóór versie 1.0, zonder stabiele release tot op heden.
+Website: https://github.com/robintra/PerfSentinelHub — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/perfsentinelhub.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Meting, Open source, Softwarekwaliteit
+
+### Pingdom
+Pingdom analyseert de beschikbaarheid en de prestaties van websites: opvolging van beschikbaarheid, prestaties en interacties.
+Website: https://tools.pingdom.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/pingdom.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Voetafdruk, Meting, Web
+
+### Power meter
+Dit project bevat twee hulpmiddelen: power_meter om verschillende vermogenssensoren in een csv-bestand vast te leggen, en make_plot.py om grafieken van het stroomverbruik te maken.
+Website: https://gitlab.inria.fr/guenneba/mac-power-meter/-/tree/master — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/power-meter.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Meting
+
+### Power Supply Calculator
+Simuleert de voeding die een werkstationconfiguratie nodig heeft, en daarmee het energieverbruik ervan.
+Website: https://powersupplycalculator.net/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/power-supply-calculator.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### PowerAPI
+PowerAPI is een middleware-toolkit om softwarematige vermogensmeters te bouwen. Dat zijn configureerbare softwarebibliotheken die het stroomverbruik van software in realtime schatten. PowerAPI leest ruwe metingen uit uiteenlopende sensoren, zoals fysieke meters, processorinterfaces, hardwaretellers en tellers van het besturingssysteem, en levert het verbruik via verschillende kanalen: bestandssysteem, netwerk, web of grafiek. Als middleware laat PowerAPI toe meters op maat samen te stellen.
+Website: https://github.com/powerapi-ng/powerapi — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/powerapi.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### PowerJoular
+Meet het stroomverbruik van hardwarecomponenten en software op GNU/Linux. Rapporteert het energieverbruik van CPU en GPU voor servers en pc's, en van ARM-processoren op ondersteunde borden.
+Website: https://gitlab.com/joular/powerjoular — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/powerjoular.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Linux, Meting
+
+### Powersim
+Simulatie van vermogen en energie in SystemC, niet te verwarren met VHDL. Powersim is een SystemC-klassenbibliotheek om het vermogen en het energieverbruik te berekenen van hardware die op systeemniveau is beschreven. Daartoe worden de C++-operatoren gevolgd en kan voor elk datatype een ander energiemodel worden gebruikt.
+Website: http://powersim.sourceforge.net — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/powersim.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: C++, Energie, Vermogen, Simulatie
+
+### PowerTOP
+PowerTOP is een Linux-hulpmiddel om problemen met stroomverbruik en energiebeheer te diagnosticeren. Naast de diagnose biedt het een interactieve modus om met verschillende instellingen voor energiebeheer te experimenteren, wanneer de Linux-distributie die niet standaard heeft ingeschakeld.
+Website: https://github.com/fenrus75/powertop — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/powertop.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### pTopW
+pTopW schat het energieverbruik van elk proces en elk onderdeel in elke toestand. De gebruiker kan de parameters aanpassen aan het eigen platform voor een nauwkeuriger resultaat.
+Website: https://github.com/hch-im/ptopw — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ptopw.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie
+
+### pyJoules
+Softwaretoolkit om de energievoetafdruk van een machine te meten tijdens de uitvoering van een stuk Python-code.
+Website: https://github.com/powerapi-ng/pyJoules — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/pyjoules.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Python
+
+### SimaPro
+LCA-software met een brede verspreiding en een lange staat van dienst.
+Website: https://simapro.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/simapro.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: LCA-software
+
+### Speed insights page
+Verbetert de laadsnelheid van uw pagina's op alle apparaten.
+Website: https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/speed-insights-page.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Voetafdruk, Meting, Web
+
+### State design system
+Referentiekader van de Franse staat op het vlak van design.
+Website: https://gouvfr.atlassian.net/wiki/spaces/DB/overview — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/state-design-system.html — Trefwoorden: Design, Referentiekader
+
+### The ice
+Deze toepassing test de ecologische prestaties van de ontwikkeling, de toegankelijkheid, de algemene prestaties, die sterk samenhangen met de ecologische prestaties, en de goede praktijken.
+Website: https://www.labanqui.se — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-ice.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Toegankelijkheid, Voetafdruk, Meting
+
+### Toovalu
+Toovalu is een eenvoudig hulpmiddel om uw prestaties op het vlak van de broeikasgasbalans en, ruimer, van maatschappelijk verantwoord ondernemen te beheren en erover te communiceren. Het vereenvoudigt en systematiseert het opstellen van uw koolstofbalans en vergemakkelijkt de opvolging en de communicatie van uw MVO-prestaties.
+Website: https://www.toovalu.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/toovalu.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: MVO, Software voor broeikasgassen, LCA
+
+### Tracarbon
+Python-bibliotheek die het energieverbruik van een apparaat volgt en de bijbehorende koolstofuitstoot berekent, met automatische detectie van locatie en hardware.
+Website: https://github.com/fvaleye/tracarbon — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tracarbon.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Umberto LCA+
+Umberto is een van de toonaangevende softwarepakketten voor levenscyclusanalyse en wordt aanbevolen door deskundigen uit de industrie, het advieswezen, het onderzoek en het onderwijs.
+Website: https://www.ipoint-systems.com/software/umberto/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/umberto-lca.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: LCA-software
+
+### Verdikt
+Commercieel platform om de milieuvoetafdruk van een informatiesysteem te meten en te sturen, van het hardwarepark tot het cloudgebruik, met reductieplannen die in de tijd worden opgevolgd.
+Website: https://verdikt.io/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/verdikt.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Betaald — Trefwoorden: Meting, CO2-voetafdruk, Strategie
+
+### Yellow Lab Tools
+Hulpmiddel, online of zelf gehost, dat in de eerste plaats de prestaties van webpagina's meet en verbeterpistes teruggeeft die ook de milieu-impact van een dienst verkleinen.
+Website: https://yellowlab.tools/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/yellow-lab-tools.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Goede praktijken, Meting, Web
+
+### Éco2mix
+éCO2mix is een hulpmiddel van RTE waarmee consumenten elektriciteit beter leren kennen en beter verbruiken. Het geeft alle indicatoren van elektriciteitsverbruik en -productie in realtime, 24 uur per dag, op nationaal en regionaal niveau: het verbruik in continentaal Frankrijk zonder Corsica en de bijbehorende prognoses, de Franse elektriciteitsproductie per sector in waarde en in percentage, de handel met de zes buurlanden, de CO₂-uitstoot van de elektriciteitsproductie, en maandgegevens op regionale schaal over verbruik, productie en interregionale stromen.
+Website: https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/eco2mix.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: CO2, EDF, Elektriciteit, Energie, Frankrijk, Mix, RTE, Referentiegegevens
+
+## Organisatorische routekaart
+
+### A local authority's sustainable IT strategy in 10 steps
+Methodologische gids uitgegeven door Les Interconnectés, het Franse netwerk van digitale lokale besturen.
+Website: https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html — Type: Gids / Referentiekader
+
+### Aptic
+Om een digitale cheque op te zetten ten dienste van digitale inclusie.
+Website: https://www.aptic.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aptic.html — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Digitale cheque, Digitale bemiddeling
+
+### Being eco-responsible at the office (ADEME)
+Gids van het Franse milieuagentschap over digitale soberheid op de werkvloer.
+Website: https://librairie.ademe.fr/consommer-autrement/8402-comment-etre-ecoresponsable-au-bureau--9791029725074.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/being-eco-responsible-at-the-office-ademe.html — Type: Gids / Referentiekader
+
+### Data centre measures catalogue (Green IT Switzerland)
+Catalogus van aanbevelingen en goede praktijken voor datacenters, geordend volgens het bereikte effect en de bijbehorende kost.
+Website: https://greenit-switzerland.ch/de/cc-mesures/?lang=fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-centre-measures-catalogue-green-it-switzerland.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Data centre recommendations (Green IT Switzerland)
+Catalogus van aanbevelingen en goede praktijken voor datacenters.
+Website: https://greenit-switzerland.ch/de/cc-mesures/?lang=fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-centre-recommendations-green-it-switzerland.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Goede praktijken, Datacenter, Meting
+
+### Deploying digital sobriety (The Shift Project)
+Rapport met operationele kaders voor digitale soberheid: in het overheidsbeleid, binnen ondernemingen en in het privégebruik.
+Website: https://theshiftproject.org/publications/deployer-sobriete-numerique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/deploying-digital-sobriety-the-shift-project.html — Type: Gids / Referentiekader
+
+### Digital solidarity
+Om u te ondersteunen bij uw dagelijkse digitale noden.
+Website: https://lesbases.anct.gouv.fr/bases/solidarite-numerique — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-solidarity.html — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Digitale bemiddeling
+
+### GANR
+Gids voor verantwoorde digitale aankopen.
+Website: https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ganr.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: ISIT, Aankoop, Referentiekader
+
+### Green IT Switzerland measures catalogue
+Catalogus van aanbevelingen en goede praktijken voor green IT, met voor elke maatregel een score voor het milieuvoordeel en voor de uitvoeringskost.
+Website: https://greenit-switzerland.ch/de/catalogue-de-mesures/?lang=fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-it-switzerland-measures-catalogue.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Goede praktijken, Meting
+
+### Introduction to the sustainable IT roadmap (ANCT)
+Ingang tot de toolbox duurzame IT van het ANCT: stelt de beschikbare versies van de methode voor en helpt de versie kiezen die past bij de omvang en de maturiteit van het bestuur.
+Website: https://lesbases.anct.gouv.fr/ressources/introduction-a-la-demarche-numerique-responsable — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/introduction-to-the-sustainable-it-roadmap-anct.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Lokale besturen, Routekaart, Publieke sector
+
+### Les Bons Clics
+Frans platform met kant-en-klaar materiaal voor begeleiders van digitale inclusie: lesplannen, oefeningen en evaluatieroosters om mensen met beperkte digitale vaardigheden te ondersteunen.
+Website: https://www.lesbonsclics.fr/fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/les-bons-clics.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Digitale bemiddeling
+
+### Offering sustainable IT support (ANCT)
+Gids van het ANCT voor bundelende structuren, zoals intercommunales en territoriale operatoren, die verschillende lokale besturen in hun aanpak van duurzame IT willen begeleiden.
+Website: https://lesbases.anct.gouv.fr/ressources/proposer-un-accompagnement-numerique-responsable — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/offering-sustainable-it-support-anct.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Lokale besturen, Routekaart, Publieke sector
+
+### Planet centric toolkit
+Methoden en hulpmiddelen om duurzame producten en diensten te ontwikkelen.
+Website: https://6362597.fs1.hubspotusercontent-eu1.net/hubfs/6362597/Oppaat%20EN/Planet%20Centric%20Design%20toolkit%20-%2025.11.2019.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/planet-centric-toolkit.html — Type: Workshop — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Design
+
+### POP
+Overzicht van hulpmiddelen voor HPC-centra, met het oog op prestaties en productiviteit.
+Website: https://pop-coe.eu/partners/tools — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/pop.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: HPC, IO, Scala
+
+### PRESOFT
+Sjabloon voor een beheerplan voor onderzoekssoftware.
+Website: https://www.france-grilles.fr/wp-content/uploads/2018/04/ModeleSMP_PRESOFTV3.2.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/presoft.html — Type: Gids / Referentiekader — Trefwoorden: Beheerplan, Softwarebeheerplan
+
+### Study: rebound effects of remote work
+Veldstudie bij 26 Franse organisaties met samen 350 000 werknemers, aangevuld met drie focusgroepen, die de reboundeffecten meet die de verwachte besparingen van telewerk tenietdoen.
+Website: https://librairie.ademe.fr/mobilite-et-transport/3776-caracterisation-des-effets-rebond-induits-par-le-teletravail.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/study-rebound-effects-of-remote-work.html — Type: Studie
+
+### Sustainable business canvas
+Hulpmiddel om workshops op te zetten en om milieukosten en -baten te beoordelen.
+Website: https://www.case-ka.eu/wp/wp-content/uploads/2017/05/SustainableBusinessModelCanvas_highresolution.jpg — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-business-canvas.html — Type: Workshop — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Design, Milieukosten, Meting
+
+### Sustainable IT Charter
+Engagementshandvest van het Institut du Numérique Responsable: vijftien principes die een organisatie ondertekent om haar aanpak van duurzame IT te structureren, van sobere hardware tot digitale inclusie. De stap vóór het NR-label.
+Website: https://charter.isit-europe.org/?lang=fr_FR — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-charter.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Routekaart, Engagement, ISIT
+
+### Sustainable IT kit — from the administration to the territory (ANCT)
+Kit om een interne aanpak van duurzame IT uit te breiden naar een heel gebied: te betrekken belanghebbenden, hefbomen en kant-en-klaar materiaal.
+Website: https://lesbases.anct.gouv.fr/ressources/kit-nr-passer-de-l-echelle-de-l-administration-a-celle-du-territoire — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-kit-from-the-administration-to-the-territory-anct.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Lokale besturen, Routekaart, Publieke sector
+
+### Sustainable IT roadmap (ANCT)
+Stapsgewijze methode van het Franse nationale agentschap voor territoriale cohesie, voor lokale besturen met meer dan 3 500 inwoners en een eigen digitale dienst: fasen, op te leveren stukken en valkuilen.
+Website: https://lesbases.anct.gouv.fr/ressources/demarche-numerique-responsable — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-roadmap-anct.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Lokale besturen, Routekaart, Publieke sector, Strategie
+
+### Sustainable IT roadmap, short version (ANCT)
+Lichtere versie van de ANCT-methode voor lokale besturen met minder dan 3 500 inwoners en zonder eigen digitale dienst: dezelfde fasen, minder werk.
+Website: https://lesbases.anct.gouv.fr/ressources/demarche-numerique-responsable-flash — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-roadmap-short-version-anct.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Lokale besturen, Routekaart, Publieke sector
+
+### SYSDEREP
+Frans register met de aangiften van de stelsels van uitgebreide producentenverantwoordelijkheid, zoals bepaald door de Franse wet op de circulaire economie AGEC.
+Website: https://syderep.ademe.fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sysderep.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis
+
+### Systemic design method and toolkit
+Methode en bijbehorende hulpmiddelen om de complexiteit van organisaties en samenleving te vatten bij het ontwerpen van een dienst.
+Website: https://www.systemicdesigntoolkit.org/download — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/systemic-design-method-and-toolkit.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Canvas, Design
+
+### Treebal
+Duurzame berichtendienst die bomen plant en gegevens beschermt.
+Website: https://www.treebal.green/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/treebal.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Cloud, E-mail, Kantoorhulpmiddel
+
+### Why it's time for a Green revolution for your organization's IT
+Rapport van Capgemini over praktijken rond duurzame IT binnen organisaties.
+Website: https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/why-it-s-time-for-a-green-revolution-for-your-organization-s-it.html — Type: Gids / Referentiekader
+
+## Privacy, transparantie & ethiek
+
+### Captology matrix
+Analyse van de aandachtsvangst en de overtuigingstechnieken van een dienst.
+Website: https://docs.google.com/spreadsheets/d/1dj_KIKzyPlSND1-fSYNb0BgupCmh2XoYTPkFTKPiaq0/edit#gid=1991215211 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/captology-matrix.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Aandacht, Captologie, Design
+
+### Data & design
+Gebruikerstrajecten samen opbouwen met respect voor de AVG en de privacy.
+Website: https://design.cnil.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-design.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Design, AVG, RGPD
+
+### Data Science Ethics Checklist
+Ethische checklist voor data science.
+Website: https://deon.drivendata.org/#data-science-ethics-checklist — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-science-ethics-checklist.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Data, Ethiek
+
+### Deda (data ethics decision aid)
+Een toolbox die helpt ethische kwesties in kaart te brengen in projecten met gegevensverwerking. Ontwikkeld in samenwerking met datapraktijkmensen door de Utrecht Data School en de Universiteit Utrecht. Ze laat organisaties toe de groeiende uitdagingen waarmee ze te maken krijgen te analyseren.
+Website: https://dataschool.nl/tools/deda/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/deda-data-ethics-decision-aid.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Ethiek
+
+### Ethical OS toolkit
+Toolkit met een checklist van acht risicogebieden om de meest kritieke opkomende risico's en maatschappelijke schade voor uw team te herkennen, veertien scenario's om het gesprek op gang te brengen over de langetermijngevolgen van de technologie die u vandaag ontwikkelt, en zeven vooruitziende strategieën om nu ethisch te handelen.
+Website: https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ethical-os-toolkit.html — Type: Workshop — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ethiek
+
+### Ethics & algorithms toolkit
+Praktische toolkit die steden en gebieden helpt de gevolgen van het gebruik van een algoritme te begrijpen, de mogelijke risico's helder te benoemen en manieren te vinden om ze te beperken.
+Website: http://ethicstoolkit.ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ethics-algorithms-toolkit.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Algoritme, Ethiek
+
+### Gdpr developer guide
+Om u te helpen uw web- of applicatieontwikkelingen conform te maken, heeft de CNIL een gids met goede praktijken opgesteld voor opensource-ontwikkelingen.
+Website: https://github.com/LINCnil/Guide-RGPD-du-developpeur — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/gdpr-developer-guide.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Referentiekader
+
+### HTTPS Everywhere
+HTTPS Everywhere is een extensie voor Firefox, Chrome en Opera die de communicatie met veel websites versleutelt en het surfen zo veiliger maakt.
+Website: https://www.eff.org/https-everywhere — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/https-everywhere.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Browser, Gegevensbescherming
+
+### Personal data
+De begrippen « persoonsgegevens », « doeleinde » en « verwerking » begrijpen is essentieel om een toepassing te ontwikkelen die de wet en de gegevens van gebruikers respecteert. Let er in het bijzonder op « anonimisering » en « pseudonimisering » niet te verwarren: de AVG geeft er zeer precieze definities aan.
+Website: https://www.cnil.fr/fr/identifier-les-donnees-personnelles — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/personal-data.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Gegevensbescherming, Persoonsgegevens, RGPD, Referentiekader
+
+### PIA
+De PIA-software is een hulpmiddel dat de CNIL vrij verspreidt om de gegevensbeschermingseffectbeoordelingen uit te voeren waarin de AVG voorziet.
+Website: https://github.com/LINCnil/pia — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/pia.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CNIL, Gegevensbescherming, AVG, RGPD
+
+### Privacy Badger
+Privacy Badger blokkeert automatisch onzichtbare trackers.
+Website: https://privacybadger.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/privacy-bager.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Browser, Gegevensbescherming, Kantoorhulpmiddel
+
+### uBlock Origin
+Vrije en opensource-advertentieblokkeerder.
+Website: https://ublockorigin.com/fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ublock-origin.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Reclame blokkeren, Kantoorautomatisering, Eindapparatuur
+
+## Referenties & gidsen
+
+### Amazon CodeGuru
+Amazon CodeGuru is een hulpmiddel voor ontwikkelaars dat gerichte aanbevelingen geeft om de codekwaliteit te verbeteren en de duurste regels code in een toepassing aan te wijzen.
+Website: https://aws.amazon.com/codeguru/profiler/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/amazon-codeguru.html — Trefwoorden: Cloud
+
+### Clic Connect
+Om u te begeleiden bij de digitalisering van uw activiteit.
+Website: https://www.clic-connect.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/click-connect.html — Trefwoorden: Digitale bemiddeling
+
+### Digital labor code
+Bouwproject voor een digitale versie van het Franse arbeidswetboek.
+Website: https://github.com/SocialGouv/code-du-travail-numerique — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-labor-code.html — Trefwoorden: Code, Wetgeving
+
+### Ecogine
+Groene zoekmachine.
+Website: https://ecogine.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecogine.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Kantoorhulpmiddel
+
+### Egapro
+Berekening van de index voor gelijkheid tussen vrouwen en mannen in ondernemingen.
+Website: https://github.com/SocialGouv/egapro — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/egapro.html — Trefwoorden: Index gelijkheid vrouwen-mannen
+
+### Etalab
+Gids voor publieke algoritmen.
+Website: https://etalab.github.io/algorithmes-publics/guide.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/etalab.html — Trefwoorden: Etalab, Referentiekader
+
+### Gdpr by design
+De AVG-gids voor ontwikkelaars biedt een eerste kennismaking met de belangrijkste beginselen van de verordening en met de aandachtspunten bij het uitrollen van toepassingen die de privacy van gebruikers respecteren.
+Website: https://www.cnil.fr/fr/guide-rgpd-du-developpeur — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/gdpr-by-design.html — Trefwoorden: Referentiekader
+
+### Green cost explorer
+Analyseert de milieuvoetafdruk van architecturen op Amazon Web Services.
+Website: https://github.com/thegreenwebfoundation/green-cost-explorer — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-cost-explorer.html — Trefwoorden: AWS, Amazon, Cloud
+
+### Labelia Labs (ex-Substra Foundation)
+Maturiteitsbeoordeling voor verantwoorde en betrouwbare AI: een evaluatiekader, gidsen en opensource-hulpmiddelen. De vereniging Substra Foundation is Labelia Labs geworden en de vroegere zelfevaluatiedienst is verhuisd.
+Website: https://www.labelia.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/labelia-labs.html — Trefwoorden: Referentiekader
+
+### One Click LCA
+One Click LCA is geautomatiseerde software voor levenscyclusanalyse die helpt de milieuvoetafdruk van uw bouw- en infrastructuurprojecten, producten en portefeuilles te berekenen en te verkleinen. Betalende software.
+Website: https://oneclicklca.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/one-click-lca.html — Trefwoorden: LCA-software
+
+### REGIS
+REGIS laat toe milieuprestaties te meten, op te volgen en erover te communiceren. Betalende software.
+Website: https://sinum.com/regis — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/regis.html — Trefwoorden: LCA-software
+
+### Sustainable it wiki
+Wiki over duurzame digitale technologie. Bètaversie, werk in uitvoering. Publicatie voorzien voor september 2021.
+Website: https://fr.wiki.isit-europe.org/nr/Accueil — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-it-wiki.html — Trefwoorden: ISIT, Referentiekader
+
+### WattTime
+WattTime is een vzw die technologische oplossingen aanreikt waarmee iedereen de uitstoot kan verlagen zonder in te boeten op kosten, comfort of functie.
+Website: https://watttime.org/docs-dev/coverage-map/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/watttime.html — Trefwoorden: Energie, Referentiegegevens (wereld)
+
+## Toegankelijkheid & inclusie
+
+### a11y Color Contrast Checker
+Gratis hulpmiddelen voor kleurcontrastanalyse die contrastproblemen op een webpagina of tussen twee gekozen kleuren blootleggen, volgens de WCAG 2.1-richtlijnen.
+Website: https://www.audioeye.com/color-contrast-checker/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/a11y-color-contrast-checker.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Access-Score
+Geeft gebruikers van openbare digitale ruimten een eenvoudige, directe indruk van de toegankelijkheid, in plaats van alleen een ruwe nalevingsscore.
+Website: https://access-score.org — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/access-score.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### AccessConfig A11Y
+Lichte opensource-stijlwisselaar waarmee bezoekers met een beperking een website aan een deel van hun eigen behoeften kunnen aanpassen.
+Website: https://accessconfig.a11y.fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessconfig-a11y.html — Type: Hulpmiddel — Toegang: Gratis
+
+### Accessibility Checker
+Gratis websitecontrole die toegankelijkheidsproblemen opspoort en precieze aanwijzingen geeft om ze op te lossen. Voer een URL in om te beginnen.
+Website: https://www.accessibilitychecker.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessibility-checker.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Accessible Design website
+Bronnen voor het ontwerpen van diensten die voor iedereen nuttig en bruikbaar zijn, met een praktische checklist.
+Website: https://design-accessible.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessible-design-website.html — Type: Documentatie
+
+### Accessible office documents (RGAA)
+Toegankelijke kantoordocumenten maken. Het RGAA geldt voor elk document en elke toepassing die online beschikbaar is, op internet, op intranet en in webtoepassingen, maar ook voor inhoud die kan worden gedownload. In het raadplegingsthema van het RGAA bepaalt criterium 13.7 (niveau A) dat elk downloadbaar kantoordocument zo nodig een toegankelijke versie heeft.
+Website: https://github.com/DISIC/guides-documents_bureautiques_accessibles — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessible-office-documents-rgaa.html — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Accessibility Microsoft Word, Adobe Acrobat Pro Document Cloud, Calc, Excel, Impress, LibreOffice Writer, PowerPoint, RGAA
+
+### Accessible-DfA font
+Lettertype ontworpen voor maximale leesbaarheid voor iedereen: hoog contrast, sobere vormen, brede lettervormen en ondubbelzinnige tekens.
+Website: https://github.com/Orange-OpenSource/font-accessible-dfa — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/accessible-dfa-font.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Assistant RGAA
+Browserextensie voor Firefox en Chrome die de volledige lijst met criteria en tests van het Franse toegankelijkheidsreferentiekader RGAA toont, versies 3.0 tot en met 4.1.
+Website: https://github.com/boscop-fr/assistant-rgaa/blob/main/README.md — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/assistant-rgaa.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, Conformiteit, Hulpmiddelen, RGAA
+
+### axe Auditor
+Oplossing voor handmatige toegankelijkheidstests, bedoeld voor toegankelijkheidsspecialisten, met begeleiding stap voor stap, opvolging en rapportgeneratie.
+Website: https://www.deque.com/axe/auditor/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/axe-auditor.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, Audit, Conformiteit, Hulpmiddelen, RGAA
+
+### axe DevTools
+Geautomatiseerde en begeleide toegankelijkheidstests voor componentontwikkelaars, front-endontwikkelaars, ontwikkelaars van native mobiele apps en testingenieurs.
+Website: https://www.deque.com/axe/devtools/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/axe-devtools.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, Conformiteit, Hulpmiddelen, RGAA
+
+### axe Monitor
+Analyse- en rapportagehulpmiddel op ondernemingsschaal dat de toegankelijkheid van volledige websites beoordeelt, inclusief zones achter een wachtwoord.
+Website: https://www.deque.com/axe/monitor/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/axe-monitor.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: API, Toegankelijkheid, Conformiteit, Dashboard, KPI, Hulpmiddelen, RGAA
+
+### Chrome DevTools — Accessibility tree
+Volledige inspectie van de toegankelijkheidsboom, ingebouwd in de ontwikkelaarstools van Chrome.
+Website: https://developer.chrome.com/blog/full-accessibility-tree/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/chrome-devtools-accessibility-tree.html — Type: Hulpmiddel
+
+### Color contrast analyzer (CCA)
+Hulpmiddel om kleurcontrast te controleren.
+Website: https://vispero.com/lp/color-contrast-checker/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/color-contrast-analyzer-cca.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### Color Safe
+Maakt het mogelijk een huisstijl op te bouwen volgens de aanbevelingen van de WCAG.
+Website: http://colorsafe.co/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/color-safe.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### Contrastradio
+Test de contrastverhouding tussen twee kleuren. Het hulpmiddel geeft aan welk conformiteitsniveau met dat kleurenschema haalbaar is. Voor toegankelijkheidsniveau AA is een contrastverhouding van minstens 4,5:1 nodig, voor niveau AAA minstens 7:1.
+Website: https://www.siegemedia.com/contrast-ratio — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/contrastradio.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### DesignGouv toolkit
+Toolkit van het designteam van de Franse overheid: methoden, sjablonen en checklists voor het ontwerpen van publieke digitale diensten, met richtlijnen voor toegankelijkheid en ecodesign.
+Website: https://design.numerique.gouv.fr/outils/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/designgouv-toolkit.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Design, Digitale bemiddeling, Front-end
+
+### Digital accessibility awareness posters (UK Government)
+Posters met do's en don'ts over ontwerpen voor toegankelijkheid, uitgegeven door de Britse overheid en vertaald in meer dan tien talen.
+Website: https://github.com/UKHomeOffice/posters/tree/master/accessibility/dos-donts — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/digital-accessibility-awareness-posters-uk-government.html — Type: Infografiek
+
+### European Accessibility Act
+Referentiemateriaal over richtlijn (EU) 2019/882, die de vereisten voor digitale toegankelijkheid in de Europese Unie vastlegt.
+Website: https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/european-accessibility-act.html — Type: Documentatie
+
+### EXPERTE.com Accessibility Test
+Doorloopt een website en gaat na of elke subpagina correct kan worden weergegeven door schermlezers, met een verslag van wat moet worden hersteld.
+Website: https://www.experte.com/fr/accessibilite — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/experte-com-accessibility-test.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Mobile accessibility
+Checklist voor mobiele toegankelijkheid.
+Website: https://developer.mozilla.org/fr/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/mobile-accessibility.html — Type: Gids / Referentiekader — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Toegankelijkheid, Mobiel, Referentiekader
+
+### One click accessibility
+WordPress-plug-in voor toegankelijkheid.
+Website: https://fr.wordpress.org/plugins/pojo-accessibility/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/one-click-accessibility.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### OpenDyslexic
+Lettertype ontworpen om veelvoorkomende symptomen van dyslexie tegen te gaan, met verzwaarde letteronderkanten die verhinderen dat tekens omkantelen.
+Website: https://opendyslexic.org — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/opendyslexic.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Pix
+Platform voor de beoordeling en de certificering van digitale vaardigheden, voor iedereen. Digitale technologie is overal, in het beroepsleven en in het privéleven, en het beheersen van internet en computer is een grote maatschappelijke inzet geworden. Pix wil iedereen helpen zijn digitale vaardigheden te ontwikkelen: leerlingen, studenten, werkenden, mensen die afhaakten, werkzoekenden, ouderen, of gewoon burgers die hun digitale vaardigheden willen meten, ontwikkelen en laten gelden. De dienst neemt de vorm aan van een onlineplatform en wil de zin in levenslang leren aanwakkeren met een standaard en met vernieuwende, veeleisende en welwillende evaluatiemethoden.
+Website: https://github.com/1024pix/pix — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/pix.html — Type: Organisatie — Doelgroep: Algemeen publiek / Beginner — Toegang: Gratis — Trefwoorden: Digitale bemiddeling, Digitale vaardigheden, Digitale ongeletterdheid, Inclusie
+
+### RandomA11y — accessible colour pairs
+Kleurenspeeltuin in realtime die miljoenen toegankelijke kleurencombinaties voorstelt, elk beoordeeld op de contrastvereisten.
+Website: https://randoma11y.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/randoma11y-accessible-colour-pairs.html — Type: Hulpmiddel
+
+### RGAA
+Algemeen referentiekader voor de verbetering van de toegankelijkheid.
+Website: https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/rgaa.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Toegankelijkheid, Referentiekader
+
+### Tanaguru
+Met Tanaguru Engine controleert u in enkele klikken het toegankelijkheidsniveau van een pagina, een site of een aankoopproces. Het is de eerste stap naar RGAA-conformiteit en de opensource-oplossing om de toegankelijkheid van uw websites en webtoepassingen te auditen.
+Website: https://www.tanaguru.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tanaguru.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid
+
+### The A11Y Project
+Door de gemeenschap beheerde verzameling bronnen over toegankelijkheid: checklists, artikelen en hulpmiddelen, onderhouden in het Engels.
+Website: https://www.a11yproject.com/resources/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-a11y-project.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### The OAA accessibility game
+Begeleid spel dat een team stap voor stap door het toegankelijk maken van een digitale dienst loodst.
+Website: https://design.numerique.gouv.fr/outils/jeu-de-oaa/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-oaa-accessibility-game.html — Type: Workshop — Toegang: Gratis
+
+### The rgaa for integrators
+Gids voor integratoren, als kader voor de bronnen die het gebruik van het algemene toegankelijkheidsreferentiekader voor overheidsdiensten begeleiden. Let op: deze kit is bedoeld voor RGAA 3, terwijl versie 4 al in gebruik is.
+Website: https://github.com/DISIC/guide-integrateur — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/the-rgaa-for-integrators.html — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: CSS, Code, HTML, RGAA
+
+### W3C web accessibility
+Leg een stevige basis in digitale toegankelijkheid, zodat uw websites en toepassingen goed werken voor mensen met een beperking, voldoen aan de internationale standaarden en iedereen een betere gebruikservaring bieden.
+Website: https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/w3c-web-accessibility.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, MOOC, Opleiding, W3C, Web
+
+### WAVE (WebAIM)
+Hulpmiddel om de toegankelijkheid van een website te beoordelen.
+Website: https://wave.webaim.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/wave-webaim.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Toegankelijkheid, Meting, Web
+
+### WebAccessibility
+Test en API om de toegankelijkheid van een externe of interne website te beoordelen.
+Website: https://www.webaccessibility.com/tools/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/webaccessibility.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: Toegankelijkheid
+
+### WP Accessibility
+Plug-in voor toegankelijkheid voor WordPress.
+Website: https://fr.wordpress.org/plugins/wp-accessibility/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/wp-accessibility.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, WordPress
+
+### WP Accessibility Helper
+Plug-in voor toegankelijkheid voor WordPress.
+Website: https://fr.wordpress.org/plugins/wp-accessibility-helper/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/wah.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, WordPress
+
+## WEEE & hardware
+
+### Amnesty International report: This is what we die for
+Onderzoek naar mensenrechtenschendingen in de Democratische Republiek Congo, verbonden aan de kobaltketen die de consumentenelektronica bevoorraadt.
+Website: https://www.amnesty.org/en/wp-content/uploads/2021/05/AFR6231832016ENGLISH.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/amnesty-international-report-this-is-what-we-die-for.html — Type: Studie
+
+### Documentary: Welcome to Sodom
+Documentaire gefilmd in Agbogbloshie in Ghana, een van de grootste stortplaatsen voor elektronisch afval ter wereld, verteld door de mensen die er wonen en werken.
+Website: https://www.imdb.com/title/tt8116550/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/documentary-welcome-to-sodom.html — Type: Video
+
+### e-Trash Transparency Project (Basel Action Network)
+Traceringsproject dat echte gegevens verzamelt over wat er werkelijk gebeurt met een oude computer, monitor of printer die bij een goed doel of een recyclagebedrijf wordt achtergelaten.
+Website: https://www.ban.org/trash-transparency — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/e-trash-transparency-project-basel-action-network.html — Type: Organisatie
+
+### EPEAT label
+Wereldwijd ecolabel voor IT-producten, dat klimaatimpact, duurzaam grondstoffengebruik, zorgwekkende chemische stoffen en de omstandigheden in de toeleveringsketen dekt.
+Website: https://www.epeat.net/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/epeat-label.html — Type: Hulpmiddel
+
+### Global E-waste Monitor (United Nations)
+Referentierapporten over de wereldwijde hoeveelheden elektrisch en elektronisch afval, over de stromen ervan en over hun eindbestemming.
+Website: https://ewastemonitor.info/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/global-e-waste-monitor-united-nations.html — Type: Studie
+
+### iFixit — repair manuals
+Wereldwijde gemeenschap die elkaar helpt de voorwerpen rondom hen te herstellen, met gratis demontagegidsen, onderdelen en een vragenforum.
+Website: https://fr.ifixit.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ifixit-repair-manuals.html — Type: Documentatie
+
+### Resilio database (CH)
+Referentieplatform en API die de milieu-impact van professionele IT meten volgens de Europese PEF 3.0-standaard.
+Website: https://db.resilio.tech/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/resilio-database-ch.html — Type: Hulpmiddel
+
+### Right to Repair Europe
+Europese coalitie die campagne voert voor het recht op herstelling, met standpuntnota's en opvolging van het beleid per land.
+Website: https://repair.eu/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/right-to-repair-europe.html — Type: Organisatie
+
+### Rtlamr
+Nutsbedrijven gebruiken vaak slimme meters om het uitlezen van residentiële meters te optimaliseren. Die meters zenden verbruiksinformatie uit in verschillende ISM-banden, zodat opnemers de wijk hoeven door te rijden om de gegevens op te halen. Eén protocol in het bijzonder, Encoder Receiver Transmitter van Itron, is vrij eenvoudig te decoderen en werkt in de ISM-band van 900 MHz, ruim binnen het bereik van goedkope rtl-sdr-dongles. Dit project is een softwarematige radio-ontvanger voor die berichten, waarmee gebruikers hun eigen verbruik niet-invasief kunnen opnemen en analyseren.
+Website: https://github.com/bemasher/rtlamr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/rtlamr.html — Trefwoorden: IoT, Meter, SmartBuilding, SmartCity, SmartMeter
+
+### TCO Certified
+Wereldwijde duurzaamheidscertificering voor IT-producten, met aandacht voor klimaat, gevaarlijke stoffen, circulariteit en verantwoordelijkheid in de toeleveringsketen.
+Website: https://tcocertified.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tco-certified.html — Type: Hulpmiddel
+
+### TV Size to Distance Calculator
+Berekent de juiste verhouding tussen schermgrootte, resolutie en kijkafstand, zodat een groter of scherper scherm niet nodeloos wordt gekocht.
+Website: https://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tv-size-to-distance-calculator.html — Type: Infografiek
+
+## Web-ecodesign
+
+### Aequitas
+Opensource-framework voor bias-audits, waarmee ontwikkelaars, analisten en beleidsmakers machine-learningmodellen op discriminatie en vooroordelen kunnen doorlichten en onderbouwde, eerlijke beslissingen kunnen nemen over de ontwikkeling en de inzet van voorspellende risicobeoordelingsinstrumenten.
+Website: https://datasciencepublicpolicy.org/our-work/tools-guides/aequitas/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aequitas.html — Trefwoorden: Ethiek
+
+### Avolin
+Energiebeheer van IT-parken.
+Website: https://ignitetech.ai:443/software-library/verdiem/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/avolin.html — Trefwoorden: Hulpmiddel
+
+### axe DevTools
+Chrome-extensie voor het testen van webtoegankelijkheid.
+Website: https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?ucbcb=1 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/axis.html — Trefwoorden: Toegankelijkheid
+
+### Carbon emissions tracker
+Berekent de koolstofuitstoot op basis van batterijverbruik, autoverplaatsingen en andere factoren. De informatie wordt aan de gebruiker getoond en bevordert zo het milieubewustzijn.
+Website: https://github.com/yang573/carbon-footprint — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/carbon-emissions-tracker.html — Trefwoorden: Voetafdruk
+
+### Cauldron
+Volledig toegankelijk front-endframework met HTML-, CSS- en JavaScript-componenten voor het bouwen van web- en mobiele toepassingen.
+Website: https://cauldron.dequelabs.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/cauldron.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Toegankelijkheid, Framework, Mobiel, Web
+
+### Checklist 115 good practices
+Checklist met 115 goede praktijken voor webecodesign, om aan te geven of ze zijn toegepast en om uw maturiteitsscore te bepalen.
+Website: https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/checklist-115-good-practices.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Ecodesign, Referentiekader
+
+### Checkmycolor
+Hulpmiddel om de combinaties van voorgrond- en achtergrondkleuren van alle DOM-elementen te controleren en na te gaan of het contrast volstaat voor mensen met een visuele beperking.
+Website: https://www.checkmycolours.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/checkmycolor.html — Trefwoorden: Toegankelijkheid
+
+### ColdCMS
+Een CMS gebouwd voor ecologische prestaties. ColdCMS is een Django-project op basis van Wagtail CMS en het Bulma CSS Framework. Beheerders bewerken websites via een intuïtieve, gebruiksvriendelijke interface. Verschillende paginatypes zijn vooraf ontworpen, zodat u een mooie website krijgt zonder er uren aan te besteden. ColdCMS is speciaal ontworpen voor wie de impact van zijn digitale gebruik op het milieu wil verminderen. De website van de klant bestaat uit statische pagina's, gebouwd met Wagtail Bakery. De pagina's worden gegenereerd en bijgewerkt wanneer dat nodig is, bijvoorbeeld wanneer de beheerder inhoud publiceert of wijzigt. Onder meer worden de CSS-bestanden verkleind en ongebruikte CSS-code verwijderd, met PurgeCSS en clean-css. ColdCMS ondersteunt Python >= 3.6.
+Website: https://gitlab.com/hashbangfr/coldcms — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/coldcms.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: CMS, Framework, Lowtech
+
+### Dareboost
+Test, analyseer en optimaliseer uw website.
+Website: https://www.dareboost.com/en — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/dareboost.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Betaald — Trefwoorden: Webevaluatie
+
+### Dark Patterns study (CNIL LINC)
+Leesrooster gepubliceerd door het laboratorium voor digitale innovatie van de CNIL om misleidend ontwerp te karakteriseren. De studie analyseerde programmatisch 53.000 pagina's op ongeveer 11.000 sites.
+Website: https://www.calameo.com/read/007567583e85a4130362c — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/dark-patterns-study-cnil-linc.html — Type: Documentatie — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Data CO2 Calculator V4
+Excel-bestand om de koolstofvoetafdruk van data in de verschillende fasen van hun levenscyclus te beoordelen.
+Website: https://www.dropbox.com/s/fhhcuzbxcuih14l/Data%20CO2%20Calculator%20V4.xlsx — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/data-co2-calculator-v4.html — Trefwoorden: CO2, Data, Voetafdruk
+
+### Device CO2 Calculator V4
+Excel-bestand om de koolstofvoetafdruk van digitale apparaten te beoordelen.
+Website: https://www.dropbox.com/s/bp7xrr7evtqfard/Device%20CO2%20Calculator%20V4.xlsx — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/device-co2-calculator-v4.html — Trefwoorden: CO2, Apparaat, Voetafdruk, Eindapparatuur
+
+### Ecodesign web compliance checklist
+Conformiteitschecklist om op een consistente en objectieve manier te beoordelen in hoeverre de goede praktijken voor ecodesign op een website zijn toegepast.
+Website: https://collectif.greenit.fr/ecoconception-web/2019-05-Ref-eco_web-conformite.v3.xls — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecodesign-web-compliance-checklist.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Trefwoorden: Ecodesign, Referentiekader
+
+### EcoIndex simulator
+Kleine simulator om te bepalen op welke assen u moet inzetten voor het ecodesign van uw websites.
+Website: https://rachelwe.github.io/Simulateur-ecoindex/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecoindex-simulator.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Index, Meting
+
+### Energy usage
+Python-pakket met een functie die het energieverbruik en de bijbehorende koolstofuitstoot van een andere functie schat. De uitstoot wordt berekend op basis van de locatie van de gebruiker via de GeoJS-API en de energiemix van die locatie (bronnen: US EIA en eGRID, jaar 2016).
+Website: https://github.com/responsibleproblemsolving/energy-usage — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-usage.html — Trefwoorden: Impact
+
+### Good practices in eco-design
+Deze brochure vult de drie brochures met goede praktijken voor softwareontwikkeling aan die het DevLOG-netwerk binnen het Franse hoger onderwijs en onderzoek uitgeeft. Dit deel gaat over goede praktijken voor het ecodesign van digitale diensten, waarmee de milieuvoetafdruk van digitale technologie kan worden begrepen en verkleind.
+Website: https://hal.archives-ouvertes.fr/hal-03009741/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/good-practices-in-eco-design.html — Type: Studie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Ecodesign, Referentiekader
+
+### Google AMP
+Deze pagina van Google test of een pagina van uw website AMP-technologie gebruikt, een publicatieformaat voor het web dat pagina's sneller laat verschijnen op mobiele apparaten.
+Website: https://search.google.com/test/amp?hl=fr — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/google-amp.html — Trefwoorden: Voetafdruk, Meting, Web
+
+### Google richtxt
+Test de compatibiliteit met verrijkte zoekresultaten. Zo krijgt uw pagina een correcte weergave in de zoekmachines ten opzichte van andere pagina's, en verbetert ook de navigatie vanaf een mobiel toestel.
+Website: https://search.google.com/test/rich-results — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/google-richtxt.html — Trefwoorden: SEO, Web
+
+### GR491
+Referentiegids van ISIT voor verantwoord ontwerp van digitale diensten, georganiseerd in aanbevelingsfamilies en verifieerbare criteria.
+Website: https://gr491.isit-europe.org — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/gr491.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### GTmetrix
+GTmetrix beoordeelt de webprestaties van een site, onder meer aan de hand van de Core Web Vitals, criteria rond gebruikerservaring die meewegen in het algoritme van Google.
+Website: https://gtmetrix.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/gt-metrix.html — Trefwoorden: Voetafdruk, Meting, Web
+
+### Intel Power Gadget
+Meet het energieverbruik van code op Intel-processoren.
+Website: https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/intel-power-gadget.html — Trefwoorden: CPU, Energie, Intel
+
+### IONOS
+Websiteanalyse die een eerste beoordeling geeft van de naleving van beveiligingsvereisten, de laadsnelheid van pagina's en UX-aanbevelingen voor weergave en zichtbaarheid.
+Website: https://www.ionos.fr/tools/analyse-site-web — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ionos.html — Trefwoorden: Voetafdruk, Meting, Web
+
+### Linux extended BPF
+Programma's om de kernel te traceren en te bewerken.
+Website: https://www.brendangregg.com/ebpf.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/linux-extended-bpf.html — Trefwoorden: Energie
+
+### Opquast
+Goede praktijken voor webkwaliteit.
+Website: https://checklists.opquast.com/fr/qualite-numerique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/opquast.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: Referentiekader
+
+### PETrA
+PETrA (Power Estimation Tool for Android) is een hulpmiddel om het energieverbruik van Android-toepassingen te schatten.
+Website: https://figshare.com/articles/dataset/PETrA_a_Software-based_Tool_for_Estimating_the_Energy_Profile_of_Android_Applications/4233767?file=8918233 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/petra.html — Trefwoorden: Meting, Mobiel
+
+### Qualscan
+Hulpmiddel dat verschillende plug-ins uitvoert om de kwaliteit van uw JavaScript-project te controleren.
+Website: https://www.npmjs.com/package/qualscan — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/qualscan.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Codekwaliteit
+
+### Responsible design of a digital service (Académie NR)
+Tien videomodules over de eerste sleutels van verantwoord ontwerp: methode, hulpmiddelen, referentiekaders en beroepspraktijk. Gericht op teams die digitale diensten ontwerpen.
+Website: https://www.academie-nr.org/mooc-conception/fr/index.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/responsible-design-of-a-digital-service-academie-nr.html — Type: MOOC — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Opleiding, Ecodesign, ISIT
+
+### RGESN — French general framework for digital service eco-design
+Het Franse referentiekader voor het ecodesign van digitale diensten, versie 2024, geleid door Arcep samen met ADEME, Arcom, DINUM, CNIL en Inria. Opgebouwd uit verifieerbare criteria voor strategie, specificatie, architectuur, inhoud, front-end, back-end en hosting. Vormt de basis voor ecodesignverklaringen.
+Website: https://www.arcep.fr/mes-demarches-et-services/entreprises/fiches-pratiques/referentiel-general-ecoconception-services-numeriques.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/rgesn-french-general-framework-for-digital-service-eco-design.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Framework, Ecodesign, Regelgeving
+
+### SCAMPI
+Lichte bibliotheek met SCSS-, HTML- en JavaScript-componenten die voldoet aan de Pidila-checklist: RGAA-toegankelijkheid, het webhandvest van de Franse staat, ecodesign, de goede praktijken van Opquast en het interoperabiliteitskader RGI.
+Website: https://pidila.gitlab.io/scampi/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/scampi.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis
+
+### Scaphandre
+Opensource-agent voor energiemetrologie, geschreven in Rust. Meet het opgenomen vermogen van een machine en wijst dat proces per proces toe, zowel op bare metal als in virtuele machines. Stelt de metingen beschikbaar aan Prometheus.
+Website: https://bpetit.nce.re/fr/2021/01/scaphandre-v0.1.1-mesurer-la-consommation-d%C3%A9nergie-des-coulisses-du-num%C3%A9rique/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/scaphandre.html — Trefwoorden: Energie
+
+### Sustainable Web Design
+Model voor de koolstofvoetafdruk van een webpagina dat een referentie in de sector is geworden, samen met de principes voor duurzaam ontwerp. Dit is de methodologie achter de meeste rekenmodules voor webvoetafdruk op de markt.
+Website: https://sustainablewebdesign.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/sustainable-web-design.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Framework, Ecodesign, Web, CO2-voetafdruk
+
+### Susty
+Susty is een uiterst licht WordPress-thema. Het is gemaakt om te tonen hoe klein een WordPress-site kan zijn, met slechts 6 kB dataoverdracht, 7 kB met Yoast. Als experiment in minimalisme wil het thema net genoeg code leveren om de site te laten werken. Het is dus niet aan te raden het zonder aanpassingen op een blog of productiewebsite te activeren. De doelstellingen staan beschreven in een blogbericht met de titel « Delivering WordPress in 7KB ».
+Website: https://github.com/jacklenox/susty — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/susty.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: CMS, Framework, Lowtech, WordPress
+
+### Test My Site
+Test de prestaties van mobiele sites.
+Website: https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/?ucbcb=1 — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/test-my-site.html — Trefwoorden: Voetafdruk, Meting, Mobiel, Web
+
+### Uptrends
+Test de snelheid van een website.
+Website: https://www.uptrends.fr/outils-gratuits/speed-test-site-web — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/uptrends.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Trefwoorden: Meting, Web
+
+### Web Sustainability Guidelines (W3C)
+Richtlijnen van het W3C voor duurzaam webdesign, opgebouwd naar het model van de WCAG voor toegankelijkheid. Ze bestrijken interface, inhoud, ontwikkeling, hosting en projectbeheer, met succescriteria en bijbehorende tests.
+Website: https://w3c-cg.github.io/sustyweb/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/web-sustainability-guidelines-w3c.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Framework, Ecodesign, Web, W3C
+
+### WebPageTest
+Test de prestaties van een website, met een beoordeling van beveiliging, cache, CDN, beeldoptimalisatie en compressie van de overdracht.
+Website: https://www.webpagetest.org/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/web-page-test.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Voetafdruk, Meting, Web
+
+### YSlow
+Opensourceproject dat webpagina's analyseert en verbeteringen voorstelt op basis van een reeks regels voor goed presterende pagina's.
+Website: https://yslow.org — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/yslow.html — Type: Hulpmiddel — Toegang: Gratis
+
+## Webdesign
+
+### Designing for guidance
+Hulpmiddel van Microsoft om inclusiever te werken en de digitale kloof te helpen verkleinen (documentatie in het Engels).
+Website: https://inclusive.microsoft.design/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/designing-for-guidance.html — Type: Infografiek — Doelgroep: IT-professional / Expert — Trefwoorden: Design, Inclusie
+
+### DINUM sustainable IT toolbox
+Bewust korte, geselecteerde lijst van het Franse directoraat voor digitale zaken, met een indeling en de aanbevolen hulpmiddelen.
+Website: https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/dinum-sustainable-it-toolbox.html — Type: Gids / Referentiekader — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: DINUM, RGESN, Toolbox
+
+### Ecodit
+Beoordelingstool van Keleo, gebaseerd op GR491 en het Franse RGESN-kader voor ecologisch ontwerp, om de milieu-impact van een digitale dienst te schatten.
+Website: https://ecodit.keleo.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecodit.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### eleventy-dsfr
+Sjabloon om met Eleventy een site te bouwen op basis van het designsysteem van de Franse staat. Door statische generatie blijft het serververbruik minimaal.
+Website: https://codegouvfr.github.io/eleventy-dsfr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/eleventy-dsfr.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis
+
+### Inclusive design toolkit
+Toolkits om redenen voor inclusie en uitsluiting in kaart te brengen.
+Website: https://inclusive.microsoft.design/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/inclusive-design-toolkit.html — Type: Infografiek — Doelgroep: IT-professional / Expert — Trefwoorden: Design, Inclusie
+
+### Lisio
+Dynamische sitelezer, toegankelijkheid, koolstofimpact.
+Website: https://lisio.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/lisio.html — Type: Hulpmiddel — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Design
+
+### TinyPNG
+Comprimeert afbeeldingen zodat ze minder wegen voordat ze op een website worden gepubliceerd.
+Website: https://tinypng.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/tinypng.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Design, Afbeelding, Soberheid
+
+### Unused CSS
+Spoort stijlregels op die nooit worden toegepast, zodat ze uit de download van bezoekers kunnen worden gehaald.
+Website: https://unused-css.com — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/unused-css.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld
+
+### Video Optimizer
+Hulpmiddel om video- en beeldinhoud van mobiele toepassingen te analyseren. Het algoritme vertrekt van het netwerkverkeer en het batterijverbruik, afgezet tegen een reeks van 43 goede praktijken, om de ontwikkelaar bij zijn optimalisaties te helpen.
+Website: https://github.com/attdevsupport/VideoOptimizer — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/video-optimizer.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Trefwoorden: Mobiel, Video, Web

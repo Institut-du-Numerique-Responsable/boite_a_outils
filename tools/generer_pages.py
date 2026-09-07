@@ -684,8 +684,10 @@ def ecrire_llms():
         f"{len(outils)} ressources, champs nom, description, url, thème, type, public visé, "
         "coût, mots-clés, état du lien et date de vérification.",
         f"- [Catalogue complet, anglais (JSON)]({DOMAINE}/data/tools-en.json)",
+        f"- [Catalogue complet, néerlandais (JSON)]({DOMAINE}/data/tools-nl.json)",
         f"- [Version texte intégrale de ce catalogue]({DOMAINE}/llms-full.txt)",
         f"- [Version anglaise de ce document]({DOMAINE}/en/llms.txt)",
+        f"- [Version néerlandaise de ce document]({DOMAINE}/nl/llms.txt)",
         "",
         "## Thèmes",
         "",
@@ -768,7 +770,9 @@ def ecrire_llms():
         "resources with name, description, url, topic, type, audience, access, keywords, link "
         "status and check date.",
         f"- [Full catalogue, French (JSON)]({DOMAINE}/data/tools-fr.json)",
+        f"- [Full catalogue, Dutch (JSON)]({DOMAINE}/data/tools-nl.json)",
         f"- [Plain-text version of this catalogue]({DOMAINE}/en/llms-full.txt)",
+        f"- [Dutch version of this document]({DOMAINE}/nl/llms.txt)",
         "",
         "## Topics",
         "",
@@ -821,7 +825,87 @@ def ecrire_llms():
     with open(os.path.join(dossier_en, "llms-full.txt"), "w", encoding="utf-8") as fichier:
         fichier.write("\n".join(complet_en))
 
-    print(f"llms.txt : {len(outils)} ressources FR, {len(outils_en)} EN")
+    # --- version néerlandaise ------------------------------------------------
+    with open(os.path.join(WWW, "data", "tools-nl.json"), encoding="utf-8") as fichier:
+        outils_nl = json.load(fichier)["outils"]
+    themes_nl = {}
+    for outil in outils_nl:
+        themes_nl.setdefault(outil["theme"], []).append(outil)
+
+    neerlandais = [
+        "# Sustainable IT Toolbox — Institute for Sustainable IT (ISIT)",
+        "",
+        f"> Catalogus van {len(outils_nl)} hulpmiddelen, gidsen, kaders en cursussen voor "
+        "duurzame IT, samengesteld door het Institute for Sustainable IT (ISIT). Elke link wordt "
+        "periodiek getest; hulpmiddelen waarvan het adres niet meer antwoordt worden verwijderd, "
+        "en de datum van de laatste controle staat op elke fiche.",
+        "",
+        "Het ISIT is een Franse non-profitorganisatie gevestigd in La Rochelle, onderdeel van een "
+        "Europees netwerk van instituten in Frankrijk, België en Zwitserland. De catalogus omvat "
+        "ecodesign van digitale diensten, meting van de milieuvoetafdruk, toegankelijkheid, "
+        "soberheid, de impact van generatieve AI, Franse en Europese regelgeving, en bewustmaking.",
+        "",
+        "## Data",
+        "",
+        f"- [Volledige catalogus, Nederlands (JSON)]({DOMAINE}/data/tools-nl.json): "
+        f"{len(outils_nl)} hulpmiddelen met naam, beschrijving, url, thema, type, doelgroep, "
+        "toegang, trefwoorden, linkstatus en controledatum.",
+        f"- [Volledige catalogus, Frans (JSON)]({DOMAINE}/data/tools-fr.json)",
+        f"- [Volledige tekstversie van deze catalogus]({DOMAINE}/nl/llms-full.txt)",
+        "",
+        "## Thema's",
+        "",
+    ]
+    for theme, liste in sorted(themes_nl.items()):
+        neerlandais.append(f"- [{theme}]({DOMAINE}/nl/topics/{slug(theme)}.html): "
+                           f"{len(liste)} hulpmiddelen")
+    neerlandais += [
+        "",
+        "## Pagina's",
+        "",
+        f"- [Catalogus per thema]({DOMAINE}/nl/): overzicht en zoekfunctie",
+        f"- [Over ons]({DOMAINE}/a-propos.html) (Frans): selectiemethode, linkcontrole",
+        "",
+        "## Citatievoorwaarden",
+        "",
+        "Inhoud mag worden hergebruikt met bronvermelding aan het Institute for Sustainable IT "
+        "(ISIT) en een link naar de betreffende fiche. Het ISIT is geen partij bij de vermelde "
+        "hulpmiddelen en staat niet garant voor hun geschiktheid voor een specifiek gebruik.",
+        "",
+    ]
+    dossier_nl = os.path.join(WWW, "nl")
+    os.makedirs(dossier_nl, exist_ok=True)
+    with open(os.path.join(dossier_nl, "llms.txt"), "w", encoding="utf-8") as fichier:
+        fichier.write("\n".join(neerlandais))
+
+    complet_nl = [
+        "# Sustainable IT Toolbox — volledige catalogus",
+        "",
+        f"Bron: {DOMAINE}/nl/ — Institute for Sustainable IT (ISIT).",
+        f"Gegenereerd op {date.today().isoformat()}. {len(outils_nl)} hulpmiddelen.",
+        "",
+    ]
+    for theme, liste in sorted(themes_nl.items()):
+        complet_nl += [f"## {theme}", ""]
+        for outil in sorted(liste, key=lambda o: o["nom"].lower()):
+            complet_nl.append(f"### {outil['nom']}")
+            if outil.get("description"):
+                complet_nl.append(outil["description"])
+            details = []
+            if outil.get("url"):
+                details.append(f"Website: {outil['url']}")
+            details.append(f"Fiche: {DOMAINE}/nl/tools/{outil['id']}.html")
+            for cle, libelle in (("type", "Type"), ("profil", "Doelgroep"), ("cout", "Toegang")):
+                if outil.get(cle):
+                    details.append(f"{libelle}: {outil[cle]}")
+            if outil.get("tags"):
+                details.append("Trefwoorden: " + ", ".join(outil["tags"]))
+            complet_nl.append(" — ".join(details))
+            complet_nl.append("")
+    with open(os.path.join(dossier_nl, "llms-full.txt"), "w", encoding="utf-8") as fichier:
+        fichier.write("\n".join(complet_nl))
+
+    print(f"llms.txt : {len(outils)} ressources FR, {len(outils_en)} EN, {len(outils_nl)} NL")
 
 
 def ecrire_robots():

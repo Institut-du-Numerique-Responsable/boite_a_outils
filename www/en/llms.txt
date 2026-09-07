@@ -8,7 +8,9 @@ ISIT is a French non-profit based in La Rochelle, part of a European network of 
 
 - [Full catalogue, English (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-en.json): 341 resources with name, description, url, topic, type, audience, access, keywords, link status and check date.
 - [Full catalogue, French (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json)
+- [Full catalogue, Dutch (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json)
 - [Plain-text version of this catalogue](https://sustainableit-tools.isit-europe.org/en/llms-full.txt)
+- [Dutch version of this document](https://sustainableit-tools.isit-europe.org/nl/llms.txt)
 
 ## Topics
 
