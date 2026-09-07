@@ -4,8 +4,14 @@
 (function () {
   "use strict";
 
-  var LANG = ["en", "nl"].indexOf(document.documentElement.lang) > -1
-    ? document.documentElement.lang : "fr";
+  // Dérivé du chemin d'URL plutôt que de l'attribut lang du document : ce
+  // dernier a été vu incohérent au moment précis où ce script s'exécute
+  // (constaté en usage réel, navigation FR → NL par clic comme en chargement
+  // direct de /nl/ — vraisemblablement une réutilisation de contexte du
+  // navigateur autour du pré-rendu/preload). Le chemin, lui, correspond
+  // toujours au document réellement chargé.
+  var LANG = /^\/en\//.test(location.pathname) ? "en"
+    : /^\/nl\//.test(location.pathname) ? "nl" : "fr";
   var PAGE = 48; // fiches rendues par lot
 
   var T = {
