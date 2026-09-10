@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-10. 349 resources.
+Generated on 2026-09-10. 348 resources.
 
 ## AI
 
@@ -763,7 +763,7 @@ Website: https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf �
 
 ### Energy profiler
 Energy Profiler helps you find where your application is using more energy than needed
-Website: https://developer.android.com/studio/profile/energy-profiler — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-profiler.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Mobile
+Website: https://developer.android.com/studio/profile/power-profiler — Entry: https://sustainableit-tools.isit-europe.org/en/tools/energy-profiler.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Energy, Mobile
 
 ### Estimated one hour carbon footprint calculation core
 Estimated one hour carbon footprint calculation core
@@ -1308,10 +1308,6 @@ Website: https://cauldron.dequelabs.com/ — Entry: https://sustainableit-tools.
 ### Checklist 115 good practices
 Checklist of 115 good web ecodesign practices to point out their implementation (or not) and assess your maturity score.
 Website: https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html — Entry: https://sustainableit-tools.isit-europe.org/en/tools/checklist-115-good-practices.html — Type: Documentation — Audience: General public / Beginner — Keywords: Ecodesign, Referential
-
-### Checkmycolor
-Tool to check the foreground and background color combinations of all DOM elements and determine if they provide sufficient contrast when viewed by a person with disabilities to visualize all of the elements. colors.
-Website: https://www.checkmycolours.com/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/checkmycolor.html — Keywords: Accessibility
 
 ### Coldcms
 A CMS built for ecological performance. ColdCMS is a Django project based on Wagtail CMS and Bulma CSS Framework. Admin can edit websites through intuitive and user-friendly interface. Different types of pages are pre-designed, which allows you to have a beautiful website without spending hours on it. ColdCMS is specially designed for people who want to reduce the impact of their use of digital technologies on the environment. The client's website consists of static pages, built with the Wagtail Bakery. The pages of the site are generated and updated as necessary (for example when the administrator publishes or modifies content). Among other optimizations, CSS file sizes are reduced and unused CSS code is removed, using PurgeCSS and clean-css. ColdCMS supports Python> = 3.6.

@@ -379,12 +379,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/en/tools/checkmycolor.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://sustainableit-tools.isit-europe.org/en/tools/chrome-devtools-accessibility-tree.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -2569,12 +2563,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sustainableit-tools.isit-europe.org/nl/tools/checkmycolor.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://sustainableit-tools.isit-europe.org/nl/tools/chrome-devtools-accessibility-tree.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -4748,12 +4736,6 @@
   </url>
   <url>
     <loc>https://sustainableit-tools.isit-europe.org/outils/check-list-de-conformite-ecoconception-web.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sustainableit-tools.isit-europe.org/outils/checkmycolor.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

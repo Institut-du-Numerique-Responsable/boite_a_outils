@@ -1,12 +1,12 @@
 # Boîte à outils du Numérique Responsable — Institut du Numérique Responsable (INR)
 
-> Catalogue de 363 outils, guides, référentiels, formations et textes de loi du numérique responsable, sélectionnés par l'Institut du Numérique Responsable (INR / Institute for Sustainable IT). Chaque lien est testé périodiquement ; les ressources dont l'adresse ne répond plus sont retirées, et la date du dernier contrôle est publiée sur chaque fiche.
+> Catalogue de 362 outils, guides, référentiels, formations et textes de loi du numérique responsable, sélectionnés par l'Institut du Numérique Responsable (INR / Institute for Sustainable IT). Chaque lien est testé périodiquement ; les ressources dont l'adresse ne répond plus sont retirées, et la date du dernier contrôle est publiée sur chaque fiche.
 
 L'INR est une association loi 1901 basée à La Rochelle, réseau européen d'instituts en France, Belgique et Suisse. Le catalogue couvre l'écoconception de services numériques, la mesure d'empreinte environnementale, l'accessibilité, la sobriété, l'impact de l'IA générative, le cadre juridique français et européen, et la sensibilisation.
 
 ## Données
 
-- [Catalogue complet, français (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json) : 363 ressources, champs nom, description, url, thème, type, public visé, coût, mots-clés, état du lien et date de vérification.
+- [Catalogue complet, français (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json) : 362 ressources, champs nom, description, url, thème, type, public visé, coût, mots-clés, état du lien et date de vérification.
 - [Catalogue complet, anglais (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-en.json)
 - [Catalogue complet, néerlandais (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json)
 - [Version texte intégrale de ce catalogue](https://sustainableit-tools.isit-europe.org/llms-full.txt)
@@ -15,7 +15,7 @@ L'INR est une association loi 1901 basée à La Rochelle, réseau européen d'in
 
 ## Thèmes
 
-- [Accessibilité & inclusivité](https://sustainableit-tools.isit-europe.org/themes/accessibilite-inclusivite.html) : 40 ressources
+- [Accessibilité & inclusivité](https://sustainableit-tools.isit-europe.org/themes/accessibilite-inclusivite.html) : 39 ressources
 - [Conception web](https://sustainableit-tools.isit-europe.org/themes/conception-web.html) : 9 ressources
 - [DEEEE et Equipements](https://sustainableit-tools.isit-europe.org/themes/deeee-et-equipements.html) : 11 ressources
 - [Démarche pour les organisations / entreprises](https://sustainableit-tools.isit-europe.org/themes/demarche-pour-les-organisations-entreprises.html) : 24 ressources

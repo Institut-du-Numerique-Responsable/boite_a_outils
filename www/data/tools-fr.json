@@ -177,22 +177,6 @@
    "verifie_le": "2026-08-15"
   },
   {
-   "id": "checkmycolor",
-   "nom": "Checkmycolor",
-   "description": "Outil permettant de vérifier les combinaisons de couleurs de premier plan et d'arrière-plan de tous les éléments du DOM et de déterminer s'ils offrent un contraste suffisant lorsqu'ils sont vus par une personne présentant des déficiences pour visualiser l'ensemble des couleurs.",
-   "url": "https://www.checkmycolours.com/",
-   "theme": "Accessibilité & inclusivité",
-   "domaine": "Front-End",
-   "type": "",
-   "profil": "",
-   "cout": "",
-   "tags": [
-    "Accessibilité"
-   ],
-   "lien_ok": "ok",
-   "verifie_le": "2026-08-15"
-  },
-  {
    "id": "chrome-devtools-accessibility-tree",
    "nom": "Chrome DevTools - Accessibility tree",
    "description": "Arborescence complète de l'accessibilité dans les outils pour les développeurs Chrome",
@@ -5557,7 +5541,7 @@
    "id": "energy-profiler",
    "nom": "Energy profiler",
    "description": "Energy Profiler vous aide à trouver où votre application utilise plus d'énergie que nécessaire",
-   "url": "https://developer.android.com/studio/profile/energy-profiler",
+   "url": "https://developer.android.com/studio/profile/power-profiler",
    "theme": "Évaluation et mesure",
    "domaine": "Front-End",
    "type": "Outil",

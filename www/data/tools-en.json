@@ -3036,7 +3036,7 @@
       "id": "energy-profiler",
       "nom": "Energy profiler",
       "description": "Energy Profiler helps you find where your application is using more energy than needed",
-      "url": "https://developer.android.com/studio/profile/energy-profiler",
+      "url": "https://developer.android.com/studio/profile/power-profiler",
       "theme": "Measurement & assessment",
       "domaine": "Front-end",
       "type": "Tool",
@@ -5241,22 +5241,6 @@
       "tags": [
         "Ecodesign",
         "Referential"
-      ],
-      "lien_ok": "ok",
-      "verifie_le": "2026-08-15"
-    },
-    {
-      "id": "checkmycolor",
-      "nom": "Checkmycolor",
-      "description": "Tool to check the foreground and background color combinations of all DOM elements and determine if they provide sufficient contrast when viewed by a person with disabilities to visualize all of the elements. colors.",
-      "url": "https://www.checkmycolours.com/",
-      "theme": "Web eco-design",
-      "domaine": "Front-end",
-      "type": "",
-      "profil": "",
-      "cout": "",
-      "tags": [
-        "Accessibility"
       ],
       "lien_ok": "ok",
       "verifie_le": "2026-08-15"

@@ -174,7 +174,7 @@
       "id": "anatomy-of-a-cew",
       "nom": "Anatomy of a CEW",
       "description": "Praktische gids om de milieu-impact van een cloudworkload te begrijpen en te verminderen.",
-      "url": "https://anatomyofacew.com/",
+      "url": "https://anatomyof.ai",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Gids / Referentiekader",
@@ -208,7 +208,7 @@
       "id": "ecologits",
       "nom": "EcoLogits",
       "description": "Open source-bibliotheek om de milieu-impact van generatieve AI-modellen te schatten.",
-      "url": "https://ecologits.ai/",
+      "url": "https://ecologits.ai/latest/",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Hulpmiddel",
@@ -242,7 +242,7 @@
       "id": "green-ai",
       "nom": "Green AI",
       "description": "Bronnen over efficiëntere machine-learningmodellen met een kleinere milieu-impact.",
-      "url": "https://github.com/sisl/green-ai",
+      "url": "https://github.com/daviddao/green-ai",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Documentatie",
@@ -326,7 +326,7 @@
       "id": "ecocode",
       "nom": "Ecocode",
       "description": "Analyseert broncode en geeft aanbevelingen om software energiezuiniger te maken.",
-      "url": "https://github.com/cnumr/ecoCode",
+      "url": "https://ecocode.io/",
       "theme": "Meting & beoordeling",
       "domaine": "Back-end",
       "type": "Hulpmiddel",
@@ -719,22 +719,6 @@
       "tags": [
         "Ecodesign",
         "Referentiekader"
-      ],
-      "lien_ok": "ok",
-      "verifie_le": "2026-08-15"
-    },
-    {
-      "id": "checkmycolor",
-      "nom": "Checkmycolor",
-      "description": "Hulpmiddel om de combinaties van voorgrond- en achtergrondkleuren van alle DOM-elementen te controleren en na te gaan of het contrast volstaat voor mensen met een visuele beperking.",
-      "url": "https://www.checkmycolours.com/",
-      "theme": "Web-ecodesign",
-      "domaine": "Front-end",
-      "type": "",
-      "profil": "",
-      "cout": "",
-      "tags": [
-        "Toegankelijkheid"
       ],
       "lien_ok": "ok",
       "verifie_le": "2026-08-15"
@@ -1886,7 +1870,7 @@
       "id": "energy-profiler",
       "nom": "Energy Profiler",
       "description": "Energy Profiler helpt u te vinden waar uw toepassing meer energie verbruikt dan nodig.",
-      "url": "https://developer.android.com/studio/profile/energy-profiler",
+      "url": "https://developer.android.com/studio/profile/power-profiler",
       "theme": "Meting & beoordeling",
       "domaine": "Front-end",
       "type": "Hulpmiddel",
