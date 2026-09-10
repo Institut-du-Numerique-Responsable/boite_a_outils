@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — volledige catalogus
 
 Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
-Gegenereerd op 2026-09-10. 350 hulpmiddelen.
+Gegenereerd op 2026-09-10. 348 hulpmiddelen.
 
 ## AI
 
@@ -19,7 +19,7 @@ Website: https://github.com/Trusted-AI/AIF360 — Fiche: https://sustainableit-t
 
 ### Anatomy of a CEW
 Praktische gids om de milieu-impact van een cloudworkload te begrijpen en te verminderen.
-Website: https://anatomyofacew.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/anatomy-of-a-cew.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, Impact
+Website: https://anatomyof.ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/anatomy-of-a-cew.html — Type: Gids / Referentiekader — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Cloud, Impact
 
 ### Artificial Intelligence Index Report (2023)
 Jaarrapport van het Institute for Human-Centered AI van Stanford University, dat het technische, economische en ecologische traject van artificiële intelligentie volgt.
@@ -39,7 +39,7 @@ Website: https://github.com/gwittebolle/claude-carbon — Fiche: https://sustain
 
 ### EcoLogits
 Open source-bibliotheek om de milieu-impact van generatieve AI-modellen te schatten.
-Website: https://ecologits.ai/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecologits.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Impact
+Website: https://ecologits.ai/latest/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecologits.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Impact
 
 ### Ethics guidelines for trustworthy AI
 Europese richtsnoeren voor betrouwbare AI, met aandacht voor menselijke controle, veiligheid, privacy, transparantie en maatschappelijke verantwoordelijkheid.
@@ -47,7 +47,7 @@ Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trus
 
 ### Green AI
 Bronnen over efficiëntere machine-learningmodellen met een kleinere milieu-impact.
-Website: https://github.com/sisl/green-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-ai.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign
+Website: https://github.com/daviddao/green-ai — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/green-ai.html — Type: Documentatie — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: AI, Ecodesign
 
 ### Green Claude
 Skill voor Claude Code die naar ecologisch ontworpen code leidt, zonder commando om te onthouden. 106 ecodesignregels voor digitale soberheid, energie- en waterverbruik en CPU/GPU-optimalisatie, conform RGESN 2024 en GR491 — automatisch toegepast zodra Claude code schrijft of beoordeelt.
@@ -575,7 +575,7 @@ Website: https://www.digitalcarbonfootprint.eu/ — Fiche: https://sustainableit
 
 ### Ecocode
 Analyseert broncode en geeft aanbevelingen om software energiezuiniger te maken.
-Website: https://github.com/cnumr/ecoCode — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecocode.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ecodesign, Goede praktijken
+Website: https://ecocode.io/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/ecocode.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Ecodesign, Goede praktijken
 
 ### ecoCode JavaScript
 Regels voor statische analyse om de milieuvoetafdruk van JavaScript- en TypeScript-programma's te verkleinen, van het Green Code Initiative.
@@ -611,7 +611,7 @@ Website: https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf �
 
 ### Energy Profiler
 Energy Profiler helpt u te vinden waar uw toepassing meer energie verbruikt dan nodig.
-Website: https://developer.android.com/studio/profile/energy-profiler — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-profiler.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Mobiel
+Website: https://developer.android.com/studio/profile/power-profiler — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/energy-profiler.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Energie, Mobiel
 
 ### Estimated one hour carbon footprint calculation core
 Rekenkern voor de geschatte koolstofvoetafdruk van één uur gebruik.
@@ -846,10 +846,6 @@ Website: https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-r
 ### A local authority's sustainable IT strategy in 10 steps
 Methodologische gids uitgegeven door Les Interconnectés, het Franse netwerk van digitale lokale besturen.
 Website: https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html — Type: Gids / Referentiekader
-
-### Aptic
-Om een digitale cheque op te zetten ten dienste van digitale inclusie.
-Website: https://www.aptic.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aptic.html — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Digitale cheque, Digitale bemiddeling
 
 ### Being eco-responsible at the office (ADEME)
 Gids van het Franse milieuagentschap over digitale soberheid op de werkvloer.
@@ -1268,10 +1264,6 @@ Website: https://cauldron.dequelabs.com/ — Fiche: https://sustainableit-tools.
 ### Checklist 115 good practices
 Checklist met 115 goede praktijken voor webecodesign, om aan te geven of ze zijn toegepast en om uw maturiteitsscore te bepalen.
 Website: https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/checklist-115-good-practices.html — Type: Documentatie — Doelgroep: Algemeen publiek / Beginner — Trefwoorden: Ecodesign, Referentiekader
-
-### Checkmycolor
-Hulpmiddel om de combinaties van voorgrond- en achtergrondkleuren van alle DOM-elementen te controleren en na te gaan of het contrast volstaat voor mensen met een visuele beperking.
-Website: https://www.checkmycolours.com/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/checkmycolor.html — Trefwoorden: Toegankelijkheid
 
 ### ColdCMS
 Een CMS gebouwd voor ecologische prestaties. ColdCMS is een Django-project op basis van Wagtail CMS en het Bulma CSS Framework. Beheerders bewerken websites via een intuïtieve, gebruiksvriendelijke interface. Verschillende paginatypes zijn vooraf ontworpen, zodat u een mooie website krijgt zonder er uren aan te besteden. ColdCMS is speciaal ontworpen voor wie de impact van zijn digitale gebruik op het milieu wil verminderen. De website van de klant bestaat uit statische pagina's, gebouwd met Wagtail Bakery. De pagina's worden gegenereerd en bijgewerkt wanneer dat nodig is, bijvoorbeeld wanneer de beheerder inhoud publiceert of wijzigt. Onder meer worden de CSS-bestanden verkleind en ongebruikte CSS-code verwijderd, met PurgeCSS en clean-css. ColdCMS ondersteunt Python >= 3.6.

@@ -1,12 +1,12 @@
 # Sustainable IT Toolbox — Institute for Sustainable IT (ISIT)
 
-> Catalogus van 350 hulpmiddelen, gidsen, kaders en cursussen voor duurzame IT, samengesteld door het Institute for Sustainable IT (ISIT). Elke link wordt periodiek getest; hulpmiddelen waarvan het adres niet meer antwoordt worden verwijderd, en de datum van de laatste controle staat op elke fiche.
+> Catalogus van 348 hulpmiddelen, gidsen, kaders en cursussen voor duurzame IT, samengesteld door het Institute for Sustainable IT (ISIT). Elke link wordt periodiek getest; hulpmiddelen waarvan het adres niet meer antwoordt worden verwijderd, en de datum van de laatste controle staat op elke fiche.
 
 Het ISIT is een Franse non-profitorganisatie gevestigd in La Rochelle, onderdeel van een Europees netwerk van instituten in Frankrijk, België en Zwitserland. De catalogus omvat ecodesign van digitale diensten, meting van de milieuvoetafdruk, toegankelijkheid, soberheid, de impact van generatieve AI, Franse en Europese regelgeving, en bewustmaking.
 
 ## Data
 
-- [Volledige catalogus, Nederlands (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json): 350 hulpmiddelen met naam, beschrijving, url, thema, type, doelgroep, toegang, trefwoorden, linkstatus en controledatum.
+- [Volledige catalogus, Nederlands (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-nl.json): 348 hulpmiddelen met naam, beschrijving, url, thema, type, doelgroep, toegang, trefwoorden, linkstatus en controledatum.
 - [Volledige catalogus, Frans (JSON)](https://sustainableit-tools.isit-europe.org/data/tools-fr.json)
 - [Volledige tekstversie van deze catalogus](https://sustainableit-tools.isit-europe.org/nl/llms-full.txt)
 
@@ -19,12 +19,12 @@ Het ISIT is een Franse non-profitorganisatie gevestigd in La Rochelle, onderdeel
 - [Innovatie & onderzoek](https://sustainableit-tools.isit-europe.org/nl/topics/innovatie-onderzoek.html): 3 hulpmiddelen
 - [Marketing & communicatie](https://sustainableit-tools.isit-europe.org/nl/topics/marketing-communicatie.html): 8 hulpmiddelen
 - [Meting & beoordeling](https://sustainableit-tools.isit-europe.org/nl/topics/meting-beoordeling.html): 96 hulpmiddelen
-- [Organisatorische routekaart](https://sustainableit-tools.isit-europe.org/nl/topics/organisatorische-routekaart.html): 25 hulpmiddelen
+- [Organisatorische routekaart](https://sustainableit-tools.isit-europe.org/nl/topics/organisatorische-routekaart.html): 24 hulpmiddelen
 - [Privacy, transparantie & ethiek](https://sustainableit-tools.isit-europe.org/nl/topics/privacy-transparantie-ethiek.html): 12 hulpmiddelen
 - [Referenties & gidsen](https://sustainableit-tools.isit-europe.org/nl/topics/referenties-gidsen.html): 14 hulpmiddelen
 - [Toegankelijkheid & inclusie](https://sustainableit-tools.isit-europe.org/nl/topics/toegankelijkheid-inclusie.html): 36 hulpmiddelen
 - [WEEE & hardware](https://sustainableit-tools.isit-europe.org/nl/topics/weee-hardware.html): 11 hulpmiddelen
-- [Web-ecodesign](https://sustainableit-tools.isit-europe.org/nl/topics/web-ecodesign.html): 37 hulpmiddelen
+- [Web-ecodesign](https://sustainableit-tools.isit-europe.org/nl/topics/web-ecodesign.html): 36 hulpmiddelen
 - [Webdesign](https://sustainableit-tools.isit-europe.org/nl/topics/webdesign.html): 9 hulpmiddelen
 
 ## Pagina's

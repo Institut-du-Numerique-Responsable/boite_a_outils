@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-10. 364 ressources.
+Généré le 2026-09-10. 362 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -44,10 +44,6 @@ Site : https://www.deque.com/axe/devtools/ — Fiche : https://sustainableit-too
 ### Axe monitor
 ax Monitor® est un outil d'analyse et de création de rapports au niveau de l'entreprise qui peut évaluer l'accessibilité Web de sites Web entiers, y compris les zones protégées par mot de passe. ax Monitor peut implémenter des scripts de cas d'utilisation, autoriser des options de rapport personnalisées basées sur les directives WCAG ou Section 508 et permettre une surveillance programmée de l'accessibilité sur des projets de toute envergure ou complexité. Il est conçu pour fonctionner avec l'extension de navigateur ax DevTools pour Chrome et Firefox. Il existe une version en API de Axe Monitor
 Site : https://www.deque.com/axe/monitor/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/axe-monitor.html — Type : Outil — Public : Créateur contenu/Intermédiaire — Mots-clés : API, Accessibilité, Conformité, Dashboard, KPI, Outils, RGAA
-
-### Checkmycolor
-Outil permettant de vérifier les combinaisons de couleurs de premier plan et d'arrière-plan de tous les éléments du DOM et de déterminer s'ils offrent un contraste suffisant lorsqu'ils sont vus par une personne présentant des déficiences pour visualiser l'ensemble des couleurs.
-Site : https://www.checkmycolours.com/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/checkmycolor.html — Mots-clés : Accessibilité
 
 ### Chrome DevTools - Accessibility tree
 Arborescence complète de l'accessibilité dans les outils pour les développeurs Chrome
@@ -280,10 +276,6 @@ Site : https://librairie.ademe.fr/consommer-autrement/8402-comment-etre-ecorespo
 ### "Why it’s time for a Green revolution for your organization’s IT"
 Rapport de CapGemini sur le Numérique Responsable dans les organisations
 Site : https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf — Fiche : https://sustainableit-tools.isit-europe.org/outils/why-it-s-time-for-a-green-revolution-for-your-organization-s-it.html — Type : Guide / Référentiel
-
-### Aptic
-Pour mettre en place un chèque numérique pour œuvrer en faveur de l’inclusion numérique
-Site : https://www.aptic.fr/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/aptic.html — Public : Tout public/débutant — Accès : Payant — Mots-clés : Chèque numérique, Médiation Numérique
 
 ### Charte Numérique Responsable
 Charte d'engagement de l'Institut du Numérique Responsable : quinze principes qu'une organisation signe pour structurer sa démarche numérique responsable, de la sobriété des équipements à l'inclusion numérique. Point de départ avant le label NR.
@@ -1290,7 +1282,7 @@ Site : https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf —
 
 ### Energy profiler
 Energy Profiler vous aide à trouver où votre application utilise plus d'énergie que nécessaire
-Site : https://developer.android.com/studio/profile/energy-profiler — Fiche : https://sustainableit-tools.isit-europe.org/outils/energy-profiler.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Energie, Mobile
+Site : https://developer.android.com/studio/profile/power-profiler — Fiche : https://sustainableit-tools.isit-europe.org/outils/energy-profiler.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Energie, Mobile
 
 ### Estimation de l’empreinte carbone d’une heure.coeur de calcul
 Estimation de l'empreinte carbone d'une heure.coeur de calcul
