@@ -4010,23 +4010,6 @@
       "ajoute_le": "2024"
     },
     {
-      "id": "aptic",
-      "nom": "Aptic",
-      "description": "To set up a digital check to work for digital inclusion",
-      "url": "https://www.aptic.fr/",
-      "theme": "Organisational roadmap",
-      "domaine": "",
-      "type": "",
-      "profil": "General public / Beginner",
-      "cout": "Paid",
-      "tags": [
-        "Digital Check",
-        "Digital Mediation"
-      ],
-      "lien_ok": "ok",
-      "verifie_le": "2026-08-15"
-    },
-    {
       "id": "being-eco-responsible-at-the-office-ademe",
       "nom": "Being eco-responsible at the office (ADEME)",
       "description": "French environment agency guide to digital sobriety in professional workplaces.",

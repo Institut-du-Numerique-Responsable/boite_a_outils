@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-10. 350 resources.
+Generated on 2026-09-10. 349 resources.
 
 ## AI
 
@@ -998,10 +998,6 @@ Website: https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-r
 ### A local authority's sustainable IT strategy in 10 steps
 Methodological guide published by Les Interconnectés, the French network of digital local authorities.
 Website: https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf — Entry: https://sustainableit-tools.isit-europe.org/en/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html — Type: Guide / Framework
-
-### Aptic
-To set up a digital check to work for digital inclusion
-Website: https://www.aptic.fr/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/aptic.html — Audience: General public / Beginner — Access: Paid — Keywords: Digital Check, Digital Mediation
 
 ### Being eco-responsible at the office (ADEME)
 French environment agency guide to digital sobriety in professional workplaces.

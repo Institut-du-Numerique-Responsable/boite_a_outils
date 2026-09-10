@@ -1060,23 +1060,6 @@
    "ajoute_le": "2024"
   },
   {
-   "id": "aptic",
-   "nom": "Aptic",
-   "description": "Pour mettre en place un chèque numérique pour œuvrer en faveur de l’inclusion numérique",
-   "url": "https://www.aptic.fr/",
-   "theme": "Démarche pour les organisations / entreprises",
-   "domaine": "sans objet",
-   "type": "",
-   "profil": "Tout public/débutant",
-   "cout": "Payant",
-   "tags": [
-    "Chèque numérique",
-    "Médiation Numérique"
-   ],
-   "lien_ok": "ok",
-   "verifie_le": "2026-08-15"
-  },
-  {
    "id": "charte-numerique-responsable",
    "nom": "Charte Numérique Responsable",
    "description": "Charte d'engagement de l'Institut du Numérique Responsable : quinze principes qu'une organisation signe pour structurer sa démarche numérique responsable, de la sobriété des équipements à l'inclusion numérique. Point de départ avant le label NR.",

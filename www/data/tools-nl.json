@@ -4557,23 +4557,6 @@
       "ajoute_le": "2024"
     },
     {
-      "id": "aptic",
-      "nom": "Aptic",
-      "description": "Om een digitale cheque op te zetten ten dienste van digitale inclusie.",
-      "url": "https://www.aptic.fr/",
-      "theme": "Organisatorische routekaart",
-      "domaine": "",
-      "type": "",
-      "profil": "Algemeen publiek / Beginner",
-      "cout": "Betaald",
-      "tags": [
-        "Digitale cheque",
-        "Digitale bemiddeling"
-      ],
-      "lien_ok": "ok",
-      "verifie_le": "2026-08-15"
-    },
-    {
       "id": "being-eco-responsible-at-the-office-ademe",
       "nom": "Being eco-responsible at the office (ADEME)",
       "description": "Gids van het Franse milieuagentschap over digitale soberheid op de werkvloer.",

@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-10. 364 ressources.
+Généré le 2026-09-10. 363 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -280,10 +280,6 @@ Site : https://librairie.ademe.fr/consommer-autrement/8402-comment-etre-ecorespo
 ### "Why it’s time for a Green revolution for your organization’s IT"
 Rapport de CapGemini sur le Numérique Responsable dans les organisations
 Site : https://www.capgemini.com/wp-content/uploads/2021/05/Sustainable-IT_Report.pdf — Fiche : https://sustainableit-tools.isit-europe.org/outils/why-it-s-time-for-a-green-revolution-for-your-organization-s-it.html — Type : Guide / Référentiel
-
-### Aptic
-Pour mettre en place un chèque numérique pour œuvrer en faveur de l’inclusion numérique
-Site : https://www.aptic.fr/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/aptic.html — Public : Tout public/débutant — Accès : Payant — Mots-clés : Chèque numérique, Médiation Numérique
 
 ### Charte Numérique Responsable
 Charte d'engagement de l'Institut du Numérique Responsable : quinze principes qu'une organisation signe pour structurer sa démarche numérique responsable, de la sobriété des équipements à l'inclusion numérique. Point de départ avant le label NR.

@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — volledige catalogus
 
 Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
-Gegenereerd op 2026-09-10. 350 hulpmiddelen.
+Gegenereerd op 2026-09-10. 349 hulpmiddelen.
 
 ## AI
 
@@ -846,10 +846,6 @@ Website: https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-r
 ### A local authority's sustainable IT strategy in 10 steps
 Methodologische gids uitgegeven door Les Interconnectés, het Franse netwerk van digitale lokale besturen.
 Website: https://www.interconnectes.com/wp-content/uploads/2023/06/140623_GuidemethodologiqueNR-INRInterconnectes.pdf — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/a-local-authority-s-sustainable-it-strategy-in-10-steps.html — Type: Gids / Referentiekader
-
-### Aptic
-Om een digitale cheque op te zetten ten dienste van digitale inclusie.
-Website: https://www.aptic.fr/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/aptic.html — Doelgroep: Algemeen publiek / Beginner — Toegang: Betaald — Trefwoorden: Digitale cheque, Digitale bemiddeling
 
 ### Being eco-responsible at the office (ADEME)
 Gids van het Franse milieuagentschap over digitale soberheid op de werkvloer.
