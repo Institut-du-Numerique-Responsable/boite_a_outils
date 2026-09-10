@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-07. 363 ressources.
+Généré le 2026-09-10. 364 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -64,6 +64,10 @@ Site : http://colorsafe.co/ — Fiche : https://sustainableit-tools.isit-europe.
 ### Colour contrast analyser (cca)
 Outil de vérification du contraste des couleurs
 Site : https://vispero.com/lp/color-contrast-checker/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/colour-contrast-analyser-cca.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : Accessibilité, Contraste
+
+### Contrast Advisor (FACIL'iti)
+Vérificateur de contraste qui ne se limite pas à un verdict conforme ou non conforme : il propose les couleurs valides les plus proches du choix initial, ce qui permet de corriger dès la conception sans attendre l'audit. Couvre les critères RGAA 3.2, 3.3 et 10.6 (textes, composants, liens). Accès libre, sans création de compte.
+Site : https://www.facil-iti.com/tools/contrast-advisor/ — Fiche : https://sustainableit-tools.isit-europe.org/outils/contrast-advisor-facil-iti.html — Type : Outil — Public : Créateur contenu/Intermédiaire — Accès : Gratuit — Mots-clés : Accessibilité, Design, Contraste, Couleur, RGAA
 
 ### Contrastradio
 Permet de tester le ratio de contraste entre deux couleurs. L'outil donne des indications sur le niveau de conformité qui peut potentiellement être obtenu avec ce jeu de couleurs. Pour obtenir un niveau d’accessibilité AA : rapport de contraste minimal de 4,5:1. Pour un niveau AAA : rapport de contraste minimal de 7:1.

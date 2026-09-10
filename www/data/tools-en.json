@@ -5953,6 +5953,26 @@
       "lien_ok": "ok",
       "verifie_le": "2026-09-07",
       "ajoute_le": "2026"
+    },
+    {
+      "id": "contrast-advisor-facil-iti",
+      "nom": "Contrast Advisor (FACIL'iti)",
+      "description": "A contrast checker that goes beyond a pass or fail verdict: it suggests the closest compliant colours to the ones you picked, so corrections happen at design time rather than after the audit. Covers RGAA criteria 3.2, 3.3 and 10.6 (text, components, links). Free to use, no account required.",
+      "url": "https://www.facil-iti.com/tools/contrast-advisor/",
+      "theme": "Accessibility & inclusion",
+      "domaine": "Front-end",
+      "type": "Tool",
+      "profil": "Content creator / Intermediate",
+      "cout": "Free",
+      "tags": [
+        "Accessibility",
+        "Design",
+        "Contrast",
+        "Colour",
+        "RGAA"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-10"
     }
   ]
 }

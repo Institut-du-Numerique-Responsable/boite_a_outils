@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — volledige catalogus
 
 Bron: https://sustainableit-tools.isit-europe.org/nl/ — Institute for Sustainable IT (ISIT).
-Gegenereerd op 2026-09-07. 349 hulpmiddelen.
+Gegenereerd op 2026-09-10. 350 hulpmiddelen.
 
 ## AI
 
@@ -1112,6 +1112,10 @@ Website: https://vispero.com/lp/color-contrast-checker/ — Fiche: https://susta
 ### Color Safe
 Maakt het mogelijk een huisstijl op te bouwen volgens de aanbevelingen van de WCAG.
 Website: http://colorsafe.co/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/color-safe.html — Type: Hulpmiddel — Doelgroep: IT-professional / Expert — Toegang: Gratis — Trefwoorden: Toegankelijkheid
+
+### Contrast Advisor (FACIL'iti)
+Een contrastchecker die verder gaat dan een goed- of afkeuring: hij stelt de dichtstbijzijnde conforme kleuren voor bij je oorspronkelijke keuze, zodat je al tijdens het ontwerp corrigeert in plaats van na de audit. Dekt de RGAA-criteria 3.2, 3.3 en 10.6 (tekst, componenten, links). Vrij te gebruiken, zonder account.
+Website: https://www.facil-iti.com/tools/contrast-advisor/ — Fiche: https://sustainableit-tools.isit-europe.org/nl/tools/contrast-advisor-facil-iti.html — Type: Hulpmiddel — Doelgroep: Contentmaker / Gemiddeld — Toegang: Gratis — Trefwoorden: Toegankelijkheid, Design, Contrast, Kleur, RGAA
 
 ### Contrastradio
 Test de contrastverhouding tussen twee kleuren. Het hulpmiddel geeft aan welk conformiteitsniveau met dat kleurenschema haalbaar is. Voor toegankelijkheidsniveau AA is een contrastverhouding van minstens 4,5:1 nodig, voor niveau AAA minstens 7:1.
