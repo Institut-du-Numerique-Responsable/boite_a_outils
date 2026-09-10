@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-07. 349 resources.
+Generated on 2026-09-10. 350 resources.
 
 ## AI
 
@@ -150,6 +150,10 @@ Website: https://vispero.com/lp/color-contrast-checker/ — Entry: https://susta
 ### Color safe
 Allows you to create a graphic charter by following the recommendations of WCAG.
 Website: http://colorsafe.co/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/color-safe.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: Accessibility
+
+### Contrast Advisor (FACIL'iti)
+A contrast checker that goes beyond a pass or fail verdict: it suggests the closest compliant colours to the ones you picked, so corrections happen at design time rather than after the audit. Covers RGAA criteria 3.2, 3.3 and 10.6 (text, components, links). Free to use, no account required.
+Website: https://www.facil-iti.com/tools/contrast-advisor/ — Entry: https://sustainableit-tools.isit-europe.org/en/tools/contrast-advisor-facil-iti.html — Type: Tool — Audience: Content creator / Intermediate — Access: Free — Keywords: Accessibility, Design, Contrast, Colour, RGAA
 
 ### Contrastradio
 Used to test the contrast ratio between two colors. The tool provides guidance on the level of compliance that can potentially be achieved with this color scheme. To achieve AA accessibility level: minimum contrast ratio of 4.5: 1. For AAA level: minimum contrast ratio of 7: 1.

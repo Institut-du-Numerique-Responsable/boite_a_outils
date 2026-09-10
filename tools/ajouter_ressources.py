@@ -477,6 +477,22 @@ NOUVELLES = [
         "cout": "Gratuit",
         "tags": ["Sobriété", "Data", "Sensibilisation"],
     },
+    # --- Vérificateur de contraste avec suggestion de couleurs conformes -----
+    {
+        "nom": "Contrast Advisor (FACIL'iti)",
+        "description": "Vérificateur de contraste qui ne se limite pas à un verdict conforme ou "
+                       "non conforme : il propose les couleurs valides les plus proches du choix "
+                       "initial, ce qui permet de corriger dès la conception sans attendre "
+                       "l'audit. Couvre les critères RGAA 3.2, 3.3 et 10.6 (textes, composants, "
+                       "liens). Accès libre, sans création de compte.",
+        "url": "https://www.facil-iti.com/tools/contrast-advisor/",
+        "theme": "Accessibilité & inclusivité",
+        "domaine": "Front-end",
+        "type": "Outil",
+        "profil": "Créateur contenu/Intermédiaire",
+        "cout": "Gratuit",
+        "tags": ["Accessibilité", "Design", "Contraste", "Couleur", "RGAA"],
+    },
 ]
 
 

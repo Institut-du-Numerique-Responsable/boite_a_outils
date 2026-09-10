@@ -5938,6 +5938,26 @@
       "lien_ok": "ok",
       "verifie_le": "2026-09-07",
       "ajoute_le": "2026"
+    },
+    {
+      "id": "contrast-advisor-facil-iti",
+      "nom": "Contrast Advisor (FACIL'iti)",
+      "description": "Een contrastchecker die verder gaat dan een goed- of afkeuring: hij stelt de dichtstbijzijnde conforme kleuren voor bij je oorspronkelijke keuze, zodat je al tijdens het ontwerp corrigeert in plaats van na de audit. Dekt de RGAA-criteria 3.2, 3.3 en 10.6 (tekst, componenten, links). Vrij te gebruiken, zonder account.",
+      "url": "https://www.facil-iti.com/tools/contrast-advisor/",
+      "theme": "Toegankelijkheid & inclusie",
+      "domaine": "Front-end",
+      "type": "Hulpmiddel",
+      "profil": "Contentmaker / Gemiddeld",
+      "cout": "Gratis",
+      "tags": [
+        "Toegankelijkheid",
+        "Design",
+        "Contrast",
+        "Kleur",
+        "RGAA"
+      ],
+      "lien_ok": "ok",
+      "verifie_le": "2026-09-10"
     }
   ]
 }
