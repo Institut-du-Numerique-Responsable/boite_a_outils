@@ -80,6 +80,35 @@ RewriteRule ^(index|search|odd|toutes-les-contributions)\.php$ https://sustainab
 # Le back-office, l'upload et phpinfo n'existent plus : ne pas laisser d'indice.
 RewriteRule ^(login|logout|upload|phpinfo|functions|header|footer|top-page)\.php$ https://sustainableit-tools.isit-europe.org/ [L,R=301]
 
+# ------------------------------------- pages de thème EN : slug FR → slug EN
+# Les pages de thème anglaises étaient générées avec le slug français
+# (en/topics/evaluation-et-mesure.html). Elles portent désormais un slug anglais.
+# Les anciennes URL ont pu être indexées ou partagées : un 301 vaut mieux qu'un
+# 404, la cible existe et couvre exactement le même thème.
+RewriteRule ^en/topics/accessibilite-inclusivite\.html$ https://sustainableit-tools.isit-europe.org/en/topics/accessibility-inclusion.html [L,R=301]
+RewriteRule ^en/topics/conception-web\.html$ https://sustainableit-tools.isit-europe.org/en/topics/web-design.html [L,R=301]
+RewriteRule ^en/topics/deeee-et-equipements\.html$ https://sustainableit-tools.isit-europe.org/en/topics/weee-hardware.html [L,R=301]
+RewriteRule ^en/topics/demarche-pour-les-organisations-entreprises\.html$ https://sustainableit-tools.isit-europe.org/en/topics/organisational-roadmap.html [L,R=301]
+RewriteRule ^en/topics/eco-conception-web\.html$ https://sustainableit-tools.isit-europe.org/en/topics/web-eco-design.html [L,R=301]
+RewriteRule ^en/topics/evaluation-et-mesure\.html$ https://sustainableit-tools.isit-europe.org/en/topics/measurement-assessment.html [L,R=301]
+RewriteRule ^en/topics/gestion-de-l-energie-et-des-ressources\.html$ https://sustainableit-tools.isit-europe.org/en/topics/energy-resource-management.html [L,R=301]
+RewriteRule ^en/topics/ia\.html$ https://sustainableit-tools.isit-europe.org/en/topics/ai.html [L,R=301]
+RewriteRule ^en/topics/innovation-et-recherche\.html$ https://sustainableit-tools.isit-europe.org/en/topics/innovation-research.html [L,R=301]
+RewriteRule ^en/topics/references-et-guides\.html$ https://sustainableit-tools.isit-europe.org/en/topics/references-guides.html [L,R=301]
+RewriteRule ^en/topics/respect-de-la-vie-privee-transparence-et-ethique\.html$ https://sustainableit-tools.isit-europe.org/en/topics/privacy-transparency-ethics.html [L,R=301]
+RewriteRule ^en/topics/sensibilisation-et-formation\.html$ https://sustainableit-tools.isit-europe.org/en/topics/awareness-training.html [L,R=301]
+RewriteRule ^en/topics/sobriete-de-ses-donnees\.html$ https://sustainableit-tools.isit-europe.org/en/topics/data-sobriety.html [L,R=301]
+
+# ------------------------------------------- fiches d'outils : slug renommé
+# Outils toujours au catalogue, mais dont le slug a changé : soit parce que le
+# nom de produit a cessé d'être traduit (Scaphandre, Les Bons Clics), soit parce
+# que l'éditeur s'est renommé (Substra Foundation → Labelia Labs).
+RewriteRule ^en/tools/diving-suit\.html$ https://sustainableit-tools.isit-europe.org/en/tools/scaphandre.html [L,R=301]
+RewriteRule ^en/tools/front-end\.html$ https://sustainableit-tools.isit-europe.org/en/tools/designgouv-toolkit.html [L,R=301]
+RewriteRule ^en/tools/the-right-clicks\.html$ https://sustainableit-tools.isit-europe.org/en/tools/les-bons-clics.html [L,R=301]
+RewriteRule ^en/tools/substra-foundation\.html$ https://sustainableit-tools.isit-europe.org/en/tools/labelia-labs.html [L,R=301]
+RewriteRule ^outils/substra-foundation\.html$ https://sustainableit-tools.isit-europe.org/outils/labelia-labs.html [L,R=301]
+
 # ---------------------------------------------------- compression statique
 # Les .br et .gz sont produits une fois par tools/precompresser.py, au niveau
 # maximal. Les servir tels quels évite de recompresser à chaque requête : plus
