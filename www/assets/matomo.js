@@ -37,4 +37,14 @@
   script.async = true;
   script.src = hote + "matomo.js";
   premier.parentNode.insertBefore(script, premier);
+
+  // Matomo Tag Manager INR : événements (lecture, formulaires, boutons clés),
+  // sans page vue ni cookie. Conteneur partagé par les sites INR.
+  (function () {
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = 'https://analytic.institutnr.org:8443/js/container_6cIda3yV.js';
+    s.parentNode.insertBefore(g, s);
+  })();
 })();
