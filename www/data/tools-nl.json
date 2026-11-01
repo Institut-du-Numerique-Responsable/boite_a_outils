@@ -3042,10 +3042,10 @@
       "ajoute_le": "2026"
     },
     {
-      "id": "impact-ia-sncf",
-      "nom": "Impact'IA (SNCF)",
-      "description": "Rekenmodule voor de milieuvoetafdruk van grote taalmodellen, met een uitgewerkt methodologiedocument. Dekt dertig generatieve AI-modellen van Google, Anthropic, OpenAI en Mistral, en rapporteert de uitstoot van broeikasgassen, het water- en het elektriciteitsverbruik per token, met een levenscyclusblik en reductiepraktijken. Samen gebouwd door SNCF, Resilio en Wavestone.",
-      "url": "https://github.com/SNCFdevelopers/ImpactIA",
+      "id": "eval-impact-ia",
+      "nom": "eval_impact_ia (INR)",
+      "description": "Bronbasis van het INR om een rekentool voor de milieubelasting van AI te bouwen: LCA-methode plus herbruikbare codebouwstenen, voor vier indicatoren — koolstof (gCO₂e), energie (kWh), water (L) en abiotische grondstoffen (gSb eq). Geselecteerde documentaire en softwarereferenties, methodologievoorstel en volledige doorlichting in SOURCES.md. Vervangt de verwijzing naar Impact'IA (SNCF).",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/eval_impact_ia",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Hulpmiddel",
@@ -3059,7 +3059,7 @@
         "Open source"
       ],
       "lien_ok": "ok",
-      "verifie_le": "2026-08-15",
+      "verifie_le": "2026-10-31",
       "ajoute_le": "2026"
     },
     {

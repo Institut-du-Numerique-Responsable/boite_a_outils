@@ -2130,10 +2130,10 @@
    "verifie_le": "2026-08-15"
   },
   {
-   "id": "impact-ia-sncf",
-   "nom": "Impact'IA (SNCF)",
-   "description": "Calculateur d'empreinte environnementale des grands modèles de langage, accompagné d'un document de méthodologie détaillé. Couvre 30 modèles d'IA générative de Google, Anthropic, OpenAI et Mistral, et restitue émissions de gaz à effet de serre, consommation d'eau et d'électricité par token, avec une vue cycle de vie et des bonnes pratiques de réduction. Fruit d'un an de travail conjoint SNCF, Resilio et Wavestone.",
-   "url": "https://github.com/SNCFdevelopers/ImpactIA",
+   "id": "eval-impact-ia",
+   "nom": "eval_impact_ia (INR)",
+   "description": "Base de ressources de l'INR pour construire un calculateur d'impact environnemental de l'IA : méthode (ACV) et briques de code réutilisables, pour quatre indicateurs — carbone (gCO₂e), énergie (kWh), eau (L) et ressources abiotiques (gSb eq). Références documentaires et logicielles sélectionnées, proposition de méthodologie, balayage complet dans SOURCES.md. Remplace la référence à Impact'IA (SNCF).",
+   "url": "https://github.com/Institut-du-Numerique-Responsable/eval_impact_ia",
    "theme": "IA",
    "domaine": "Back-End",
    "type": "Outil",
@@ -2147,7 +2147,7 @@
     "Open Source"
    ],
    "lien_ok": "ok",
-   "verifie_le": "2026-08-15",
+   "verifie_le": "2026-10-31",
    "ajoute_le": "2026"
   },
   {

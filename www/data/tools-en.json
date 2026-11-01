@@ -191,10 +191,10 @@
       "verifie_le": "2026-08-15"
     },
     {
-      "id": "impact-ia-sncf",
-      "nom": "Impact'IA (SNCF)",
-      "description": "Environmental footprint calculator for large language models, with a detailed methodology document. Covers thirty generative AI models from Google, Anthropic, OpenAI and Mistral, reporting greenhouse gas emissions, water and electricity use per token, with a life-cycle view and reduction practices. Built jointly by SNCF, Resilio and Wavestone.",
-      "url": "https://github.com/SNCFdevelopers/ImpactIA",
+      "id": "eval-impact-ia",
+      "nom": "eval_impact_ia (INR)",
+      "description": "INR resource base for building an AI environmental impact calculator: LCA method plus reusable code bricks, for four indicators — carbon (gCO₂e), energy (kWh), water (L) and abiotic resources (gSb eq). Curated documentary and software references, a methodology proposal, and the full sweep in SOURCES.md. Replaces the Impact'IA (SNCF) reference.",
+      "url": "https://github.com/Institut-du-Numerique-Responsable/eval_impact_ia",
       "theme": "AI",
       "domaine": "Back-end",
       "type": "Tool",
@@ -208,7 +208,7 @@
         "Open source"
       ],
       "lien_ok": "ok",
-      "verifie_le": "2026-08-15",
+      "verifie_le": "2026-10-31",
       "ajoute_le": "2026"
     },
     {

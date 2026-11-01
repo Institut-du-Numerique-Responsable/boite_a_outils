@@ -1,7 +1,7 @@
 # Boîte à outils du Numérique Responsable — catalogue intégral
 
 Source : https://sustainableit-tools.isit-europe.org/ — Institut du Numérique Responsable (INR).
-Généré le 2026-09-10. 362 ressources.
+Généré le 2026-11-01. 362 ressources.
 
 ## Accessibilité & inclusivité
 
@@ -518,6 +518,10 @@ Site : https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustw
 Rapport sur les impacts environnementaux du numérique en Europe (= études de cas sur l'IA, l'IoT, le Cloud, etc)
 Site : https://www.greens-efa.eu/fr/article/document/digital-technologies-in-europe-9542 — Fiche : https://sustainableit-tools.isit-europe.org/outils/etude-de-cas-sur-l-ia-en-europe.html — Type : Etude
 
+### eval_impact_ia (INR)
+Base de ressources de l'INR pour construire un calculateur d'impact environnemental de l'IA : méthode (ACV) et briques de code réutilisables, pour quatre indicateurs — carbone (gCO₂e), énergie (kWh), eau (L) et ressources abiotiques (gSb eq). Références documentaires et logicielles sélectionnées, proposition de méthodologie, balayage complet dans SOURCES.md. Remplace la référence à Impact'IA (SNCF).
+Site : https://github.com/Institut-du-Numerique-Responsable/eval_impact_ia — Fiche : https://sustainableit-tools.isit-europe.org/outils/eval-impact-ia.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Mesure, Empreinte Carbone, ACV, Open Source
+
 ### Green Claude
 Skill pour Claude Code qui guide vers un code écoconçu, sans commande à retenir. 106 règles d'écoconception couvrant la sobriété numérique, la consommation d'énergie et d'eau, et l'optimisation CPU/GPU, conformes à RGESN 2024 et GR491 — appliquées automatiquement dès que Claude écrit ou relit du code.
 Site : https://github.com/Institut-du-Numerique-Responsable/green-claude — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-claude.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Éco-conception, RGESN, Open Source
@@ -529,10 +533,6 @@ Site : https://github.com/Institut-du-Numerique-Responsable/green-codex — Fich
 ### Green-ai
 Le Green AI Standard vise à développer une norme et à sensibiliser aux meilleures pratiques environnementales dans la recherche et le développement de l'IA
 Site : https://github.com/daviddao/green-ai — Fiche : https://sustainableit-tools.isit-europe.org/outils/green-ai.html — Type : Documentation — Public : Informaticien/Expert — Mots-clés : IA
-
-### Impact'IA (SNCF)
-Calculateur d'empreinte environnementale des grands modèles de langage, accompagné d'un document de méthodologie détaillé. Couvre 30 modèles d'IA générative de Google, Anthropic, OpenAI et Mistral, et restitue émissions de gaz à effet de serre, consommation d'eau et d'électricité par token, avec une vue cycle de vie et des bonnes pratiques de réduction. Fruit d'un an de travail conjoint SNCF, Resilio et Wavestone.
-Site : https://github.com/SNCFdevelopers/ImpactIA — Fiche : https://sustainableit-tools.isit-europe.org/outils/impact-ia-sncf.html — Type : Outil — Public : Informaticien/Expert — Accès : Gratuit — Mots-clés : IA, Mesure, Empreinte Carbone, ACV, Open Source
 
 ### Interpretable machine learning
 Un guide pour comprendre les modèles de la boîte noire.

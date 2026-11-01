@@ -1,7 +1,7 @@
 # Sustainable IT Toolbox — full catalogue
 
 Source: https://sustainableit-tools.isit-europe.org/en/ — Institute for Sustainable IT (ISIT).
-Generated on 2026-09-10. 348 resources.
+Generated on 2026-11-01. 348 resources.
 
 ## AI
 
@@ -45,6 +45,10 @@ Website: https://ecologits.ai/latest/ — Entry: https://sustainableit-tools.isi
 Ethical guidelines for trustworthy AI
 Website: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/ethics-guidelines-for-trustworthy-ai.html — Type: Documentation — Audience: General public / Beginner — Keywords: AI, Ai, Artificial Intelligence, Ethics
 
+### eval_impact_ia (INR)
+INR resource base for building an AI environmental impact calculator: LCA method plus reusable code bricks, for four indicators — carbon (gCO₂e), energy (kWh), water (L) and abiotic resources (gSb eq). Curated documentary and software references, a methodology proposal, and the full sweep in SOURCES.md. Replaces the Impact'IA (SNCF) reference.
+Website: https://github.com/Institut-du-Numerique-Responsable/eval_impact_ia — Entry: https://sustainableit-tools.isit-europe.org/en/tools/eval-impact-ia.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Measurement, Carbon footprint, Life-cycle assessment, Open source
+
 ### Green Claude
 A skill for Claude Code that guides towards eco-designed code, no command to remember. 106 eco-design rules covering digital sobriety, energy and water consumption, and CPU/GPU optimisation, compliant with RGESN 2024 and GR491 — applied automatically whenever Claude writes or reviews code.
 Website: https://github.com/Institut-du-Numerique-Responsable/green-claude — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-claude.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Eco-design, RGESN, Open Source
@@ -56,10 +60,6 @@ Website: https://github.com/Institut-du-Numerique-Responsable/green-codex — En
 ### Green-ai
 The Green AI Standard aims to develop a standard and raise awareness of best environmental practices in AI research and development
 Website: https://github.com/daviddao/green-ai — Entry: https://sustainableit-tools.isit-europe.org/en/tools/green-ai.html — Type: Documentation — Audience: IT professional / Expert — Keywords: AI, Artificial Intelligence
-
-### Impact'IA (SNCF)
-Environmental footprint calculator for large language models, with a detailed methodology document. Covers thirty generative AI models from Google, Anthropic, OpenAI and Mistral, reporting greenhouse gas emissions, water and electricity use per token, with a life-cycle view and reduction practices. Built jointly by SNCF, Resilio and Wavestone.
-Website: https://github.com/SNCFdevelopers/ImpactIA — Entry: https://sustainableit-tools.isit-europe.org/en/tools/impact-ia-sncf.html — Type: Tool — Audience: IT professional / Expert — Access: Free — Keywords: AI, Measurement, Carbon footprint, Life-cycle assessment, Open source
 
 ### Interpretable machine learning
 A guide to understanding black box models.
